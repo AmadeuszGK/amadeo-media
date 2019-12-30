@@ -29,7 +29,7 @@ const Contact = ({ siteTitle }) => (
         </h2>
 
         <p>
-          Możesz mnie znaleźć w paru miejscach w sieci, ale jeśli wolisz zrobić
+          Możesz nas znaleźć w paru miejscach w sieci, ale jeśli wolisz zrobić
           to "po staremu" po prostu wyślij maila lub zadzwoń.
         </p>
 
@@ -75,13 +75,5 @@ const Contact = ({ siteTitle }) => (
     </div>
   </section>
 );
-
-Contact.propTypes = {
-  siteTitle: PropTypes.string
-};
-
-Contact.defaultProps = {
-  siteTitle: ``
-};
 
 export default Contact;

@@ -1,16 +1,38 @@
 .menu-button {
     position: absolute;
     top: 0;
-    left: -50px;
+    left: -70px;
     z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: #680CC1;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.suqare-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    background: #131313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    cursor: pointer;
+    img {
+        max-width: 50px;
+    }
 }
 
 .side-menu {
     position: fixed;
-    background: linear-gradient(to top, #b32a2a 20%, #df3636 100%);
+    background: #131313;
     color: #fff;
     width: 300px;
     height: 100%;
@@ -21,13 +43,12 @@
     ul {
         list-style-type: none;
         margin: 0;
-        margin-top: 10px;
         cursor: pointer;
         li {
             width: 100%;
             text-align: center;
             font-family: "Montserrat Regular";
-            font-size: 26px;
+            font-size: 25px;
             margin: 0;
             padding: 0;
             transition: background 0.2s ease-in-out, padding-left 0.2s ease-in-out;
@@ -91,8 +112,8 @@
     width: 32px;
     height: 32px;
     position: relative;
-    margin-right: 30px;
-    margin-top: 30px;
+    margin-right: -2px;
+    margin-top: 7px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -111,7 +132,7 @@
     position: absolute;
     height: 4px;
     width: 100%;
-    background: #d83434;
+    background: #fff;
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -231,6 +252,66 @@
 }
 
 
+.menu-desktop {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    max-width: 2560px;
+}
+
+.menu-dekstop__content {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    overflow: hidden;
+    ul {
+        display: flex;
+    }
+}
+
+.menu-dekstop__item {
+    font-family: "Montserrat Regular";
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    list-style-type: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.top-logo {
+    padding: 0 !important;
+}
+
+.top-logo img{
+    max-width: 180px;
+}
+
+.menu-dekstop__item:hover {
+    color: #FF3535;
+}
+
+.header-small {
+    background-image: linear-gradient(137.86deg, #07005d, rgb(91, 12, 143) 43.75%, rgb(252, 77, 106));
+    width: 100%;
+    z-index: 20;
+    .menu-desktop {
+        position: relative;
+    }
+}
+
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
     .website-content--show-menu .side-menu {
@@ -274,6 +355,32 @@
 
     .side-menu {
         padding-top: 6px;
+    }
+    .menu-dekstop__content {
+        padding-left: 35px;
+        padding-right: 35px;
+     }
+     .top-logo img{
+         max-width: 100px;
+     }
+     .menu-dekstop__item, .header-small {
+         display: none;
+     }
+     .side-menu {
+         z-index: 14;
+     }    
+     .menu-button {
+        left: -50px;
+        height: 50px;
+        width: 50px;
+     }
+     .suqare-logo {
+         z-index: 15;
+         width: 50px;
+         height: 50px;
+     }
+     .suqare-logo img {
+        max-width: 42px;
     }
 }
 
@@ -321,6 +428,22 @@
     .side-menu {
         padding-top: 6px;
     }
+    .menu-dekstop__content {
+       padding-left: 35px;
+       padding-right: 35px;
+    }
+    .top-logo img{
+        max-width: 100px;
+    }
+    .menu-dekstop__item, .header-small {
+        display: none;
+    }
+    .side-menu {
+        z-index: 14;
+    }   
+    .suqare-logo {
+        z-index: 15;
+    } 
 }
 
 // Medium devices (tablets, 768px and up)
@@ -363,6 +486,18 @@
         padding-top: 18px;
         padding-bottom: 18px;
     }
+    .menu-dekstop__item {
+        font-size: 11px;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .menu-dekstop__content {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .top-logo img{
+        max-width: 100px;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -374,10 +509,22 @@
             }
         }
     }
+    .menu-dekstop__item {
+        font-size: 12px;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .top-logo img{
+        max-width: 130px;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) and (max-width: 1500.98px) {}
+@media (min-width: 1200px) and (max-width: 1500.98px) {
+    .menu-dekstop__item {
+        font-size: 12px;
+    }
+}
 
 
 @media (min-width: 1px) and (max-width: 850px) and (orientation: landscape) {
@@ -422,5 +569,12 @@
 
     .side-menu {
         padding-top: 13px;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 2560px) and (max-width: 50000.98px) {
+    .suqare-logo, .menu-button {
+        display: none;
     }
 }

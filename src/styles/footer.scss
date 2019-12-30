@@ -22,7 +22,7 @@ footer {
         font-weight: 400;
         font-size: 13px;
         text-align: center;
-        color: #d83434;
+        color: #fff;
         margin: 0px;
         text-decoration: none;
         text-transform: uppercase;
@@ -94,11 +94,7 @@ footer {
 }
 
 .footer-content {
-    background-image: url('../images/footer-image.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #680CC1;
     display: flex;
     justify-content: space-between;
     padding-left: 120px;

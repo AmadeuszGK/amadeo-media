@@ -16,32 +16,37 @@ const Footer = ({ siteTitle }) => (
     <div className="footer-box">
       <div className="footer-content">
         <p>
-          © {new Date().getFullYear()} Amadeusz Grzesiak. All rights reserved
+          © {new Date().getFullYear()} Amadeo Media. All rights reserved
         </p>
         <ul>
-          <li>
-            <Link className="footer-menu-item" to="/#section-about-me">
-              O mnie
+        <li>
+            <Link className="footer-menu-item" to="/">
+              Strona główna
             </Link>
           </li>
           <li>
-            <Link className="footer-menu-item" to="/#section-offer">
-              Oferta
+            <Link className="footer-menu-item" to="/offer-and-pricing">
+              Oferta i cennik
             </Link>
           </li>
           <li>
-            <Link className="footer-menu-item" to="/#section-portfolio">
+            <Link className="footer-menu-item"  to="/portfolio">
               Portfolio
             </Link>
           </li>
           <li>
-            <Link className="footer-menu-item" to="/#section-skills">
-              Umiejętności
+            <Link className="footer-menu-item" to="/about-us">
+              O nas
+            </Link>
+          </li>
+          <li>
+            <Link className="footer-menu-item" to="/contact">
+              Kontakt
             </Link>
           </li>
           <li>
             <Link className="footer-menu-item" to="/#section-contact">
-              Kontakt
+              <b>PL</b> EN DE
             </Link>
           </li>
         </ul>
@@ -49,13 +54,5 @@ const Footer = ({ siteTitle }) => (
     </div>
   </footer>
 );
-
-Footer.propTypes = {
-  siteTitle: PropTypes.string
-};
-
-Footer.defaultProps = {
-  siteTitle: ``
-};
 
 export default Footer;

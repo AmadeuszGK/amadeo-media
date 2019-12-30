@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+
 import React from "react";
 import $ from "jquery";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -11,6 +11,9 @@ var words = [
   "PROMATIC GROUP",
   "INLEI ITALY",
   "CHIARASHOP",
+  "JMA EXPERT",
+  "Q-RENT",
+  "PAŁKA GOŁĘBIE"
   ],
   part,
   i = 0,
@@ -73,21 +76,20 @@ class About extends React.Component {
       >
         <div className="about-me-header">
           <div className="flat-line" />
-          <p className="flat-line-text">O MNIE</p>
+          <p className="flat-line-text">O NAS</p>
         </div>
 
-        <h1>Amadeusz Grzesiak</h1>
+        <h1>Amadeo Media</h1>
 
         <p>
-          Cześć, jestem kreatywnym front-end&nbsp;developerem z&nbsp;Jeleniej
-          Góry. <br />
+          Cześć, jesteśmy młodym,<br />kreatywnym zespołem programistów,<br />
           Stwórzmy coś razem!
         </p>
 
-        <a href="/CV-Amadeusz-Grzesiak.pdf" target="_blank" rel="noopener noreferrer">ZOBACZ MOJE CV</a>
+        <a href="/oferta" rel="noopener noreferrer">OFERTA</a>
 
         <div className="typing-box">
-          <p>Dumny ze współpracy z&nbsp;&nbsp;</p>
+          <p>Dumni ze współpracy z&nbsp;&nbsp;</p>
           <div className="word" />
         </div>
       </ScrollAnimation>
@@ -109,15 +111,6 @@ class About extends React.Component {
     </div>
   </section>)
   }
-
-};
-
-About.propTypes = {
-  siteTitle: PropTypes.string
-};
-
-About.defaultProps = {
-  siteTitle: ``
 };
 
 export default About;

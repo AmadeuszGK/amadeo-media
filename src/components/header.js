@@ -1,31 +1,26 @@
-import PropTypes from "prop-types";
 import React from "react";
 import { Link } from "gatsby";
-
 import arrowsWhite from "../images/arrows-white.svg"
-
-
-
-
+import MenuDesktop from "./MenuDesktop";
 
 function Header() {
-  const headerText = "<FRONT-END DEVELOPER />";
-
   return (
     <header style={{ height: 100 + "vh" }}>
+      
+      <MenuDesktop />
+
       <div className="canvas-container">
         <div className="header-bg-bottom" />
         <canvas id="stars" width="300" />
         <div className="canvas-text">
-          <h1>
-            AMADEUSZ
-            <br />
-            GRZESIAK
-          </h1>
-          <h2>{headerText}</h2>
           <p>
-            NOWOCZESNE STRONY I SKLEPY INTERNETOWE
+            Nowa jakość w tworzeniu internetowej treści.
           </p>
+          {/* <h2>{headerText}</h2> */}
+          <h1>
+            NOWOCZESNE STRONY I SKLEPY INTERNETOWE
+          </h1>
+        <a href="/portfolio" className="button-alert" rel="noopener noreferrer">ZOBACZ NASZE PORTFOLIO</a>
         </div>
         <Link className="scroll-down" to="/#section-about-me">
           <div className="scroll-img-container">
@@ -36,13 +31,5 @@ function Header() {
     </header>
   );
 }
-
-Header.propTypes = {
-  siteTitle: PropTypes.string
-};
-
-Header.defaultProps = {
-  siteTitle: ``
-};
 
 export default Header;

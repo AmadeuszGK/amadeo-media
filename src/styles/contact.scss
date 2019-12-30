@@ -1,5 +1,6 @@
 .section-contact {
-    height: 100vh;
+    margin-top: 250px;
+    margin-bottom: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,7 +144,7 @@
     width: 200px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: #d83434;
+    background-color: #fc3f3f;
     color: #fff;
     border: none;
     margin: 0px;
@@ -194,7 +195,9 @@
 @media (max-width: 575.98px) {
     .section-contact {
         height: auto;
-        padding: 50px 35px 70px 35px;
+        padding: 50px 0px 0px 55px;
+        margin-top: 50px;
+        margin-bottom: 70px;
     }
 
     .contact-box {
@@ -227,10 +230,11 @@
     .section-contact {
         height: auto;
         padding-top: 0px;
-        padding-bottom: 70px;
+        padding-bottom: 0px;
         padding-left: 35px;
         padding-right: 35px;
-
+        margin-top: 70px;
+        margin-bottom: 70px;
     }
 
     .contact-box {
@@ -253,9 +257,11 @@
     .section-contact {
         height: auto;
         padding-top: 0px;
-        padding-bottom: 120px;
-        padding-left: 50px;
+        padding-bottom: 0px;
+        padding-left: 75px;
         padding-right: 50px;
+        margin-top: 50px;
+        margin-bottom: 120px;
     }
 
     .contact-image {
@@ -279,6 +285,7 @@
         padding-right: 0;
         padding-left: 0;
     }
+
 }
 
 // Large devices (desktops, 992px and up)
@@ -286,9 +293,9 @@
     .section-contact {
         height: auto;
         padding-top: 0px;
-        padding-bottom: 120px;
-        padding-left: 70px;
+        padding-left: 120px;
         padding-right: 70px;
+        margin-top: 100px;
     }
 
     .contact-image {
@@ -315,6 +322,9 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and (max-width: 1560.98px) {
+    .section-contact {
+        margin-top: 200px;
+    }
     .contact-bg-number {
         right: -200px;
         top: -50px;

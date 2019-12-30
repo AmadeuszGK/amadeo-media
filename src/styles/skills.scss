@@ -1,5 +1,4 @@
 .section-skills {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,10 +26,7 @@
     height: 20.71429rem;
     top: -50px;
     left: -50px;
-    background-image: url('../images/box-image.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #680CC1;
     z-index: 2;
 }
 
@@ -40,7 +36,7 @@
     height: 15.71429rem;
     bottom: -50px;
     right: -50px;
-    background: linear-gradient(to top, #b32a2a 10%, #df3636 100%);
+    background: #fc3f3f;
     z-index: 2;
 }
 
@@ -178,10 +174,8 @@
     }
 
     .skills-desc {
-        padding: 35px;
-        padding-top: 0;
+        padding: 0px 50px 50px 55px;
         width: 100%;
-        padding-bottom: 50px;
         p {
             font-size: 19px;
             margin: 0;
@@ -236,7 +230,7 @@
     }
 
     .skills-desc {
-        padding: 0px 35px 70px 35px;
+        padding: 0px 70px 70px 75px;
         width: 100%;
         padding-bottom: 50px;
         p {
@@ -295,7 +289,7 @@
     }
 
     .skills-desc {
-        padding: 50px;
+        padding: 50px 30px 50px 75px;
 
         p {
             font-size: 19px;

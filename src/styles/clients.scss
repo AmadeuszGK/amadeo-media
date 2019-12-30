@@ -1,0 +1,428 @@
+.section-clients {
+    display: flex;
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 230px;
+}
+
+.clients-container {
+    background: linear-gradient(137.86deg,#680CC1,#7512b7 23.75%,#fc4d4e);
+    //background-image: url('../images/header-bg-mac.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    z-index: 2;
+    overflow: hidden;
+    box-shadow: 0 6px 19px 0 rgba(0, 0, 0, .11);
+}
+
+.clients-container-content {
+    padding-left: 120px;
+    padding-top: 70px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+    z-index: 4;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    position: relative;
+    background: inherit;
+    overflow: hidden;
+}
+
+
+.clients-container-content:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(10px);
+    margin: -20px;
+}
+
+
+.clients-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.clients-about {
+    h2 {
+        font-family: "Montserrat Bold";
+        font-weight: 800;
+        font-size: 26px;
+        margin-bottom: 25px;
+        color: #fff;
+    }
+
+    p {
+        font-size: 22px;
+        font-family: "Montserrat Light";
+        line-height: 1.25;
+        color: #ffffff;
+        margin-bottom: 40px;
+        width: 80%;
+    }
+}
+
+.clients-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 25px;
+
+    p {
+        font-family: "Montserrat Regular";
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin: 0;
+        color: #fff;
+    }
+
+    .flat-line {
+        background-color: rgb(216, 52, 52);
+    }
+}
+
+.clients-items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.clients-item {
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    img {
+        max-height: 120px;
+        max-width: 180px;
+        width: auto;
+    }
+}
+
+
+.clients-bigimage {
+    position: absolute;
+    width: 40%;
+    z-index: 6;
+    right: 0;
+    top: 150px;
+    background-color: #333;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30.57143rem;
+    box-shadow: 0 6px 19px 0 rgba(0, 0, 0, .11);
+    padding: 70px;
+
+    h2 {
+        font-family: "Montserrat Bold";
+        font-weight: 800;
+        font-size: 26px;
+        margin-bottom: 25px;
+        color: #fff;
+        text-shadow: 2px 2px 8px #0F0023;
+    }
+
+    p {
+        font-size: 22px;
+        font-family: "Montserrat Light";
+        line-height: 1.25;
+        color: #ffffff;
+        margin-bottom: 40px;
+        width: 80%;
+        text-shadow: 2px 2px 8px #0F0023;
+    }
+
+    a {
+        font-family: "Montserrat Regular";
+        font-weight: 600;
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 0;
+        text-decoration: none;
+        background-color: #fc3f3f;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+        letter-spacing: 1px;
+        transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        display: block;
+        max-width: 245px;
+    }
+
+    a:hover {
+        transform: translateX(15px);
+        background-color: #ff3535;
+    }
+}
+
+.clients-item-link {
+    text-transform: uppercase;
+}
+
+.clients-text {
+    a {
+        color: #D73434;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #FF3535;
+    }
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .section-clients {
+        height: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .clients-bigimage {
+        display: none;
+    }
+    
+    .clients-container {
+        width: 100%;
+        position: relative;
+        background-attachment: scroll;
+    }
+
+    .clients-item {
+        width: 33%;
+        padding-right: 25px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        height: 140px;
+
+        img {
+            max-width: 90%;
+            margin: 0;
+        }
+    }
+
+    .clients-container-content {
+        padding: 55px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
+    .q-rent {
+        display: none;
+    }
+
+    .clients-about {
+        p {
+            font-size: 19px;
+            margin-bottom: 25px;
+            width: 100%;
+        }
+    }
+
+    .clients-header {
+        p {
+            margin: 0;
+        }
+    }
+
+    .clients-item img {
+        max-height: 50px;
+        max-width: 70px;
+    }   
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .section-clients {
+        height: auto;
+        padding-top: 0px;
+        padding-bottom: 0;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+
+    .clients-bigimage {
+        display: none;
+    }
+
+    .clients-container {
+        width: 100%;
+        position: relative;
+        background-attachment: scroll;
+    }
+
+    .clients-about {
+        p {
+            width: 100%;
+        }
+    }
+
+    .clients-item {
+        width: 33%;
+        height: 160px;
+        img {
+            max-height: 100px!important;
+            width: auto;
+        }
+    }
+
+    .clients-container-content {
+        padding: 75px;
+        padding-top: 70px;
+    }
+
+    .clients-item img {
+        max-height: 80px;
+        max-width: 100px;
+    }   
+
+    .q-rent {
+        display: none;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .section-clients {
+        margin-bottom: 170px;
+    }
+    .clients-container-content {
+        padding: 70px;
+        padding-top: 50px;
+    }
+
+    .clients-item {
+        height: 150px;
+        padding-left: 0;
+        padding-bottom: 0px;
+        padding-right: 50px;
+    }
+
+    .clients-container {
+        width: calc(100% - 120px);
+        background-attachment: scroll;
+    }
+
+    .clients-bigimage {
+        width: 70%;
+        right: 0px;
+        bottom: 2%;
+        top: auto;
+        height: 40%;
+    }
+
+    .clients-about {
+        h2 {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 19px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .clients-bigimage {
+        p {
+            font-size: 19px;
+        }
+    }
+
+    .clients-item img {
+        max-height: 60px;
+        max-width: 80px;
+    }   
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .section-clients {
+        margin-bottom: 200px;
+    }
+    .clients-container {
+        width: calc(100% - 120px);
+        background-attachment: scroll;
+    }
+
+    .clients-bigimage {
+        width: 70%;
+        right: 0px;
+        bottom: 17%;
+        top: auto;
+        height: 35%;
+    }
+
+    .clients-item {
+        height: 170px;
+    }
+
+    .clients-item img {
+        max-height: 80px;
+        max-width: 100px;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1450.98px) {
+    .section-clients {
+        margin-bottom: 230px;
+    }
+
+    .clients-about {
+        p {
+            font-size: 22px;
+        }
+    }
+
+    .clients-bigimage {
+        p {
+            font-size: 22px;
+        }
+    }
+
+    .clients-item {
+        height: 200px;
+    }
+
+    .clients-item img {
+        max-height: 80px;
+        max-width: 100px;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 850px) and (orientation: landscape) {
+    .section-clients {
+        height: auto;
+        padding: 0;
+    }
+    .clients-bigimage {
+        display: none;
+    }
+ }
+
+@media (min-width: 851px) and (max-width: 1200px) and (orientation: landscape) {
+ }

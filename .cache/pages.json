@@ -15,8 +15,33 @@
         "path": "/404/"
     },
     {
+        "componentChunkName": "component---src-pages-about-us-js",
+        "jsonName": "about-us-2d6",
+        "path": "/about-us/"
+    },
+    {
+        "componentChunkName": "component---src-pages-contact-js",
+        "jsonName": "contact-26a",
+        "path": "/contact/"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-home-js",
+        "jsonName": "home-75b",
+        "path": "/home/"
+    },
+    {
+        "componentChunkName": "component---src-pages-offer-and-pricing-js",
+        "jsonName": "offer-and-pricing-863",
+        "path": "/offer-and-pricing/"
+    },
+    {
+        "componentChunkName": "component---src-pages-portfolio-js",
+        "jsonName": "portfolio-964",
+        "path": "/portfolio/"
     }
 ]

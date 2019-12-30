@@ -14,18 +14,19 @@
 header {
     width: 100%;
     height: 100vh;
+    z-index: 13;
 }
 
 .canvas-container {
     position: relative;
     // background: linear-gradient(to top, #000046 50%, #8E2DE2 100%);
     // background: linear-gradient(to top, #07005d 20%, #fc4d4e 100%);
-    // background-image: linear-gradient(137.86deg, #07005d, rgb(91, 12, 143) 43.75%, rgb(252, 77, 106));
-    background-image: url('../images/header-bg-mac.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+     background-image: linear-gradient(137.86deg, #07005d, rgb(91, 12, 143) 43.75%, rgb(252, 77, 106));
+    // background-image: url('../images/header-bg-mac.jpg');
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-attachment: fixed;
     height: 100%;
     width: 100%;
 }
@@ -63,75 +64,54 @@ header {
 
 .canvas-text {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    top: 200px;
+    left: 120px;
+    width: 50%;
     height: 68%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     color: white;
-    z-index: 1;
-    animation: fade-in 2.5s steps(500);
+    z-index: 3;
 
-
-    h1 {
-        font-family: "Montserrat Bold";
-        font-size: 80px;
-        text-align: center;
-        line-height: 0.9;
+    p {
+        font-family: "Montserrat Regular";
+        font-size: 50px;
+        text-align: left;
+        line-height: 1;
         letter-spacing: 1px;
         margin-bottom: 30px;
         text-shadow: 2px 2px 9px #0F0023;
     }
 
     h2,
-    p {
+    h1 {
         margin-bottom: 0;
-        text-align: center;
-        text-align: center;
+        text-align: left;
         letter-spacing: 1px;
         font-weight: 400;
     }
 
     h2 {
-        color: #d83434;
+        color: #fc3f3f;
         margin-bottom: 30px;
         font-family: "Montserrat Regular";
         font-weight: 600;
         font-size: 19px;
         text-shadow: 2px 2px 8px #0F0023;
         letter-spacing: 1.5px;
+        text-align: left;
     }
 
-    p {
+    h1 {
         margin-bottom: 50px;
         font-family: "Montserrat Light";
         font-size: 25px;
         color: #fff;
         text-shadow: 2px 2px 8px #0F0023;
-    }
-}
-
-@keyframes fade-in {
-    0% {
-        opacity: 0;
-        transform: translateY(330px);
-    }
-
-    25% {
-        opacity: 0;
-        transform: translateY(330px);
-    }
-
-    50% {
-        opacity: 0.1
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
+        text-align: left;
+        width: 100%;
     }
 }
 
@@ -153,7 +133,7 @@ header {
     text-decoration: none;
     cursor: pointer;
 
-    p {
+    h1 {
         width: 100%;
         text-align: center;
     }
@@ -170,11 +150,12 @@ header {
 }
 
 .scroll-img-container {
-    margin-top: 20px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 @keyframes bounce {
@@ -220,24 +201,43 @@ header {
     z-index: 1;
 }
 
+.button-alert {
+    font-family: "Montserrat Regular";
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    text-decoration: none;
+    background-color: #fc3f3f;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.button-alert:hover {
+    transform: translateX(15px);
+    background-color: #ff3535;
+}
 
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
     .canvas-text {
-        h1 {
-            font-size: 43px;
-            margin-bottom: 25px;
-        }
-
-        h2 {
-            font-size: 14px;
-            margin-bottom: 25px;
-        }
-
+        top: 80px;
+        left:  55px;
+        width: 80%;
         p {
-            font-size: 17px;
-            width: 90%;
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 14px;
+            margin-bottom: 30px;
         }
     }
 
@@ -262,19 +262,15 @@ header {
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
     .canvas-text {
-        h1 {
-            font-size: 37px;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-
+        top: 130px;
+        left:  75px;
+        width: 70%;
         p {
-            font-size: 18px;
-            width: 50%;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 15px;
         }
     }
 
@@ -298,16 +294,14 @@ header {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
     .canvas-text {
-        h1 {
-            font-size: 65px;
-        }
-
-        h2 {
-            font-size: 17px;
-        }
-
+        top: 150px;
+        left:  75px;
         p {
-            font-size: 18px;
+            font-size: 40px;
+        }
+
+        h1 {
+            font-size: 20px;
         }
     }
 
@@ -331,16 +325,12 @@ header {
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .canvas-text {
-        h1 {
-            font-size: 75px;
-        }
-
-        h2 {
-            font-size: 18px;
-        }
-
         p {
-            font-size: 22px;
+            font-size: 50px;
+        }
+
+        h1 {
+            font-size: 23px;
         }
     }
 
@@ -365,6 +355,12 @@ header {
 @media (min-width: 1200px) and (max-width: 1500px) {
     .canvas-text {
         height: 64%;
+        p {
+            font-size: 40px;
+        }
+        h1 {
+            font-size: 20px;
+        }
     }
 }
 
@@ -374,19 +370,14 @@ header {
 
 @media (min-width: 1px) and (max-width: 850px) and (orientation: landscape) {
     .canvas-text {
-        h1 {
-            font-size: 40px;
+        p {
+            font-size: 25px;
             margin-bottom: 20px;
         }
 
-        h2 {
+        h1 {
             font-size: 13px;
             margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 15px;
-            width: 90%;
         }
     }
 
@@ -402,3 +393,18 @@ header {
         }
     }
 }
+
+@media (min-width: 851px) and (max-width: 1300px) and (orientation: landscape) {
+    .canvas-text {
+        p {
+            font-size: 27px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 15px;
+            margin-bottom: 30px;
+        }
+    }
+
+ }
