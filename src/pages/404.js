@@ -3,7 +3,7 @@ import "../styles/main.scss";
 
 const NotFoundPage = () => (
   <div style={{ height: 100 + "vh" }} className="error-site">
-    <div className="canvas-container">
+    <div className="canvas__container">
       <canvas id="stars" width="300" />
       <div className="canvas-text">
         <h1>BŁĄD 404</h1>

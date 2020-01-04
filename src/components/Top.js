@@ -72,7 +72,7 @@ class Top extends React.Component {
       >
         <div className="top-header">
           <div className="flat-line" />
-          <p className="flat-line-text">OFERTA I CENNIK</p>
+          <p className="flat-line__text">OFERTA I CENNIK</p>
         </div>
 
         <div className="words" />

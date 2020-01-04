@@ -1,6 +1,5 @@
 import React from "react";
-import MenuDesktop from "../components/MenuDesktop"
-import About from "../components/About"
+import MenuDesktop from "../components/Menu/MenuDesktop/MenuDesktop"
 
 class AboutUs extends React.Component {
     render() {

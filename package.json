@@ -21,6 +21,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-animate-on-scroll": "^2.1.5",
+    "react-css-modules": "^4.7.11",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
     "react-loader-spinner": "^2.3.0",

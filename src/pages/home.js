@@ -1,14 +1,14 @@
 import React from "react";
 // import Loader from 'react-loader-spinner'
-import Header from "../components/Header";
-import About from "../components/About";
-import Clients from "../components/Clients";
+import Header from "../components/Header/Header";
+import AboutHome from "../components/Home/AboutHome/AboutHome";
+import ClientsHome from "../components/Home/ClientsHome/ClientsHome";
 // import Offer from "../components/Offer";
 // import Skills from "../components/Skills";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
-import MenuMobile from "../components/MenuMobile";
-import OfferOld from "../components/Offer-old";
+import ContactHome from "../components/Home/ContactHome/ContactHome";
+import Footer from "../components/Footer/Footer";
+import MenuMobile from "../components/Menu/MenuMobile/MenuMobile";
+import OfferHome from "../components/Home/OfferHome/OfferHome";
 //import "../layout.css";
 import "../styles/main.scss";
 import logo from "../images/agrzesiak-logo.png"
@@ -59,8 +59,6 @@ class Home extends React.Component {
   render () {
 
     return (
-      <div>
-  
           <div className={this.state.showMenu ? "website-content--show-menu" : "website-content"}>
             <div className="loader-content" style={{display: this.state.isLoading ? 'flex' : 'none', backgroundImage: "url('../images/header-bg-mac-min.jpg')", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundAttachment: "fixed" } }>
               <img src={loader} alt="arrow" height={110} width={110}/>
@@ -77,15 +75,14 @@ class Home extends React.Component {
               <Header/>
   
               <main>
-                <About />
-                <OfferOld />
-                <Clients />
-                <Contact />
+                <AboutHome />
+                <OfferHome />
+                <ClientsHome />
+                <ContactHome />
               </main>
   
               <Footer />
             </div>
-          </div>
           </div>
     )
   }

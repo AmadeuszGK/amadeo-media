@@ -62,7 +62,7 @@
     }
 }
 
-.navButton {
+.side-menu__button {
     color: #fff;
     text-decoration: none;
     width: 100%;
@@ -70,6 +70,7 @@
     display: block;
     padding-top: 20px;
     padding-bottom: 20px;
+
 }
 
 .website-content {
@@ -185,7 +186,7 @@
     left: 50%;
 }
 
-.side-menu-bottom {
+.side-menu__bottom {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -224,7 +225,7 @@
     }
 }
 
-.side-menu-contact {
+.side-menu__contact {
     a {
         width: 300px;
         display: flex;
@@ -289,6 +290,22 @@
     padding-right: 30px;
     list-style-type: none;
     transition: color 0.2s ease-in-out;
+    display: flex;
+}
+
+.language__wrapper:hover {
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.language__item {
+    padding: 0 5px 0 5px;
+    transition: color 0.2s ease-in-out;
+}
+
+.language__item--en {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
 
 .top-logo {
@@ -299,7 +316,11 @@
     max-width: 180px;
 }
 
-.menu-dekstop__item:hover {
+.menu-dekstop__item:hover, .language__item:hover {
+    color: #FF3535;
+}
+
+.language--active {
     color: #FF3535;
 }
 
@@ -326,7 +347,7 @@
         width: 250px;
     }
 
-    .side-menu-contact {
+    .side-menu__contact {
         img {
             width: 15px;
             margin-right: 10px;
@@ -348,7 +369,7 @@
         }
     }
 
-    .navButton {
+    .side-menu__button {
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -398,7 +419,7 @@
         width: 270px;
     }
 
-    .side-menu-contact {
+    .side-menu__contact {
         img {
             width: 15px;
             margin-right: 10px;
@@ -420,7 +441,7 @@
         }
     }
 
-    .navButton {
+    .side-menu__button {
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -460,7 +481,7 @@
         width: 270px;
     }
 
-    .side-menu-contact {
+    .side-menu__contact {
         img {
             width: 15px;
             margin-right: 10px;
@@ -482,7 +503,7 @@
         }
     }
 
-    .navButton {
+    .side-menu__button {
         padding-top: 18px;
         padding-bottom: 18px;
     }
@@ -540,7 +561,7 @@
         width: 250px;
     }
 
-    .side-menu-contact {
+    .side-menu__contact {
         img {
             width: 15px;
             margin-right: 10px;
@@ -562,7 +583,7 @@
         }
     }
 
-    .navButton {
+    .side-menu__button {
         padding-top: 5px;
         padding-bottom: 5px;
     }

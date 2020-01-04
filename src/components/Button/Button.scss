@@ -1,0 +1,22 @@
+.button {
+  font-family: "Montserrat Regular";
+  font-weight: 600;
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  padding: 15px 20px 15px 20px;
+  margin: 0;
+  text-decoration: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.button--alert {
+  background-color: #fc3f3f;
+}
+
+.button--alert:hover {
+  transform: translateX(15px);
+  background-color: #ff3535;
+}
