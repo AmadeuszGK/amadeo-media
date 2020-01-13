@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Amadesz Grzesiak - Front-end Developer | Strony i sklepy internetowe`,
-    siteUrl: `https://amadeuszgrzesiak.com`,
-    description: `Cześć, nazywam się Amadeusz i jestem kreatywnym front-end developerem z Jeleniej Góry. Stwórzmy coś razem!`,
+    title: `Amadeo Media - Strony internetowe, sklepy, grafika`,
+    siteUrl: `https://amadeomedia.com`,
+    description: `Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko, sprawdź co mamy w ofercie! Stwórzmy coś razem.`,
     author: `Amadeusz Grzesiak`
   },
   plugins: [
@@ -35,8 +35,5 @@ module.exports = {
         icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
       }
     }
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ]
 };

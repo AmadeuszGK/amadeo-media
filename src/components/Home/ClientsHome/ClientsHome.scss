@@ -4,20 +4,18 @@
     width: 100%;
     position: relative;
     margin-top: 150px;
-    margin-bottom: 230px;
+    margin-bottom: 200px;
 }
 
 .clients__container {
-    background: linear-gradient(137.86deg,#680CC1,#7512b7 23.75%,#fc4d4e);
-    //background-image: url('../images/header-bg-mac.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('../../../images/amadeusz-banner--2.png');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
     width: 100%;
     z-index: 2;
     overflow: hidden;
-    box-shadow: 0 6px 19px 0 rgba(0, 0, 0, .11);
+    //box-shadow: 0 6px 19px 0 rgba(0, 0, 0, .11);
 }
 
 .clients__wrapper {
@@ -31,21 +29,6 @@
     background: inherit;
     overflow: hidden;
 }
-
-
-.clients__wrapper:before {
-    content: "";
-    position: absolute;
-    background: inherit;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    filter: blur(10px);
-    margin: -20px;
-}
-
 
 .clients-image {
     width: 100%;
@@ -66,7 +49,7 @@
         font-size: 22px;
         font-family: "Montserrat Light";
         line-height: 1.25;
-        color: #ffffff;
+        color: #fff;
         margin-bottom: 40px;
         width: 80%;
     }
@@ -85,10 +68,6 @@
         letter-spacing: 1px;
         margin: 0;
         color: #fff;
-    }
-
-    .flat-line {
-        background-color: rgb(216, 52, 52);
     }
 }
 
@@ -113,6 +92,7 @@
         max-height: 120px;
         max-width: 180px;
         width: auto;
+        // filter: invert(22%) sepia(24%) saturate(13%) hue-rotate(351deg) brightness(34%) contrast(82%);
     }
 }
 
@@ -144,7 +124,7 @@
         font-size: 22px;
         font-family: "Montserrat Light";
         line-height: 1.25;
-        color: #ffffff;
+        color: #fff;
         margin-bottom: 40px;
         width: 80%;
         text-shadow: 2px 2px 8px #0F0023;
@@ -162,7 +142,7 @@
         padding-bottom: 15px;
         margin: 0;
         text-decoration: none;
-        background-color: #fc3f3f;
+        background-color: #FF6800;
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
         letter-spacing: 1px;
         transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
@@ -182,7 +162,7 @@
 
 .clients__text {
     a {
-        color: #D73434;
+        color: #FF6800;
         text-decoration: none;
     }
     a:hover {
@@ -190,6 +170,7 @@
     }
 
 }
+
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {

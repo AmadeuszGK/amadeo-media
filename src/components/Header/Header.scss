@@ -21,30 +21,31 @@ header {
     position: relative;
     //background-image: linear-gradient( 109.6deg,  rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
      // background: linear-gradient(to top, #000046 30%, #8E2DE2 100%);
-     background-image: linear-gradient(137.86deg, #07005d, rgb(91, 12, 143) 43.75%, rgb(252, 77, 106));
-    //background-image: url('../../images/laptop-bg.png');
+     // background-image: linear-gradient(137.86deg, #07005d, rgb(91, 12, 143) 43.75%, rgb(252, 77, 106));
+    background-image: url('../../images/amadeusz-banner.png');
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     background-attachment: fixed;
     height: 100%;
     width: 100%;
 }
 
 .header__bg--bottom {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    //background-image: url('../../images/header-bg-mac-bottom.png');
-    //background-image: url('../../images/keyboard.png');
-    background-image: url('../../images/macbook.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   // background-attachment: fixed;
+    right: 0;
+    top: 0;
+    width: 50%;
     height: 100%;
-    width: 100%;
     z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 70%;
+        margin-top: 200px;
+        height: auto;
+    }
 }
 
 @font-face {
@@ -84,7 +85,7 @@ header {
         line-height: 1;
         letter-spacing: 1px;
         margin-bottom: 30px;
-        text-shadow: 2px 2px 9px #0F0023;
+        text-shadow: 1px 1px 8px rgba(83, 0, 192, 0.671);
     }
 
     h2,
@@ -96,12 +97,12 @@ header {
     }
 
     h2 {
-        color: #fc3f3f;
+        color: #FF6800;
         margin-bottom: 30px;
         font-family: "Montserrat Regular";
         font-weight: 600;
         font-size: 19px;
-        text-shadow: 2px 2px 8px #0F0023;
+        text-shadow: 2px 2px 5px #0F0023;
         letter-spacing: 1.5px;
         text-align: left;
     }
@@ -111,7 +112,7 @@ header {
         font-family: "Montserrat Light";
         font-size: 25px;
         color: #fff;
-        text-shadow: 2px 2px 8px #0F0023;
+        text-shadow: 2px 2px 8px rgba(54, 0, 119, 0.699);
         text-align: left;
         width: 100%;
     }
@@ -214,7 +215,7 @@ header {
     padding-bottom: 15px;
     margin: 0;
     text-decoration: none;
-    background-color: #fc3f3f;
+    background-color: #FF6800;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     letter-spacing: 1px;
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;

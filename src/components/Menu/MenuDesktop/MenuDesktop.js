@@ -10,27 +10,27 @@ const MenuDesktop = () => (
         </Link>
         <ul>
         <li>
-            <Link className="menu-dekstop__item" to="/" activeStyle={{ color: "#FF3535" }}>
+            <Link className="menu-dekstop__item" to="/" activeStyle={{ fontFamily: "Montserrat Bold" }}>
               Strona główna
             </Link>
           </li>
           <li>
-            <Link className="menu-dekstop__item" to="/offer-and-pricing" activeStyle={{ color: "#FF3535" }}>
+            <Link className="menu-dekstop__item" to="/offer-and-pricing" activeStyle={{ fontFamily: "Montserrat Bold" }}>
               Oferta i cennik
             </Link>
           </li>
           <li>
-            <Link className="menu-dekstop__item"  to="/portfolio" activeStyle={{ color: "#FF3535" }}>
+            <Link className="menu-dekstop__item"  to="/portfolio" activeStyle={{ fontFamily: "Montserrat Bold" }}>
               Portfolio
             </Link>
           </li>
           <li>
-            <Link className="menu-dekstop__item" to="/about-us" activeStyle={{ color: "#FF3535" }}>
+            <Link className="menu-dekstop__item" to="/about-us" activeStyle={{ fontFamily: "Montserrat Bold" }}>
               O nas
             </Link>
           </li>
           <li>
-            <Link className="menu-dekstop__item" to="/contact" activeStyle={{ color: "#FF3535" }}>
+            <Link className="menu-dekstop__item" to="/contact" activeStyle={{ fontFamily: "Montserrat Bold" }}>
               Kontakt
             </Link>
           </li>

@@ -1,7 +1,7 @@
 
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
-
+import { Link } from "gatsby";
 // import promaticGamesLogo from '../../../images/promaticgamesBg'
 import wolnosci14Logo from "../../../images/wolnosci14-logo.png"
 import chiarashopLogo from "../../../images/chiarashop-logo.png"
@@ -19,52 +19,62 @@ const ClientsHome = () => {
       {
         logo: wolnosci14Logo,
         alt: 'promatic games',
-        key: 'promaticGamesLogo'
+        key: 'promaticGamesLogo',
+        link: 'dupa'
       },
       {
         logo: wolnosci14Logo,
         alt: 'wolnosci 14',
-        key: 'wolnosci14Logo'
+        key: 'wolnosci14Logo',
+        link: 'dupa'
       },
       {
         logo: chiarashopLogo,
         alt: 'chiarashop',
-        key: 'chiarashopLogo'
+        key: 'chiarashopLogo',
+        link: 'dupa'
       },
       {
         logo: inleiLogo,
         alt: 'inlei',
-        key: 'inleiLogo'
+        key: 'inleiLogo',
+        link: 'dupa'
       },
       {
         logo: goodsideLogo,
         alt: 'goodside',
-        key: 'goodsideLogo'
+        key: 'goodsideLogo',
+        link: 'dupa'
       },
       {
         logo: quadrigaLogo,
         alt: 'quadriga',
-        key: 'quadrigaLogo'
+        key: 'quadrigaLogo',
+        link: 'dupa'
       },
       {
         logo: palkaLogo,
         alt: 'palka',
-        key: 'palkaLogo'
+        key: 'palkaLogo',
+        link: 'dupa'
       },
       {
         logo: qrentLogo,
         alt: 'qrent',
-        key: 'qrentLogo'
+        key: 'qrentLogo',
+        link: 'dupa'
       },
       {
         logo: efunLogo,
         alt: 'efun',
-        key: 'efunLogo'
+        key: 'efunLogo',
+        link: 'dupa'
       },
       {
         logo: jmaLogo,
         alt: 'jma expert',
-        key: 'jmaLogo'
+        key: 'jmaLogo',
+        link: 'dupa'
       },
     ]
 
@@ -85,7 +95,7 @@ const ClientsHome = () => {
 
               <h2>Zadowoleni klienci</h2>
               <p className="clients__text">
-                Współpracowaliśmy z firmami z Polski, Niemiec, Angli i Włoch. Dołącz do grona naszych zadowolonych klientów. Aby objerzeć co dla nich przygotowaliśmy, przejdź do podstrony clients, lub kliknij <a href="/clients">tutaj.</a> 
+                Współpracowaliśmy z firmami z Polski, Niemiec, Angli i Włoch. Dołącz do grona naszych zadowolonych klientów. Aby objerzeć co dla nich przygotowaliśmy, przejdź do podstrony Portfolio, lub kliknij <Link to="/portfolio">tutaj.</Link> 
               </p>
             </div>
 
@@ -94,10 +104,12 @@ const ClientsHome = () => {
               clientsItems.map(item => <div
                 className="clients__item" key={item.key}
               >
-                <img
-                  src={item.logo}
-                  alt={item.alt}
-                />
+                <a href={item.link}>
+                  <img
+                    src={item.logo}
+                    alt={item.alt}
+                  />
+                </a>
               </div>)
               }
             </div>

@@ -20,32 +20,32 @@ const MenuMobile = (props) => (
 
     <ul>
           <li>
-            <Link className="side-menu__button" to="/" onClick={props.passedFunction} activeStyle={{ color: "#FF3535" }}>
+            <Link className="side-menu__button" to="/" onClick={props.passedFunction} activeStyle={{ fontFamily: "Montserrat Bold" }}>
               Strona główna
             </Link>
           </li>
           <li>
-            <Link className="side-menu__button" to="/offer-and-pricing" onClick={props.passedFunction} activeStyle={{ color: "#FF3535" }}>
+            <Link className="side-menu__button" to="/offer-and-pricing" onClick={props.passedFunction} activeStyle={{ fontFamily: "Montserrat Bold" }}>
               Oferta i cennik
             </Link>
           </li>
           <li>
-            <Link className="side-menu__button"  to="/portfolio" onClick={props.passedFunction} activeStyle={{ color: "#FF3535" }}>
+            <Link className="side-menu__button"  to="/portfolio" onClick={props.passedFunction} activeStyle={{ fontFamily: "Montserrat Bold" }}>
               Portfolio
             </Link>
           </li>
           <li>
-            <Link className="side-menu__button" to="/about-us" onClick={props.passedFunction} activeStyle={{ color: "#FF3535" }}>
+            <Link className="side-menu__button" to="/about-us" onClick={props.passedFunction} activeStyle={{ fontFamily: "Montserrat Bold" }}>
               O nas
             </Link>
           </li>
           <li>
-            <Link className="side-menu__button" to="/contact" onClick={props.passedFunction} activeStyle={{ color: "#FF3535" }}>
+            <Link className="side-menu__button" to="/contact" onClick={props.passedFunction} activeStyle={{ fontFamily: "Montserrat Bold" }}>
               Kontakt
             </Link>
           </li>
           <li>
-            <div className="side-menu__button" to="/#section__contact" onClick={props.passedFunction} activeStyle={{ color: "#FF3535" }} style={{ display: "flex", justifyContent: "center"}}>
+            <div className="side-menu__button side-menu__language" to="/#section__contact" onClick={props.passedFunction} activeStyle={{ fontFamily: "Montserrat Bold" }} style={{ display: "flex", justifyContent: "center"}}>
               <p className="language__item language__item--pl language--active">PL</p>
               <p className="language__item language__item--en">EN</p>
               <p className="language__item language__item--de">DE</p>

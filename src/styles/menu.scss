@@ -8,7 +8,7 @@
     align-items: center;
     width: 70px;
     height: 70px;
-    background-color: #680CC1;
+    background-color: #FF6800;
     z-index: 1;
     cursor: pointer;
 }
@@ -56,8 +56,8 @@
         }
 
         li:hover {
-            background: rgb(219, 60, 60);
-            padding-left: 15px;
+            background: #FF6800;
+            cursor: pointer;
         }
     }
 }
@@ -71,6 +71,10 @@
     padding-top: 20px;
     padding-bottom: 20px;
 
+}
+
+.side-menu__language:hover {
+    background-color: #131313;
 }
 
 .website-content {
@@ -291,6 +295,7 @@
     list-style-type: none;
     transition: color 0.2s ease-in-out;
     display: flex;
+    font-weight: bold;
 }
 
 .language__wrapper:hover {
@@ -321,7 +326,7 @@
 }
 
 .language--active {
-    color: #FF3535;
+    font-family: "Montserrat Bold";
 }
 
 .header-small {

@@ -1,7 +1,6 @@
 import React from "react";
 // import Loader from 'react-loader-spinner'
 import Header from "../components/Header/Header";
-import AboutHome from "../components/Home/AboutHome/AboutHome";
 import ClientsHome from "../components/Home/ClientsHome/ClientsHome";
 // import Offer from "../components/Offer";
 // import Skills from "../components/Skills";
@@ -75,7 +74,6 @@ class Home extends React.Component {
               <Header/>
   
               <main>
-                <AboutHome />
                 <OfferHome />
                 <ClientsHome />
                 <ContactHome />

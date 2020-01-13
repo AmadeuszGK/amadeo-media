@@ -5,15 +5,17 @@ import envelope from '../../../images/envelope-regular.png'
 import phone from '../../../images/phone-solid.png'
 import linkedin from '../../../images/linkedin-brands.png'
 import facebook from '../../../images/facebook-square-brands.png'
-import responsive from '../../../images/responsive.png'
+import ContactForm from '../../ContactForm/ContactForm'
 import './ContactHome.scss'
+
+
 
 const ContactHome = () => (
   <section className="section__contact" id="section__contact">
     <div className="contact__wrapper">
       <ScrollAnimation
         className="contact__details"
-        animateIn="slideInUp"
+        animateIn="slideInLeft"
         delay={300}
         animateOnce={true}
       >
@@ -63,14 +65,7 @@ const ContactHome = () => (
         </div>
       </ScrollAnimation>
 
-      <ScrollAnimation
-        className="contact__image"
-        animateIn="fadeIn"
-        delay={600}
-        animateOnce={true}
-      >
-        <img src={responsive} alt="responsive screens" />
-      </ScrollAnimation>
+      <ContactForm />
 
     </div>
   </section>

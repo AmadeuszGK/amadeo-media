@@ -4,6 +4,7 @@ import arrowsWhite from "../../images/arrows-white.svg";
 import MenuDesktop from '../Menu/MenuDesktop/MenuDesktop';
 import './Header.scss';
 import ButtonLink from'../Button/ButtonLink';
+import headerImg from '../../images/amadeusz-pic-1.png'
 
 const Header = () => (
     <header style={{ height: 100 + "vh" }}>
@@ -11,7 +12,9 @@ const Header = () => (
       <MenuDesktop />
 
       <div className="canvas__container">
-        <div className="header__bg--bottom" />
+        <div className="header__bg--bottom">
+          <img src={headerImg} alt="header img"/>
+        </div>
         <canvas id="stars" width="300" />
         <div className="canvas-text">
           <p>
@@ -23,7 +26,7 @@ const Header = () => (
           </h1>
             <ButtonLink text="ZOBACZ NASZE PORTFOLIO" href="/portfolio" class="button button--alert"/>
         </div>
-        <Link className="scroll-down" to="/#section__about">
+        <Link className="scroll-down" to="/#section__offer">
           <div className="scroll-down__container">
             <img src={arrowsWhite} alt="arrow" />
           </div>

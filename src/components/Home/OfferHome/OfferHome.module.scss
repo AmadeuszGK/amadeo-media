@@ -2,9 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 120px;
-    padding-right: 120px;
-    margin-top: 150px;
+    padding: 150px 120px 0px 120px;
 }
 
 .offer__grid {
@@ -24,10 +22,10 @@
 }
 
 .offer__about {
-    width: 30%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-
+    margin-bottom: 50px;
     p {
         font-size: 22px;
         font-family: "Montserrat Regular";
@@ -36,6 +34,11 @@
         line-height: 1.25;
         color: #4a4a4a;
         padding-bottom: 40px;
+        width: 80%;
+        a {
+            color: #FF7200;
+            text-decoration: none;
+        }
     }
 }
 
@@ -59,7 +62,7 @@
 .offer__items {
     display: flex;
     align-items: flex-start;
-    width: 70%;
+    width: 100%;
 }
 
 .offer__item {
@@ -68,11 +71,10 @@
     width: 33.33%;
     padding-right: 1.02857rem;
     padding-left: 1.02857rem;
-
     img {
         margin-bottom: 40px;
-        height: 77px;
-        width: inherit;
+        width: 200px;
+        height: auto;
     }
 
     h3 {
@@ -93,16 +95,21 @@
         font-weight: 400;
         margin: 0;
     }
+    a {
+        text-decoration: none;
+        transition: 0.2s ease-in-out;
+    }
+    a:hover {
+            margin-top: 15px;
+    }
 }
 
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
     .section__offer {
-        padding-left: 35px;
-        padding-right: 35px;
         height: auto;
-        padding-top: 65px;
+        padding: 65px 35px 0px 35px;
     }
 
     .offer__items {
@@ -167,9 +174,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
     .section__offer {
         height: auto;
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-top: 120px;
+        padding: 120px 35px 0px 35px;
     }
 
     .offer__items {
@@ -216,8 +221,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
     .section__offer {
         height: 100vh;
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-top: 150px 70px 0px 70px;
     }
 
     .offer__items {
@@ -244,8 +248,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .section__offer {
         height: auto;
-        padding-top: 120px;
-        padding-bottom: 50px;
+        padding: 120px 120px 50px 120px;
     }
 
     .offer__items {
@@ -283,15 +286,13 @@
     }
 
     .section__offer {
-        padding-left: 120px;
-        padding-right: 120px;
+        padding: 150px 120px 0px 120px;
     }
 }
 
 @media (min-width: 1px) and (max-width: 850px) and (orientation: landscape) {
     .section__offer {
         height: auto;
-        padding-top: 120px;
-        padding-bottom: 70px;
+        padding: 150px 120px 0px 120px;
     }
 }
