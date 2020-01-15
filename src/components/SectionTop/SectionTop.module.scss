@@ -1,0 +1,130 @@
+.top__about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  p {
+      font-size: 22px;
+      font-family: "Montserrat Regular";
+      font-weight: 400;
+      max-width: 80%;
+      line-height: 1.25;
+      color: #4a4a4a;
+      padding-bottom: 40px;
+      width: 80%;
+      a {
+          color: #FF7200;
+          text-decoration: none;
+      }
+  }
+  h2 {
+    font-family: "Montserrat Bold";
+    font-weight: 800;
+    font-size: 26px;
+    margin-bottom: 40px;
+    }
+}
+
+.top__header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  color: rgb(19, 19, 19);
+
+  p {
+      font-family: "Montserrat Regular";
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 1px;
+      margin: 0;
+      padding: 0;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .top__about {
+      padding-bottom: 60px;
+      width: 100%;
+      text-align: right;
+      padding-right: 35px;
+
+      p {
+          max-width: 100%;
+          margin: 0;
+          font-size: 19px;
+      }
+
+      h2 {
+          margin-bottom: 30px;
+      }
+  }
+
+  .top__header {
+      justify-content: flex-end;
+      margin-bottom: 30px;
+
+      p {
+          font-size: 13px;
+      }
+  }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .top__about {
+      padding-bottom: 70px;
+      width: 100%;
+
+      p {
+          max-width: 100%;
+          margin: 0;
+          font-size: 19px;
+      }
+  }
+
+  .top__header {
+      p {
+          font-size: 13px;
+      }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .top__about {
+      padding-bottom: 70px;
+      width: 100%;
+
+      p {
+          max-width: 70%;
+          margin: 0;
+      }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .top__about {
+      padding-bottom: 70px;
+      width: 100%;
+
+      p {
+          max-width: 70%;
+          margin: 0;
+      }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1430.98px) {
+  .top__about {
+      width: 30%;
+
+      p {
+          max-width: 70%;
+      }
+  }
+}

@@ -1,0 +1,28 @@
+.portfolio__item {
+  -webkit-animation: fadeInFromNone 0.5s ease-out;
+  -moz-animation: fadeInFromNone 0.5s ease-out;
+  -o-animation: fadeInFromNone 0.5s ease-out;
+  animation: fadeInFromNone 0.5s ease-out;
+  width: 33%;
+  padding: 15px;
+  img {
+    width: 100%;
+  }
+}
+
+@keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: flex;
+      opacity: 0;
+  }
+
+  100% {
+      display: flex;
+      opacity: 1;
+  }
+}

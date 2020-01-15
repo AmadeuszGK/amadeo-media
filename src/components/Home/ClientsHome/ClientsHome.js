@@ -12,7 +12,12 @@ import palkaLogo from "../../../images/palka-logo.png"
 import qrentLogo from "../../../images/qrent-logo.png"
 import efunLogo from "../../../images/efun-logo.png"
 import jmaLogo from "../../../images/jma-logo.png"
+import SectionTop from '../../SectionTop/SectionTop'
 import './ClientsHome.scss'
+
+const topText = <p style={{color: "#fff"}}>Współpracowaliśmy z firmami z Polski, Niemiec, Angli i Włoch. Dołącz do grona naszych zadowolonych klientów. Aby objerzeć co dla nich przygotowaliśmy, przejdź do podstrony Portfolio, lub kliknij <Link to="/portfolio">tutaj.</Link> </p>;
+const bigHeader = <h2>Zadowoleni klienci</h2>;
+const smallHeader = "WSPÓŁPRACA";
 
 const ClientsHome = () => {
     const clientsItems = [
@@ -87,17 +92,8 @@ const ClientsHome = () => {
             delay={300}
             animateOnce={true}
           >
-            <div className="clients__about">
-              <div className="clients__header">
-                <div className="flat-line" />
-                <p>WSPÓŁPRACA</p>
-              </div>
 
-              <h2>Zadowoleni klienci</h2>
-              <p className="clients__text">
-                Współpracowaliśmy z firmami z Polski, Niemiec, Angli i Włoch. Dołącz do grona naszych zadowolonych klientów. Aby objerzeć co dla nich przygotowaliśmy, przejdź do podstrony Portfolio, lub kliknij <Link to="/portfolio">tutaj.</Link> 
-              </p>
-            </div>
+            <SectionTop smallHeader={smallHeader} bigHeader={bigHeader} paragraph={topText} colorWhite/>
 
              <div className="clients__items">
             {

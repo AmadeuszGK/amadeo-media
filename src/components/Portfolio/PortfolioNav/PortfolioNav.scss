@@ -1,0 +1,22 @@
+.portfolio__nav {
+  width: 100%;
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio__button {
+  padding: 12px 30px;
+  background-color: #FE6304;
+  color: #fff;
+  border: 3px solid #FE6304;
+  margin-right: 20px;
+}
+
+.portfolio__button--active {
+  padding: 12px 30px;
+  background-color: #fff;
+  color: #FE6304;
+  border: 3px solid #FE6304;
+  margin-right: 20px;
+}

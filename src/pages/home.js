@@ -8,7 +8,6 @@ import ContactHome from "../components/Home/ContactHome/ContactHome";
 import Footer from "../components/Footer/Footer";
 import MenuMobile from "../components/Menu/MenuMobile/MenuMobile";
 import OfferHome from "../components/Home/OfferHome/OfferHome";
-//import "../layout.css";
 import "../styles/main.scss";
 import logo from "../images/agrzesiak-logo.png"
 import loader from "../images/loader.svg"
@@ -16,21 +15,6 @@ import "animate.css/animate.min.css";
 
 if (typeof window !== "undefined") {
   require("smooth-scroll")('a[href*="#"]');
-
-//   const script = document.createElement("script");
-//   script.src = "/delaunay.js";
-//   script.async = true;
-//   document.body.appendChild(script);
-
-//   const script1 = document.createElement("script");
-//   script1.src = "/require.js";
-//   script1.async = true; 
-//   document.body.appendChild(script1);
-
-//   const script2 = document.createElement("script");
-//   script2.src = "/canvas.js";
-//   script2.async = true; 
-//   document.body.appendChild(script2);
 }
 
 

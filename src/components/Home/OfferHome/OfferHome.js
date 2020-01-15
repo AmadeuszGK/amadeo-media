@@ -7,33 +7,17 @@ import offerItem3 from "../../../images/offer-item-img-3.png"
 import offerItem4 from "../../../images/offer-item-img-4.png"
 import offerItem5 from "../../../images/offer-item-img-5.png"
 import { Link } from "gatsby";
+import SectionTop from '../../SectionTop/SectionTop'
 
-import ButtonLink from '../../Button/ButtonLink'
-
+const topText = <p>Nasze usugi charakteryzuje nowoczesne podejście do tematu, dokładność oraz przejżystość cenowa. Naciśnij na interesującą Cię kategorię lub kliknij <Link to="/offer-and-pricing">tutaj</Link> aby przejść do ofetry i cennika.</p>
+const bigHeader = <h2>Nowoczesność <br /> i użytkowość</h2>
+const smallHeader = "CO ROBIMY?"
 
 const OfferHome = () => (
   <section className={styles.section__offer} id="section__offer">
     <div className={styles.offer__grid}>
-      <ScrollAnimation
-        className={styles.offer__about}
-        animateIn="slideInLeft"
-        delay={100}
-        animateOnce={true}
-      >
-        <div className={styles.offer__header}>
-          <div className="flat-line" />
-          <p>CO ROBIMY?</p>
-        </div>
 
-        <h2>
-          Nowoczesność
-          <br />i użytkowość
-        </h2>
-        <p>
-          Nasze usugi charakteryzuje nowoczesne podejście do tematu, dokładność oraz przejżystość cenowa. Naciśnij na interesującą Cię kategorię lub kliknij <Link to="/offer-and-pricing">tutaj</Link> aby przejść do ofetry i cennika.
-        </p>
-        {/* <ButtonLink href="/offer" text="OFERTA I CENNIK" class="button button--alert"/> */}
-      </ScrollAnimation>
+      <SectionTop smallHeader={smallHeader} bigHeader={bigHeader} paragraph={topText}/>
 
       <div className={styles.offer__items}>
         <ScrollAnimation

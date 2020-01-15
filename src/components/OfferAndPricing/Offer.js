@@ -22,10 +22,10 @@ const Offer = () => (
           <div className="offer-item__portfolio-container mobile-only">
             <div className="offer-item__portfolio">
               <div className="what__specification__btn__icon p-event-none">
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
               </div>
               <a href="/portfolio">Zobacz przykłady stron jakie wykonaliśmy</a>
             </div>
@@ -51,10 +51,10 @@ const Offer = () => (
           <div className="offer-item__portfolio-container desktop-only">
             <div className="offer-item__portfolio">
               <div className="what__specification__btn__icon p-event-none">
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
               </div>
               <a href="/portfolio">Zobacz przykłady stron jakie wykonaliśmy</a>
             </div>
@@ -80,10 +80,10 @@ const Offer = () => (
           <div className="offer-item__portfolio-container desktop-only">
             <div className="offer-item__portfolio">
               <div className="what__specification__btn__icon p-event-none">
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
               </div>
               <a href="/portfolio">Zobacz przykłady sklepów jakie wykonaliśmy</a>
             </div>
@@ -94,10 +94,10 @@ const Offer = () => (
           <div className="offer-item__portfolio-container mobile-only">
             <div className="offer-item__portfolio">
               <div className="what__specification__btn__icon p-event-none">
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
               </div>
               <a href="/portfolio">Zobacz przykłady sklepów jakie wykonaliśmy</a>
             </div>
@@ -112,10 +112,10 @@ const Offer = () => (
           <div className="offer-item__portfolio-container mobile-only">
             <div className="offer-item__portfolio">
               <div className="what__specification__btn__icon p-event-none">
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
               </div>
               <a href="/portfolio">Zobacz projekty, przy których pracowaliśmy</a>
             </div>
@@ -144,10 +144,10 @@ const Offer = () => (
           <div className="offer-item__portfolio-container desktop-only">
             <div className="offer-item__portfolio">
               <div className="what__specification__btn__icon p-event-none">
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
-                <span class="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
+                <span className="p-event-none"></span>
               </div>
               <a href="/portfolio">Zobacz projekty, przy których pracowaliśmy</a>
             </div>
