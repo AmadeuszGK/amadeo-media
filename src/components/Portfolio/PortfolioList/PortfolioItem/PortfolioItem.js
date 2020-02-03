@@ -1,13 +1,15 @@
-import React from 'react'
-import './PortfolioItem.scss'
+import React from 'react';
+import './PortfolioItem.scss';
 
-const PortfolioItem = ({img, link, name}) => (
+const PortfolioItem = ({ img, link, name }) => (
   <div className="portfolio__item">
-    <img src={img} alt={name}/>
-    <div className="portfolio__itemHover">
-      <a href={link}>{name}</a>
-    </div>
+    <a href={link} className="portfolio__img">
+      <img src={img} alt={name} />
+    </a>
+    <a href={link} className="portfolio__itemHover">
+      <p>{name}</p>
+    </a>
   </div>
-)
+);
 
-export default PortfolioItem
+export default PortfolioItem;

@@ -2,12 +2,14 @@ footer {
     position: relative;
     z-index: 1;
     width: 100%;
-
+    background: rgb(32, 4, 59);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 120px 0px 120px;
     ul {
         display: flex;
-        justify-content: center;
-        align-items: center;
         margin: 0;
+        flex-direction: column;
     }
 
     li {
@@ -15,6 +17,7 @@ footer {
         margin: 0;
         z-index: 4;
         letter-spacing: 1px;
+        margin-bottom: 4px;
     }
 
     p {
@@ -22,7 +25,7 @@ footer {
         font-weight: 400;
         font-size: 13px;
         text-align: center;
-        color: #fff;
+        color: #808080;
         margin: 0px;
         text-decoration: none;
         text-transform: uppercase;
@@ -60,8 +63,48 @@ footer {
     }
 }
 
+.footer__absolute {
+    width: 100%;
+    padding: 20px;
+    // background: rgba(0, 0, 0, 0.342);
+    border-top: 1px solid #808080;
+    margin-top: 35px;
+}
+
 .scroll-to-top {
     height: 58px;
+}
+
+.footerItem--nopadding {
+    padding-right: 0 !important;
+    align-items: flex-end;
+}
+
+.footerItem__title {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+    p {
+        color: #fff;
+        font-family: "Montserrat Bold";
+    }
+}
+
+.footer__logo {
+    width: 25%;
+    margin-bottom: 40px;
+    img {
+        max-width: 130px;
+    }
+}
+
+.footerItem__social {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .line-box {
@@ -93,174 +136,140 @@ footer {
     position: relative;
 }
 
-.footer-content {
-    background: rgb(32, 4, 59);
+.footerItem {
     display: flex;
-    justify-content: space-between;
-    padding-left: 120px;
-    padding-right: 120px;
-    align-items: center;
-    padding-top: 45px;
-    padding-bottom: 45px;
     z-index: 3;
     overflow: hidden;
-}
-
-.footer-content:before {
-    content: "";
-    position: absolute;
-    background: inherit;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    filter: blur(10px);
-    margin: -20px;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 20px;
+    padding-right: 50px;
+    width: 25%;
+    .social__item {
+        color: #808080;
+    }
+    .social__item img {
+        filter: brightness(100);
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    .social__item:hover {
+        opacity: 0.8;
+    
+        img {
+            margin-left: 20px;
+        }
+    }
 }
 
 .footer-menu-item {
     font-family: "Montserrat Regular";
     font-weight: 400;
     font-size: 13px;
-    text-align: center;
-    color: #fff;
+    color: #808080;
     margin: 0px;
     text-decoration: none;
     text-transform: uppercase;
-    padding-left: 30px;
-    padding-right: 30px;
     list-style-type: none;
     transition: color 0.2s ease-in-out;
+    word-wrap: none;
+    text-align: left;
 }
 
 .footer-menu-item:hover {
     color: rgb(180, 180, 180);
 }
 
+.footer__menu {
+    display: flex;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
     footer {
-        .skills-bottom-square {
-            top: -210px;
-            right: 0;
-            left: auto;
-            width: 50px;
-        }
-
-        ul {
-            display: none;
-        }
-
-        p {
-            width: 100%;
-            text-align: center;
-            font-size: 9px;
-        }
+        padding: 50px 15px 0px 15px;
+        font-size: 11px !important;
     }
 
-    .footer-content {
-        padding: 35px;
-        background-attachment: scroll;
+    .footerItem {
+        width: 100%;
+        padding-right: 0;
+    }
+    .footer__logo, .footerItem--nopadding {
+        width: 100%;
+        align-items: flex-start;
+    }
+    .footerItem--nopadding {
+        .social__item {
+            img {
+                margin-left: 0;
+                margin-right: 20px;
+            }
+        }
+    }
+    .footer__absolute {
+        margin-top: 10px;
+        p {
+            font-size: 10px;
+        }
     }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
     footer {
-        .skills-bottom-square {
-            top: -280px;
-            right: 0;
-            left: auto;
-            width: 50px;
-        }
-
-        ul {
-            display: none;
-        }
-
-        p {
-            width: 100%;
-            text-align: center;
-            font-size: 12px;
-        }
+        padding: 60px 15px 0px 15px;
+        font-size: 11px !important;
     }
 
-    .footer-content {
-        padding-left: 35px;
-        padding-right: 35px;
-        background-attachment: scroll;
+    .footerItem {
+        width: 50%;
+        padding-right: 0;
     }
-
-    .footer-content {
-        background-attachment: scroll;
+    .footer__logo, .footerItem--nopadding {
+        width: 50%;
     }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
     footer {
-        .skills-bottom-square {
-            top: -280px;
-            right: 0;
-            left: auto;
-            width: 50px;
-        }
-
-        ul {
-            display: none;
-        }
-
-        p {
-            width: 100%;
-            text-align: center;
-        }
+        padding: 60px 30px 0px 30px;
+        font-size: 11px !important;
     }
-    .footer-content {
-        background-attachment: scroll;
+
+    .footerItem {
+        width: 30%;
+    }
+    .footer__logo, .footerItem--nopadding {
+        width: 20%;
+    }
+
+    .footer__logo {
+        img {
+            max-width: 100px;
+        } 
     }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .footer-content {
-        padding-left: 70px;
-        padding-right: 70px;
-        background-attachment: scroll;
-    }
-
     footer {
-        .skills-bottom-square {
-            top: -300px;
-            width: 50px;
-        }
-
-        ul {
-            display: none;
-        }
-
-        p {
-            width: 100%;
-            text-align: center;
-        }
+        padding: 60px 60px 0px 60px;
+        font-size: 11px !important;
+    }
+    .footer-menu-item {
+        font-size: 11px;
     }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and (max-width: 1570.98px) {
-    .footer-content {
-        padding-left: 70px;
-        padding-right: 70px;
-    }
-    footer {
-        .skills-bottom-square {
-            top: -350px;
-            width: 50px;
-        }
-    }
-    .footer-menu-item{
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+
 }

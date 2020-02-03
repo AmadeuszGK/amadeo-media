@@ -1,56 +1,124 @@
 import React from "react";
 import { Link } from "gatsby";
-import './Footer.scss'
+import "./Footer.scss";
+import facebook from "../../images/facebook-square-brands.png";
+import footerLogo from "../../images/agrzesiak-logo.png";
 
 const Footer = () => (
   <footer>
-    <Link className="skills-bottom-square" to="/#section__about">
-      <div className="scroll-to-top">
-        <div className="line-box">
-          <div className="white-line" />
-        </div>
+    <div className="footer__logo">
+      <img src={footerLogo} />
+    </div>
+    <div className="footerItem">
+      <div className="footerItem__title">
+        <p>MENU:</p>
       </div>
-      <p>Top</p>
-    </Link>
+      <ul>
+        <li>
+          <Link className="footer-menu-item" to="/">
+            Strona główna
+          </Link>
+        </li>
+        <li>
+          <Link className="footer-menu-item" to="/offer-and-pricing">
+            Oferta i cennik
+          </Link>
+        </li>
+        <li>
+          <Link className="footer-menu-item" to="/portfolio">
+            Portfolio
+          </Link>
+        </li>
+        <li>
+          <Link className="footer-menu-item" to="/about-us">
+            O nas
+          </Link>
+        </li>
+        <li>
+          <Link className="footer-menu-item" to="/contact">
+            Kontakt
+          </Link>
+        </li>
+      </ul>
+    </div>
 
-    <div className="footer-box">
-      <div className="footer-content">
-        <p>
-          © {new Date().getFullYear()} Amadeo Media. All rights reserved
-        </p>
+    <div className="footerItem">
+      <div className="footerItem__title">
+        <p>Amadeo Media:</p>
+      </div>
+      <ul>
+        <li>
+          <div className="footer-menu-item" to="/">
+            NIP: 111-222-333-444
+          </div>
+        </li>
+        <li>
+          <a className="footer-menu-item" href="tel:+48796536228">
+            Tel: +48 796 536 228
+          </a>
+        </li>
+        <li>
+          <a
+            className="footer-menu-item"
+            href="mailto:grzesiak.amadeusz@gmail.com"
+          >
+            E-mail: amadeomedia@gmail.com
+          </a>
+        </li>
+      </ul>
+    </div>
+    {/* <div className="footerItem">
+        <div className="footerItem__title">
+
+          <p>OFERTA I Cennik:</p>
+        </div>
         <ul>
         <li>
             <Link className="footer-menu-item" to="/">
-              Strona główna
+              Strony WWW
             </Link>
           </li>
           <li>
             <Link className="footer-menu-item" to="/offer-and-pricing">
-              Oferta i cennik
+              Sklepy Internetowe
             </Link>
           </li>
           <li>
             <Link className="footer-menu-item"  to="/portfolio">
-              Portfolio
+              Grafika
             </Link>
           </li>
           <li>
             <Link className="footer-menu-item" to="/about-us">
-              O nas
+              Administracja
             </Link>
           </li>
           <li>
             <Link className="footer-menu-item" to="/contact">
-              Kontakt
-            </Link>
-          </li>
-          <li>
-            <Link className="footer-menu-item" to="/#section__contact">
-              <b>PL</b> EN DE
+              Naprawa Starych Stron
             </Link>
           </li>
         </ul>
+      </div> */}
+    <div className="footerItem footerItem--nopadding">
+      <div className="footerItem__title">
+        <p>OBSERWUJ NAS!</p>
       </div>
+      <div className="footerItem__social">
+        <li className="social__item">
+          <a href="https://www.facebook.com/grzesiak.amadeusz">
+            <img src={facebook} alt="facebook" />
+          </a>
+        </li>
+        <li className="social__item">
+          <a href="https://www.facebook.com/grzesiak.amadeusz">
+            <img src={facebook} alt="facebook" />
+          </a>
+        </li>
+      </div>
+    </div>
+    <div className="footer__absolute">
+      <p>© {new Date().getFullYear()} Amadeo Media. All rights reserved</p>
     </div>
   </footer>
 );

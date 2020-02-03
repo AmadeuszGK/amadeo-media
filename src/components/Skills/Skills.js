@@ -1,20 +1,19 @@
-import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
-import './Skills.scss'
+import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
+import './Skills.scss';
 
-import javascript from "../../images/javascript.png"
-import html5 from "../../images/html5.png"
-import css3 from "../../images/css3.png"
-import angular from "../../images/angular.png"
-import reactjs from "../../images/reactjs.png"
-import firebase from "../../images/firebase.png"
-import sass from "../../images/sass.png"
-import es6 from "../../images/es6.png"
-import bootstrap from "../../images/bootstrap.png"
-import wordpress from "../../images/wordpress.png"
-import photoshop from "../../images/photoshop.png"
-import figma from "../../images/figma.png"
-
+import javascript from '../../images/javascript.png';
+import html5 from '../../images/html5.png';
+import css3 from '../../images/css3.png';
+import angular from '../../images/angular.png';
+import reactjs from '../../images/reactjs.png';
+import firebase from '../../images/firebase.png';
+import sass from '../../images/sass.png';
+import es6 from '../../images/es6.png';
+import bootstrap from '../../images/bootstrap.png';
+import wordpress from '../../images/wordpress.png';
+import photoshop from '../../images/photoshop.png';
+import figma from '../../images/figma.png';
 
 const Skills = () => (
   <section className="section-skills" id="section-skills">
@@ -44,24 +43,15 @@ const Skills = () => (
           technologie
         </h2>
         <p>
-          Moje projekty tworzone są w oparciu o najnowsze technologie webowe.
-          Stale rozwijam wachlarz umiejętności poprzez nowe wyzwania oraz kursy.
+          Moje projekty tworzone są w oparciu o najnowsze technologie webowe. Stale rozwijam
+          wachlarz umiejętności poprzez nowe wyzwania oraz kursy.
         </p>
       </div>
 
       <div className="skills">
-        <ScrollAnimation
-          className="all-skills"
-          animateIn="fadeIn"
-          delay={300}
-          animateOnce={true}
-        >
+        <ScrollAnimation className="all-skills" animateIn="fadeIn" delay={300} animateOnce={true}>
           <div className="skill-container">
-            <img
-              className="skill-image"
-              src={javascript}
-              alt="javascript"
-            />
+            <img className="skill-image" src={javascript} alt="javascript" />
             <p className="skill-text">javascript</p>
           </div>
           <div className="skill-container">
@@ -73,27 +63,15 @@ const Skills = () => (
             <p className="skill-text">css 3</p>
           </div>
           <div className="skill-container">
-            <img
-              className="skill-image"
-              src={angular}
-              alt="angular"
-            />
+            <img className="skill-image" src={angular} alt="angular" />
             <p className="skill-text">angular 2</p>
           </div>
           <div className="skill-container">
-            <img
-              className="skill-image"
-              src={reactjs}
-              alt="react"
-            />
+            <img className="skill-image" src={reactjs} alt="react" />
             <p className="skill-text">react js</p>
           </div>
           <div className="skill-container">
-            <img
-              className="skill-image"
-              src={firebase}
-              alt="firebase"
-            />
+            <img className="skill-image" src={firebase} alt="firebase" />
             <p className="skill-text">firebase</p>
           </div>
           <div className="skill-container">
@@ -105,27 +83,15 @@ const Skills = () => (
             <p className="skill-text">es6</p>
           </div>
           <div className="skill-container">
-            <img
-              className="skill-image"
-              src={bootstrap}
-              alt="bootstrap"
-            />
+            <img className="skill-image" src={bootstrap} alt="bootstrap" />
             <p className="skill-text">bootstrap</p>
           </div>
           <div className="skill-container">
-            <img
-              className="skill-image"
-              src={wordpress}
-              alt="wordpress"
-            />
+            <img className="skill-image" src={wordpress} alt="wordpress" />
             <p className="skill-text">wordpress</p>
           </div>
           <div className="skill-container">
-            <img
-              className="skill-image"
-              src={photoshop}
-              alt="photoshop"
-            />
+            <img className="skill-image" src={photoshop} alt="photoshop" />
             <p className="skill-text">photoshop</p>
           </div>
           <div className="skill-container">

@@ -27,8 +27,7 @@
     "react-loader-spinner": "^2.3.0",
     "react-router-dom": "^5.1.2",
     "react-transition-group": "^4.0.0",
-    "smooth-scroll": "^16.0.3",
-    "typed.js": "^2.0.10"
+    "smooth-scroll": "^16.0.3"
   },
   "devDependencies": {
     "prettier": "^1.16.4"

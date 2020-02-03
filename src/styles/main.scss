@@ -5,6 +5,9 @@ body {
     height: 100%;
     background-image: none;
     box-sizing: border-box; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 *, :after, :before {

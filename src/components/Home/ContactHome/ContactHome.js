@@ -1,14 +1,12 @@
-import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
+import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
-import envelope from '../../../images/envelope-regular.png'
-import phone from '../../../images/phone-solid.png'
-import linkedin from '../../../images/linkedin-brands.png'
-import facebook from '../../../images/facebook-square-brands.png'
-import ContactForm from '../../ContactForm/ContactForm'
-import './ContactHome.scss'
-
-
+import envelope from '../../../images/envelope-regular.png';
+import phone from '../../../images/phone-solid.png';
+import linkedin from '../../../images/linkedin-brands.png';
+import facebook from '../../../images/facebook-square-brands.png';
+import ContactForm from '../../ContactForm/ContactForm';
+import './ContactHome.scss';
 
 const ContactHome = () => (
   <section className="section__contact" id="section__contact">
@@ -31,27 +29,27 @@ const ContactHome = () => (
         </h2>
 
         <p>
-          Możesz nas znaleźć w paru miejscach w sieci, ale jeśli wolisz zrobić
-          to "po staremu" po prostu wyślij maila lub zadzwoń.
+          Możesz nas znaleźć w paru miejscach w sieci, ale jeśli wolisz zrobić to "po staremu" po
+          prostu wyślij maila lub zadzwoń.
         </p>
 
         <div className="contact__social">
           <div className="social__item">
             <a href="mailto:grzesiak.amadeusz@gmail.com">
               <img src={envelope} alt="email" />
-              grzesiak.amadeusz@gmail.com
+              amadeomedia@gmail.com
             </a>
           </div>
           <div className="social__item">
-            <a href="tel:796536228">
-              {" "}
+            <a href="tel:+48796536228">
+              {' '}
               <img src={phone} alt="phone" />
               +48 796 536 228
             </a>
           </div>
           <div className="social__item">
             <a href="https://www.linkedin.com/in/amadeusz-grzesiak-78ab61160">
-              {" "}
+              {' '}
               <img src={linkedin} alt="linked" />
               linkedin
             </a>
@@ -66,7 +64,6 @@ const ContactHome = () => (
       </ScrollAnimation>
 
       <ContactForm />
-
     </div>
   </section>
 );

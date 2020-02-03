@@ -19,9 +19,6 @@ header {
 
 .canvas__container {
     position: relative;
-    //background-image: linear-gradient( 109.6deg,  rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
-     // background: linear-gradient(to top, #000046 30%, #8E2DE2 100%);
-     // background-image: linear-gradient(137.86deg, #07005d, rgb(91, 12, 143) 43.75%, rgb(252, 77, 106));
     background-image: url('../../images/amadeusz-banner.png');
      background-position: center;
      background-repeat: no-repeat;
@@ -79,13 +76,14 @@ header {
     z-index: 3;
 
     p {
-        font-family: "Montserrat Regular";
-        font-size: 50px;
+        font-family: "Montserrat Bold";
+        font-size: 65px;
         text-align: left;
         line-height: 1;
         letter-spacing: 1px;
         margin-bottom: 30px;
         text-shadow: 1px 1px 8px rgba(83, 0, 192, 0.671);
+        max-width: 1000px;
     }
 
     h2,
@@ -110,7 +108,7 @@ header {
     h1 {
         margin-bottom: 50px;
         font-family: "Montserrat Light";
-        font-size: 25px;
+        font-size: 33px;
         color: #fff;
         text-shadow: 2px 2px 8px rgba(54, 0, 119, 0.699);
         text-align: left;
@@ -230,110 +228,22 @@ header {
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
     .canvas-text {
-        top: 80px;
-        left:  55px;
-        width: 80%;
+        width: 100%;
+        left: 0;
+        top: 100px;
+        height: auto;
+        text-align: center;
+        align-items: center;
         p {
-            font-size: 25px;
-            margin-bottom: 15px;
+            font-size: 27px;
+            padding: 0px 30px;
+            text-align: center;
         }
 
         h1 {
-            font-size: 14px;
+            font-size: 17px;
+            text-align: center;
             margin-bottom: 30px;
-        }
-    }
-
-    .scroll-down {
-        font-size: 13px;
-    }
-
-    .scroll-down__container {
-        margin-top: 13px;
-
-        img {
-            max-width: 22px;
-        }
-    }
-
-    .canvas__container, .header__bg--bottom {
-        background-attachment: scroll;
-    }
-}
-
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .canvas-text {
-        top: 130px;
-        left:  75px;
-        width: 70%;
-        p {
-            font-size: 30px;
-            margin-bottom: 20px;
-        }
-        h1 {
-            font-size: 15px;
-        }
-    }
-
-    .scroll-down {
-        font-size: 13px;
-    }
-
-    .scroll-down__container {
-        margin-top: 13px;
-
-        img {
-            max-width: 22px;
-        }
-    }
-
-    .canvas__container, .header__bg--bottom {
-        background-attachment: scroll;
-    }
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .canvas-text {
-        top: 150px;
-        left:  75px;
-        p {
-            font-size: 40px;
-        }
-
-        h1 {
-            font-size: 20px;
-        }
-    }
-
-    .scroll-down {
-        font-size: 15px;
-    }
-
-    .scroll-down__container {
-        margin-top: 15px;
-
-        img {
-            max-width: 27px;
-        }
-    }
-
-    .canvas__container, .header__bg--bottom {
-        background-attachment: scroll;
-    }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .canvas-text {
-        p {
-            font-size: 50px;
-        }
-
-        h1 {
-            font-size: 23px;
         }
     }
 
@@ -347,6 +257,143 @@ header {
         img {
             max-width: 30px;
         }
+    }
+
+    .header__bg--bottom {
+        width: 100%;
+        align-items: flex-end;
+        padding-bottom: 100px;
+    }
+
+    .canvas__container, .header__bg--bottom {
+        background-attachment: scroll;
+    }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .canvas-text {
+        width: 100%;
+        left: 0;
+        top: 70px;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        p {
+            font-size: 30px;
+            padding: 0px 30px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+
+    .scroll-down {
+        font-size: 16px;
+    }
+
+    .scroll-down__container {
+        margin-top: 15px;
+
+        img {
+            max-width: 30px;
+        }
+    }
+
+    .header__bg--bottom {
+       display: none;
+    }
+
+    .canvas__container, .header__bg--bottom {
+        background-attachment: scroll;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .canvas-text {
+        width: 100%;
+        left: 0;
+        top: 200px;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        p {
+            font-size: 40px;
+            padding: 0px 30px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 22px;
+            text-align: center;
+        }
+    }
+
+    .scroll-down {
+        font-size: 16px;
+    }
+
+    .scroll-down__container {
+        margin-top: 15px;
+
+        img {
+            max-width: 30px;
+        }
+    }
+
+    .header__bg--bottom {
+        width: 100%;
+        align-items: flex-end;
+        padding-bottom: 150px;
+    }
+
+    .canvas__container, .header__bg--bottom {
+        background-attachment: scroll;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .canvas-text {
+        width: 100%;
+        left: 0;
+        top: 300px;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        p {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 23px;
+            text-align: center;
+        }
+    }
+
+    .scroll-down {
+        font-size: 16px;
+    }
+
+    .scroll-down__container {
+        margin-top: 15px;
+
+        img {
+            max-width: 30px;
+        }
+    }
+
+    .header__bg--bottom {
+        width: 100%;
+        align-items: flex-end;
+        padding-bottom: 200px;
     }
 
     .canvas__container, .header__bg--bottom {
@@ -371,43 +418,43 @@ header {
 
 
 
-@media (min-width: 1px) and (max-width: 850px) and (orientation: landscape) {
-    .canvas-text {
-        p {
-            font-size: 25px;
-            margin-bottom: 20px;
-        }
+// @media (min-width: 1px) and (max-width: 850px) and (orientation: landscape) {
+//     .canvas-text {
+//         p {
+//             font-size: 25px;
+//             margin-bottom: 20px;
+//         }
 
-        h1 {
-            font-size: 13px;
-            margin-bottom: 20px;
-        }
-    }
+//         h1 {
+//             font-size: 13px;
+//             margin-bottom: 20px;
+//         }
+//     }
 
-    .scroll-down {
-        font-size: 13px;
-    }
+//     .scroll-down {
+//         font-size: 13px;
+//     }
 
-    .scroll-down__container {
-        margin-top: 10px;
+//     .scroll-down__container {
+//         margin-top: 10px;
 
-        img {
-            max-width: 20px;
-        }
-    }
-}
+//         img {
+//             max-width: 20px;
+//         }
+//     }
+// }
 
-@media (min-width: 851px) and (max-width: 1300px) and (orientation: landscape) {
-    .canvas-text {
-        p {
-            font-size: 27px;
-            margin-bottom: 30px;
-        }
+// @media (min-width: 851px) and (max-width: 1300px) and (orientation: landscape) {
+//     .canvas-text {
+//         p {
+//             font-size: 27px;
+//             margin-bottom: 30px;
+//         }
 
-        h1 {
-            font-size: 15px;
-            margin-bottom: 30px;
-        }
-    }
+//         h1 {
+//             font-size: 15px;
+//             margin-bottom: 30px;
+//         }
+//     }
 
- }
+//  }

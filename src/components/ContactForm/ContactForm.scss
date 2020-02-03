@@ -10,21 +10,17 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-    // background-image: url('../../../images/amadeusz-banner.png');
-    //  background-position: center;
-    //  background-repeat: no-repeat;
-    //  background-size: cover;
     background-color: #EAEAEA;
     padding: 80px 45px 80px 45px;
     font-family: "Montserrat Regular";
     // box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 5px 15px 0 hsla(0,2%,49%,.14);
     p {
         font-size: 26px;
         padding-bottom: 40px;
         width: 100%;
         color: #131313;
-        line-height: 20px;
+        line-height: 30px;
     }
 }
 
@@ -47,7 +43,7 @@
 
 .form__input--email, .form__input--message, .form__input--name, .form__input--mobile  {
     border: none;
-    border: 2px dotted #131313;
+    border: 2px solid #131313;
     margin-bottom: 40px;
     font-size: 16px;
     font-family: "Montserrat Regular";
@@ -68,7 +64,7 @@
 
 .form__input:focus {
     outline-width: 0;
-    border: 2px dotted #fE6304;
+    border: 2px solid #fE6304;
 }
 
 .button--send {
@@ -109,3 +105,48 @@
     padding: 0px 5px 0px 5px;
     color: rgb(175, 175, 175);
 }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .contact__formWrapper {
+        width: 100%;
+    }
+    .contact__form {
+        width: 100%;
+        padding: 40px 25px;
+    }
+    .form__input--email, .form__input--message, .form__input--name, .form__input--mobile  {
+        margin-bottom: 25px;
+    }
+    .checbox--wrapper {
+        padding-bottom: 25px;
+    }
+    .form__input--name, .form__input--mobile {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    } 
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .contact__formWrapper {
+        width: 100%;
+    } 
+    .contact__form {
+        width: 100%;
+        padding: 60px 45px 60px 45px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .contact__formWrapper {
+        width: 100%;
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }

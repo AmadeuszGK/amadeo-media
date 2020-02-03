@@ -2,7 +2,8 @@
     margin-top: 0px;
 }
 
-.offer-item--nobg, .offer-item--bg {
+.offer-item--nobg,
+.offer-item--bg {
     height: 800px;
     padding: 120px 120px 80px 120px;
     display: flex;
@@ -22,10 +23,12 @@
 .offer-item__desc {
     padding: 80px 0px 80px 120px;
     position: relative;
+
     h2 {
         font-size: 30px;
         padding-left: 50px;
     }
+
     p {
         font-family: 'Montserrat Light';
         font-size: 14px;
@@ -52,6 +55,7 @@
 
 .desc__header {
     margin-bottom: 50px;
+
     img {
         max-height: 70px;
         margin-left: 20px;
@@ -60,6 +64,7 @@
 
 .desc__variant {
     margin-top: 50px;
+
     h3 {
         font-size: 22px;
         padding-left: 50px;
@@ -72,6 +77,7 @@
     padding: 15px 0px 15px 0px;
     border-top: 1px solid #9B9B9B;
     margin-top: 50px;
+
     a {
         font-family: 'Montserrat Bold';
         font-size: 14px;
@@ -89,8 +95,9 @@
 
 .offer-item__portfolio:hover {
     a {
-        padding-left: 30px; 
+        padding-left: 30px;
     }
+
     .what__specification__btn__icon {
         transform-origin: center center;
         transform: rotate(90deg);
@@ -136,10 +143,11 @@
 }
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
     .section-offer {
         margin-top: 30px;
     }
+
     .offer-item--bg {
         flex-direction: column;
     }
@@ -147,55 +155,68 @@
     .offer-item--nobg {
         flex-direction: column-reverse;
     }
-    .offer-item--nobg, .offer-item--bg {
+
+    .offer-item--nobg,
+    .offer-item--bg {
         height: 900px;
         padding: 50px 55px 50px 55px;
     }
+
     .offer-item__image {
         max-width: 100%;
     }
+
     .offer-item__desc {
         width: 100%;
         padding: 40px 0px 40px 0px;
-        margin: 0px 0px 0px     0px;
+        margin: 0px 0px 0px 0px;
         position: relative;
+
         h2 {
             font-size: 25px;
             padding-left: 30px;
         }
+
         p {
             font-size: 13px;
         }
     }
+
     .desc__header {
         margin-bottom: 40px;
+
         img {
             max-height: 55px;
             margin-left: 15px;
         }
     }
+
     .desc__variant {
         margin-top: 27px;
+
         h3 {
             font-size: 22px;
             padding-left: 30px;
             padding-bottom: 25px;
         }
     }
+
     .offer-item__number {
         top: -50px;
         left: 40px;
     }
-    .offer-item__number img{
+
+    .offer-item__number img {
         max-width: 300px;
     }
- }
+}
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { 
+@media (min-width: 576px) and (max-width: 767.98px) {
     .section-offer {
         margin-top: 80px;
     }
+
     .offer-item--bg {
         flex-direction: column;
     }
@@ -203,55 +224,68 @@
     .offer-item--nobg {
         flex-direction: column-reverse;
     }
-    .offer-item--nobg, .offer-item--bg {
+
+    .offer-item--nobg,
+    .offer-item--bg {
         height: 930px;
         padding: 80px 80px 80px 80px;
     }
+
     .offer-item__image {
         max-width: 100%;
     }
+
     .offer-item__desc {
         width: 100%;
         padding: 40px 0px 40px 0px;
-        margin: 0px 0px 0px     0px;
+        margin: 0px 0px 0px 0px;
         position: relative;
+
         h2 {
             font-size: 28px;
             padding-left: 30px;
         }
+
         p {
             font-size: 14px;
         }
     }
+
     .desc__header {
         margin-bottom: 40px;
+
         img {
             max-height: 55px;
             margin-left: 15px;
         }
     }
+
     .desc__variant {
         margin-top: 30px;
+
         h3 {
             font-size: 22px;
             padding-left: 30px;
             padding-bottom: 25px;
         }
     }
+
     .offer-item__number {
         top: -50px;
         left: 40px;
     }
-    .offer-item__number img{
+
+    .offer-item__number img {
         max-width: 300px;
     }
- }
+}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) {
     .section-offer {
         margin-top: 80px;
     }
+
     .offer-item--bg {
         flex-direction: column;
     }
@@ -259,96 +293,118 @@
     .offer-item--nobg {
         flex-direction: column-reverse;
     }
-    .offer-item--nobg, .offer-item--bg {
+
+    .offer-item--nobg,
+    .offer-item--bg {
         height: 1000px;
         padding: 80px 80px 80px 80px;
     }
+
     .offer-item__image {
         max-width: 100%;
     }
+
     .offer-item__desc {
         width: 100%;
         padding: 40px 0px 40px 0px;
-        margin: 0px 0px 0px     0px;
+        margin: 0px 0px 0px 0px;
         position: relative;
+
         h2 {
             font-size: 28px;
             padding-left: 30px;
         }
+
         p {
             font-size: 14px;
         }
     }
+
     .desc__header {
         margin-bottom: 40px;
+
         img {
             max-height: 55px;
             margin-left: 15px;
         }
     }
+
     .desc__variant {
         margin-top: 30px;
+
         h3 {
             font-size: 22px;
             padding-left: 30px;
             padding-bottom: 25px;
         }
     }
+
     .offer-item__number {
         top: -50px;
         left: 40px;
     }
-    .offer-item__number img{
+
+    .offer-item__number img {
         max-width: 300px;
     }
- }
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1299.98px) { 
-    .offer-item--nobg, .offer-item--bg {
+@media (min-width: 992px) and (max-width: 1299.98px) {
+
+    .offer-item--nobg,
+    .offer-item--bg {
         height: 580px;
         padding: 80px 80px 80px 80px;
     }
+
     .offer-item__image {
         max-width: 45%;
     }
+
     .offer-item__desc {
         padding: 40px 0px 40px 0px;
         margin: 0px 40px 0px 40px;
         position: relative;
+
         h2 {
             font-size: 25px;
             padding-left: 30px;
         }
+
         p {
             font-size: 13px;
         }
     }
+
     .desc__header {
         margin-bottom: 30px;
+
         img {
             max-height: 55px;
             margin-left: 15px;
         }
     }
+
     .desc__variant {
         margin-top: 30px;
+
         h3 {
             font-size: 18px;
             padding-left: 30px;
             padding-bottom: 15px;
         }
     }
+
     .offer-item__number {
         top: -50px;
         left: 40px;
     }
-    .offer-item__number img{
+
+    .offer-item__number img {
         max-width: 350px;
     }
- }
+}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-
- }
+@media (min-width: 1200px) {}
