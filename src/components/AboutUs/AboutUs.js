@@ -3,18 +3,13 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 import offerItem1 from '../../images/offer-item-1.png';
 import offerItem2 from '../../images/offer-item-2.png';
-import offerItem3 from '../../images/offer-item-3.png';
 import offerItemImg1 from '../../images/offer-item-img-1.png';
 import offerItemImg2 from '../../images/offer-item-img-2.png';
-import offerItemImg3 from '../../images/offer-item-img-3.png';
-import number01 from '../../images/number-01.png';
-import number02 from '../../images/number-02.png';
-import number03 from '../../images/number-03.png';
-
+import Skills from '../Skills/Skills';
 import './AboutUs.scss';
 
 const AboutUs = () => (
-  <section className="section-offer" id="section-offer">
+  <>
     <div className="offer-item--nobg">
       <ScrollAnimation
         className="top-text"
@@ -25,23 +20,23 @@ const AboutUs = () => (
       >
         <div className="desc__header">
           <img src={offerItemImg2} className="desc-header__image" />
-          <h2>Sklepy internetowe (E-commerce)</h2>
+          <h2>Kilka słów o nas</h2>
         </div>
         <p className="offer-item__about">
-          Sklep internetowy to automatyczna platforma sprzedażowa działająca 24h/dobę przez 365 dni
-          w roku. Wszystkie sklepy opieramy na najpopularniejszym obecnie rozwiązaniu Woocommerce.
-          Na cenę sklepu wpływają ilość metod płatności, metod dostaw, produktów oraz dodatkowe
-          integracje.
+          Jesteśmy agencją multimedialną zrzeszającą utalentowane osoby z różnych dziedzin takich
+          jak programowanie, projektowanie czy grafika. Działamy na rynku od 2019-stego roku. Mimo
+          któtkiego istnienia posiadamy wieloletnie doświadczenie w branży wyniesione z poprzednich
+          stanowisk. Współpracowaliśmy z dziesiątkami firm z różnych z Polski i nietylko.
+          Współpracując z nami szybko i skutecznie dostaniesz produkt, który na długo zapadnie w
+          pamięci twoim klientom.
         </p>
         <div className="desc__variant">
-          <h3>Od 3000zł netto</h3>
+          <h3>Zaufanie</h3>
           <p>
-            Sklep oparty o Wordpress Woocommerce, który z łatwością będziesz mogł obsługiwać sam. Ty
-            decydujesz jakie funkcje mają się w nim znajdować. Zapewniamy integrację z: <br />
-            <br /> - metodami płatności jak PayU, Przelewy24, PayPal, DotPay, iMoje itd.
-            <br />- metodami wysyłki jak DHL, inPost, DPD, UPS, Pocztą Polską itd.
-            <br />- oraz wtyczkami Allegro, Facebook, Instagram, Google Shopping, Przucony koszyk,
-            Newsletter, Wishlist itd.
+            Bliska relacja, otwarty dialog i przejżysty cennik to nasze credo. Wzajemne zrozumienie
+            i wspólne określenie celów to gwarancja sukcesu. Stale poszukujemy najlepszych
+            rozwiązań. Nie boimy się nieszablonowych pomysłów i nowatorskich rozwiązań. Nie
+            satysfakcjonuje nas przeciętność, tego samego chcemy dla naszych Klientów.
           </p>
         </div>
         <div className="offer-item__portfolio-container desktop-only">
@@ -52,7 +47,7 @@ const AboutUs = () => (
               <span className="p-event-none" />
               <span className="p-event-none" />
             </div>
-            <a href="/portfolio">Zobacz przykłady sklepów jakie wykonaliśmy</a>
+            <a href="/portfolio">Zobacz projekty jakie wykonaliśmy</a>
           </div>
         </div>
       </ScrollAnimation>
@@ -148,7 +143,8 @@ const AboutUs = () => (
         </div>
       </ScrollAnimation>
     </div>
-  </section>
+    <Skills />
+  </>
 );
 
 export default AboutUs;

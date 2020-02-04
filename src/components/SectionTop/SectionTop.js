@@ -7,7 +7,7 @@ export const SectionTop = ({ smallHeader, bigHeader, paragraph, colorWhite }) =>
     <ScrollAnimation
       className={styles.top__about}
       animateIn="slideInLeft"
-      delay={100}
+      delay={50}
       animateOnce={true}
       style={{ color: colorWhite && '#fff' }}
     >

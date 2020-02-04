@@ -3,6 +3,7 @@
   margin-bottom: 15px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -10,9 +11,11 @@
   button:active {
     outline: none;
   }
+
   button:focus {
     outline: none;
   }
+
   button {
     cursor: pointer;
   }
@@ -25,6 +28,7 @@
   color: #fff;
   border: 3px solid #FE6304;
   margin-right: 20px;
+  width: 145px;
 }
 
 .portfolio__button--active {
@@ -34,35 +38,30 @@
   color: #FE6304;
   border: 3px solid #FE6304;
   margin-right: 20px;
+  width: 145px;
 }
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { 
-  .portfolio__button, .portfolio__button--active {
+@media (max-width: 575.98px) {
+
+  .portfolio__button,
+  .portfolio__button--active {
     font-size: 10px;
     padding: 10px 15px;
     margin-right: 0;
     margin-bottom: 10px;
     width: 100%;
   }
- }
+}
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { 
-
- }
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { 
-  
- }
+@media (min-width: 768px) and (max-width: 991.98px) {}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-
- }
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-
- }
+@media (min-width: 1200px) {}

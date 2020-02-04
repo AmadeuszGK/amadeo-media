@@ -54,13 +54,13 @@ const MenuDesktop = () => (
             Kontakt
           </Link>
         </li>
-        <li>
+        {/* <li>
           <div className="menu-dekstop__item language__wrapper">
             <p className="language__item language__item--pl language--active">PL</p>
             <p className="language__item language__item--en">EN</p>
             <p className="language__item language__item--de">DE</p>
           </div>
-        </li>
+        </li> */}
       </ul>
     </nav>
   </div>

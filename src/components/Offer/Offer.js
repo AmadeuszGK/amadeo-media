@@ -1,226 +1,636 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-import offerItem1 from '../../images/offer-item-1.png';
-import offerItem2 from '../../images/offer-item-2.png';
-import offerItem3 from '../../images/offer-item-3.png';
 import offerItemImg1 from '../../images/offer-item-img-1.png';
 import offerItemImg2 from '../../images/offer-item-img-2.png';
 import offerItemImg3 from '../../images/offer-item-img-3.png';
-import number01 from '../../images/number-01.png';
-import number02 from '../../images/number-02.png';
-import number03 from '../../images/number-03.png';
+import offerItemImg4 from '../../images/offer-item-img-4.png';
+import number01grey from '../../images/number-01-grey.png';
+import number03grey from '../../images/number-03-grey.png';
+import number05grey from '../../images/number-05-grey.png';
+import number02white from '../../images/number-02-white.png';
+import number04white from '../../images/number-04-white.png';
+import sass from '../../images/sass.png';
 
 import './Offer.scss';
 
 const Offer = () => (
   <section className="section-offer" id="section-offer">
-    <div className="offer-item--nobg">
+    <div className="offer__section">
+      <img src={number01grey} alt="number" className="offer__number" />
       <ScrollAnimation
-        className="top-text"
-        animateIn="slideInLeft"
-        delay={400}
+        animateIn="slideInRight"
+        delay={0}
         animateOnce={true}
-        className="offer-item__image"
+        className="offer__title"
       >
-        <img src={offerItem1} />
-        <div className="offer-item__portfolio-container mobile-only">
-          <div className="offer-item__portfolio">
-            <div className="what__specification__btn__icon p-event-none">
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-            </div>
-            <a href="/portfolio">Zobacz przykłady stron jakie wykonaliśmy</a>
-          </div>
+        <img src={offerItemImg1} />
+        <div className="title__text">
+          <h2>Cennik Stron Internetowych</h2>
+          <p>
+            Nasze usugi charakteryzuje nowoczesne podejście do tematu, dokładność oraz przejżystość
+            cenowa. Naciśnij na interesującą Cię kategorię lub kliknij tutaj aby przejść do ofetry i
+            cennika.
+          </p>
         </div>
       </ScrollAnimation>
-      <ScrollAnimation
-        className="top-text"
-        animateIn="slideInRight"
-        delay={1000}
-        animateOnce={true}
-        className="offer-item__image"
-        className="offer-item__desc"
-      >
-        <div className="offer-item__number">
-          <img src={number01} />
-        </div>
-        <div className="desc__header">
-          <img src={offerItemImg1} className="desc-header__image" />
-          <h2>Strony internetowe</h2>
-        </div>
-        <p className="offer-item__about">
-          Każda strona jest inna, dlatego nie posiadamy sztywnego cennika i każdą stronę wyceniamy
-          indywidualnie. Na końcową cenę składają się m.in. ilość podstron i treści, wykorzysywane
-          technologie, ilość języków na stronie czy skomplikowanie graficzne.
-        </p>
-        <div className="desc__variant">
-          <h3>Od 800zł netto</h3>
+      <div className="offer__items">
+        <ScrollAnimation
+          animateIn="slideInUp"
+          delay={1200}
+          animateOnce={true}
+          className="offer__item"
+        >
+          <img src={sass} alt="website bronze" />
           <p>
-            Strony typu One Page. Są to strony internetowe składające się z „jednej strony” głównej,
-            często wydłużonej, po której można poruszać się przesuwając scrollem, używając
-            specjalnej nawigacji na stronie lub głównego menu strony. Menu strony nie przenosi do
-            podstron, których na takiej stronie nie ma, a do odpowiedniego miejsca na stronie.{' '}
+            <b>- Do 2 podstron</b>
+            <br />
+            <b>- 3 dodatki do wyboru</b>
+            <br />
+            - unikalny projekt graficzny
+            <br />
+            - dostosowanie do urządzeń mobilnych
+            <br />
+            - nielimitowane poprawki projektu
+            <br />
+            - informacja o ciasteczkach i polityka prywatności
+            <br />
+            - możliwość samodzielnej edycji (CMS)
+            <br />
           </p>
-        </div>
-        <div className="desc__variant">
-          <h3>Od 1700zł netto</h3>
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateIn="slideInUp"
+          delay={900}
+          animateOnce={true}
+          className="offer__item"
+        >
+          <img src={sass} alt="website bronze" />
           <p>
-            Rozbudowana strona z wieloma podstronami i systemem zarządzania CMS, dzięki któremu
-            będziesz mógł aktualizować treści samodzielnie. Najlepszy wybór dla małych i średnich
-            firm.<a href="/">Przykład.</a>
+            <b>- Do 5 podstron</b>
+            <br />
+            <b>- 4 dodatków do wyboru</b>
+            <br />
+            - unikalny projekt graficzny
+            <br />
+            - dostosowanie do urządzeń mobilnych
+            <br />
+            - nielimitowane poprawki projektu
+            <br />
+            - informacja o ciasteczkach i polityka prywatności
+            <br />
+            - możliwość samodzielnej edycji (CMS)
+            <br />
           </p>
-        </div>
-        <div className="offer-item__portfolio-container desktop-only">
-          <div className="offer-item__portfolio">
-            <div className="what__specification__btn__icon p-event-none">
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-              <span className="p-event-none" />
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateIn="slideInUp"
+          delay={600}
+          animateOnce={true}
+          className="offer__item"
+        >
+          <img src={sass} alt="website bronze" />
+          <p>
+            <b>- do 10 podstron</b>
+            <br />
+            <b>- 6 dodatki do wyboru</b>
+            <br />
+            <b>- dodatkowy język</b>
+            <br />- unikalny projekt graficzny
+            <br />
+            - dostosowanie do urządzeń mobilnych
+            <br />
+            - nielimitowane poprawki projektu
+            <br />
+            - informacja o ciasteczkach i polityka prywatności
+            <br />
+            - możliwość samodzielnej edycji (CMS)
+            <br />
+          </p>
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateIn="slideInUp"
+          delay={300}
+          animateOnce={true}
+          className="offer__item"
+        >
+          <img src={sass} alt="website bronze" />
+          <p>
+            <b>- nielimitowana ilość podstron</b>
+            <br />
+            <b>- nielimitowana ilość dodatków</b>
+            <br />
+            <b>- nielimitowana ilość dodatkowych języków</b>
+            <br />
+            - unikalny projekt graficzny
+            <br />
+            - dostosowanie do urządzeń mobilnych
+            <br />
+            - nielimitowane poprawki projektu
+            <br />
+            - informacja o ciasteczkach i polityka prywatności
+            <br />
+            - możliwość samodzielnej edycji (CMS)
+            <br />
+          </p>
+        </ScrollAnimation>
+      </div>
+
+      <div className="offer__featuresWrapper">
+        <ScrollAnimation
+          animateIn="slideInRight"
+          delay={100}
+          animateOnce={true}
+          className="offer__features"
+        >
+          <h2>Dodatki do stron internetowych:</h2>
+          <div className="features__items">
+            <div className="feature__item">
+              <p className="feature__name">dodatkowy język</p>
+              <p className="feature__price">15% ceny końowej</p>
             </div>
-            <a href="/portfolio">Zobacz przykłady stron jakie wykonaliśmy</a>
+            <div className="feature__item">
+              <p className="feature__name">czat facebook</p>
+              <p className="feature__price">100zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">konto google analitics</p>
+              <p className="feature__price">60zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">wyskakujące okienko (pop-up)</p>
+              <p className="feature__price">80zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">galeria zdjęć</p>
+              <p className="feature__price">100zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">mapa</p>
+              <p className="feature__price">60zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">blog</p>
+              <p className="feature__price">100zł</p>
+            </div>
+          </div>
+          <div className="features__items">
+            <div className="feature__item">
+              <p className="feature__name">newsletter</p>
+              <p className="feature__price">100zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">informacja o ciasteczkach i RODO</p>
+              <p className="feature__price">FREE</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">formularz kontaktowy</p>
+              <p className="feature__price">60zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Utworzenie dodatkowej podstrony</p>
+              <p className="feature__price">od 100zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Skrzynka pocztowa</p>
+              <p className="feature__price">60zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">portfolio</p>
+              <p className="feature__price">100zł</p>
+            </div>
+          </div>
+        </ScrollAnimation>
+      </div>
+    </div>
+
+    <div className="offer__section offer__section--bg">
+      <img src={number02white} alt="number" className="offer__number" />
+      <ScrollAnimation
+        animateIn="slideInRight"
+        delay={100}
+        animateOnce={true}
+        className="offer__title"
+      >
+        <img src={offerItemImg2} />
+        <div className="title__text">
+          <h2>Cennik Sklepów Internetowych (E-commerce)</h2>
+          <p>
+            Nasze usugi charakteryzuje nowoczesne podejście do tematu, dokładność oraz przejżystość
+            cenowa. Naciśnij na interesującą Cię kategorię lub kliknij tutaj aby przejść do ofetry i
+            cennika.
+          </p>
+        </div>
+      </ScrollAnimation>
+      <div className="offer__items">
+        <ScrollAnimation
+          animateIn="slideInUp"
+          delay={1300}
+          animateOnce={true}
+          className="offer__item"
+        >
+          <img src={sass} alt="website bronze" />
+          <p>
+            <b>- Do 3 podstron</b>
+            <br />
+            <b>- 3 dodatki do wyboru</b>
+            <br />
+            <b>- do 2 rodzajów płatności</b>
+            <br />
+            <b>- do 2 rodzajów wysyłki</b>
+            <br />
+            <b>- wprowadzenie do 10 produktów</b>
+            <br />
+            - oparty na Woocomerce
+            <br />
+            - unikalny projekt graficzny
+            <br />
+            - dostosowanie do urządzeń mobilnych
+            <br />
+            - nielimitowane poprawki projektu
+            <br />
+            - informacja o ciasteczkach i polityka prywatności
+            <br />
+            - możliwość samodzielnej obsługi sklepu (CMS)
+            <br />
+            - pomoc techniczna po wdrożeniowa 30 dni
+            <br />
+          </p>
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateIn="slideInUp"
+          delay={1000}
+          animateOnce={true}
+          className="offer__item"
+        >
+          <img src={sass} alt="website bronze" />
+          <p>
+            <b>- Do 5 podstron</b>
+            <br />
+            <b>- 4 dodatki do wyboru</b>
+            <br />
+            <b>- do 3 rodzajów płatności</b>
+            <br />
+            <b>- do 4 rodzajów wysyłki</b>
+            <br />
+            <b>- wprowadzenie do 25 produktów</b>
+            <br />
+            - oparty na Woocomerce
+            <br />
+            - unikalny projekt graficzny
+            <br />
+            - dostosowanie do urządzeń mobilnych
+            <br />
+            - nielimitowane poprawki projektu
+            <br />
+            - informacja o ciasteczkach i polityka prywatności
+            <br />
+            - możliwość samodzielnej obsługi sklepu (CMS)
+            <br />
+            - pomoc techniczna po wdrożeniowa 30 dni
+            <br />
+          </p>
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateIn="slideInUp"
+          delay={700}
+          animateOnce={true}
+          className="offer__item"
+        >
+          <img src={sass} alt="website bronze" />
+          <p>
+            <b>- Do 10 podstron</b>
+            <br />
+            <b>- 6 dodatki do wyboru</b>
+            <br />
+            <b>- do 5 rodzajów płatności</b>
+            <br />
+            <b>- do 6 rodzajów wysyłki</b>
+            <br />
+            <b>- wprowadzenie do 50 produktów</b>
+            <br />
+            <b>- dodatkowy język</b>
+            <br />
+            - oparty na Woocomerce
+            <br />
+            - unikalny projekt graficzny
+            <br />
+            - dostosowanie do urządzeń mobilnych
+            <br />
+            - nielimitowane poprawki projektu
+            <br />
+            - informacja o ciasteczkach i polityka prywatności
+            <br />
+            - możliwość samodzielnej obsługi sklepu (CMS)
+            <br />
+            - pomoc techniczna po wdrożeniowa 30 dni
+            <br />
+          </p>
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateIn="slideInUp"
+          delay={400}
+          animateOnce={true}
+          className="offer__item"
+        >
+          <img src={sass} alt="website bronze" />
+          <p>
+            <b>- nielimitowana ilość podstron</b>
+            <br />
+            <b>- nielimitowana ilość dodatków</b>
+            <br />
+            <b>- nielimitowana ilość płatności</b>
+            <br />
+            <b>- nielimitowana ilość wysyłki</b>
+            <br />
+            <b>- wprowadzenie wszystkich przedmiotów</b>
+            <br />
+            <b>- nielimitowana ilość języków</b>
+            <br />
+            - oparty na Woocomerce
+            <br />
+            - unikalny projekt graficzny
+            <br />
+            - dostosowanie do urządzeń mobilnych
+            <br />
+            - nielimitowane poprawki projektu
+            <br />
+            - informacja o ciasteczkach i polityka prywatności
+            <br />
+            - możliwość samodzielnej obsługi sklepu (CMS)
+            <br />
+            - pomoc techniczna po wdrożeniowa 30 dni
+            <br />
+          </p>
+        </ScrollAnimation>
+      </div>
+
+      <div className="offer__featuresWrapper">
+        <ScrollAnimation
+          animateIn="slideInRight"
+          delay={100}
+          animateOnce={true}
+          className="offer__features"
+        >
+          <h2>Dodatki do sklepów internetowych:</h2>
+          <div className="features__items">
+            <div className="feature__item">
+              <p className="feature__name">dodatkowy język</p>
+              <p className="feature__price">15% ceny końowej</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">
+                Metody płatności: PayU, Przelewy24, PayPal, Przelew Bankowy, Za pobraniem
+              </p>
+              <p className="feature__price">60zł każda</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Metody dostawy: Poczta, Kurier, Odbiór osobisty</p>
+              <p className="feature__price">60zł każda</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">czat facebook</p>
+              <p className="feature__price">100zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">konto google analitics</p>
+              <p className="feature__price">60zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">wyskakujące okienko (pop-up)</p>
+              <p className="feature__price">80zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">galeria zdjęć</p>
+              <p className="feature__price">100zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">mapa</p>
+              <p className="feature__price">60zł</p>
+            </div>
+          </div>
+          <div className="features__items">
+            <div className="feature__item">
+              <p className="feature__name">blog</p>
+              <p className="feature__price">100zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Kody rabatowe</p>
+              <p className="feature__price">60zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">
+                Waitlist – powiadom kiedy będzie dostępny produkt 150zł
+              </p>
+              <p className="feature__price">150zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">newsletter</p>
+              <p className="feature__price">100zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">informacja o ciasteczkach i RODO</p>
+              <p className="feature__price">FREE</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">formularz kontaktowy</p>
+              <p className="feature__price">60zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Utworzenie dodatkowej podstrony</p>
+              <p className="feature__price">od 100zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Skrzynka pocztowa</p>
+              <p className="feature__price">60zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">portfolio</p>
+              <p className="feature__price">100zł</p>
+            </div>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation
+          animateIn="slideInLeft"
+          delay={100}
+          className="offer__features offer__features--padding"
+        >
+          <h2>Dodatki specjalne:</h2>
+          <div className="features__items">
+            <div className="feature__item">
+              <p className="feature__name">Sklep na Facebooku 100zł</p>
+              <p className="feature__price">100zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Sklep na Facebooku + Instagram</p>
+              <p className="feature__price">200zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">
+                Automatyczna integracja z DPD, InPost, DHL, UPS, Poczta Polska
+              </p>
+              <p className="feature__price">300zł</p>
+            </div>
+          </div>
+          <div className="features__items">
+            <div className="feature__item">
+              <p className="feature__name">Integracja z Allegro</p>
+              <p className="feature__price">600zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Integracja z Opineo</p>
+              <p className="feature__price">200zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Integracja z Ceneo</p>
+              <p className="feature__price">250zł</p>
+            </div>
+          </div>
+          <p style={{ fontSize: '10px', marginTop: '10px', marginLeft: '15px' }}>
+            * Dodatki specjalne, są płatne zawsze bez względu na rodzaj wybranego pakietu.
+          </p>
+        </ScrollAnimation>
+      </div>
+    </div>
+
+    <div className="offer__section">
+      <img src={number03grey} alt="number" className="offer__number" />
+      <ScrollAnimation
+        animateIn="slideInRight"
+        delay={100}
+        animateOnce={true}
+        className="offer__title"
+      >
+        <img src={offerItemImg3} />
+        <div className="title__text">
+          <h2>Cennik usuług graficznych</h2>
+          <p>
+            Nasze usugi charakteryzuje nowoczesne podejście do tematu, dokładność oraz przejżystość
+            cenowa. Naciśnij na interesującą Cię kategorię lub kliknij tutaj aby przejść do ofetry i
+            cennika.
+          </p>
+        </div>
+      </ScrollAnimation>
+
+      <ScrollAnimation
+        animateIn="slideInLeft"
+        delay={100}
+        animateOnce={true}
+        className="offer__featuresWrapper offer__features--padding"
+      >
+        <div className="offer__features">
+          <div className="features__items">
+            <div className="feature__item">
+              <p className="feature__name">Wizytówka jednostrona</p>
+              <p className="feature__price">120zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Wizytówka dwustronna</p>
+              <p className="feature__price">160zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Ulotka w wybranym formacie</p>
+              <p className="feature__price">od 150zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Baner</p>
+              <p className="feature__price">od 150zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Logo</p>
+              <p className="feature__price">od 200zł</p>
+            </div>
+          </div>
+          <div className="features__items">
+            <div className="feature__item">
+              <p className="feature__name">Projekty na Social Media</p>
+              <p className="feature__price">od 50zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Stopka e-mail</p>
+              <p className="feature__price">od 100zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Projekt katalogu</p>
+              <p className="feature__price">od 200zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">
+                Projekt graficzny strony internetowej, sklepu, portalu
+              </p>
+              <p className="feature__price">od 250zł</p>
+            </div>
           </div>
         </div>
       </ScrollAnimation>
     </div>
 
-    <div className="offer-item--bg">
+    <div className="offer__section  offer__section--bg">
+      <img src={number04white} alt="number" className="offer__number" />
       <ScrollAnimation
-        className="top-text"
-        animateIn="slideInLeft"
-        delay={400}
+        animateIn="slideInRight"
+        delay={100}
         animateOnce={true}
-        className="offer-item__desc offer-item__desc--left"
+        className="offer__title"
       >
-        <div className="offer-item__number">
-          <img src={number02} />
-        </div>
-        <div className="desc__header">
-          <img src={offerItemImg2} className="desc-header__image" />
-          <h2>Sklepy internetowe (E-commerce)</h2>
-        </div>
-        <p className="offer-item__about">
-          Sklep internetowy to automatyczna platforma sprzedażowa działająca 24h/dobę przez 365 dni
-          w roku. Wszystkie sklepy opieramy na najpopularniejszym obecnie rozwiązaniu Woocommerce.
-          Na cenę sklepu wpływają ilość metod płatności, metod dostaw, produktów oraz dodatkowe
-          integracje.
-        </p>
-        <div className="desc__variant">
-          <h3>Od 3000zł netto</h3>
+        <img src={offerItemImg4} />
+        <div className="title__text">
+          <h2>Cennik administracji i naprawa</h2>
           <p>
-            Sklep oparty o Wordpress Woocommerce, który z łatwością będziesz mogł obsługiwać sam. Ty
-            decydujesz jakie funkcje mają się w nim znajdować. Zapewniamy integrację z: <br />
-            <br /> - metodami płatności jak PayU, Przelewy24, PayPal, DotPay, iMoje itd.
-            <br />- metodami wysyłki jak DHL, inPost, DPD, UPS, Pocztą Polską itd.
-            <br />- oraz wtyczkami Allegro, Facebook, Instagram, Google Shopping, Przucony koszyk,
-            Newsletter, Wishlist itd.
+            Nasze usugi charakteryzuje nowoczesne podejście do tematu, dokładność oraz przejżystość
+            cenowa. Naciśnij na interesującą Cię kategorię lub kliknij tutaj aby przejść do ofetry i
+            cennika.
           </p>
         </div>
-        <div className="offer-item__portfolio-container desktop-only">
-          <div className="offer-item__portfolio">
-            <div className="what__specification__btn__icon p-event-none">
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-            </div>
-            <a href="/portfolio">Zobacz przykłady sklepów jakie wykonaliśmy</a>
-          </div>
-        </div>
       </ScrollAnimation>
-      <ScrollAnimation
-        className="top-text"
-        animateIn="slideInRight"
-        delay={1000}
-        animateOnce={true}
-        className="offer-item__image"
-      >
-        <img src={offerItem2} />
-        <div className="offer-item__portfolio-container mobile-only">
-          <div className="offer-item__portfolio">
-            <div className="what__specification__btn__icon p-event-none">
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-            </div>
-            <a href="/portfolio">Zobacz przykłady sklepów jakie wykonaliśmy</a>
-          </div>
-        </div>
-      </ScrollAnimation>
-    </div>
 
-    <div className="offer-item--nobg">
       <ScrollAnimation
-        className="top-text"
         animateIn="slideInLeft"
-        delay={400}
+        delay={100}
         animateOnce={true}
-        className="offer-item__image"
+        className="offer__featuresWrapper offer__features--padding"
       >
-        <img src={offerItem3} />
-        <div className="offer-item__portfolio-container mobile-only">
-          <div className="offer-item__portfolio">
-            <div className="what__specification__btn__icon p-event-none">
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-              <span className="p-event-none" />
+        <div className="offer__features">
+          <div className="features__items">
+            <div className="feature__item">
+              <p className="feature__name">Poprawka lub zmiana w tekście</p>
+              <p className="feature__price">40zł</p>
             </div>
-            <a href="/portfolio">Zobacz projekty, przy których pracowaliśmy</a>
+            <div className="feature__item">
+              <p className="feature__name">Poprawka lub zmiana graficzna</p>
+              <p className="feature__price">40-80zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Dodanie postrony</p>
+              <p className="feature__price">od 100zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Zmiana układu menu/podstron w tym usunięcie</p>
+              <p className="feature__price">60zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Podstawowe SEO</p>
+              <p className="feature__price">250zł</p>
+            </div>
           </div>
-        </div>
-      </ScrollAnimation>
-      <ScrollAnimation
-        className="top-text"
-        animateIn="slideInRight"
-        delay={1000}
-        animateOnce={true}
-        className="offer-item__desc"
-      >
-        <div className="offer-item__number">
-          <img src={number03} />
-        </div>
-        <div className="desc__header">
-          <img src={offerItemImg3} className="desc-header__image" />
-          <h2>Modyfikacje, grafika, administracja, SEO</h2>
-        </div>
-        <div className="desc__variant">
-          <h3>Modyfikacje 70zł netto za godzinę</h3>
-          <p>
-            Czasami ciezko swierdzić co jest problemem na twojej starej stornie, dlatego posługujemy
-            się tez stawką godzinową. Nie musisz się tego bać, zawszę przewidujemy czas modyfikacji
-            i umawiamy się na konkretną kwotę. Jeśli zajmie nam to więcej czasu, ty nie ponosisz
-            dodatkowych kosztów.
-          </p>
-        </div>
-        <div className="desc__variant">
-          <h3>Grafika od 100zł netto</h3>
-          <p>
-            Nasz zespół to takze kreatywni graficy. Tworzymy loga, katalogi, projekty stron,
-            wizytówki, stopki emailowe, reklamy, banery itd.
-          </p>
-        </div>
-        <div className="desc__variant">
-          <h3>Administracja od 150zł netto miesięcznie</h3>
-          <p>
-            Nie masz czasu albo nie wiesz jak zajmować się stroną? Oddaj ją w nasze ręce. Będziemy
-            czówać nad tym, aby strona działała jak nalezy, będziemy tworzyć kopie zapasowe oraz
-            dbać o jej bezpieczeństwo. Mozemy tez zająć się aktualizowaniem danych na stronie.
-          </p>
-        </div>
-        <div className="offer-item__portfolio-container desktop-only">
-          <div className="offer-item__portfolio">
-            <div className="what__specification__btn__icon p-event-none">
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-              <span className="p-event-none" />
+          <div className="features__items">
+            <div className="feature__item">
+              <p className="feature__name">Optymalizacja</p>
+              <p className="feature__price">200zł</p>
             </div>
-            <a href="/portfolio">Zobacz projekty, przy których pracowaliśmy</a>
+            <div className="feature__item">
+              <p className="feature__name">administracja sklepu internetowego</p>
+              <p className="feature__price">od 120zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Administracja strony internetowej</p>
+              <p className="feature__price">od 50zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">Naprawa twojej starej strony</p>
+              <p className="feature__price">od 200zł</p>
+            </div>
           </div>
         </div>
       </ScrollAnimation>

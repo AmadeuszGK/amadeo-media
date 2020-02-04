@@ -25,6 +25,7 @@
     align-items: center;
     z-index: 5;
     cursor: pointer;
+
     img {
         max-width: 50px;
     }
@@ -44,6 +45,7 @@
         list-style-type: none;
         margin: 0;
         cursor: pointer;
+
         li {
             width: 100%;
             text-align: center;
@@ -79,11 +81,13 @@
 
 .website-content {
     position: relative;
+
     .main-content-button {
         display: none;
     }
 
-    .main-content {
+    .main-content,
+    .suqare-logo {
         transition: transform 0.6s ease-in-out;
     }
 
@@ -94,11 +98,13 @@
 
 .website-content--show-menu {
     position: relative;
+
     .main-content-button {
         display: block;
     }
 
-    .main-content {
+    .main-content,
+    .suqare-logo {
         transition: 0.6s ease-in-out;
         transform: translateX(-300px)
     }
@@ -276,6 +282,7 @@
     padding-top: 45px;
     padding-bottom: 45px;
     overflow: hidden;
+
     ul {
         display: flex;
     }
@@ -309,6 +316,11 @@
     cursor: pointer;
 }
 
+.language__wrapper,
+.side-menu__language {
+    display: none !important;
+}
+
 .language__item {
     padding: 0 5px 0 5px;
     transition: color 0.2s ease-in-out;
@@ -323,11 +335,12 @@
     padding: 0 !important;
 }
 
-.top-logo img{
+.top-logo img {
     max-width: 180px;
 }
 
-.menu-dekstop__item:hover, .language__item:hover {
+.menu-dekstop__item:hover,
+.language__item:hover {
     color: #FF3535;
 }
 
@@ -338,18 +351,22 @@
 .header-small {
     //background-image: url('../images/mobile-menu-bg.png');
     //background-repeat: no-repeat;
-    background: linear-gradient(90deg, rgba(1,167,253,1) 19%, rgba(74,60,225,1) 98%);
+    background: linear-gradient(90deg, rgba(1, 167, 253, 1) 19%, rgba(74, 60, 225, 1) 98%);
     width: 100%;
     z-index: 20;
+
     .menu-desktop {
         position: relative;
     }
+
     .top-logo img {
         max-width: 100px;
     }
-    .menu-dekstop__content {
-        padding: 25px 120px;
-    }
+
+}
+
+.menu-dekstop__content {
+    padding: 25px 120px;
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -396,30 +413,38 @@
     .side-menu {
         padding-top: 6px;
     }
+
     .menu-dekstop__content {
         padding-left: 35px;
         padding-right: 35px;
-     }
-     .top-logo img{
-         max-width: 100px;
-     }
-     .menu-dekstop__item, .header-small {
-         display: none;
-     }
-     .side-menu {
-         z-index: 14;
-     }    
-     .menu-button {
+    }
+
+    .top-logo img {
+        max-width: 100px;
+    }
+
+    .menu-dekstop__item,
+    .header-small {
+        display: none;
+    }
+
+    .side-menu {
+        z-index: 14;
+    }
+
+    .menu-button {
         left: -50px;
         height: 50px;
         width: 50px;
-     }
-     .suqare-logo {
-         z-index: 15;
-         width: 50px;
-         height: 50px;
-     }
-     .suqare-logo img {
+    }
+
+    .suqare-logo {
+        z-index: 15;
+        width: 50px;
+        height: 50px;
+    }
+
+    .suqare-logo img {
         max-width: 35px;
     }
 }
@@ -468,22 +493,40 @@
     .side-menu {
         padding-top: 6px;
     }
+
     .menu-dekstop__content {
-       padding-left: 35px;
-       padding-right: 35px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
-    .top-logo img{
+
+    .top-logo img {
         max-width: 100px;
     }
-    .menu-dekstop__item, .header-small {
+
+    .menu-dekstop__item,
+    .header-small {
         display: none;
     }
+
     .side-menu {
         z-index: 14;
-    }   
-    .suqare-logo {
+    }
+
+    .suqare-logo,
+    .menu-button {
         z-index: 15;
-    } 
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu-button {
+        left: -50px;
+    }
+
+    .suqare-logo img {
+        max-width: 35px;
+    }
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -526,16 +569,19 @@
         padding-top: 18px;
         padding-bottom: 18px;
     }
+
     .menu-dekstop__item {
         font-size: 11px;
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .menu-dekstop__content {
         padding-left: 30px;
         padding-right: 15px;
     }
-    .top-logo img{
+
+    .top-logo img {
         max-width: 100px;
     }
 }
@@ -549,14 +595,17 @@
             }
         }
     }
+
     .menu-dekstop__item {
         font-size: 12px;
         padding-left: 23px;
         padding-right: 23px;
     }
-    .top-logo img{
+
+    .top-logo img {
         max-width: 130px;
     }
+
     .menu-dekstop__content {
         padding: 45px 30px 45px 30px;
     }
@@ -567,6 +616,7 @@
     .menu-dekstop__item {
         font-size: 12px;
     }
+
     .top-logo img {
         max-width: 150px;
     }
@@ -619,5 +669,4 @@
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 2560px) and (max-width: 50000.98px) {
-}
+@media (min-width: 2560px) and (max-width: 50000.98px) {}

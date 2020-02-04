@@ -48,10 +48,10 @@ const OfferHome = () => (
           </Link>
         </ScrollAnimation>
         <ScrollAnimation
-          className={styles.offer__item}
           animateIn="slideInUp"
-          delay={700}
+          delay={600}
           animateOnce={true}
+          className={styles.offer__item}
         >
           <div to="/offer-and-pricing">
             <img src={offerItem2} alt="ecommerce" />
@@ -68,7 +68,7 @@ const OfferHome = () => (
         <ScrollAnimation
           className={styles.offer__item}
           animateIn="slideInUp"
-          delay={1100}
+          delay={900}
           animateOnce={true}
         >
           <div to="/offer-and-pricing">
@@ -86,7 +86,7 @@ const OfferHome = () => (
         <ScrollAnimation
           className={styles.offer__item}
           animateIn="slideInUp"
-          delay={1500}
+          delay={1200}
           animateOnce={true}
         >
           <div to="/offer-and-pricing">
@@ -105,7 +105,7 @@ const OfferHome = () => (
         <ScrollAnimation
           className={styles.offer__item}
           animateIn="slideInUp"
-          delay={1900}
+          delay={1500}
           animateOnce={true}
         >
           <div to="/offer-and-pricing">

@@ -14,7 +14,7 @@ const ContactHome = () => (
       <ScrollAnimation
         className="contact__details"
         animateIn="slideInLeft"
-        delay={300}
+        delay={100}
         animateOnce={true}
       >
         <div className="contact__header">

@@ -5,22 +5,33 @@ import MenuDesktop from '../Menu/MenuDesktop/MenuDesktop';
 import './Header.scss';
 import ButtonLink from '../Button/ButtonLink';
 import headerImg from '../../images/amadeusz-pic-1.png';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Header = () => (
   <header style={{ height: 100 + 'vh' }}>
     <MenuDesktop />
 
     <div className="canvas__container">
-      <div className="header__bg--bottom">
+      <ScrollAnimation
+        animateIn="slideInRight"
+        delay={500}
+        animateOnce={true}
+        className="header__bg--bottom"
+      >
         <img src={headerImg} alt="header img" />
-      </div>
+      </ScrollAnimation>
       <canvas id="stars" width="300" />
-      <div className="canvas-text">
+      <ScrollAnimation
+        animateIn="slideInLeft"
+        delay={500}
+        animateOnce={true}
+        className="canvas-text"
+      >
         <p>Nowa jakość w tworzeniu internetowej treści.</p>
         {/* <h2>{headerText}</h2> */}
         <h1>NOWOCZESNE STRONY I SKLEPY INTERNETOWE</h1>
         <ButtonLink text="ZOBACZ NASZE PORTFOLIO" href="/portfolio" class="button button--alert" />
-      </div>
+      </ScrollAnimation>
       <Link className="scroll-down" to="/#section__offer">
         <div className="scroll-down__container">
           <img src={arrowsWhite} alt="arrow" />

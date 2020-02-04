@@ -1,410 +1,362 @@
 .section-offer {
-    margin-top: 0px;
+    margin-top: 40px;
 }
 
-.offer-item--nobg,
-.offer-item--bg {
-    height: 800px;
-    padding: 120px 120px 80px 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.offer__section--bg {
+    background: #F8F8F8;
 }
 
-.offer-item__image {
-    max-width: 50%;
-}
-
-.offer-item__image img {
-    width: 100%;
-    border-radius: 5px;
-}
-
-.offer-item__desc {
-    padding: 80px 0px 80px 120px;
+.offer__section {
+    padding: 80px 120px;
     position: relative;
+}
+
+.offer__number {
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    z-index: 0;
+    max-height: 300px;
+}
+
+.offer__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
     h2 {
-        font-size: 30px;
-        padding-left: 50px;
+        font-family: "Montserrat Bold";
+        font-weight: 800;
+        font-size: 26px;
+        margin: 0;
+        margin-bottom: 40px;
+        z-index: 2;
     }
 
     p {
-        font-family: 'Montserrat Light';
-        font-size: 14px;
-        color: #131313;
+        font-size: 22px;
+        font-family: "Montserrat Regular";
+        font-weight: 400;
+        line-height: 1.25;
+        color: #4a4a4a;
+        width: 80%;
+        z-index: 2;
     }
-}
-
-.offer-item__number {
-    position: absolute;
-    left: 70px;
-    top: -40px;
-    z-index: -1;
-}
-
-.offer-item__desc--left {
-    padding: 80px 120px 80px 0px;
-}
-
-.desc__header {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-.desc__header {
-    margin-bottom: 50px;
 
     img {
-        max-height: 70px;
-        margin-left: 20px;
+        max-width: 200px;
+        height: auto;
     }
 }
 
-.desc__variant {
-    margin-top: 50px;
-
-    h3 {
-        font-size: 22px;
-        padding-left: 50px;
-        font-family: 'Montserrat Bold';
-        padding-bottom: 15px;
-    }
-}
-
-.offer-item__portfolio-container {
-    padding: 15px 0px 15px 0px;
-    border-top: 1px solid #9B9B9B;
-    margin-top: 50px;
-
-    a {
-        font-family: 'Montserrat Bold';
-        font-size: 14px;
-        text-decoration: none;
-        color: #131313;
-        padding-left: 20px;
-        transition: padding-left 0.3s ease-in-out;
-    }
-}
-
-.offer-item__portfolio {
+.title__text {
     display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.offer__items {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+    margin-top: 80px;
+    flex-wrap: wrap;
 }
 
-.offer-item__portfolio:hover {
-    a {
-        padding-left: 30px;
-    }
-
-    .what__specification__btn__icon {
-        transform-origin: center center;
-        transform: rotate(90deg);
-    }
-}
-
-.what__specification__btn__icon {
+.offer__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px 0 hsla(0, 2%, 49%, .14);
+    width: calc(20% - 30px);
+    margin: 15px;
     position: relative;
-    width: 16px;
-    height: 16px;
-    transition: transform 0.3s ease-in-out;
+    padding: 80px 25px 50px 25px;
+    background-color: #fff;
+
+    img {
+        position: absolute;
+        width: 90%;
+        top: -80px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+
+    }
+
+    p {
+        font-family: "Montserrat Regular";
+        font-weight: 400;
+        font-size: 13px;
+        color: #808080;
+        margin: 0px;
+        text-transform: uppercase;
+        line-height: 20px;
+    }
 }
 
-.what__specification__btn__icon span {
-    position: absolute;
-    background-color: #4a00d8;
-    width: 6px;
-    height: 6px;
+.features__items {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0px 15px;
 }
 
-.what__specification__btn__icon span:first-of-type {
-    top: 0;
-    left: 0;
+.offer__featuresWrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 25px 0px;
+    justify-content: center;
+    align-items: flex-start;
+
+    h2 {
+        width: 100%;
+        font-family: "Montserrat Bold";
+        margin-bottom: 25px;
+        padding: 0px 15px;
+    }
+
+    p {
+        font-family: "Montserrat Regular";
+        font-weight: 400;
+        font-size: 13px;
+        color: #808080;
+        margin: 0px;
+        text-transform: uppercase;
+        line-height: 20px;
+    }
 }
 
-.what__specification__btn__icon span:nth-of-type(2) {
-    top: 0;
-    right: 0;
+.offer__features {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.what__specification__btn__icon span:nth-of-type(3) {
-    bottom: 0;
-    left: 0;
+.feature__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dotted #808080;
+    margin-bottom: 10px;
 }
 
-.what__specification__btn__icon span:nth-of-type(4) {
-    bottom: 0;
-    right: 0;
+.feature__name {
+    padding-right: 15px;
 }
 
-.offer-item--bg {
-    background-color: #F8F8F8;
+.feature__price {
+    text-align: right;
 }
+
+.offer__features--padding {
+    padding-top: 40px !important;
+}
+
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
     .section-offer {
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
-    .offer-item--bg {
-        flex-direction: column;
+    .offer__section--bg {
+        background: #F8F8F8;
     }
 
-    .offer-item--nobg {
-        flex-direction: column-reverse;
-    }
-
-    .offer-item--nobg,
-    .offer-item--bg {
-        height: 900px;
-        padding: 50px 55px 50px 55px;
-    }
-
-    .offer-item__image {
-        max-width: 100%;
-    }
-
-    .offer-item__desc {
-        width: 100%;
-        padding: 40px 0px 40px 0px;
-        margin: 0px 0px 0px 0px;
+    .offer__section {
+        padding: 50px 15px;
         position: relative;
+    }
 
-        h2 {
-            font-size: 25px;
-            padding-left: 30px;
-        }
+    .offer__item {
+        width: calc(100% - 30px);
+        margin-bottom: 90px;
+    }
 
+    .offer__features {
+        width: 100%;
+    }
+
+    .offer__number {
+        right: 30px;
+        max-height: 180px;
+    }
+
+    .offer__title {
         p {
-            font-size: 13px;
+            width: 100%;
         }
     }
 
-    .desc__header {
-        margin-bottom: 40px;
+    .offer__featuresWrapper {
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .features__items {
+        width: 100%;
+    }
+
+    .offer__number {
+        display: none;
+    }
+
+    .offer__title {
+        flex-direction: column;
 
         img {
-            max-height: 55px;
-            margin-left: 15px;
+            margin-bottom: 30px;
         }
     }
 
-    .desc__variant {
-        margin-top: 27px;
-
-        h3 {
-            font-size: 22px;
-            padding-left: 30px;
-            padding-bottom: 25px;
-        }
-    }
-
-    .offer-item__number {
-        top: -50px;
-        left: 40px;
-    }
-
-    .offer-item__number img {
-        max-width: 300px;
+    .title__text,
+    .offer__features,
+    .features__items {
+        padding: 0;
     }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
     .section-offer {
-        margin-top: 80px;
+        margin-top: 20px;
     }
 
-    .offer-item--bg {
-        flex-direction: column;
+    .offer__section--bg {
+        background: #F8F8F8;
     }
 
-    .offer-item--nobg {
-        flex-direction: column-reverse;
-    }
-
-    .offer-item--nobg,
-    .offer-item--bg {
-        height: 930px;
-        padding: 80px 80px 80px 80px;
-    }
-
-    .offer-item__image {
-        max-width: 100%;
-    }
-
-    .offer-item__desc {
-        width: 100%;
-        padding: 40px 0px 40px 0px;
-        margin: 0px 0px 0px 0px;
+    .offer__section {
+        padding: 40px 15px;
         position: relative;
+    }
 
-        h2 {
-            font-size: 28px;
-            padding-left: 30px;
-        }
+    .offer__item {
+        width: calc(50% - 30px);
+        margin-bottom: 90px;
+    }
 
+    .offer__features {
+        width: 100%;
+    }
+
+    .offer__number {
+        right: 30px;
+        max-height: 180px;
+    }
+
+    .offer__title {
         p {
-            font-size: 14px;
+            width: 100%;
         }
     }
 
-    .desc__header {
-        margin-bottom: 40px;
-
-        img {
-            max-height: 55px;
-            margin-left: 15px;
-        }
+    .offer__featuresWrapper {
+        padding-top: 0;
+        margin-top: 0;
     }
 
-    .desc__variant {
-        margin-top: 30px;
-
-        h3 {
-            font-size: 22px;
-            padding-left: 30px;
-            padding-bottom: 25px;
-        }
-    }
-
-    .offer-item__number {
-        top: -50px;
-        left: 40px;
-    }
-
-    .offer-item__number img {
-        max-width: 300px;
+    .offer__number {
+        display: none;
     }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
     .section-offer {
-        margin-top: 80px;
+        margin-top: 20px;
     }
 
-    .offer-item--bg {
-        flex-direction: column;
+    .offer__section--bg {
+        background: #F8F8F8;
     }
 
-    .offer-item--nobg {
-        flex-direction: column-reverse;
-    }
-
-    .offer-item--nobg,
-    .offer-item--bg {
-        height: 1000px;
-        padding: 80px 80px 80px 80px;
-    }
-
-    .offer-item__image {
-        max-width: 100%;
-    }
-
-    .offer-item__desc {
-        width: 100%;
-        padding: 40px 0px 40px 0px;
-        margin: 0px 0px 0px 0px;
+    .offer__section {
+        padding: 60px 50px;
         position: relative;
+    }
 
-        h2 {
-            font-size: 28px;
-            padding-left: 30px;
-        }
+    .offer__item {
+        width: calc(50% - 30px);
+        margin-bottom: 90px;
+    }
 
+    .offer__features {
+        width: 100%;
+    }
+
+    .offer__number {
+        right: 30px;
+        max-height: 180px;
+    }
+
+    .offer__title {
         p {
-            font-size: 14px;
+            width: 100%;
         }
     }
 
-    .desc__header {
-        margin-bottom: 40px;
-
-        img {
-            max-height: 55px;
-            margin-left: 15px;
-        }
-    }
-
-    .desc__variant {
-        margin-top: 30px;
-
-        h3 {
-            font-size: 22px;
-            padding-left: 30px;
-            padding-bottom: 25px;
-        }
-    }
-
-    .offer-item__number {
-        top: -50px;
-        left: 40px;
-    }
-
-    .offer-item__number img {
-        max-width: 300px;
+    .offer__featuresWrapper {
+        padding-top: 0;
+        margin-top: 0;
     }
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1299.98px) {
-
-    .offer-item--nobg,
-    .offer-item--bg {
-        height: 580px;
-        padding: 80px 80px 80px 80px;
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .offer__section--bg {
+        background: #F8F8F8;
     }
 
-    .offer-item__image {
-        max-width: 45%;
-    }
-
-    .offer-item__desc {
-        padding: 40px 0px 40px 0px;
-        margin: 0px 40px 0px 40px;
+    .offer__section {
+        padding: 60px 50px;
         position: relative;
+    }
 
-        h2 {
-            font-size: 25px;
-            padding-left: 30px;
-        }
+    .offer__item {
+        width: calc(25% - 30px);
+        padding: 80px 15px 50px 15px;
+    }
 
+    .offer__features {
+        width: 100%;
+    }
+
+    .offer__number {
+        right: 60px;
+        max-height: 220px;
+    }
+
+    .offer__title {
         p {
-            font-size: 13px;
+            width: 90%;
         }
-    }
-
-    .desc__header {
-        margin-bottom: 30px;
-
-        img {
-            max-height: 55px;
-            margin-left: 15px;
-        }
-    }
-
-    .desc__variant {
-        margin-top: 30px;
-
-        h3 {
-            font-size: 18px;
-            padding-left: 30px;
-            padding-bottom: 15px;
-        }
-    }
-
-    .offer-item__number {
-        top: -50px;
-        left: 40px;
-    }
-
-    .offer-item__number img {
-        max-width: 350px;
     }
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) and (max-width: 1499.98px) {
+    .offer__item {
+        width: calc(25% - 30px)
+    }
+
+    .offer__features {
+        width: 100%;
+    }
+
+    .offer__section {
+        padding: 80px 80px;
+    }
+
+    .offer__number {
+        right: 50px;
+        max-height: 250px;
+    }
+}

@@ -8,7 +8,7 @@ const ContactForm = () => (
   <ScrollAnimation
     className="contact__formWrapper"
     animateIn="slideInRight"
-    delay={600}
+    delay={100}
     animateOnce={true}
   >
     <div className="contact__form">
