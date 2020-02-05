@@ -15,6 +15,11 @@
         "path": "/404/"
     },
     {
+        "componentChunkName": "component---src-pages-post-js",
+        "jsonName": "post-2aa",
+        "path": "/POST/"
+    },
+    {
         "componentChunkName": "component---src-pages-about-us-js",
         "jsonName": "about-us-2d6",
         "path": "/about-us/"

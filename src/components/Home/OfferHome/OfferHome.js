@@ -76,7 +76,7 @@ const OfferHome = () => (
             <img src={offerItem3} alt="graphics" />
             <h3>Grafika</h3>
             <p>
-              Oprócz stron internetowych i sklepów (Ecommerce) zajmujemy się takze grafiką. Tworzymy
+              Oprócz stron internetowych i sklepów (Ecommerce) zajmujemy się także grafiką. Tworzymy
               katalogi, wizytówki, loga, banery, reklamy i wiele innych.
             </p>
           </div>

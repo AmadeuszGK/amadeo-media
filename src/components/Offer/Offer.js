@@ -28,9 +28,9 @@ const Offer = () => (
         <div className="title__text">
           <h2>Cennik Stron Internetowych</h2>
           <p>
-            Nasze usugi charakteryzuje nowoczesne podejście do tematu, dokładność oraz przejżystość
-            cenowa. Naciśnij na interesującą Cię kategorię lub kliknij tutaj aby przejść do ofetry i
-            cennika.
+            Naszą specjalnością są strony internetowe. Wszystko dostosowane do urządzeń mobilnych.
+            Tworzymy strony statyczne oraz dynamiczne z wykorzystaniem najnowszych technologii.
+            Wszystkie strony internetowe, które stworzyliśmy posiadają unikalny i nowoczesny design.
           </p>
         </div>
       </ScrollAnimation>
@@ -216,9 +216,9 @@ const Offer = () => (
         <div className="title__text">
           <h2>Cennik Sklepów Internetowych (E-commerce)</h2>
           <p>
-            Nasze usugi charakteryzuje nowoczesne podejście do tematu, dokładność oraz przejżystość
-            cenowa. Naciśnij na interesującą Cię kategorię lub kliknij tutaj aby przejść do ofetry i
-            cennika.
+            Tworzymy sklepy internetowe opartę o najpopularniejsze na świecie narzędzie Woocomerce
+            (Wordpress). Do dyspozycji klienta zostawiamy bardzo intuicyjny system zarządzania
+            sklepem. Przenieś swój biznes do internetu i powiększ swoje dochody!
           </p>
         </div>
       </ScrollAnimation>
@@ -507,9 +507,8 @@ const Offer = () => (
         <div className="title__text">
           <h2>Cennik usuług graficznych</h2>
           <p>
-            Nasze usugi charakteryzuje nowoczesne podejście do tematu, dokładność oraz przejżystość
-            cenowa. Naciśnij na interesującą Cię kategorię lub kliknij tutaj aby przejść do ofetry i
-            cennika.
+            Oprócz stron internetowych i sklepów internetowych zajmujemy się także grafiką.
+            Potrzebujesz loga, wizytówki czy baneru? Napisz do nas, a nasi graficy się tym zajmą!
           </p>
         </div>
       </ScrollAnimation>
@@ -579,9 +578,9 @@ const Offer = () => (
         <div className="title__text">
           <h2>Cennik administracji i naprawa</h2>
           <p>
-            Nasze usugi charakteryzuje nowoczesne podejście do tematu, dokładność oraz przejżystość
-            cenowa. Naciśnij na interesującą Cię kategorię lub kliknij tutaj aby przejść do ofetry i
-            cennika.
+            Internet jest pełen zepsutych, zaniedbanych lub przestarzałych stron internetowych.
+            Dobieramy odpowiednie metody do zaistniałej sytuacji: naprawiamy, poprawiamy lub
+            oferujemy nową, wysoką jakość.
           </p>
         </div>
       </ScrollAnimation>

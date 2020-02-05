@@ -29,8 +29,8 @@ const ContactHome = () => (
         </h2>
 
         <p>
-          Możesz nas znaleźć w paru miejscach w sieci, ale jeśli wolisz zrobić to "po staremu" po
-          prostu wyślij maila lub zadzwoń.
+          Chciałbyś skorzystać z naszych usług? Masz jakieś pytania? Nie czekaj, napisz maila lub
+          zadzwoń! Konsultacje oraz wyceny są u nas zawsze za darmo.
         </p>
 
         <div className="contact__social">
