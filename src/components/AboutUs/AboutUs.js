@@ -18,9 +18,9 @@ const AboutUs = () => (
         animateOnce={true}
         className="about-item__desc about-item__desc--left"
       >
-        <div className="desc__header">
-          <img src={offerItemImg2} className="desc-header__image" />
-          <h2>Kilka słów o nas</h2>
+        <div className="SectionTop-module--top__header--295vo">
+          <div className="flat-line" />
+          <p>Kilka słów o nas</p>
         </div>
         <p className="about-item__about">
           Jesteśmy agencją multimedialną zrzeszającą utalentowane osoby z różnych dziedzin takich

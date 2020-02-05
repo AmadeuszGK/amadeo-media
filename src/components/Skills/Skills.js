@@ -21,13 +21,13 @@ const Skills = () => (
       <ScrollAnimation
         className="skills-top-square"
         animateIn="slideInLeft"
-        delay={700}
+        delay={100}
         animateOnce={true}
       />
       <ScrollAnimation
         className="skills-bottom-square"
         animateIn="slideInRight"
-        delay={700}
+        delay={100}
         animateOnce={true}
       />
 
@@ -49,7 +49,7 @@ const Skills = () => (
       </div>
 
       <div className="skills">
-        <ScrollAnimation className="all-skills" animateIn="fadeIn" delay={300} animateOnce={true}>
+        <ScrollAnimation className="all-skills" animateIn="fadeIn" delay={100} animateOnce={true}>
           <div className="skill-container">
             <img className="skill-image" src={javascript} alt="javascript" />
             <p className="skill-text">javascript</p>

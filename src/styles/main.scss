@@ -123,6 +123,10 @@ h2 {
     font-family: "Montserrat Bold";
 }
 
+.privacyPolicy__section {
+    padding: 120px;
+}
+
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
     .mobile-only {
@@ -131,6 +135,10 @@ h2 {
 
     .desktop-only {
         display: none;
+    }
+
+    .privacyPolicy__section {
+        padding: 60px 15px 50px 15px;
     }
 }
 
@@ -143,6 +151,10 @@ h2 {
     .desktop-only {
         display: none;
     }
+
+    .privacyPolicy__section {
+        padding: 60px 15px 50px 15px;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -153,6 +165,24 @@ h2 {
 
     .desktop-only {
         display: none;
+    }
+
+    .privacyPolicy__section {
+        padding: 80px 30px 60px 30px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1299.98px) {
+    .privacyPolicy__section {
+        padding: 80px 60px;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1500.98px) {
+    .privacyPolicy__section {
+        padding: 80px;
     }
 }
 

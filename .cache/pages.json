@@ -43,5 +43,10 @@
         "componentChunkName": "component---src-pages-portfolio-js",
         "jsonName": "portfolio-964",
         "path": "/portfolio/"
+    },
+    {
+        "componentChunkName": "component---src-pages-privacy-policy-js",
+        "jsonName": "privacy-policy-6b7",
+        "path": "/privacy-policy/"
     }
 ]

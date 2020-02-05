@@ -39,6 +39,11 @@ const Footer = () => (
             Kontakt
           </Link>
         </li>
+        <li>
+          <Link className="footer-menu-item" to="/privacy-policy">
+            Polityka Prywatności
+          </Link>
+        </li>
       </ul>
     </div>
 
@@ -58,8 +63,8 @@ const Footer = () => (
           </a>
         </li>
         <li>
-          <a className="footer-menu-item" href="mailto:kontakt@amadeomedia.com">
-            E-mail: kontakt@amadeomedia.com
+          <a className="footer-menu-item" href="mailto:grzesiak.amadeusz@gmail.com">
+            E-mail: grzesiak.amadeusz@gmail.com
           </a>
         </li>
       </ul>

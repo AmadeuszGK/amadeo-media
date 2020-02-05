@@ -13,9 +13,9 @@ import logo from '../images/agrzesiak-logo.png';
 import loader from '../images/loader.svg';
 import 'animate.css/animate.min.css';
 
-if (typeof window !== 'undefined') {
-  require('smooth-scroll')('a[href*="#"]');
-}
+// if (typeof window !== 'undefined') {
+//   require('smooth-scroll')('a[href*="#"]');
+// }
 
 class Home extends React.Component {
   constructor() {
@@ -38,20 +38,6 @@ class Home extends React.Component {
   render() {
     return (
       <div className={this.state.showMenu ? 'website-content--show-menu' : 'website-content'}>
-        <div
-          className="loader-content"
-          style={{
-            display: this.state.isLoading ? 'flex' : 'none',
-            backgroundImage: "url('../images/header-bg-mac-min.jpg')",
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: 'cover',
-            backgroundAttachment: 'fixed',
-          }}
-        >
-          <img src={loader} alt="arrow" height={110} width={110} />
-        </div>
-
         <MenuMobile passedFunction={this.toglleMenu} showMenu={this.state.showMenu} />
 
         <div className="main-content">

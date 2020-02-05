@@ -16,6 +16,7 @@ const ContactForm = () => (
       method="post"
       name="contact-form"
       data-netlify="true"
+      action="POST"
       data-netlify-honeypot="bot-field"
     >
       <p>
@@ -36,9 +37,14 @@ const ContactForm = () => (
         name="message"
       />
       <div className="checbox--wrapper">
-        <input className="checkbox" type="checkbox" />
+        {/* <input className="checkbox" type="checkbox" /> */}
         <p className="privacy-policy">
-          Akceptuję <Link to="/portfolio">politykę prywatności</Link> itd
+          Amadeo Media potrzebuje danych kontaktowych, które nam przekazujesz, aby skontaktować się
+          z Tobą w sprawie naszych produktów i usług. Możesz zrezygnować z otrzymywania tych
+          wiadomości w dowolnym momencie. Aby uzyskać informacje na temat rezygnacji z subskrypcji,
+          a także nasze praktyki dotyczące prywatności i zobowiązanie do ochrony prywatności,
+          zapoznaj się z naszą
+          <Link to="/privacy-policy">Polityką prywatności.</Link>
         </p>
       </div>
       <ButtonSend type="submit" class="button--alert button--send" text="WYŚLIJ" />

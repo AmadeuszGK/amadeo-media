@@ -39,8 +39,8 @@ const OfferHome = () => (
             <img src={offerItem1} alt="websites" />
             <h3>Strony WWW</h3>
             <p>
-              Tworzymy strony firmowe. Wszystko dostosowane do urządzeń mobilnych. Tworzymy strony
-              statyczne oraz dynamiczne z wykorzystaniem najnowszych technologii.
+              Naszą specjalnością są strony internetowe. Wszystko dostosowane do urządzeń mobilnych.
+              Tworzymy strony statyczne oraz dynamiczne z wykorzystaniem najnowszych technologii.
             </p>
           </div>
           <Link to="/offer-and-pricing/#website" className={styles.offer__link}>
@@ -57,8 +57,9 @@ const OfferHome = () => (
             <img src={offerItem2} alt="ecommerce" />
             <h3>Sklepy internetowe</h3>
             <p>
-              Tworzymy sklepy internetowe opartę o najpopularniejszy obecnie Woocomerce. Do
-              dyspozycji klienta zostawiamy bardzo intuicyjny system zarządzania sklepem.
+              Tworzymy sklepy internetowe opartę o najpopularniejsze na świecie narzędzie Woocomerce
+              (Wordpress). Do dyspozycji klienta zostawiamy bardzo intuicyjny system zarządzania
+              sklepem.
             </p>
           </div>
           <Link to="/offer-and-pricing/#store" className={styles.offer__link}>
@@ -75,8 +76,8 @@ const OfferHome = () => (
             <img src={offerItem3} alt="graphics" />
             <h3>Grafika</h3>
             <p>
-              Oprócz stron i sklepów zajmujemy się takze grafiką. Tworzymy katalogi, wizytówki,
-              loga, banery, reklamy i wiele innych.
+              Oprócz stron internetowych i sklepów (Ecommerce) zajmujemy się takze grafiką. Tworzymy
+              katalogi, wizytówki, loga, banery, reklamy i wiele innych.
             </p>
           </div>
           <Link to="/offer-and-pricing/#graphics" className={styles.offer__link}>

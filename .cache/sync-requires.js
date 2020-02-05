@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-home-js": hot(preferDefault(require("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/home.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/index.js"))),
   "component---src-pages-offer-and-pricing-js": hot(preferDefault(require("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/offer-and-pricing.js"))),
-  "component---src-pages-portfolio-js": hot(preferDefault(require("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/portfolio.js")))
+  "component---src-pages-portfolio-js": hot(preferDefault(require("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/portfolio.js"))),
+  "component---src-pages-privacy-policy-js": hot(preferDefault(require("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/privacy-policy.js")))
 }
 

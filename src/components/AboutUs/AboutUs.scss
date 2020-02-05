@@ -30,11 +30,14 @@
     }
 
     p {
-        font-family: 'Montserrat Light';
+        font-family: 'Montserrat Regular';
         font-size: 14px;
-        color: #131313;
         line-height: 20px;
     }
+}
+
+.about-item__about {
+    color: #4a4a4a;
 }
 
 .about-item__number {
@@ -68,9 +71,12 @@
 
     h3 {
         font-size: 22px;
-        padding-left: 50px;
         font-family: "Montserrat Bold";
         padding-bottom: 15px;
+    }
+
+    p {
+        color: #4a4a4a;
     }
 }
 
@@ -196,7 +202,6 @@
 
         h3 {
             font-size: 22px;
-            padding-left: 30px;
             padding-bottom: 25px;
         }
     }
@@ -264,7 +269,6 @@
 
         h3 {
             font-size: 22px;
-            padding-left: 30px;
             padding-bottom: 25px;
         }
     }
@@ -332,7 +336,6 @@
 
         h3 {
             font-size: 22px;
-            padding-left: 30px;
             padding-bottom: 25px;
         }
     }
@@ -391,7 +394,6 @@
 
         h3 {
             font-size: 18px;
-            padding-left: 30px;
             padding-bottom: 15px;
         }
     }

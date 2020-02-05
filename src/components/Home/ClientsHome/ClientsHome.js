@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Link } from 'gatsby';
-// import promaticGamesLogo from '../../../images/promaticgamesBg'
+import amadeuszLogo from '../../../images/agrzesiak2-logo.png';
 import wolnosci14Logo from '../../../images/wolnosci14-logo.png';
 import chiarashopLogo from '../../../images/chiarashop-logo.png';
 import inleiLogo from '../../../images/inlei-logo.png';
@@ -9,7 +9,7 @@ import goodsideLogo from '../../../images/goodside-logo.png';
 import quadrigaLogo from '../../../images/quadriga-logo.png';
 import palkaLogo from '../../../images/palka-logo.png';
 import qrentLogo from '../../../images/qrent-logo.png';
-import efunLogo from '../../../images/efun-logo.png';
+import quadrigaBusinessLogo from '../../../images/quadrigaBusiness-logo.png';
 import jmaLogo from '../../../images/jma-logo.png';
 import SectionTop from '../../SectionTop/SectionTop';
 import './ClientsHome.scss';
@@ -27,64 +27,64 @@ const smallHeader = 'WSPÓŁPRACA';
 const ClientsHome = () => {
   const clientsItems = [
     {
-      logo: wolnosci14Logo,
-      alt: 'promatic games',
-      key: 'promaticGamesLogo',
-      link: 'dupa',
+      logo: amadeuszLogo,
+      alt: 'amadeusz grzesiak',
+      key: 'amadeuszLogo',
+      link: 'https://amadeuszgrzesiak.com',
     },
     {
       logo: wolnosci14Logo,
       alt: 'wolnosci 14',
       key: 'wolnosci14Logo',
-      link: 'dupa',
+      link: 'https://wolnosci14.pl',
     },
     {
       logo: chiarashopLogo,
       alt: 'chiarashop',
       key: 'chiarashopLogo',
-      link: 'dupa',
+      link: 'https://chiarashop.pl',
     },
     {
       logo: inleiLogo,
       alt: 'inlei',
       key: 'inleiLogo',
-      link: 'dupa',
+      link: 'https://inlei.pl',
     },
     {
       logo: goodsideLogo,
       alt: 'goodside',
       key: 'goodsideLogo',
-      link: 'dupa',
+      link: 'http://goodside.com.pl',
     },
     {
       logo: quadrigaLogo,
-      alt: 'quadriga',
+      alt: 'quadriga one',
       key: 'quadrigaLogo',
-      link: 'dupa',
+      link: 'http://quadriga.one',
     },
     {
       logo: palkaLogo,
       alt: 'palka',
       key: 'palkaLogo',
-      link: 'dupa',
+      link: 'http://palkagolebie.pl',
     },
     {
       logo: qrentLogo,
       alt: 'qrent',
       key: 'qrentLogo',
-      link: 'dupa',
+      link: 'http://q-rent.eu/',
     },
     {
-      logo: efunLogo,
-      alt: 'efun',
-      key: 'efunLogo',
-      link: 'dupa',
+      logo: quadrigaBusinessLogo,
+      alt: 'quadriga business',
+      key: 'quadriga business',
+      link: 'http://quadriga-business.de',
     },
     {
       logo: jmaLogo,
       alt: 'jma expert',
       key: 'jmaLogo',
-      link: 'dupa',
+      link: 'http://jmaexpert.de',
       last: true,
     },
   ];

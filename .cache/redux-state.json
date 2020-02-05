@@ -4598,7 +4598,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "5e1406baa183ece3511c453078a014eb",
+        "contentDigest": "3515b2ce03d5ef3ac4ffe165d61aec30",
         "type": "File",
         "mediaType": "image/png",
         "description": "File \"src/images/quadriga-logo.png\"",
@@ -4608,12 +4608,12 @@
       "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/quadriga-logo.png",
       "relativePath": "quadriga-logo.png",
       "extension": "png",
-      "size": 11732,
-      "prettySize": "11.7 kB",
-      "modifiedTime": "2020-01-16T14:21:52.000Z",
-      "accessTime": "2020-02-04T18:43:26.853Z",
-      "changeTime": "2020-02-03T18:50:18.525Z",
-      "birthTime": "2020-01-30T17:53:25.307Z",
+      "size": 25009,
+      "prettySize": "25 kB",
+      "modifiedTime": "2020-02-05T18:57:46.625Z",
+      "accessTime": "2020-02-05T18:57:46.730Z",
+      "changeTime": "2020-02-05T18:57:46.699Z",
+      "birthTime": "2020-02-05T18:56:50.007Z",
       "root": "/",
       "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
       "base": "quadriga-logo.png",
@@ -4624,19 +4624,19 @@
       "mode": 33248,
       "nlink": 1,
       "uid": 501,
-      "gid": 0,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 11494970,
-      "blocks": 24,
-      "atimeMs": 1580841806852.6611,
-      "mtimeMs": 1579184512000,
-      "ctimeMs": 1580755818525.2944,
-      "birthtimeMs": 1580406805306.763,
-      "atime": "2020-02-04T18:43:26.853Z",
-      "mtime": "2020-01-16T14:21:52.000Z",
-      "ctime": "2020-02-03T18:50:18.525Z",
-      "birthtime": "2020-01-30T17:53:25.307Z"
+      "ino": 11641302,
+      "blocks": 56,
+      "atimeMs": 1580929066730.1719,
+      "mtimeMs": 1580929066625.1272,
+      "ctimeMs": 1580929066698.6262,
+      "birthtimeMs": 1580929010007.3027,
+      "atime": "2020-02-05T18:57:46.730Z",
+      "mtime": "2020-02-05T18:57:46.625Z",
+      "ctime": "2020-02-05T18:57:46.699Z",
+      "birthtime": "2020-02-05T18:56:50.007Z"
     },
     "5d182ad7-af15-5fe2-8d5f-21731708026b": {
       "id": "5d182ad7-af15-5fe2-8d5f-21731708026b",
@@ -5099,16 +5099,6 @@
       "parent": "197c59c7-a271-5359-b58c-444e8fc1c15c",
       "internal": {
         "contentDigest": "a71ff206881cb36b022949cce2a77871",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "e49b0950-4888-5a5a-9ac6-9b89312a7f6b": {
-      "id": "e49b0950-4888-5a5a-9ac6-9b89312a7f6b",
-      "children": [],
-      "parent": "b792f8fd-c714-5164-a1dc-598b6a3593af",
-      "internal": {
-        "contentDigest": "5e1406baa183ece3511c453078a014eb",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -6185,6 +6175,151 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "29294cbf-6168-59ce-82be-10ce6ca1b4f9": {
+      "id": "29294cbf-6168-59ce-82be-10ce6ca1b4f9",
+      "children": [
+        "8be4d82b-51b9-5a68-a465-3d07cd578ceb"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7e260105f58804ce4d64dba5649d11ab",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/agrzesiak2-logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/agrzesiak2-logo.png",
+      "relativePath": "agrzesiak2-logo.png",
+      "extension": "png",
+      "size": 6530,
+      "prettySize": "6.53 kB",
+      "modifiedTime": "2019-08-11T15:15:25.021Z",
+      "accessTime": "2020-02-05T18:50:54.017Z",
+      "changeTime": "2020-02-05T18:50:59.739Z",
+      "birthTime": "2019-05-07T19:59:30.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "agrzesiak2-logo.png",
+      "ext": ".png",
+      "name": "agrzesiak2-logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11640753,
+      "blocks": 16,
+      "atimeMs": 1580928654016.6145,
+      "mtimeMs": 1565536525021,
+      "ctimeMs": 1580928659738.6865,
+      "birthtimeMs": 1557259170000,
+      "atime": "2020-02-05T18:50:54.017Z",
+      "mtime": "2019-08-11T15:15:25.021Z",
+      "ctime": "2020-02-05T18:50:59.739Z",
+      "birthtime": "2019-05-07T19:59:30.000Z"
+    },
+    "8be4d82b-51b9-5a68-a465-3d07cd578ceb": {
+      "id": "8be4d82b-51b9-5a68-a465-3d07cd578ceb",
+      "children": [],
+      "parent": "29294cbf-6168-59ce-82be-10ce6ca1b4f9",
+      "internal": {
+        "contentDigest": "7e260105f58804ce4d64dba5649d11ab",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e49b0950-4888-5a5a-9ac6-9b89312a7f6b": {
+      "id": "e49b0950-4888-5a5a-9ac6-9b89312a7f6b",
+      "children": [],
+      "parent": "b792f8fd-c714-5164-a1dc-598b6a3593af",
+      "internal": {
+        "contentDigest": "3515b2ce03d5ef3ac4ffe165d61aec30",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "50fc2f49-75b9-51cd-8cc7-7bce48bcba32": {
+      "id": "50fc2f49-75b9-51cd-8cc7-7bce48bcba32",
+      "children": [
+        "ee195861-2faa-5e78-8d68-74399499c9c1"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b4673b19bfa62d90d1a71caa64058579",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/quadrigaBusiness-logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/quadrigaBusiness-logo.png",
+      "relativePath": "quadrigaBusiness-logo.png",
+      "extension": "png",
+      "size": 7495,
+      "prettySize": "7.5 kB",
+      "modifiedTime": "2020-02-05T19:00:25.348Z",
+      "accessTime": "2020-02-05T19:00:25.394Z",
+      "changeTime": "2020-02-05T19:00:25.359Z",
+      "birthTime": "2020-02-05T18:59:49.951Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "quadrigaBusiness-logo.png",
+      "ext": ".png",
+      "name": "quadrigaBusiness-logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11641411,
+      "blocks": 16,
+      "atimeMs": 1580929225394.4844,
+      "mtimeMs": 1580929225348.3247,
+      "ctimeMs": 1580929225359.268,
+      "birthtimeMs": 1580929189950.5557,
+      "atime": "2020-02-05T19:00:25.394Z",
+      "mtime": "2020-02-05T19:00:25.348Z",
+      "ctime": "2020-02-05T19:00:25.359Z",
+      "birthtime": "2020-02-05T18:59:49.951Z"
+    },
+    "ee195861-2faa-5e78-8d68-74399499c9c1": {
+      "id": "ee195861-2faa-5e78-8d68-74399499c9c1",
+      "children": [],
+      "parent": "50fc2f49-75b9-51cd-8cc7-7bce48bcba32",
+      "internal": {
+        "contentDigest": "b4673b19bfa62d90d1a71caa64058579",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /privacy-policy/": {
+      "jsonName": "privacy-policy-6b7",
+      "internalComponentName": "ComponentPrivacyPolicy",
+      "path": "/privacy-policy/",
+      "component": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/privacy-policy.js",
+      "componentChunkName": "component---src-pages-privacy-policy-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "d023019e-23bd-59f1-8cdc-83d41b017486",
+      "pluginCreatorId": "d023019e-23bd-59f1-8cdc-83d41b017486",
+      "componentPath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/privacy-policy.js",
+      "id": "SitePage /privacy-policy/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c9f70107a6a831c2b497f98809ba31ec",
+        "description": "d023019e-23bd-59f1-8cdc-83d41b017486",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -6210,7 +6345,8 @@
     "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "offer-and-pricing-863": "360/path---offer-and-pricing-863-3f1-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "portfolio-964": "203/path---portfolio-964-7f6-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8"
+    "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "privacy-policy-6b7": "324/path---privacy-policy-6-b-7-610-0SUcWyAf8ecbYDsMhQkEfPzV8"
   },
   "components": {
     "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/.cache/dev-404-page.js": {
@@ -6275,6 +6411,14 @@
       "query": "",
       "pages": [
         "/portfolio/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/privacy-policy.js": {
+      "componentPath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/privacy-policy.js",
+      "query": "",
+      "pages": [
+        "/privacy-policy/"
       ],
       "isInBootstrap": false
     }

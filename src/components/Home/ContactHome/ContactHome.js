@@ -35,9 +35,9 @@ const ContactHome = () => (
 
         <div className="contact__social">
           <div className="social__item">
-            <a href="mailto:kontakt@amadeomedia.com">
+            <a href="mailto:grzesiak.amadeusz@gmail.com">
               <img src={envelope} alt="email" />
-              kontakt@amadeomedia.com
+              grzesiak.amadeusz@gmail.com
             </a>
           </div>
           <div className="social__item">

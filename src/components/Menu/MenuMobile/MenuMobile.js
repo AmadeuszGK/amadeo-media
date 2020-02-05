@@ -109,9 +109,9 @@ const MenuMobile = props => (
           </a>
         </div>
         <div className="side-menu__contact">
-          <a href="mailto:kontakt@amadeomedia.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:grzesiak.amadeusz@gmail.com" target="_blank" rel="noopener noreferrer">
             <img src={envelopeWhite} alt="email" />
-            kontakt@amadeomedia.com
+            grzesiak.amadeusz@gmail.com
           </a>
         </div>
       </div>

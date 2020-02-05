@@ -9,7 +9,8 @@ exports.components = {
   "component---src-pages-home-js": () => import("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/home.js" /* webpackChunkName: "component---src-pages-home-js" */),
   "component---src-pages-index-js": () => import("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-offer-and-pricing-js": () => import("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/offer-and-pricing.js" /* webpackChunkName: "component---src-pages-offer-and-pricing-js" */),
-  "component---src-pages-portfolio-js": () => import("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/portfolio.js" /* webpackChunkName: "component---src-pages-portfolio-js" */)
+  "component---src-pages-portfolio-js": () => import("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/portfolio.js" /* webpackChunkName: "component---src-pages-portfolio-js" */),
+  "component---src-pages-privacy-policy-js": () => import("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/privacy-policy.js" /* webpackChunkName: "component---src-pages-privacy-policy-js" */)
 }
 
 exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/.cache/data.json")
