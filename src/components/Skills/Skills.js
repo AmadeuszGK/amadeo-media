@@ -32,10 +32,10 @@ const Skills = () => (
       />
 
       <div className="skills-desc">
-        <div className="skills-header">
+        {/* <div className="skills-header">
           <div className="flat-line" />
           <p className="flat-line__text">UMIEJĘTNOŚCI I TECHNOLOGIE</p>
-        </div>
+        </div> */}
 
         <h2>
           Najnowsze
@@ -43,7 +43,7 @@ const Skills = () => (
           technologie
         </h2>
         <p>
-          Moje projekty tworzone są w oparciu o najnowsze technologie webowe. Stale rozwijam
+          Nasze projekty tworzone są w oparciu o najnowsze technologie webowe. Stale rozwijamy
           wachlarz umiejętności poprzez nowe wyzwania oraz kursy.
         </p>
       </div>

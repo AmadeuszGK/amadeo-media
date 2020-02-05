@@ -204,6 +204,7 @@
     position: absolute;
     bottom: 0;
     margin-bottom: 25px;
+    width: 100%;
 }
 
 .side-menu-social {
@@ -213,6 +214,7 @@
     cursor: pointer;
     width: 300px;
     padding-bottom: 15px;
+    display: none;
 
     a {
         width: 25px;
@@ -303,8 +305,7 @@
     margin: 0px;
     text-decoration: none;
     text-transform: uppercase;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 15px 30px;
     list-style-type: none;
     transition: color 0.2s ease-in-out;
     display: flex;

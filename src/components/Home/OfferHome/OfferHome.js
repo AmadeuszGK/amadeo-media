@@ -31,8 +31,8 @@ const OfferHome = () => (
       <div className={styles.offer__items}>
         <ScrollAnimation
           className={styles.offer__item}
-          animateIn="slideInUp"
-          delay={300}
+          animateIn="slideInRight"
+          delay={100}
           animateOnce={true}
         >
           <div to="/offer-and-pricing">
@@ -43,13 +43,13 @@ const OfferHome = () => (
               statyczne oraz dynamiczne z wykorzystaniem najnowszych technologii.
             </p>
           </div>
-          <Link to="/offer-and-pricing" className={styles.offer__link}>
+          <Link to="/offer-and-pricing/#website" className={styles.offer__link}>
             Czytaj dalej...
           </Link>
         </ScrollAnimation>
         <ScrollAnimation
-          animateIn="slideInUp"
-          delay={600}
+          animateIn="slideInRight"
+          delay={100}
           animateOnce={true}
           className={styles.offer__item}
         >
@@ -61,14 +61,14 @@ const OfferHome = () => (
               dyspozycji klienta zostawiamy bardzo intuicyjny system zarządzania sklepem.
             </p>
           </div>
-          <Link to="/offer-and-pricing" className={styles.offer__link}>
+          <Link to="/offer-and-pricing/#store" className={styles.offer__link}>
             Czytaj dalej...
           </Link>
         </ScrollAnimation>
         <ScrollAnimation
           className={styles.offer__item}
-          animateIn="slideInUp"
-          delay={900}
+          animateIn="slideInRight"
+          delay={100}
           animateOnce={true}
         >
           <div to="/offer-and-pricing">
@@ -79,14 +79,14 @@ const OfferHome = () => (
               loga, banery, reklamy i wiele innych.
             </p>
           </div>
-          <Link to="/offer-and-pricing" className={styles.offer__link}>
+          <Link to="/offer-and-pricing/#graphics" className={styles.offer__link}>
             Czytaj dalej...
           </Link>
         </ScrollAnimation>
         <ScrollAnimation
           className={styles.offer__item}
-          animateIn="slideInUp"
-          delay={1200}
+          animateIn="slideInRight"
+          delay={100}
           animateOnce={true}
         >
           <div to="/offer-and-pricing">
@@ -98,14 +98,14 @@ const OfferHome = () => (
               oferujemy nową, wysoką jakość.
             </p>
           </div>
-          <Link to="/offer-and-pricing" className={styles.offer__link}>
+          <Link to="/offer-and-pricing/#administration" className={styles.offer__link}>
             Czytaj dalej...
           </Link>
         </ScrollAnimation>
         <ScrollAnimation
           className={styles.offer__item}
-          animateIn="slideInUp"
-          delay={1500}
+          animateIn="slideInRight"
+          delay={100}
           animateOnce={true}
         >
           <div to="/offer-and-pricing">
@@ -117,7 +117,7 @@ const OfferHome = () => (
               wszystko było zaktualizowane, działało sprawnie oraz tworzymy kopie zapasowe.
             </p>
           </div>
-          <Link to="/offer-and-pricing" className={styles.offer__link}>
+          <Link to="/offer-and-pricing/#administration" className={styles.offer__link}>
             Czytaj dalej...
           </Link>
         </ScrollAnimation>

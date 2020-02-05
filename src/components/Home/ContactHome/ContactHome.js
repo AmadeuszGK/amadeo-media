@@ -35,9 +35,9 @@ const ContactHome = () => (
 
         <div className="contact__social">
           <div className="social__item">
-            <a href="mailto:grzesiak.amadeusz@gmail.com">
+            <a href="mailto:kontakt@amadeomedia.com">
               <img src={envelope} alt="email" />
-              amadeomedia@gmail.com
+              kontakt@amadeomedia.com
             </a>
           </div>
           <div className="social__item">
@@ -47,7 +47,7 @@ const ContactHome = () => (
               +48 796 536 228
             </a>
           </div>
-          <div className="social__item">
+          {/* <div className="social__item">
             <a href="https://www.linkedin.com/in/amadeusz-grzesiak-78ab61160">
               {' '}
               <img src={linkedin} alt="linked" />
@@ -59,7 +59,7 @@ const ContactHome = () => (
               <img src={facebook} alt="facebook" />
               facebook
             </a>
-          </div>
+          </div> */}
         </div>
       </ScrollAnimation>
 

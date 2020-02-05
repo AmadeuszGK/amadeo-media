@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "gatsby";
-import "./Footer.scss";
-import facebook from "../../images/facebook-square-brands.png";
-import footerLogo from "../../images/agrzesiak-logo.png";
+import React from 'react';
+import { Link } from 'gatsby';
+import './Footer.scss';
+import facebook from '../../images/facebook-square-brands.png';
+import footerLogo from '../../images/agrzesiak-logo.png';
 
 const Footer = () => (
   <footer>
@@ -58,11 +58,8 @@ const Footer = () => (
           </a>
         </li>
         <li>
-          <a
-            className="footer-menu-item"
-            href="mailto:grzesiak.amadeusz@gmail.com"
-          >
-            E-mail: amadeomedia@gmail.com
+          <a className="footer-menu-item" href="mailto:kontakt@amadeomedia.com">
+            E-mail: kontakt@amadeomedia.com
           </a>
         </li>
       </ul>

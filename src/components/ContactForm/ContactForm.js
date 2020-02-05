@@ -11,17 +11,29 @@ const ContactForm = () => (
     delay={100}
     animateOnce={true}
   >
-    <div className="contact__form">
+    <form
+      className="contact__form"
+      method="post"
+      name="contact-form"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
       <p>
         Skontaktuj się z <b className="bold">Amadeo Media</b>
       </p>
-      <input className="form__input form__input--name" placeholder="Imię" />
-      <input className="form__input form__input--mobile" placeholder="Telefon" />
-      <input className="form__input form__input--email" placeholder="E-mail" />
+      <input name="name" type="text" className="form__input form__input--name" placeholder="Imię" />
+      <input name="telefon" className="form__input form__input--mobile" placeholder="Telefon" />
+      <input
+        name="email"
+        type="email"
+        className="form__input form__input--email"
+        placeholder="E-mail"
+      />
       <textarea
         className="form__input form__input--message"
         placeholder="Wiadomość..."
         type="text"
+        name="message"
       />
       <div className="checbox--wrapper">
         <input className="checkbox" type="checkbox" />
@@ -29,8 +41,8 @@ const ContactForm = () => (
           Akceptuję <Link to="/portfolio">politykę prywatności</Link> itd
         </p>
       </div>
-      <ButtonSend class="button--alert button--send" text="WYŚLIJ" />
-    </div>
+      <ButtonSend type="submit" class="button--alert button--send" text="WYŚLIJ" />
+    </form>
   </ScrollAnimation>
 );
 

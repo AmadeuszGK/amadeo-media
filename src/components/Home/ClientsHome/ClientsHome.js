@@ -92,12 +92,7 @@ const ClientsHome = () => {
   return (
     <section className="section__clients" id="section__clients">
       <div className="clients__container">
-        <ScrollAnimation
-          className="clients__wrapper"
-          animateIn="fadeIn"
-          delay={300}
-          animateOnce={true}
-        >
+        <div className="clients__wrapper">
           <SectionTop
             smallHeader={smallHeader}
             bigHeader={bigHeader}
@@ -105,7 +100,12 @@ const ClientsHome = () => {
             colorWhite
           />
 
-          <div className="clients__items">
+          <ScrollAnimation
+            animateIn="slideInRight"
+            delay={100}
+            animateOnce={true}
+            className="clients__items"
+          >
             {clientsItems.map(item => (
               <div className="clients__item" id={item.last && 'client__item--last'} key={item.key}>
                 <a href={item.link}>
@@ -113,8 +113,8 @@ const ClientsHome = () => {
                 </a>
               </div>
             ))}
-          </div>
-        </ScrollAnimation>
+          </ScrollAnimation>
+        </div>
       </div>
     </section>
   );

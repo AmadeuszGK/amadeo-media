@@ -194,7 +194,7 @@
     }
 
     .clients__wrapper {
-        padding: 60px 15px 40px 15px;
+        padding: 60px 15px 50px 15px;
     }
 
     .q-rent {
@@ -234,7 +234,7 @@
     }
 
     .clients__wrapper {
-        padding: 80px 15px 60px 15px;
+        padding: 60px 15px 50px 15px;
     }
 
     .clients-bigimage {
@@ -318,7 +318,7 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .clients__wrapper {
-        padding: 100px 80px 60px 80px;
+        padding: 80px 60px;
     }
 
     .clients-bigimage {
@@ -342,7 +342,7 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and (max-width: 1500.98px) {
     .clients__wrapper {
-        padding: 100px 80px 60px 80px;
+        padding: 80px;
     }
 
     .clients__about {

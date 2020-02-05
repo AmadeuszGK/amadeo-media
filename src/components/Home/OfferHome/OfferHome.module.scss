@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 150px 120px 120px 120px;
+    padding: 120px;
 }
 
 
@@ -102,7 +102,7 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
     .section__offer {
-        padding: 80px 15px 60px 15px;
+        padding: 60px 15px 50px 15px;
     }
 
     .offer__items {
@@ -153,15 +153,11 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .section__offer {
         height: auto;
-        padding: 100px 120px 50px 100px;
+        padding: 80px 60px;
     }
 
     .offer__items {
         width: 100%;
-    }
-
-    .section__offer {
-        padding: 80px;
     }
 
     .offer__item {

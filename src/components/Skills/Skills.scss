@@ -3,10 +3,9 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding: 120px;
     margin: 0;
-    margin: 120px;
+    margin-bottom: 100px;
 }
 
 .skills-box {
@@ -166,11 +165,11 @@
         height: auto;
         padding: 0;
         margin: 0;
-        padding-top: 50px;
+        margin-bottom: 80px;
     }
 
     .skills-desc {
-        padding: 0px 50px 50px 55px;
+        padding: 0px 0px 50px 0px;
         width: 100%;
 
         p {
@@ -203,7 +202,7 @@
         height: auto;
         margin: 0;
         box-shadow: none;
-        width: 100%;
+        width: 90%;
     }
 
     .skills-top-square,
@@ -222,19 +221,20 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
     .section-skills {
         height: auto;
-        padding: 70px 0px 70px 0px;
+        padding: 0px 15px 50px 15px;
         margin: 0;
+        margin-bottom: 80px;
     }
 
     .skills-desc {
-        padding: 0px 70px 70px 75px;
-        width: 100%;
+        padding: 0;
+        width: 90%;
         padding-bottom: 50px;
 
         p {
             font-size: 19px;
             margin: 0;
-            max-width: 70%;
+            max-width: 100%;
         }
     }
 
@@ -263,13 +263,9 @@
         width: 100%;
     }
 
-    .skills-top-square {
-        display: none;
-    }
-
+    .skills-top-square,
     .skills-bottom-square {
-        width: 30%;
-        right: 0px;
+        display: none;
     }
 
     .skill-container {
@@ -282,12 +278,11 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
     .section-skills {
         height: auto;
-        padding: 0;
-        padding-bottom: 120px;
+        padding: 80px 30px 60px 30px;
     }
 
     .skills-desc {
-        padding: 50px 30px 50px 75px;
+        padding: 50px 30px 50px 30px;
 
         p {
             font-size: 19px;
@@ -315,12 +310,12 @@
 
     .skills-top-square {
         width: 30%;
-        left: 0px;
+        left: -30px;
     }
 
     .skills-bottom-square {
         width: 30%;
-        right: 0px;
+        right: -30px;
     }
 
     .skills {
@@ -332,11 +327,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .section-skills {
         height: auto;
-        padding-bottom: 120px;
-        padding-right: 70px;
-        padding-left: 70px;
-        padding-top: 70px;
-        margin: 0;
+        padding: 80px 60px;
     }
 
     .skills-desc {
@@ -373,7 +364,7 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and (max-width: 1600.98px) {
     .section-skills {
-        margin-bottom: 70px;
+        padding: 80px 50px;
     }
 
     .skills-box {

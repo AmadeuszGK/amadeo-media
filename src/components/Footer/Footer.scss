@@ -83,6 +83,7 @@ footer {
 .footerItem--nopadding {
     padding-right: 0 !important;
     align-items: flex-end;
+    display: none;
 }
 
 .footerItem__title {
@@ -291,3 +292,7 @@ footer {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and (max-width: 1570.98px) {}
+
+.footerItem--nopadding {
+    display: none;
+}

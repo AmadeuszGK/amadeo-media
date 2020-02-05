@@ -1,14 +1,14 @@
-import React from "react";
-import "../styles/main.scss";
+import React from 'react';
+import '../styles/main.scss';
 
 const NotFoundPage = () => (
-  <div style={{ height: 100 + "vh" }} className="error-site">
+  <div style={{ height: 100 + 'vh' }} className="error-site">
     <div className="canvas__container">
       <canvas id="stars" width="300" />
       <div className="canvas-text">
         <h1>BŁĄD 404</h1>
         <p>UPSS! WYGLĄDA NA TO, ŻE ZABŁĄDZIŁEŚ</p>
-        <a className="link-home" href="https://amadeuszgrzesiak.com">
+        <a className="link-home" href="/">
           POWRÓT NA STRONĘ GŁÓWNĄ
         </a>
       </div>

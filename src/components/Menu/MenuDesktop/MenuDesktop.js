@@ -13,7 +13,11 @@ const MenuDesktop = () => (
           <Link
             className="menu-dekstop__item"
             to="/"
-            activeStyle={{ fontFamily: 'Montserrat Bold' }}
+            activeStyle={{
+              fontFamily: '"Montserrat Bold"',
+              borderBottom: '1px solid #fff',
+              borderBottom: '1px solid #fff',
+            }}
           >
             Strona główna
           </Link>
@@ -22,7 +26,7 @@ const MenuDesktop = () => (
           <Link
             className="menu-dekstop__item"
             to="/offer-and-pricing"
-            activeStyle={{ fontFamily: 'Montserrat Bold' }}
+            activeStyle={{ fontFamily: '"Montserrat Bold"', borderBottom: '1px solid #fff' }}
           >
             Oferta i cennik
           </Link>
@@ -31,7 +35,7 @@ const MenuDesktop = () => (
           <Link
             className="menu-dekstop__item"
             to="/portfolio"
-            activeStyle={{ fontFamily: 'Montserrat Bold' }}
+            activeStyle={{ fontFamily: '"Montserrat Bold"', borderBottom: '1px solid #fff' }}
           >
             Portfolio
           </Link>
@@ -40,7 +44,7 @@ const MenuDesktop = () => (
           <Link
             className="menu-dekstop__item"
             to="/about-us"
-            activeStyle={{ fontFamily: 'Montserrat Bold' }}
+            activeStyle={{ fontFamily: '"Montserrat Bold"', borderBottom: '1px solid #fff' }}
           >
             O nas
           </Link>
@@ -49,7 +53,7 @@ const MenuDesktop = () => (
           <Link
             className="menu-dekstop__item"
             to="/contact"
-            activeStyle={{ fontFamily: 'Montserrat Bold' }}
+            activeStyle={{ fontFamily: '"Montserrat Bold"', borderBottom: '1px solid #fff' }}
           >
             Kontakt
           </Link>

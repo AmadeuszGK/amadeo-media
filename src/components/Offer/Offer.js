@@ -16,7 +16,7 @@ import './Offer.scss';
 
 const Offer = () => (
   <section className="section-offer" id="section-offer">
-    <div className="offer__section">
+    <div className="offer__section" id="website">
       <img src={number01grey} alt="number" className="offer__number" />
       <ScrollAnimation
         animateIn="slideInRight"
@@ -36,8 +36,8 @@ const Offer = () => (
       </ScrollAnimation>
       <div className="offer__items">
         <ScrollAnimation
-          animateIn="slideInUp"
-          delay={1200}
+          animateIn="slideInLeft"
+          delay={100}
           animateOnce={true}
           className="offer__item"
         >
@@ -60,8 +60,8 @@ const Offer = () => (
           </p>
         </ScrollAnimation>
         <ScrollAnimation
-          animateIn="slideInUp"
-          delay={900}
+          animateIn="slideInLeft"
+          delay={100}
           animateOnce={true}
           className="offer__item"
         >
@@ -84,8 +84,8 @@ const Offer = () => (
           </p>
         </ScrollAnimation>
         <ScrollAnimation
-          animateIn="slideInUp"
-          delay={600}
+          animateIn="slideInLeft"
+          delay={100}
           animateOnce={true}
           className="offer__item"
         >
@@ -109,8 +109,8 @@ const Offer = () => (
           </p>
         </ScrollAnimation>
         <ScrollAnimation
-          animateIn="slideInUp"
-          delay={300}
+          animateIn="slideInLeft"
+          delay={100}
           animateOnce={true}
           className="offer__item"
         >
@@ -204,7 +204,7 @@ const Offer = () => (
       </div>
     </div>
 
-    <div className="offer__section offer__section--bg">
+    <div className="offer__section offer__section--bg" id="store">
       <img src={number02white} alt="number" className="offer__number" />
       <ScrollAnimation
         animateIn="slideInRight"
@@ -224,8 +224,8 @@ const Offer = () => (
       </ScrollAnimation>
       <div className="offer__items">
         <ScrollAnimation
-          animateIn="slideInUp"
-          delay={1300}
+          animateIn="slideInLeft"
+          delay={100}
           animateOnce={true}
           className="offer__item"
         >
@@ -258,8 +258,8 @@ const Offer = () => (
           </p>
         </ScrollAnimation>
         <ScrollAnimation
-          animateIn="slideInUp"
-          delay={1000}
+          animateIn="slideInLeft"
+          delay={100}
           animateOnce={true}
           className="offer__item"
         >
@@ -292,8 +292,8 @@ const Offer = () => (
           </p>
         </ScrollAnimation>
         <ScrollAnimation
-          animateIn="slideInUp"
-          delay={700}
+          animateIn="slideInLeft"
+          delay={100}
           animateOnce={true}
           className="offer__item"
         >
@@ -328,8 +328,8 @@ const Offer = () => (
           </p>
         </ScrollAnimation>
         <ScrollAnimation
-          animateIn="slideInUp"
-          delay={400}
+          animateIn="slideInLeft"
+          delay={100}
           animateOnce={true}
           className="offer__item"
         >
@@ -452,8 +452,9 @@ const Offer = () => (
         </ScrollAnimation>
 
         <ScrollAnimation
-          animateIn="slideInLeft"
+          animateIn="slideInRight"
           delay={100}
+          animateOnce={true}
           className="offer__features offer__features--padding"
         >
           <h2>Dodatki specjalne:</h2>
@@ -494,7 +495,7 @@ const Offer = () => (
       </div>
     </div>
 
-    <div className="offer__section">
+    <div className="offer__section" id="graphics">
       <img src={number03grey} alt="number" className="offer__number" />
       <ScrollAnimation
         animateIn="slideInRight"
@@ -566,7 +567,7 @@ const Offer = () => (
       </ScrollAnimation>
     </div>
 
-    <div className="offer__section  offer__section--bg">
+    <div className="offer__section  offer__section--bg" id="administration">
       <img src={number04white} alt="number" className="offer__number" />
       <ScrollAnimation
         animateIn="slideInRight"

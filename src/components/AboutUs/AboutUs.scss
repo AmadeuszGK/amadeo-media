@@ -1,26 +1,25 @@
-.section-offer {
+.section-about {
     margin-top: 0px;
 }
 
-.offer-item--nobg,
-.offer-item--bg {
-    height: 800px;
-    padding: 120px 120px 80px 120px;
+.about-item--nobg,
+.about-item--bg {
+    padding: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.offer-item__image {
+.about-item__image {
     max-width: 50%;
 }
 
-.offer-item__image img {
+.about-item__image img {
     width: 100%;
     border-radius: 5px;
 }
 
-.offer-item__desc {
+.about-item__desc {
     padding: 80px 0px 80px 120px;
     position: relative;
     width: 50%;
@@ -38,14 +37,14 @@
     }
 }
 
-.offer-item__number {
+.about-item__number {
     position: absolute;
     left: 70px;
     top: -40px;
     z-index: -1;
 }
 
-.offer-item__desc--left {
+.about-item__desc--left {
     padding: 80px 120px 80px 0px;
 }
 
@@ -70,18 +69,18 @@
     h3 {
         font-size: 22px;
         padding-left: 50px;
-        font-family: 'Montserrat Bold';
+        font-family: "Montserrat Bold";
         padding-bottom: 15px;
     }
 }
 
-.offer-item__portfolio-container {
+.about-item__portfolio-container {
     padding: 15px 0px 15px 0px;
     border-top: 1px solid #9B9B9B;
     margin-top: 50px;
 
     a {
-        font-family: 'Montserrat Bold';
+        font-family: "Montserrat Bold";
         font-size: 14px;
         text-decoration: none;
         color: #131313;
@@ -90,12 +89,12 @@
     }
 }
 
-.offer-item__portfolio {
+.about-item__portfolio {
     display: flex;
     align-items: center;
 }
 
-.offer-item__portfolio:hover {
+.about-item__portfolio:hover {
     a {
         padding-left: 30px;
     }
@@ -140,38 +139,37 @@
     right: 0;
 }
 
-.offer-item--bg {
+.about-item--bg {
     background-color: #F8F8F8;
 }
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-    .section-offer {
+    .section-about {
         margin-top: 30px;
     }
 
-    .offer-item--bg {
+    .about-item--bg {
         flex-direction: column;
     }
 
-    .offer-item--nobg {
+    .about-item--nobg {
         flex-direction: column-reverse;
     }
 
-    .offer-item--nobg,
-    .offer-item--bg {
-        height: 900px;
-        padding: 50px 55px 50px 55px;
+    .about-item--nobg,
+    .about-item--bg {
+        padding: 50px 15px 70px 15px;
     }
 
-    .offer-item__image {
+    .about-item__image {
         max-width: 100%;
     }
 
-    .offer-item__desc {
+    .about-item__desc {
         width: 100%;
-        padding: 40px 0px 40px 0px;
-        margin: 0px 0px 0px 0px;
+        padding: 40px 0px 0px 0px;
+        margin: 0;
         position: relative;
 
         h2 {
@@ -203,44 +201,43 @@
         }
     }
 
-    .offer-item__number {
+    .about-item__number {
         top: -50px;
         left: 40px;
     }
 
-    .offer-item__number img {
+    .about-item__number img {
         max-width: 300px;
     }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .section-offer {
+    .section-about {
         margin-top: 80px;
     }
 
-    .offer-item--bg {
+    .about-item--bg {
         flex-direction: column;
     }
 
-    .offer-item--nobg {
+    .about-item--nobg {
         flex-direction: column-reverse;
     }
 
-    .offer-item--nobg,
-    .offer-item--bg {
-        height: 930px;
-        padding: 80px 80px 80px 80px;
+    .about-item--nobg,
+    .about-item--bg {
+        padding: 50px 15px 70px 15px;
     }
 
-    .offer-item__image {
+    .about-item__image {
         max-width: 100%;
     }
 
-    .offer-item__desc {
+    .about-item__desc {
         width: 100%;
-        padding: 40px 0px 40px 0px;
-        margin: 0px 0px 0px 0px;
+        padding: 40px 0px 0px 0px;
+        margin: 0;
         position: relative;
 
         h2 {
@@ -272,41 +269,40 @@
         }
     }
 
-    .offer-item__number {
+    .about-item__number {
         top: -50px;
         left: 40px;
     }
 
-    .offer-item__number img {
+    .about-item__number img {
         max-width: 300px;
     }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .section-offer {
+    .section-about {
         margin-top: 80px;
     }
 
-    .offer-item--bg {
+    .about-item--bg {
         flex-direction: column;
     }
 
-    .offer-item--nobg {
+    .about-item--nobg {
         flex-direction: column-reverse;
     }
 
-    .offer-item--nobg,
-    .offer-item--bg {
-        height: 1000px;
-        padding: 80px 80px 80px 80px;
+    .about-item--nobg,
+    .about-item--bg {
+        padding: 80px 50px 60px 50px;
     }
 
-    .offer-item__image {
+    .about-item__image {
         max-width: 100%;
     }
 
-    .offer-item__desc {
+    .about-item__desc {
         width: 100%;
         padding: 40px 0px 40px 0px;
         margin: 0px 0px 0px 0px;
@@ -341,12 +337,12 @@
         }
     }
 
-    .offer-item__number {
+    .about-item__number {
         top: -50px;
         left: 40px;
     }
 
-    .offer-item__number img {
+    .about-item__number img {
         max-width: 300px;
     }
 }
@@ -354,20 +350,22 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1299.98px) {
 
-    .offer-item--nobg,
-    .offer-item--bg {
-        height: 580px;
-        padding: 80px 80px 80px 80px;
+    .about-item--nobg,
+    .about-item--bg {
+        padding: 80px 50px 60px 50px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
 
-    .offer-item__image {
-        max-width: 45%;
+    .about-item__image {
+        max-width: 100%;
     }
 
-    .offer-item__desc {
+    .about-item__desc {
         padding: 40px 0px 40px 0px;
-        margin: 0px 40px 0px 40px;
+        margin: 0;
         position: relative;
+        width: 100%;
 
         h2 {
             font-size: 25px;
@@ -398,12 +396,12 @@
         }
     }
 
-    .offer-item__number {
+    .about-item__number {
         top: -50px;
         left: 40px;
     }
 
-    .offer-item__number img {
+    .about-item__number img {
         max-width: 350px;
     }
 }
