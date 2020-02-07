@@ -2,8 +2,6 @@ import React from 'react';
 // import Loader from 'react-loader-spinner'
 import Header from '../components/Header/Header';
 import ClientsHome from '../components/Home/ClientsHome/ClientsHome';
-// import Offer from "../components/Offer";
-// import Skills from "../components/Skills";
 import ContactHome from '../components/Home/ContactHome/ContactHome';
 import Footer from '../components/Footer/Footer';
 import MenuMobile from '../components/Menu/MenuMobile/MenuMobile';
@@ -12,10 +10,11 @@ import '../styles/main.scss';
 import logo from '../images/agrzesiak-logo.png';
 import loader from '../images/loader.svg';
 import 'animate.css/animate.min.css';
+import Helmet from 'react-helmet';
 
-// if (typeof window !== 'undefined') {
-//   require('smooth-scroll')('a[href*="#"]');
-// }
+if (typeof window !== 'undefined') {
+  require('smooth-scroll')('a[href*="#"]');
+}
 
 class Home extends React.Component {
   constructor() {
@@ -38,6 +37,10 @@ class Home extends React.Component {
   render() {
     return (
       <div className={this.state.showMenu ? 'website-content--show-menu' : 'website-content'}>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>My Title</title>
+        </Helmet>
         <MenuMobile passedFunction={this.toglleMenu} showMenu={this.state.showMenu} />
 
         <div className="main-content">

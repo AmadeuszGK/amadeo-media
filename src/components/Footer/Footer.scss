@@ -2,7 +2,7 @@ footer {
     position: relative;
     z-index: 1;
     width: 100%;
-    background: rgb(32, 4, 59);
+    background: #402B91;
     display: flex;
     flex-wrap: wrap;
     padding: 60px 120px 0px 120px;
@@ -26,7 +26,7 @@ footer {
         font-weight: 400;
         font-size: 13px;
         text-align: center;
-        color: #4a4a4a;
+        color: #909090;
         margin: 0px;
         text-decoration: none;
         text-transform: uppercase;
@@ -68,7 +68,7 @@ footer {
     width: 100%;
     padding: 30px;
     // background: rgba(0, 0, 0, 0.342);
-    border-top: 1px solid #4a4a4a;
+    border-top: 1px solid #909090;
     margin-top: 35px;
 
     p {
@@ -155,7 +155,7 @@ footer {
     width: 25%;
 
     .social__item {
-        color: #4a4a4a;
+        color: #909090;
     }
 
     .social__item img {
@@ -177,7 +177,7 @@ footer {
     font-family: "Montserrat Regular";
     font-weight: 400;
     font-size: 13px;
-    color: #4a4a4a;
+    color: #909090;
     margin: 0px;
     text-decoration: none;
     text-transform: uppercase;

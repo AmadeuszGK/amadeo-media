@@ -11,18 +11,17 @@ const ContactForm = () => (
     delay={100}
     animateOnce={true}
   >
-    <form
-      className="contact__form"
-      method="POST"
-      name="contact-form"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-    >
+    <form className="contact__form" name="contact" method="POST" data-netlify="true">
       <p>
         Skontaktuj się z <b className="bold">Amadeo Media</b>
       </p>
       <input name="name" type="text" className="form__input form__input--name" placeholder="Imię" />
-      <input name="telefon" className="form__input form__input--mobile" placeholder="Telefon" />
+      <input
+        name="telefon"
+        type="text"
+        className="form__input form__input--mobile"
+        placeholder="Telefon"
+      />
       <input
         name="email"
         type="email"

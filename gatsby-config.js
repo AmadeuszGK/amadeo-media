@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Amadeo Media - Strony internetowe, sklepy, grafika`,
-    siteUrl: `https://amadeomedia.com`,
+    title: `Amadeo Media - Strony internetowe, sklepy E-commerce, grafika`,
+    url: `https://amadeomedia.com`,
     description: `Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko, sprawdź co mamy w ofercie! Stwórzmy coś razem.`,
-    author: `Amadeusz Grzesiak`
+    author: `Amadeusz Grzesiak`,
+    lang: `pl`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -12,13 +13,13 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`
-      }
+        path: `${__dirname}/src/images`,
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-140137342-1",
+        trackingId: 'UA-140137342-1',
       },
     },
     `gatsby-transformer-sharp`,
@@ -32,8 +33,8 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
-      }
-    }
-  ]
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+  ],
 };

@@ -37,15 +37,15 @@ function SEO({ description, lang, meta, keywords, title }) {
       meta={[
         {
           name: `description`,
-          content: `Cześć, nazywam się Amadeusz i jestem kreatywnym front-end developerem z Jeleniej Góry. Stwórzmy coś razem!`,
+          content: `Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko, sprawdź co mamy w ofercie! Stwórzmy coś razem.`,
         },
         {
           property: `og:title`,
-          content: `Amadesz Grzesiak - Front-end Developer | Strony i sklepy internetowe`,
+          content: `Amadeo Media - Strony internetowe, sklepy e-commerce, grafika`,
         },
         {
           property: `og:description`,
-          content: `Cześć, nazywam się Amadeusz i jestem kreatywnym front-end developerem z Jeleniej Góry. Stwórzmy coś razem!`,
+          content: `Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko, sprawdź co mamy w ofercie! Stwórzmy coś razem.`,
         },
         {
           property: `og:type`,
@@ -61,11 +61,11 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:title`,
-          content: `Amadesz Grzesiak - Front-end Developer | Strony i sklepy internetowe`,
+          content: `Amadeo Media - Strony internetowe, sklepy e-commerce, grafika`,
         },
         {
           name: `twitter:description`,
-          content: `Cześć, nazywam się Amadeusz i jestem kreatywnym front-end developerem z Jeleniej Góry. Stwórzmy coś razem!`,
+          content: `Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko, sprawdź co mamy w ofercie! Stwórzmy coś razem.`,
         },
         {
           name: `google-site-verification`,
@@ -89,7 +89,8 @@ SEO.defaultProps = {
   lang: `pl`,
   meta: [],
   keywords: ['strony internetowe', 'sklepy internetowe', 'front end developer', 'wrocław'],
-  description: `Cześć, nazywam się Amadeusz i jestem kreatywnym front-end developerem z Jeleniej Góry. Stwórzmy coś razem!`,
+  description: `Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko, sprawdź co mamy w ofercie! Stwórzmy coś razem.`,
+  title: `Amadeo Media - Strony internetowe, sklepy e-commerce, grafika`,
 };
 
 SEO.propTypes = {
