@@ -30,7 +30,6 @@ export default class PortfolioWrapper extends Component {
   };
 
   render() {
-    console.log(this.state.filter);
     return (
       <section className="section__portfolio" id="section__portfolio" filter={this.state.filter}>
         <SectionTop smallHeader={smallHeader} bigHeader={bigHeader} paragraph={topText} />

@@ -39,7 +39,17 @@ class Home extends React.Component {
       <div className={this.state.showMenu ? 'website-content--show-menu' : 'website-content'}>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>My Title</title>
+          <title>Amadeo Media - strony internetowe, sklepy e-commerce, grafika</title>
+          <meta
+            name="keywords"
+            content="strony internetowe,sklepy internetowe,front end developer,wrocław,lubań,e-commerce,grafika,tanio, tanie, grafik"
+          />
+          <meta name="author" content="Amadeusz Grzesiak" />
+          <meta
+            name="description"
+            content="Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko,
+            sprawdź naszą ofertę! Stwórzmy coś razem."
+          />
         </Helmet>
         <MenuMobile passedFunction={this.toglleMenu} showMenu={this.state.showMenu} />
 

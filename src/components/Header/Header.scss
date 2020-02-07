@@ -427,31 +427,32 @@ header {
 
 
 
-// @media (min-width: 1px) and (max-width: 850px) and (orientation: landscape) {
-//     .canvas-text {
-//         p {
-//             font-size: 25px;
-//             margin-bottom: 20px;
-//         }
+@media (min-width: 992px) and (max-width: 1199.98px) and (orientation: landscape) {
+    .canvas-text {
+        height: 64%;
 
-//         h1 {
-//             font-size: 13px;
-//             margin-bottom: 20px;
-//         }
-//     }
+        p {
+            font-size: 40px;
+        }
 
-//     .scroll-down {
-//         font-size: 13px;
-//     }
+        h1 {
+            font-size: 20px;
+        }
+    }
 
-//     .scroll-down__container {
-//         margin-top: 10px;
+    .header__bg--bottom {
+        align-items: flex-start;
 
-//         img {
-//             max-width: 20px;
-//         }
-//     }
-// }
+        img {
+            width: 40%;
+            margin-top: 165px;
+        }
+    }
+
+    .canvas-text {
+        height: 69%;
+    }
+}
 
 // @media (min-width: 851px) and (max-width: 1300px) and (orientation: landscape) {
 //     .canvas-text {

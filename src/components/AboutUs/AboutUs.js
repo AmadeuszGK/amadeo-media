@@ -54,7 +54,6 @@ const AboutUs = () => (
       <ScrollAnimation
         className="top-text"
         animateIn="slideInRight"
-        delay={0}
         animateOnce={true}
         className="about-item__image"
       >

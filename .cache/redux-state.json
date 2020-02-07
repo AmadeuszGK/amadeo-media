@@ -1111,7 +1111,7 @@
         "url": "https://amadeomedia.com",
         "description": "Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko, sprawdź co mamy w ofercie! Stwórzmy coś razem.",
         "author": "Amadeusz Grzesiak",
-        "lang": "pl"
+        "lang": "PL-pl"
       },
       "port": 8000,
       "host": "localhost",
@@ -1120,7 +1120,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9cd4fea6798cc0baac48582f2f34a62d",
+        "contentDigest": "d6211994028159b859a97c16c81e7d77",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

@@ -4,7 +4,7 @@ module.exports = {
     url: `https://amadeomedia.com`,
     description: `Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko, sprawdź co mamy w ofercie! Stwórzmy coś razem.`,
     author: `Amadeusz Grzesiak`,
-    lang: `pl`,
+    lang: `PL-pl`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
