@@ -13,7 +13,7 @@ export const SectionTop = ({ smallHeader, bigHeader, paragraph, colorWhite }) =>
     >
       <div className={styles.top__header}>
         <div className="flat-line" />
-        <p style={{ color: colorWhite && '#fff' }}>{smallHeader}</p>
+        <h2 style={{ color: colorWhite && '#fff' }}>{smallHeader}</h2>
       </div>
 
       {bigHeader}

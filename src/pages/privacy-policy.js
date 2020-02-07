@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import Footer from '../components/Footer/Footer';
 import MenuMobile from '../components/Menu/MenuMobile/MenuMobile';
 import '../styles/main.scss';
@@ -26,6 +27,20 @@ class PrivacyPolicy extends React.Component {
   render() {
     return (
       <div className={this.state.showMenu ? 'website-content--show-menu' : 'website-content'}>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Polityka prywatności - Amadeo Media</title>
+          <meta
+            name="keywords"
+            content="strony internetowe,sklepy internetowe,front end developer,wrocław,lubań,e-commerce,grafika,tanio, tanie, grafik"
+          />
+          <meta name="author" content="Amadeusz Grzesiak" />
+          <meta
+            name="description"
+            content="Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko,
+            sprawdź naszą ofertę! Stwórzmy coś razem."
+          />
+        </Helmet>
         <MenuMobile passedFunction={this.toglleMenu} showMenu={this.state.showMenu} />
 
         <div className="main-content">
@@ -41,6 +56,7 @@ class PrivacyPolicy extends React.Component {
           </div>
           <main>
             <div className="privacyPolicy__section">
+              <h1 className="h1">POLITYKA PRYWATNOŚCI</h1>
               <p>
                 POLITYKA PRYWATNOŚCI Postanowienia ogólne Niniejsza polityka prywatności Sklepu
                 Internetowego ma charakter informacyjny, co oznacza że nie jest ona źródłem

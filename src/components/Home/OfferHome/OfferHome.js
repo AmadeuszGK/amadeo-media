@@ -37,7 +37,7 @@ const OfferHome = () => (
         >
           <div to="/offer-and-pricing">
             <img src={offerItem1} alt="websites" />
-            <h3>Strony WWW</h3>
+            <h2>Strony WWW</h2>
             <p>
               Naszą specjalnością są strony internetowe. Wszystko dostosowane do urządzeń mobilnych.
               Tworzymy strony statyczne oraz dynamiczne z wykorzystaniem najnowszych technologii.
@@ -55,7 +55,7 @@ const OfferHome = () => (
         >
           <div to="/offer-and-pricing">
             <img src={offerItem2} alt="ecommerce" />
-            <h3>Sklepy internetowe</h3>
+            <h2>Sklepy internetowe</h2>
             <p>
               Tworzymy sklepy internetowe opartę o najpopularniejsze na świecie narzędzie Woocomerce
               (Wordpress). Do dyspozycji klienta zostawiamy bardzo intuicyjny system zarządzania
@@ -74,7 +74,7 @@ const OfferHome = () => (
         >
           <div to="/offer-and-pricing">
             <img src={offerItem3} alt="graphics" />
-            <h3>Grafika</h3>
+            <h2>Grafika</h2>
             <p>
               Oprócz stron internetowych i sklepów (Ecommerce) zajmujemy się także grafiką. Tworzymy
               katalogi, wizytówki, loga, banery, reklamy i wiele innych.
@@ -92,7 +92,7 @@ const OfferHome = () => (
         >
           <div to="/offer-and-pricing">
             <img src={offerItem5} alt="update" />
-            <h3>Naprawa starych stron</h3>
+            <h2>Naprawa starych stron</h2>
             <p>
               Internet jest pełen zepsutych, zaniedbanych lub przestarzałych stron internetowych.
               Dobieramy odpowiednie metody do zaistniałej sytuacji: naprawiamy, poprawiamy lub
@@ -111,7 +111,7 @@ const OfferHome = () => (
         >
           <div to="/offer-and-pricing">
             <img src={offerItem4} alt="adminiastration" />
-            <h3>Administrowanie stron</h3>
+            <h2>Administrowanie stron</h2>
             <p>
               Nasi klienci zawsze mogą na nas liczyć, pomagamy w obsłudze stron i sklepów
               internetowych, wdrażam podsyłane treści lub wprowadzam modyfikacje. Ponadto dbamy, aby

@@ -20,7 +20,7 @@ const AboutUs = () => (
       >
         <div className="SectionTop-module--top__header--295vo">
           <div className="flat-line" />
-          <p>Kilka słów o nas</p>
+          <h2>Kilka słów o nas</h2>
         </div>
         <p className="about-item__about">
           Jesteśmy agencją multimedialną zrzeszającą utalentowane osoby z różnych dziedzin takich
