@@ -7,7 +7,7 @@ import footerLogo from '../../images/agrzesiak-logo.png';
 const Footer = () => (
   <footer>
     <div className="footer__logo">
-      <img src={footerLogo} />
+      <img src={footerLogo} alt="footer logo" />
     </div>
     <div className="footerItem">
       <div className="footerItem__title">

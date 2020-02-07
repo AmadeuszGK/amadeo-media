@@ -24,7 +24,7 @@ const Offer = () => (
         animateOnce={true}
         className="offer__title"
       >
-        <img src={offerItemImg1} />
+        <img src={offerItemImg1} alt="websites" />
         <div className="title__text">
           <h2>Cennik Stron Internetowych</h2>
           <p>
@@ -212,7 +212,7 @@ const Offer = () => (
         animateOnce={true}
         className="offer__title"
       >
-        <img src={offerItemImg2} />
+        <img src={offerItemImg2} alt="e-commerce" />
         <div className="title__text">
           <h2>Cennik Sklepów Internetowych (E-commerce)</h2>
           <p>
@@ -503,7 +503,7 @@ const Offer = () => (
         animateOnce={true}
         className="offer__title"
       >
-        <img src={offerItemImg3} />
+        <img src={offerItemImg3} alt="graphics" />
         <div className="title__text">
           <h2>Cennik usuług graficznych</h2>
           <p>
@@ -574,7 +574,7 @@ const Offer = () => (
         animateOnce={true}
         className="offer__title"
       >
-        <img src={offerItemImg4} />
+        <img src={offerItemImg4} alt="administration and fix" />
         <div className="title__text">
           <h2>Cennik administracji i naprawa</h2>
           <p>

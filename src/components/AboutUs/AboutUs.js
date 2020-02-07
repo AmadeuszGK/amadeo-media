@@ -57,7 +57,7 @@ const AboutUs = () => (
         animateOnce={true}
         className="about-item__image"
       >
-        <img src={offerItem2} />
+        <img src={offerItem2} alt="amadeo" />
       </ScrollAnimation>
     </div>
 
