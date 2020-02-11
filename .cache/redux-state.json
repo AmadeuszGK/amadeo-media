@@ -5927,7 +5927,7 @@
       "pages": [
         "/dev-404-page/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/404.js": {
       "componentPath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/404.js",
@@ -5936,7 +5936,7 @@
         "/404/",
         "/404.html"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/about-us.js": {
       "componentPath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/about-us.js",
@@ -5944,7 +5944,7 @@
       "pages": [
         "/about-us/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/contact.js": {
       "componentPath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/contact.js",
@@ -5952,7 +5952,7 @@
       "pages": [
         "/contact/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/home.js": {
       "componentPath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/home.js",
@@ -5960,7 +5960,7 @@
       "pages": [
         "/home/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/index.js": {
       "componentPath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/index.js",
@@ -5968,7 +5968,7 @@
       "pages": [
         "/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/offer-and-pricing.js": {
       "componentPath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/offer-and-pricing.js",
@@ -5976,7 +5976,7 @@
       "pages": [
         "/offer-and-pricing/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/portfolio.js": {
       "componentPath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/portfolio.js",
@@ -5984,7 +5984,7 @@
       "pages": [
         "/portfolio/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/privacy-policy.js": {
       "componentPath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/privacy-policy.js",
@@ -5992,7 +5992,7 @@
       "pages": [
         "/privacy-policy/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/success.js": {
       "componentPath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/success.js",
@@ -6000,7 +6000,7 @@
       "pages": [
         "/success/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     }
   },
   "staticQueryComponents": {
