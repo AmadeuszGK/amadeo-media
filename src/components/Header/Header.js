@@ -7,6 +7,10 @@ import ButtonLink from '../Button/ButtonLink';
 import headerImg from '../../images/amadeusz-pic-1.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 
+if (typeof window !== 'undefined') {
+  require('smooth-scroll')('a[href*="#"]');
+}
+
 const Header = () => (
   <header style={{ height: 100 + 'vh' }}>
     <MenuDesktop />
