@@ -66,7 +66,7 @@ const ClientsHome = () => {
       logo: palkaLogo,
       alt: 'palka',
       key: 'palkaLogo',
-      link: 'http://palkagolebie.pl',
+      link: 'http://palka-golebie.pl',
     },
     {
       logo: qrentLogo,

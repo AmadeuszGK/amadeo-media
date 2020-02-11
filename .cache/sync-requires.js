@@ -14,6 +14,6 @@ exports.components = {
   "component---src-pages-offer-and-pricing-js": hot(preferDefault(require("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/offer-and-pricing.js"))),
   "component---src-pages-portfolio-js": hot(preferDefault(require("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/portfolio.js"))),
   "component---src-pages-privacy-policy-js": hot(preferDefault(require("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/privacy-policy.js"))),
-  "component---src-pages-post-js": hot(preferDefault(require("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/POST.js")))
+  "component---src-pages-success-js": hot(preferDefault(require("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/success.js")))
 }
 

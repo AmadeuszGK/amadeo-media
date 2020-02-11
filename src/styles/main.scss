@@ -1,97 +1,97 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-image: none;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 *,
 :after,
 :before {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
-@import "./menu.scss";
+@import './menu.scss';
 
 .website-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .main-content {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    max-width: 2560px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  max-width: 2560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 main {
-    width: 100%;
-    max-width: 2000px;
-    min-height: 70vh;
+  width: 100%;
+  max-width: 2000px;
+  min-height: 70vh;
 }
 
 .main-content-button {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 30;
-    display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 30;
+  display: none;
 }
 
 body {
-    color: #131313 !important;
+  color: #131313 !important;
 }
 
 .link-home {
-    text-transform: uppercase;
-    font-family: "Montserrat Regular";
-    font-weight: 600;
-    font-size: 13px;
-    text-align: center;
-    color: #fff;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin: 0;
-    text-decoration: none;
-    background-color: #FF6800;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    letter-spacing: 1px;
-    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    display: block;
-    max-width: 300px;
-    cursor: pointer;
-    z-index: 20;
+  text-transform: uppercase;
+  font-family: 'Montserrat Regular';
+  font-weight: 600;
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #ff6800;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  display: block;
+  max-width: 300px;
+  cursor: pointer;
+  z-index: 20;
 }
 
 .link-home:hover {
-    transform: translateX(15px);
-    background-color: #ff3535;
-    cursor: pointer;
+  transform: translateX(15px);
+  background-color: #ff3535;
+  cursor: pointer;
 }
 
 .error-site {
-    .canvas-text {
-        animation: none;
-    }
+  .canvas-text {
+    animation: none;
+  }
 }
 
 h1,
@@ -99,109 +99,116 @@ h2,
 h3,
 h4,
 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
-    font-family: "Montserrat Bold";
+  font-family: 'Montserrat Bold';
 }
 
 .flat-line {
-    width: 21px;
-    height: 2px;
-    background-color: #FE6304;
-    margin-right: 15px;
+  width: 21px;
+  height: 2px;
+  background-color: #fe6304;
+  margin-right: 15px;
 }
 
 .bold {
-    font-family: "Montserrat Bold";
+  font-family: 'Montserrat Bold';
 }
 
 .privacyPolicy__section {
-    padding: 120px;
+  padding: 120px;
 }
 
 .h1 {
-    color: #fff;
-    font-size: 1px;
-    margin: 0;
-    padding: 0;
-    height: 1px;
+  color: #fff;
+  font-size: 1px;
+  margin: 0;
+  padding: 0;
+  height: 1px;
+}
+
+input[type='hidden'] {
+  display: none;
+}
+
+[hidden] {
+  display: none;
 }
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-    .mobile-only {
-        display: flex;
-    }
+  .mobile-only {
+    display: flex;
+  }
 
-    .desktop-only {
-        display: none;
-    }
+  .desktop-only {
+    display: none;
+  }
 
-    .privacyPolicy__section {
-        padding: 60px 15px 50px 15px;
-    }
+  .privacyPolicy__section {
+    padding: 60px 15px 50px 15px;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .mobile-only {
-        display: flex;
-    }
+  .mobile-only {
+    display: flex;
+  }
 
-    .desktop-only {
-        display: none;
-    }
+  .desktop-only {
+    display: none;
+  }
 
-    .privacyPolicy__section {
-        padding: 60px 15px 50px 15px;
-    }
+  .privacyPolicy__section {
+    padding: 60px 15px 50px 15px;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .mobile-only {
-        display: flex;
-    }
+  .mobile-only {
+    display: flex;
+  }
 
-    .desktop-only {
-        display: none;
-    }
+  .desktop-only {
+    display: none;
+  }
 
-    .privacyPolicy__section {
-        padding: 80px 30px 60px 30px;
-    }
+  .privacyPolicy__section {
+    padding: 80px 30px 60px 30px;
+  }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1299.98px) {
-    .privacyPolicy__section {
-        padding: 80px 60px;
-    }
+  .privacyPolicy__section {
+    padding: 80px 60px;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and (max-width: 1500.98px) {
-    .privacyPolicy__section {
-        padding: 80px;
-    }
+  .privacyPolicy__section {
+    padding: 80px;
+  }
 }
 
-
 @media (min-width: 992px) and (max-width: 5000000.98px) {
-    .mobile-only {
-        display: none;
-    }
+  .mobile-only {
+    display: none;
+  }
 
-    .desktop-only {
-        display: flex;
-    }
+  .desktop-only {
+    display: flex;
+  }
 }

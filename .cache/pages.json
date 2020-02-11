@@ -15,11 +15,6 @@
         "path": "/404/"
     },
     {
-        "componentChunkName": "component---src-pages-post-js",
-        "jsonName": "post-2aa",
-        "path": "/POST/"
-    },
-    {
         "componentChunkName": "component---src-pages-about-us-js",
         "jsonName": "about-us-2d6",
         "path": "/about-us/"
@@ -53,5 +48,10 @@
         "componentChunkName": "component---src-pages-privacy-policy-js",
         "jsonName": "privacy-policy-6b7",
         "path": "/privacy-policy/"
+    },
+    {
+        "componentChunkName": "component---src-pages-success-js",
+        "jsonName": "success-ca5",
+        "path": "/success/"
     }
 ]

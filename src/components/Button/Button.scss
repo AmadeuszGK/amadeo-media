@@ -1,5 +1,5 @@
 .button {
-  font-family: "Montserrat Regular";
+  font-family: 'Montserrat Regular';
   font-weight: 600;
   font-size: 13px;
   text-align: center;
@@ -14,8 +14,11 @@
 }
 
 .button--alert {
-  background-color: #FF6800;
+  background-color: #ff6800;
   cursor: pointer;
+}
+.button--alert:focus {
+  outline: none;
 }
 
 .button--alert:hover {

@@ -36,5 +36,13 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Montserrat Condensed:300,400,700:latin-ext'],
+        },
+      },
+    },
   ],
 };

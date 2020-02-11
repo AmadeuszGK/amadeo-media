@@ -11,7 +11,7 @@ exports.components = {
   "component---src-pages-offer-and-pricing-js": () => import("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/offer-and-pricing.js" /* webpackChunkName: "component---src-pages-offer-and-pricing-js" */),
   "component---src-pages-portfolio-js": () => import("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/portfolio.js" /* webpackChunkName: "component---src-pages-portfolio-js" */),
   "component---src-pages-privacy-policy-js": () => import("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/privacy-policy.js" /* webpackChunkName: "component---src-pages-privacy-policy-js" */),
-  "component---src-pages-post-js": () => import("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/POST.js" /* webpackChunkName: "component---src-pages-post-js" */)
+  "component---src-pages-success-js": () => import("/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/pages/success.js" /* webpackChunkName: "component---src-pages-success-js" */)
 }
 
 exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/.cache/data.json")
