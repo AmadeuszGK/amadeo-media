@@ -26,7 +26,21 @@ class Success extends React.Component {
     return (
       <div style={{ height: 100 + 'vh' }}>
         <MenuDesktop />
-
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>E-mail - Amadeo Media</title>
+          <meta
+            name="keywords"
+            content="strony internetowe,sklepy internetowe,front end developer,wrocław,lubań,e-commerce,grafika,tanio, tanie, grafik"
+          />
+          <meta name="author" content="Amadeusz Grzesiak" />
+          <meta
+            name="description"
+            content="Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko,
+            sprawdź naszą ofertę! Stwórzmy coś razem."
+          />
+          <html lang="pl-PL" />
+        </Helmet>
         <div className="canvas__container canvas__container--success">
           <ScrollAnimation
             animateIn="slideInLeft"

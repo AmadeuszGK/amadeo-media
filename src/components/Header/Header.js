@@ -18,7 +18,7 @@ const Header = () => (
     <div className="canvas__container">
       <ScrollAnimation
         animateIn="slideInRight"
-        delay={500}
+        delay={100}
         animateOnce={true}
         className="header__bg--bottom"
       >
@@ -27,7 +27,7 @@ const Header = () => (
       <canvas id="stars" width="300" />
       <ScrollAnimation
         animateIn="slideInLeft"
-        delay={500}
+        delay={100}
         animateOnce={true}
         className="canvas-text"
       >

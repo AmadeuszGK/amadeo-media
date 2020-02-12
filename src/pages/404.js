@@ -17,6 +17,7 @@ const NotFoundPage = () => (
         content="Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko,
             sprawdź naszą ofertę! Stwórzmy coś razem."
       />
+      <html lang="pl-PL" />
     </Helmet>
     <div className="canvas__container">
       <canvas id="stars" width="300" />

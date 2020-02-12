@@ -35,6 +35,7 @@ class AboutUsView extends React.Component {
             content="Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko,
             sprawdź naszą ofertę! Stwórzmy coś razem."
           />
+          <html lang="pl-PL" />
         </Helmet>
         <div className="suqare-logo">
           <a href="/">

@@ -36,6 +36,7 @@ export default class PortfolioWrapper extends Component {
         <PortfolioNav parentFilter={this.setFilter} />
         <ScrollAnimation
           animateIn="slideInRight"
+          offset={0}
           delay={100}
           animateOnce={true}
           className="portfolio__list"

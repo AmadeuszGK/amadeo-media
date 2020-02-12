@@ -50,6 +50,7 @@ class Home extends React.Component {
             content="Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko,
             sprawdź naszą ofertę! Stwórzmy coś razem."
           />
+          <html lang="pl-PL" />
         </Helmet>
         <MenuMobile passedFunction={this.toglleMenu} showMenu={this.state.showMenu} />
 

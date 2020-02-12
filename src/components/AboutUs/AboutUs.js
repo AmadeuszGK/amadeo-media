@@ -56,6 +56,7 @@ const AboutUs = () => (
         animateIn="slideInRight"
         animateOnce={true}
         className="about-item__image"
+        offset={0}
       >
         <img src={offerItem2} alt="amadeo" />
       </ScrollAnimation>
