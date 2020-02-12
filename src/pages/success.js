@@ -3,6 +3,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import ButtonLink from '../components/Button/ButtonLink';
 import '../components/Header/Header.scss';
 import MenuDesktop from '../components/Menu/MenuDesktop/MenuDesktop';
+import Helmet from 'react-helmet';
 
 class Success extends React.Component {
   constructor() {
