@@ -141,8 +141,6 @@
     }
 
     .contact__social {
-        flex-direction: row;
-        flex-wrap: wrap;
         margin-bottom: 40px;
     }
 
@@ -181,8 +179,6 @@
     }
 
     .contact__social {
-        flex-direction: row;
-        flex-wrap: wrap;
         margin-bottom: 40px;
     }
 
@@ -219,8 +215,6 @@
     }
 
     .contact__social {
-        flex-direction: row;
-        flex-wrap: wrap;
         margin-bottom: 50px;
     }
 
@@ -268,6 +262,12 @@
         right: -200px;
         top: -50px;
         font-size: 330px;
+    }
+
+    .contact__details {
+        p {
+            width: 90%;
+        }
     }
 }
 
