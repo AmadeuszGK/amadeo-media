@@ -285,6 +285,10 @@
     .offer__featuresWrapper h2 {
         padding: 0;
     }
+
+    .offer__title p {
+        font-size: 19px;
+    }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -331,6 +335,10 @@
 
     .offer__number {
         display: none;
+    }
+
+    .offer__title p {
+        font-size: 19px;
     }
 }
 

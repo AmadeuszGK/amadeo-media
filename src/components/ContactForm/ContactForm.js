@@ -50,12 +50,11 @@ const ContactForm = () => (
       <div className="checbox--wrapper">
         {/* <input className="checkbox" type="checkbox" /> */}
         <p className="privacy-policy">
-          Amadeo Media potrzebuje danych kontaktowych, które nam przekazujesz, aby skontaktować się
-          z Tobą w sprawie naszych produktów i usług. Możesz zrezygnować z otrzymywania tych
-          wiadomości w dowolnym momencie. Aby uzyskać informacje na temat rezygnacji z subskrypcji,
-          a także nasze praktyki dotyczące prywatności i zobowiązanie do ochrony prywatności,
-          zapoznaj się z naszą
-          <Link to="/privacy-policy">Polityką prywatności.</Link>
+          Administratorem Twoich danych osobowych jest Amadeo Media z siedzibą w Lubaniu. Twoje dane
+          osobowe będą przetwarzane w celu obsługi Twojego zapytania w ramach formularza
+          kontaktowego, a także w celach statystycznych i analitycznych administratora. Więcej
+          informacji na temat przetwarzania danych osobowych znajduje się w naszej
+          <Link to="/privacy-policy">polityce prywatności.</Link>
         </p>
       </div>
       <ButtonSend type="submit" class="button--alert button--send" text="WYŚLIJ" />

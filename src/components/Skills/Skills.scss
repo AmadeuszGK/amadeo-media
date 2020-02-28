@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 120px;
+    padding: 40px 120px;
     margin: 0;
     margin-bottom: 100px;
 }
@@ -25,7 +25,7 @@
     height: 20.71429rem;
     top: -50px;
     left: -50px;
-    background-color: #680CC1;
+    background-color: #3065EC;
     z-index: 2;
 }
 
@@ -77,7 +77,6 @@
 .skills {
     width: 60%;
     background-image: url('../../images/mac-details.jpg');
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
