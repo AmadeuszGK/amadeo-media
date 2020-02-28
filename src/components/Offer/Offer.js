@@ -7,10 +7,8 @@ import offerItemImg3 from '../../images/offer-item-img-3.png';
 import offerItemImg4 from '../../images/offer-item-img-4.png';
 import number01grey from '../../images/number-01-grey.png';
 import number03grey from '../../images/number-03-grey.png';
-import number05grey from '../../images/number-05-grey.png';
 import number02white from '../../images/number-02-white.png';
 import number04white from '../../images/number-04-white.png';
-import sass from '../../images/sass.png';
 
 import './Offer.scss';
 
@@ -28,9 +26,11 @@ const Offer = () => (
         <div className="title__text">
           <h2>Cennik Stron Internetowych</h2>
           <p>
-            Naszą specjalnością są strony internetowe. Wszystko dostosowane do urządzeń mobilnych.
-            Tworzymy strony statyczne oraz dynamiczne z wykorzystaniem najnowszych technologii.
-            Wszystkie strony internetowe, które stworzyliśmy posiadają unikalny i nowoczesny design.
+            Naszą specjalnością są strony internetowe. Poniżej znajdują się cztery pakiety
+            obrazujące przekrój cen stron infernetowych. Są to ceny przybliżone i finalnie mogą się
+            różnić, ze względu na skomplikowanie projektu. Do kosztów strony należy doliczyć
+            utrzymanie hostingu i domeny - około 150zł rocznie. Wszystkie ceny w naszym cenniku są
+            cenami netto.
           </p>
         </div>
       </ScrollAnimation>
@@ -41,7 +41,10 @@ const Offer = () => (
           animateOnce={true}
           className="offer__item"
         >
-          <img src={sass} alt="website bronze" />
+          <div className="item__pricing item__pricing--low">
+            <h2 className="pricing__title">start</h2>
+          </div>
+          <h2 className="pricing__value pricing__value--low">899 zł</h2>
           <p>
             <b>- Do 2 podstron</b>
             <br />
@@ -53,7 +56,7 @@ const Offer = () => (
             <br />
             - nielimitowane poprawki projektu
             <br />
-            - informacja o ciasteczkach i polityka prywatności
+            - INFORMACJA O CIASTECZKACH I POLITYKA PRYWATNOŚCI (rodo)
             <br />
             - możliwość samodzielnej edycji (CMS)
             <br />
@@ -65,7 +68,10 @@ const Offer = () => (
           animateOnce={true}
           className="offer__item"
         >
-          <img src={sass} alt="website bronze" />
+          <div className="item__pricing item__pricing--medium">
+            <h2 className="pricing__title">standard</h2>
+          </div>
+          <h2 className="pricing__value pricing__value--medium">1499 zł</h2>
           <p>
             <b>- Do 5 podstron</b>
             <br />
@@ -77,7 +83,7 @@ const Offer = () => (
             <br />
             - nielimitowane poprawki projektu
             <br />
-            - informacja o ciasteczkach i polityka prywatności
+            - INFORMACJA O CIASTECZKACH I POLITYKA PRYWATNOŚCI (rodo)
             <br />
             - możliwość samodzielnej edycji (CMS)
             <br />
@@ -89,7 +95,10 @@ const Offer = () => (
           animateOnce={true}
           className="offer__item"
         >
-          <img src={sass} alt="website bronze" />
+          <div className="item__pricing item__pricing--high">
+            <h2 className="pricing__title">Pro</h2>
+          </div>
+          <h2 className="pricing__value pricing__value--high">1999 zł</h2>
           <p>
             <b>- do 10 podstron</b>
             <br />
@@ -102,7 +111,7 @@ const Offer = () => (
             <br />
             - nielimitowane poprawki projektu
             <br />
-            - informacja o ciasteczkach i polityka prywatności
+            - INFORMACJA O CIASTECZKACH I POLITYKA PRYWATNOŚCI (rodo)
             <br />
             - możliwość samodzielnej edycji (CMS)
             <br />
@@ -114,7 +123,10 @@ const Offer = () => (
           animateOnce={true}
           className="offer__item"
         >
-          <img src={sass} alt="website bronze" />
+          <div className="item__pricing item__pricing--individual">
+            <h2 className="pricing__title">individual</h2>
+          </div>
+          {/* <h2 className="pricing__value pricing__value--individual">??? zł</h2> */}
           <p>
             <b>- nielimitowana ilość podstron</b>
             <br />
@@ -128,7 +140,7 @@ const Offer = () => (
             <br />
             - nielimitowane poprawki projektu
             <br />
-            - informacja o ciasteczkach i polityka prywatności
+            - INFORMACJA O CIASTECZKACH I POLITYKA PRYWATNOŚCI (rodo)
             <br />
             - możliwość samodzielnej edycji (CMS)
             <br />
@@ -151,27 +163,27 @@ const Offer = () => (
             </div>
             <div className="feature__item">
               <p className="feature__name">czat facebook</p>
-              <p className="feature__price">100zł</p>
+              <p className="feature__price">150zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">konto google analitics</p>
-              <p className="feature__price">60zł</p>
-            </div>
-            <div className="feature__item">
-              <p className="feature__name">wyskakujące okienko (pop-up)</p>
               <p className="feature__price">80zł</p>
             </div>
             <div className="feature__item">
-              <p className="feature__name">galeria zdjęć</p>
+              <p className="feature__name">wyskakujące okienko (pop-up)</p>
               <p className="feature__price">100zł</p>
+            </div>
+            <div className="feature__item">
+              <p className="feature__name">galeria zdjęć</p>
+              <p className="feature__price">80zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">mapa</p>
-              <p className="feature__price">60zł</p>
+              <p className="feature__price">80zł</p>
             </div>
             <div className="feature__item">
-              <p className="feature__name">blog</p>
-              <p className="feature__price">100zł</p>
+              <p className="feature__name">blog / aktualności</p>
+              <p className="feature__price">150zł</p>
             </div>
           </div>
           <div className="features__items">
@@ -185,7 +197,7 @@ const Offer = () => (
             </div>
             <div className="feature__item">
               <p className="feature__name">formularz kontaktowy</p>
-              <p className="feature__price">60zł</p>
+              <p className="feature__price">80zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">Utworzenie dodatkowej podstrony</p>
@@ -193,11 +205,11 @@ const Offer = () => (
             </div>
             <div className="feature__item">
               <p className="feature__name">Skrzynka pocztowa</p>
-              <p className="feature__price">60zł</p>
+              <p className="feature__price">80zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">portfolio</p>
-              <p className="feature__price">100zł</p>
+              <p className="feature__price">od 100zł</p>
             </div>
           </div>
         </ScrollAnimation>
@@ -214,11 +226,14 @@ const Offer = () => (
       >
         <img src={offerItemImg2} alt="e-commerce" />
         <div className="title__text">
-          <h2>Cennik Sklepów Internetowych (E-commerce)</h2>
+          <h2>
+            Cennik Sklepów Internetowych <nobr>(E-commerce)</nobr>
+          </h2>
           <p>
             Tworzymy sklepy internetowe opartę o najpopularniejsze na świecie narzędzie Woocomerce
             (Wordpress). Do dyspozycji klienta zostawiamy bardzo intuicyjny system zarządzania
-            sklepem. Przenieś swój biznes do internetu i powiększ swoje dochody!
+            sklepem. Do kosztów strony należy doliczyć utrzymanie hostingu, domeny i certyfikatu SSL
+            - około 200zł rocznie. Wszystkie ceny w naszym cenniku są cenami netto.
           </p>
         </div>
       </ScrollAnimation>
@@ -229,7 +244,10 @@ const Offer = () => (
           animateOnce={true}
           className="offer__item"
         >
-          <img src={sass} alt="website bronze" />
+          <div className="item__pricing item__pricing--low">
+            <h2 className="pricing__title">start</h2>
+          </div>
+          <h2 className="pricing__value pricing__value--low">1999 zł</h2>
           <p>
             <b>- Do 3 podstron</b>
             <br />
@@ -249,7 +267,7 @@ const Offer = () => (
             <br />
             - nielimitowane poprawki projektu
             <br />
-            - informacja o ciasteczkach i polityka prywatności
+            - INFORMACJA O CIASTECZKACH I POLITYKA PRYWATNOŚCI (rodo)
             <br />
             - możliwość samodzielnej obsługi sklepu (CMS)
             <br />
@@ -263,7 +281,10 @@ const Offer = () => (
           animateOnce={true}
           className="offer__item"
         >
-          <img src={sass} alt="website bronze" />
+          <div className="item__pricing item__pricing--medium">
+            <h2 className="pricing__title">standard</h2>
+          </div>
+          <h2 className="pricing__value pricing__value--medium">2799 zł</h2>
           <p>
             <b>- Do 5 podstron</b>
             <br />
@@ -283,7 +304,7 @@ const Offer = () => (
             <br />
             - nielimitowane poprawki projektu
             <br />
-            - informacja o ciasteczkach i polityka prywatności
+            - INFORMACJA O CIASTECZKACH I POLITYKA PRYWATNOŚCI (rodo)
             <br />
             - możliwość samodzielnej obsługi sklepu (CMS)
             <br />
@@ -297,7 +318,10 @@ const Offer = () => (
           animateOnce={true}
           className="offer__item"
         >
-          <img src={sass} alt="website bronze" />
+          <div className="item__pricing item__pricing--high">
+            <h2 className="pricing__title">pro</h2>
+          </div>
+          <h2 className="pricing__value pricing__value--high">3899 zł</h2>
           <p>
             <b>- Do 10 podstron</b>
             <br />
@@ -319,7 +343,7 @@ const Offer = () => (
             <br />
             - nielimitowane poprawki projektu
             <br />
-            - informacja o ciasteczkach i polityka prywatności
+            - INFORMACJA O CIASTECZKACH I POLITYKA PRYWATNOŚCI (rodo)
             <br />
             - możliwość samodzielnej obsługi sklepu (CMS)
             <br />
@@ -333,7 +357,9 @@ const Offer = () => (
           animateOnce={true}
           className="offer__item"
         >
-          <img src={sass} alt="website bronze" />
+          <div className="item__pricing item__pricing--individual">
+            <h2 className="pricing__title">individual</h2>
+          </div>
           <p>
             <b>- nielimitowana ilość podstron</b>
             <br />
@@ -355,7 +381,7 @@ const Offer = () => (
             <br />
             - nielimitowane poprawki projektu
             <br />
-            - informacja o ciasteczkach i polityka prywatności
+            - INFORMACJA O CIASTECZKACH I POLITYKA PRYWATNOŚCI (rodo)
             <br />
             - możliwość samodzielnej obsługi sklepu (CMS)
             <br />
@@ -382,11 +408,11 @@ const Offer = () => (
               <p className="feature__name">
                 Metody płatności: PayU, Przelewy24, PayPal, Przelew Bankowy, Za pobraniem
               </p>
-              <p className="feature__price">60zł każda</p>
+              <p className="feature__price">80zł każda</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">Metody dostawy: Poczta, Kurier, Odbiór osobisty</p>
-              <p className="feature__price">60zł każda</p>
+              <p className="feature__price">80zł każda</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">czat facebook</p>
@@ -394,7 +420,7 @@ const Offer = () => (
             </div>
             <div className="feature__item">
               <p className="feature__name">konto google analitics</p>
-              <p className="feature__price">60zł</p>
+              <p className="feature__price">80zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">wyskakujące okienko (pop-up)</p>
@@ -406,17 +432,17 @@ const Offer = () => (
             </div>
             <div className="feature__item">
               <p className="feature__name">mapa</p>
-              <p className="feature__price">60zł</p>
+              <p className="feature__price">80zł</p>
             </div>
           </div>
           <div className="features__items">
             <div className="feature__item">
-              <p className="feature__name">blog</p>
+              <p className="feature__name">blog / aktualności</p>
               <p className="feature__price">100zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">Kody rabatowe</p>
-              <p className="feature__price">60zł</p>
+              <p className="feature__price">80zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">
@@ -434,7 +460,7 @@ const Offer = () => (
             </div>
             <div className="feature__item">
               <p className="feature__name">formularz kontaktowy</p>
-              <p className="feature__price">60zł</p>
+              <p className="feature__price">80zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">Utworzenie dodatkowej podstrony</p>
@@ -442,7 +468,7 @@ const Offer = () => (
             </div>
             <div className="feature__item">
               <p className="feature__name">Skrzynka pocztowa</p>
-              <p className="feature__price">60zł</p>
+              <p className="feature__price">80zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">portfolio</p>
@@ -460,12 +486,12 @@ const Offer = () => (
           <h2>Dodatki specjalne:</h2>
           <div className="features__items">
             <div className="feature__item">
-              <p className="feature__name">Sklep na Facebooku 100zł</p>
-              <p className="feature__price">100zł</p>
+              <p className="feature__name">Sklep na Facebooku</p>
+              <p className="feature__price">200zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">Sklep na Facebooku + Instagram</p>
-              <p className="feature__price">200zł</p>
+              <p className="feature__price">300zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">
@@ -509,6 +535,7 @@ const Offer = () => (
           <p>
             Oprócz stron internetowych i sklepów internetowych zajmujemy się także grafiką.
             Potrzebujesz loga, wizytówki czy baneru? Napisz do nas, a nasi graficy się tym zajmą!
+            Wszystkie ceny w naszym cenniku są cenami netto.
           </p>
         </div>
       </ScrollAnimation>
@@ -523,11 +550,11 @@ const Offer = () => (
           <div className="features__items">
             <div className="feature__item">
               <p className="feature__name">Wizytówka jednostrona</p>
-              <p className="feature__price">120zł</p>
+              <p className="feature__price">130zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">Wizytówka dwustronna</p>
-              <p className="feature__price">160zł</p>
+              <p className="feature__price">170zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">Ulotka w wybranym formacie</p>
@@ -580,7 +607,7 @@ const Offer = () => (
           <p>
             Internet jest pełen zepsutych, zaniedbanych lub przestarzałych stron internetowych.
             Dobieramy odpowiednie metody do zaistniałej sytuacji: naprawiamy, poprawiamy lub
-            oferujemy nową, wysoką jakość.
+            oferujemy nową, wysoką jakość. Wszystkie ceny w naszym cenniku są cenami netto.
           </p>
         </div>
       </ScrollAnimation>

@@ -73,13 +73,13 @@
     width: calc(20% - 30px);
     margin: 15px;
     position: relative;
-    padding: 80px 25px 50px 25px;
+    padding: 0px;
     background-color: #fff;
 
     img {
         position: absolute;
         width: 90%;
-        top: -80px;
+        top: -100px;
         margin-left: auto;
         margin-right: auto;
         left: 0;
@@ -95,6 +95,7 @@
         margin: 0px;
         text-transform: uppercase;
         line-height: 20px;
+        padding: 25px 25px;
     }
 }
 
@@ -159,6 +160,55 @@
     padding-top: 40px !important;
 }
 
+.item__pricing {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+    margin-bottom: 25px;
+}
+
+.pricing__value {
+    font-size: 50px;
+}
+
+.item__pricing--low {
+    background-color: #AC7657;
+}
+
+.pricing__value--low {
+    color: #AC7657;
+}
+
+.item__pricing--medium {
+    background-color: #FE5841;
+}
+
+.pricing__value--medium {
+    color: #FE5841;
+}
+
+.item__pricing--high {
+    background-color: #FCB140;
+}
+
+.pricing__value--high {
+    color: #FCB140;
+}
+
+.item__pricing--individual {
+    background-color: #3E4FE6;
+}
+
+.pricing__value--individual {
+    color: #3E4FE6;
+}
+
+.pricing__title {
+    color: #fff;
+    text-transform: uppercase;
+}
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
@@ -177,7 +227,7 @@
 
     .offer__item {
         width: calc(100% - 30px);
-        margin-bottom: 90px;
+        margin-bottom: 50px;
     }
 
     .offer__features {
@@ -223,6 +273,18 @@
     .features__items {
         padding: 0;
     }
+
+    .pricing__value {
+        font-size: 40px;
+    }
+
+    .offer__items {
+        margin-top: 50px;
+    }
+
+    .offer__featuresWrapper h2 {
+        padding: 0;
+    }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -242,7 +304,7 @@
 
     .offer__item {
         width: calc(50% - 30px);
-        margin-bottom: 90px;
+        margin-bottom: 50px;
     }
 
     .offer__features {
@@ -289,7 +351,7 @@
 
     .offer__item {
         width: calc(50% - 30px);
-        margin-bottom: 90px;
+        margin-bottom: 70px;
     }
 
     .offer__features {
@@ -326,7 +388,10 @@
 
     .offer__item {
         width: calc(25% - 30px);
-        padding: 80px 15px 50px 15px;
+
+        p {
+            padding: 80px 15px 50px 15px;
+        }
     }
 
     .offer__features {

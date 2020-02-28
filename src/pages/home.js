@@ -8,7 +8,6 @@ import MenuMobile from '../components/Menu/MenuMobile/MenuMobile';
 import OfferHome from '../components/Home/OfferHome/OfferHome';
 import '../styles/main.scss';
 import logo from '../images/agrzesiak-logo.png';
-import loader from '../images/loader.svg';
 import 'animate.css/animate.min.css';
 import Helmet from 'react-helmet';
 
