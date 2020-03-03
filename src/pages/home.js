@@ -22,7 +22,7 @@ class Home extends React.Component {
     super();
     this.state = {
       showMenu: false,
-      cookies: localStorage.getItem('Cookies'),
+      cookies: true,
     };
   }
 
