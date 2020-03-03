@@ -23,8 +23,7 @@ class Home extends React.Component {
     this.state = {
       isLoading: true,
       showMenu: false,
-      // cookies: localStorage.getItem('Cookies'),
-      cookies: false,
+      cookies: localStorage.getItem('Cookies'),
     };
   }
 
