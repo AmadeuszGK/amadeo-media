@@ -21,7 +21,6 @@ class Home extends React.Component {
   constructor() {
     super();
     this.state = {
-      isLoading: true,
       showMenu: false,
       cookies: localStorage.getItem('Cookies'),
     };
@@ -33,7 +32,7 @@ class Home extends React.Component {
   };
 
   componentDidMount() {
-    this.setState({ isLoading: false });
+    this.setState({ cookies: localStorage.getItem('Cookies') });
   }
 
   render() {
