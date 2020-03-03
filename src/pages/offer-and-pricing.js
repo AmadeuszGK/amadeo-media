@@ -4,7 +4,7 @@ import MenuDesktop from '../components/Menu/MenuDesktop/MenuDesktop';
 import MenuMobile from '../components/Menu/MenuMobile/MenuMobile';
 import Footer from '../components/Footer/Footer';
 import Offer from '../components/Offer/Offer';
-
+import { Link } from 'gatsby';
 import logo from '../images/agrzesiak-logo.png';
 
 class OfferAndPricing extends React.Component {
@@ -39,9 +39,9 @@ class OfferAndPricing extends React.Component {
           <html lang="pl-PL" />
         </Helmet>
         <div className="suqare-logo">
-          <a href="/">
+          <Link to="/">
             <img src={logo} alt="amadeo media" />
-          </a>
+          </Link>
         </div>
 
         <MenuMobile passedFunction={this.toglleMenu} showMenu={this.state.showMenu} />

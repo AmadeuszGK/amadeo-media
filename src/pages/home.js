@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../components/Header/Header';
 import ClientsHome from '../components/Home/ClientsHome/ClientsHome';
 import ContactHome from '../components/Home/ContactHome/ContactHome';
+import Cookies from '../components/Cookies/Cookies';
 import Footer from '../components/Footer/Footer';
 import MenuMobile from '../components/Menu/MenuMobile/MenuMobile';
 import OfferHome from '../components/Home/OfferHome/OfferHome';
@@ -10,6 +11,7 @@ import '../styles/main.scss';
 import logo from '../images/agrzesiak-logo.png';
 import 'animate.css/animate.min.css';
 import Helmet from 'react-helmet';
+import { Link } from 'gatsby';
 
 if (typeof window !== 'undefined') {
   require('smooth-scroll')('a[href*="#"]');
@@ -21,6 +23,8 @@ class Home extends React.Component {
     this.state = {
       isLoading: true,
       showMenu: false,
+      // cookies: localStorage.getItem('Cookies'),
+      cookies: false,
     };
   }
 
@@ -60,9 +64,9 @@ class Home extends React.Component {
 
           <main>
             <div className="suqare-logo">
-              <a href="/">
+              <Link to="/">
                 <img src={logo} alt="amadeo media" />
-              </a>
+              </Link>
             </div>
             <OfferHome />
             <ClientsHome />
@@ -70,6 +74,7 @@ class Home extends React.Component {
           </main>
 
           <Footer />
+          {this.state.cookies ? null : <Cookies />}
         </div>
       </div>
     );

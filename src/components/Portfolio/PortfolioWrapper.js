@@ -8,7 +8,8 @@ import SectionTop from '../../components/SectionTop/SectionTop';
 const topText = (
   <p>
     Przez lata stworzyliśmy wiele projektów dla klientów z najróżniejszych branż. Poniżej znajdziesz
-    niektóre z nich. Naciśnij na obrazek, aby zobaczyć dany projekt.
+    niektóre z nich. Naciśnij na obrazek, aby zobaczyć dany projekt. Czerwone przyciski pozwolą Ci
+    posortować nasz prace w zależności od typu.
   </p>
 );
 const bigHeader = (

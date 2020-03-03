@@ -1,12 +1,10 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-import offerItem1 from '../../images/offer-item-1.png';
 import offerItem2 from '../../images/offer-item-2.png';
-import offerItemImg1 from '../../images/offer-item-img-1.png';
-import offerItemImg2 from '../../images/offer-item-img-2.png';
 import Skills from '../Skills/Skills';
 import './AboutUs.scss';
+import { Link } from 'gatsby';
 
 const AboutUs = () => (
   <>
@@ -47,7 +45,7 @@ const AboutUs = () => (
               <span className="p-event-none" />
               <span className="p-event-none" />
             </div>
-            <a href="/portfolio">Zobacz projekty jakie wykonaliśmy</a>
+            <Link to="/portfolio">Zobacz projekty jakie wykonaliśmy</Link>
           </div>
         </div>
       </ScrollAnimation>

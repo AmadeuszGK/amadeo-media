@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/main.scss';
 import Helmet from 'react-helmet';
+import { Link } from 'gatsby';
 
 const NotFoundPage = () => (
   <div style={{ height: 100 + 'vh' }} className="error-site">
@@ -24,9 +25,9 @@ const NotFoundPage = () => (
       <div className="canvas-text">
         <h1>BŁĄD 404</h1>
         <p>UPSS! WYGLĄDA NA TO, ŻE ZABŁĄDZIŁEŚ</p>
-        <a className="link-home" href="/">
+        <Link className="link-home" to="/">
           POWRÓT NA STRONĘ GŁÓWNĄ
-        </a>
+        </Link>
       </div>
     </div>
   </div>

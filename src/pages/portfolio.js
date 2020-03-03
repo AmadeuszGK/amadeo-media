@@ -5,7 +5,7 @@ import MenuMobile from '../components/Menu/MenuMobile/MenuMobile';
 import Footer from '../components/Footer/Footer';
 import PortfolioWrapper from '../components/Portfolio/PortfolioWrapper';
 import logo from '../images/agrzesiak-logo.png';
-import loader from '../images/loader.svg';
+import { Link } from 'gatsby';
 
 class Portfolio extends React.Component {
   constructor() {
@@ -44,9 +44,9 @@ class Portfolio extends React.Component {
           <html lang="pl-PL" />
         </Helmet>
         <div className="suqare-logo">
-          <a href="/">
+          <Link to="/">
             <img src={logo} alt="amadeo media" />
-          </a>
+          </Link>
         </div>
 
         <MenuMobile passedFunction={this.toglleMenu} showMenu={this.state.showMenu} />

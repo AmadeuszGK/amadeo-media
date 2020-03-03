@@ -23,7 +23,7 @@
 
 .portfolio__item:hover {
   .portfolio__itemHover {
-    left: 0px;
+    transform: translateX(800px);
   }
 }
 
@@ -82,7 +82,7 @@
 
   .portfolio__item:hover {
     .portfolio__itemHover {
-      left: -800px;
+      transform: translateX(800px);
     }
   }
 }
@@ -100,7 +100,7 @@
 
   .portfolio__item:hover {
     .portfolio__itemHover {
-      left: -800px;
+      transform: translateX(800px);
     }
   }
 }
@@ -114,7 +114,7 @@
 
   .portfolio__item:hover {
     .portfolio__itemHover {
-      left: -800px;
+      transform: translateX(800px);
     }
   }
 }

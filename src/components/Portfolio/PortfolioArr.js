@@ -15,7 +15,7 @@ let portfolioArr = [
   },
   {
     name: 'Quadriga Business GmbH',
-    link: 'http://quadriga-buissness.de',
+    link: 'http://quadriga-business.de',
     type: 'website',
     img: quadrigaBuisnessImg,
   },

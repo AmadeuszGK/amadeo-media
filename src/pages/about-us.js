@@ -5,6 +5,7 @@ import MenuMobile from '../components/Menu/MenuMobile/MenuMobile';
 import AboutUs from '../components/AboutUs/AboutUs';
 import Footer from '../components/Footer/Footer';
 import logo from '../images/agrzesiak-logo.png';
+import { Link } from 'gatsby';
 
 class AboutUsView extends React.Component {
   constructor() {
@@ -38,9 +39,9 @@ class AboutUsView extends React.Component {
           <html lang="pl-PL" />
         </Helmet>
         <div className="suqare-logo">
-          <a href="/">
+          <Link to="/">
             <img src={logo} alt="amadeo media" />
-          </a>
+          </Link>
         </div>
 
         <MenuMobile passedFunction={this.toglleMenu} showMenu={this.state.showMenu} />

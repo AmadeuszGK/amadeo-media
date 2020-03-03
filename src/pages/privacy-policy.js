@@ -5,6 +5,7 @@ import MenuMobile from '../components/Menu/MenuMobile/MenuMobile';
 import '../styles/main.scss';
 import logo from '../images/agrzesiak-logo.png';
 import MenuDesktop from '../components/Menu/MenuDesktop/MenuDesktop';
+import { Link } from 'gatsby';
 
 class PrivacyPolicy extends React.Component {
   constructor() {
@@ -47,9 +48,9 @@ class PrivacyPolicy extends React.Component {
         <div className="main-content">
           <div className="main-content-button" onClick={this.toglleMenu.bind(this)} />
           <div className="suqare-logo">
-            <a href="/">
+            <Link to="/">
               <img src={logo} alt="amadeo media" />
-            </a>
+            </Link>
           </div>
 
           <div className="header-small">
