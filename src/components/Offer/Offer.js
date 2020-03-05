@@ -550,11 +550,11 @@ const Offer = () => (
           <div className="features__items">
             <div className="feature__item">
               <p className="feature__name">Wizytówka jednostrona</p>
-              <p className="feature__price">130zł</p>
+              <p className="feature__price">150zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">Wizytówka dwustronna</p>
-              <p className="feature__price">170zł</p>
+              <p className="feature__price">180zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">Ulotka w wybranym formacie</p>
@@ -572,7 +572,7 @@ const Offer = () => (
           <div className="features__items">
             <div className="feature__item">
               <p className="feature__name">Projekty na Social Media</p>
-              <p className="feature__price">od 50zł</p>
+              <p className="feature__price">od 60zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">Stopka e-mail</p>
@@ -622,11 +622,11 @@ const Offer = () => (
           <div className="features__items">
             <div className="feature__item">
               <p className="feature__name">Poprawka lub zmiana w tekście</p>
-              <p className="feature__price">40zł</p>
+              <p className="feature__price">50zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">Poprawka lub zmiana graficzna</p>
-              <p className="feature__price">40-80zł</p>
+              <p className="feature__price">50-100zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">Dodanie postrony</p>
@@ -634,7 +634,7 @@ const Offer = () => (
             </div>
             <div className="feature__item">
               <p className="feature__name">Zmiana układu menu/podstron w tym usunięcie</p>
-              <p className="feature__price">60zł</p>
+              <p className="feature__price">80zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">Podstawowe SEO</p>
@@ -652,7 +652,7 @@ const Offer = () => (
             </div>
             <div className="feature__item">
               <p className="feature__name">Administracja strony internetowej</p>
-              <p className="feature__price">od 50zł</p>
+              <p className="feature__price">od 60zł</p>
             </div>
             <div className="feature__item">
               <p className="feature__name">Naprawa twojej starej strony</p>

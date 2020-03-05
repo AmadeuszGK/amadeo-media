@@ -124,7 +124,7 @@ h2 {
   font-family: 'Montserrat Bold';
 }
 
-.privacyPolicy__section {
+.policy__section {
   padding: 120px;
 }
 
@@ -144,6 +144,15 @@ input[type='hidden'] {
   display: none;
 }
 
+.policy__text {
+  font-family: 'Montserrat Regular';
+  padding: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  width: 70%;
+  color: #4a4a4a;
+}
+
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   .mobile-only {
@@ -154,8 +163,14 @@ input[type='hidden'] {
     display: none;
   }
 
-  .privacyPolicy__section {
+  .policy__section {
     padding: 60px 15px 50px 15px;
+  }
+
+  .policy__text {
+    width: 100%;
+    padding: 20px 10px 20px 25px;
+    font-size: 13px;
   }
 }
 
@@ -169,8 +184,14 @@ input[type='hidden'] {
     display: none;
   }
 
-  .privacyPolicy__section {
+  .policy__section {
     padding: 60px 15px 50px 15px;
+  }
+
+  .policy__text {
+    width: 100%;
+    padding: 20px 10px 20px 25px;
+    font-size: 13px;
   }
 }
 
@@ -184,21 +205,29 @@ input[type='hidden'] {
     display: none;
   }
 
-  .privacyPolicy__section {
+  .policy__section {
     padding: 80px 30px 60px 30px;
+  }
+
+  .policy__text {
+    width: 100%;
   }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1299.98px) {
-  .privacyPolicy__section {
+  .policy__section {
     padding: 80px 60px;
+  }
+
+  .policy__text {
+    width: 100%;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and (max-width: 1500.98px) {
-  .privacyPolicy__section {
+  .policy__section {
     padding: 80px;
   }
 }

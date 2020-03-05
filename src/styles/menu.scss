@@ -11,6 +11,7 @@
     background-color: #FF6800;
     z-index: 1;
     cursor: pointer;
+    transition: opacity 0.2s ease-in-out !important;
 }
 
 .suqare-logo {
@@ -25,11 +26,18 @@
     align-items: center;
     z-index: 5;
     cursor: pointer;
+    transition: opacity 0.2s ease-in-out !important;
 
     img {
         max-width: 50px;
     }
 }
+
+.suqare-logo:hover,
+.menu-button:hover {
+    opacity: 0.8;
+}
+
 
 .side-menu {
     position: fixed;

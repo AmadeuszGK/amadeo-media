@@ -6,9 +6,9 @@ import footerLogo from '../../images/agrzesiak-logo.png';
 
 const Footer = () => (
   <footer>
-    <div className="footer__logo">
+    <Link className="footer__logo" to="/">
       <img src={footerLogo} alt="footer logo" />
-    </div>
+    </Link>
     <div className="footerItem">
       <div className="footerItem__title">
         <p>MENU:</p>
@@ -53,11 +53,6 @@ const Footer = () => (
       </div>
       <ul>
         <li>
-          <div className="footer-menu-item" to="/">
-            NIP: 111-222-333-444
-          </div>
-        </li>
-        <li>
           <a className="footer-menu-item" href="tel:+48796536228">
             Tel: +48 796 536 228
           </a>
@@ -67,41 +62,13 @@ const Footer = () => (
             E-mail: grzesiak.amadeusz@gmail.com
           </a>
         </li>
+        <li>
+          <div className="footer-menu-item" to="/">
+            NIP: 6131583985
+          </div>
+        </li>
       </ul>
     </div>
-    {/* <div className="footerItem">
-        <div className="footerItem__title">
-
-          <p>OFERTA I Cennik:</p>
-        </div>
-        <ul>
-        <li>
-            <Link className="footer-menu-item" to="/">
-              Strony WWW
-            </Link>
-          </li>
-          <li>
-            <Link className="footer-menu-item" to="/offer-and-pricing">
-              Sklepy Internetowe
-            </Link>
-          </li>
-          <li>
-            <Link className="footer-menu-item"  to="/portfolio">
-              Grafika
-            </Link>
-          </li>
-          <li>
-            <Link className="footer-menu-item" to="/about-us">
-              Administracja
-            </Link>
-          </li>
-          <li>
-            <Link className="footer-menu-item" to="/contact">
-              Naprawa Starych Stron
-            </Link>
-          </li>
-        </ul>
-      </div> */}
     <div className="footerItem footerItem--nopadding">
       <div className="footerItem__title">
         <p>OBSERWUJ NAS!</p>
