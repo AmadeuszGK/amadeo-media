@@ -1119,14 +1119,12 @@
       },
       "port": 8000,
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
       "buildTime": "2020-03-03T11:52:21.270Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "d939117f208cff8dfbf7d1dde58d407a",
+        "contentDigest": "b56eece44fd181a79fcb3f8500be5464",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
