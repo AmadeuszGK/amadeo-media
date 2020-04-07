@@ -28,7 +28,7 @@ const Offer = () => (
           <p>
             Naszą specjalnością są strony internetowe. Poniżej znajdują się cztery pakiety
             obrazujące przekrój cen stron infernetowych. Są to ceny przybliżone i finalnie mogą się
-            różnić, ze względu na skomplikowanie projektu. Do kosztów strony należy doliczyć
+            różnić, w zależności od skomplikowania projektu. Do kosztów strony należy doliczyć
             utrzymanie hostingu i domeny - około 150zł rocznie. Wszystkie ceny w naszym cenniku są
             cenami netto.
           </p>
