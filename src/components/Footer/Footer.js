@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import './Footer.scss';
 import facebook from '../../images/facebook-square-brands.png';
 import footerLogo from '../../images/agrzesiak-logo.png';
+import logoBlack from '../../images/amadeo-media-logo-black.png';
 
 const Footer = () => (
   <footer>
@@ -64,7 +65,7 @@ const Footer = () => (
         </li>
         <li>
           <div className="footer-menu-item" to="/">
-            NIP: 6131583985
+            NIP: 613-158-39-85
           </div>
         </li>
       </ul>
@@ -88,6 +89,7 @@ const Footer = () => (
     </div>
     <div className="footer__absolute">
       <p>© {new Date().getFullYear()} Amadeo Media. All rights reserved</p>
+      <img src={logoBlack} alt="logo black" style="display: none" />
     </div>
   </footer>
 );
