@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './PortfolioNav.scss';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 class PortfolioNav extends Component {
   filter = 'default';
@@ -26,12 +25,7 @@ class PortfolioNav extends Component {
 
   render() {
     return (
-      <ScrollAnimation
-        className="portfolio__nav"
-        animateIn="slideInRight"
-        delay={100}
-        animateOnce={true}
-      >
+      <div className="portfolio__nav">
         <button
           className={this.filter === 'default' ? 'portfolio__button--active' : 'portfolio__button'}
           onClick={this.sortByDefault}
@@ -50,7 +44,7 @@ class PortfolioNav extends Component {
         >
           SKLEPY
         </button>
-      </ScrollAnimation>
+      </div>
     );
   }
 }

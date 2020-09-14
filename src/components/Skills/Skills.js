@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 import './Skills.scss';
 
 import javascript from '../../images/javascript.png';
@@ -18,25 +17,9 @@ import figma from '../../images/figma.png';
 const Skills = () => (
   <section className="section-skills" id="section-skills">
     <div className="skills-box">
-      <ScrollAnimation
-        className="skills-top-square"
-        animateIn="slideInLeft"
-        delay={100}
-        animateOnce={true}
-      />
-      <ScrollAnimation
-        className="skills-bottom-square"
-        animateIn="slideInRight"
-        delay={100}
-        animateOnce={true}
-      />
-
+      <div className="skills-top-square" />
+      <div className="skills-bottom-square" />
       <div className="skills-desc">
-        {/* <div className="skills-header">
-          <div className="flat-line" />
-          <p className="flat-line__text">UMIEJĘTNOŚCI I TECHNOLOGIE</p>
-        </div> */}
-
         <h2>
           Najnowsze
           <br />
@@ -49,7 +32,7 @@ const Skills = () => (
       </div>
 
       <div className="skills">
-        <ScrollAnimation className="all-skills" animateIn="fadeIn" delay={100} animateOnce={true}>
+        <div className="all-skills">
           <div className="skill-container">
             <img className="skill-image" src={javascript} alt="javascript" />
             <p className="skill-text">javascript</p>
@@ -98,7 +81,7 @@ const Skills = () => (
             <img className="skill-image" src={figma} alt="figma" />
             <p className="skill-text">figma</p>
           </div>
-        </ScrollAnimation>
+        </div>
       </div>
     </div>
   </section>

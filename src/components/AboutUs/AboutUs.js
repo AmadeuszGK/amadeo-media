@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 import offerItem2 from '../../images/offer-item-2.png';
 import Skills from '../Skills/Skills';
@@ -9,13 +8,7 @@ import { Link } from 'gatsby';
 const AboutUs = () => (
   <>
     <div className="about-item--nobg">
-      <ScrollAnimation
-        className="top-text"
-        animateIn="slideInLeft"
-        delay={0}
-        animateOnce={true}
-        className="about-item__desc about-item__desc--left"
-      >
+      <div className="top-text about-item__desc about-item__desc--left">
         <div className="SectionTop-module--top__header--295vo">
           <div className="flat-line" />
           <h2>Kilka słów o nas</h2>
@@ -48,16 +41,10 @@ const AboutUs = () => (
             <Link to="/portfolio">Zobacz projekty jakie wykonaliśmy</Link>
           </div>
         </div>
-      </ScrollAnimation>
-      <ScrollAnimation
-        className="top-text"
-        animateIn="slideInRight"
-        animateOnce={true}
-        className="about-item__image"
-        offset={0}
-      >
+      </div>
+      <div className="top-text about-item__image">
         <img src={offerItem2} alt="amadeo" />
-      </ScrollAnimation>
+      </div>
     </div>
 
     <Skills />

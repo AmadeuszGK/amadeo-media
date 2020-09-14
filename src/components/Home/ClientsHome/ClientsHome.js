@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 import { Link } from 'gatsby';
 import wolnosci14Logo from '../../../images/wolnosci14-logo.png';
 import chiarashopLogo from '../../../images/chiarashop-logo.png';
@@ -90,18 +89,13 @@ const ClientsHome = () => {
             colorWhite
           />
 
-          <ScrollAnimation
-            animateIn="slideInRight"
-            delay={100}
-            animateOnce={true}
-            className="clients__items"
-          >
+          <div className="clients__items">
             {clientsItems.map(item => (
               <div className="clients__item" id={item.last && 'client__item--last'} key={item.key}>
                 <img src={item.logo} alt={item.alt} />
               </div>
             ))}
-          </ScrollAnimation>
+          </div>
         </div>
       </div>
     </section>

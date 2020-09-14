@@ -2,15 +2,9 @@ import React from 'react';
 import './ContactForm.scss';
 import ButtonSend from '../Button/Button';
 import { Link } from 'gatsby';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 const ContactForm = () => (
-  <ScrollAnimation
-    className="contact__formWrapper"
-    animateIn="slideInRight"
-    delay={100}
-    animateOnce={true}
-  >
+  <div className="contact__formWrapper">
     <form
       action="/success"
       className="contact__form"
@@ -59,7 +53,7 @@ const ContactForm = () => (
       </div>
       <ButtonSend type="submit" class="button--alert button--send" text="WYŚLIJ" />
     </form>
-  </ScrollAnimation>
+  </div>
 );
 
 export default ContactForm;

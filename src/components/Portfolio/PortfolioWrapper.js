@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 import './PortfolioWrapper.scss';
 import PortfolioList from './PortfolioList/PortfolioList';
 import PortfolioNav from './PortfolioNav/PortfolioNav';
@@ -36,15 +35,9 @@ export default class PortfolioWrapper extends Component {
       <section className="section__portfolio" id="section__portfolio" filter={this.state.filter}>
         <SectionTop smallHeader={smallHeader} bigHeader={bigHeader} paragraph={topText} />
         <PortfolioNav parentFilter={this.setFilter} />
-        <ScrollAnimation
-          animateIn="slideInRight"
-          offset={0}
-          delay={100}
-          animateOnce={true}
-          className="portfolio__list"
-        >
+        <div className="portfolio__list">
           <PortfolioList filter={this.state.filter} />
-        </ScrollAnimation>
+        </div>
       </section>
     );
   }

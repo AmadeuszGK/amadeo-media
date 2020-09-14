@@ -1,22 +1,16 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 import envelope from '../../../images/envelope-regular.png';
 import phone from '../../../images/phone-solid.png';
-import linkedin from '../../../images/linkedin-brands.png';
-import facebook from '../../../images/facebook-square-brands.png';
+// import linkedin from '../../../images/linkedin-brands.png';
+// import facebook from '../../../images/facebook-square-brands.png';
 import ContactForm from '../../ContactForm/ContactForm';
 import './ContactHome.scss';
 
 const ContactHome = () => (
   <section className="section__contact" id="section__contact">
     <div className="contact__wrapper">
-      <ScrollAnimation
-        className="contact__details"
-        animateIn="slideInLeft"
-        delay={100}
-        animateOnce={true}
-      >
+      <div className="contact__details">
         <div className="contact__header">
           <div className="flat-line" />
           <p>KONTAKT</p>
@@ -61,7 +55,7 @@ const ContactHome = () => (
             </a>
           </div> */}
         </div>
-      </ScrollAnimation>
+      </div>
 
       <ContactForm />
     </div>

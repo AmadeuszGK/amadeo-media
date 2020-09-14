@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 import styles from './OfferHome.module.scss';
 import offerItem1 from '../../../images/offer-item-img-1.png';
 import offerItem2 from '../../../images/offer-item-img-2.png';
@@ -29,12 +28,7 @@ const OfferHome = () => (
       <SectionTop smallHeader={smallHeader} bigHeader={bigHeader} paragraph={topText} />
 
       <div className={styles.offer__items}>
-        <ScrollAnimation
-          className={styles.offer__item}
-          animateIn="slideInRight"
-          delay={100}
-          animateOnce={true}
-        >
+        <div className={styles.offer__item}>
           <div to="/offer-and-pricing">
             <img src={offerItem1} alt="websites" />
             <h2>Strony WWW</h2>
@@ -47,13 +41,8 @@ const OfferHome = () => (
           <Link to="/offer-and-pricing/#website" className={styles.offer__link}>
             Czytaj dalej...
           </Link>
-        </ScrollAnimation>
-        <ScrollAnimation
-          animateIn="slideInRight"
-          delay={100}
-          animateOnce={true}
-          className={styles.offer__item}
-        >
+        </div>
+        <div className={styles.offer__item}>
           <div to="/offer-and-pricing">
             <img src={offerItem2} alt="ecommerce" />
             <h2>Sklepy internetowe</h2>
@@ -66,13 +55,8 @@ const OfferHome = () => (
           <Link to="/offer-and-pricing/#store" className={styles.offer__link}>
             Czytaj dalej...
           </Link>
-        </ScrollAnimation>
-        <ScrollAnimation
-          className={styles.offer__item}
-          animateIn="slideInRight"
-          delay={100}
-          animateOnce={true}
-        >
+        </div>
+        <div className={styles.offer__item}>
           <div to="/offer-and-pricing">
             <img src={offerItem3} alt="graphics" />
             <h2>Grafika</h2>
@@ -85,13 +69,8 @@ const OfferHome = () => (
           <Link to="/offer-and-pricing/#graphics" className={styles.offer__link}>
             Czytaj dalej...
           </Link>
-        </ScrollAnimation>
-        <ScrollAnimation
-          className={styles.offer__item}
-          animateIn="slideInRight"
-          delay={100}
-          animateOnce={true}
-        >
+        </div>
+        <div className={styles.offer__item}>
           <div to="/offer-and-pricing">
             <img src={offerItem5} alt="update" />
             <h2>Naprawa starych stron</h2>
@@ -104,13 +83,8 @@ const OfferHome = () => (
           <Link to="/offer-and-pricing/#administration" className={styles.offer__link}>
             Czytaj dalej...
           </Link>
-        </ScrollAnimation>
-        <ScrollAnimation
-          className={styles.offer__item}
-          animateIn="slideInRight"
-          delay={100}
-          animateOnce={true}
-        >
+        </div>
+        <div className={styles.offer__item}>
           <div to="/offer-and-pricing">
             <img src={offerItem4} alt="adminiastration" />
             <h2>Administrowanie stron</h2>
@@ -123,7 +97,7 @@ const OfferHome = () => (
           <Link to="/offer-and-pricing/#administration" className={styles.offer__link}>
             Czytaj dalej...
           </Link>
-        </ScrollAnimation>
+        </div>
       </div>
     </div>
   </section>
