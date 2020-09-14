@@ -1,6 +1,4 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
-
 import offerItemImg1 from '../../images/offer-item-img-1.png';
 import offerItemImg2 from '../../images/offer-item-img-2.png';
 import offerItemImg3 from '../../images/offer-item-img-3.png';
@@ -16,31 +14,21 @@ const Offer = () => (
   <section className="section-offer" id="section-offer">
     <div className="offer__section" id="website">
       <img src={number01grey} alt="number" className="offer__number" />
-      <ScrollAnimation
-        animateIn="slideInRight"
-        delay={0}
-        animateOnce={true}
-        className="offer__title"
-      >
+      <div className="offer__title">
         <img src={offerItemImg1} alt="websites" />
         <div className="title__text">
           <h2>Cennik Stron Internetowych</h2>
           <p>
-            Naszą specjalnością są strony internetowe. Poniżej znajdują się cztery pakiety
-            obrazujące przekrój cen stron infernetowych. Są to ceny przybliżone i finalnie mogą się
-            różnić, w zależności od skomplikowania projektu. Do kosztów strony należy doliczyć
-            utrzymanie hostingu i domeny - około 150zł rocznie. Wszystkie ceny w naszym cenniku są
-            cenami netto.
+            Moją specjalnością są strony internetowe oraz aplikacje webowe. Poniżej znajdują się
+            cztery pakiety obrazujące przekrój cen stron infernetowych. Są to ceny przybliżone i
+            finalnie mogą się różnić, w zależności od skomplikowania projektu. Do kosztów strony
+            należy doliczyć utrzymanie hostingu i domeny - około 150zł rocznie. Wszystkie ceny w
+            naszym cenniku są cenami netto.
           </p>
         </div>
-      </ScrollAnimation>
+      </div>
       <div className="offer__items">
-        <ScrollAnimation
-          animateIn="slideInLeft"
-          delay={100}
-          animateOnce={true}
-          className="offer__item"
-        >
+        <div className="offer__item">
           <div className="item__pricing item__pricing--low">
             <h2 className="pricing__title">start</h2>
           </div>
@@ -61,13 +49,8 @@ const Offer = () => (
             - możliwość samodzielnej edycji (CMS)
             <br />
           </p>
-        </ScrollAnimation>
-        <ScrollAnimation
-          animateIn="slideInLeft"
-          delay={100}
-          animateOnce={true}
-          className="offer__item"
-        >
+        </div>
+        <div className="offer__item">
           <div className="item__pricing item__pricing--medium">
             <h2 className="pricing__title">standard</h2>
           </div>
@@ -88,13 +71,8 @@ const Offer = () => (
             - możliwość samodzielnej edycji (CMS)
             <br />
           </p>
-        </ScrollAnimation>
-        <ScrollAnimation
-          animateIn="slideInLeft"
-          delay={100}
-          animateOnce={true}
-          className="offer__item"
-        >
+        </div>
+        <div className="offer__item">
           <div className="item__pricing item__pricing--high">
             <h2 className="pricing__title">Pro</h2>
           </div>
@@ -116,13 +94,8 @@ const Offer = () => (
             - możliwość samodzielnej edycji (CMS)
             <br />
           </p>
-        </ScrollAnimation>
-        <ScrollAnimation
-          animateIn="slideInLeft"
-          delay={100}
-          animateOnce={true}
-          className="offer__item"
-        >
+        </div>
+        <div className="offer__item">
           <div className="item__pricing item__pricing--individual">
             <h2 className="pricing__title">individual</h2>
           </div>
@@ -145,16 +118,11 @@ const Offer = () => (
             - możliwość samodzielnej edycji (CMS)
             <br />
           </p>
-        </ScrollAnimation>
+        </div>
       </div>
 
       <div className="offer__featuresWrapper">
-        <ScrollAnimation
-          animateIn="slideInRight"
-          delay={100}
-          animateOnce={true}
-          className="offer__features"
-        >
+        <div className="offer__features">
           <h2>Dodatki do stron internetowych:</h2>
           <div className="features__items">
             <div className="feature__item">
@@ -212,18 +180,13 @@ const Offer = () => (
               <p className="feature__price">od 100zł</p>
             </div>
           </div>
-        </ScrollAnimation>
+        </div>
       </div>
     </div>
 
     <div className="offer__section offer__section--bg" id="store">
       <img src={number02white} alt="number" className="offer__number" />
-      <ScrollAnimation
-        animateIn="slideInRight"
-        delay={100}
-        animateOnce={true}
-        className="offer__title"
-      >
+      <div className="offer__title">
         <img src={offerItemImg2} alt="e-commerce" />
         <div className="title__text">
           <h2>
@@ -236,14 +199,9 @@ const Offer = () => (
             - około 200zł rocznie. Wszystkie ceny w naszym cenniku są cenami netto.
           </p>
         </div>
-      </ScrollAnimation>
+      </div>
       <div className="offer__items">
-        <ScrollAnimation
-          animateIn="slideInLeft"
-          delay={100}
-          animateOnce={true}
-          className="offer__item"
-        >
+        <div className="offer__item">
           <div className="item__pricing item__pricing--low">
             <h2 className="pricing__title">start</h2>
           </div>
@@ -274,13 +232,8 @@ const Offer = () => (
             - pomoc techniczna po wdrożeniowa 30 dni
             <br />
           </p>
-        </ScrollAnimation>
-        <ScrollAnimation
-          animateIn="slideInLeft"
-          delay={100}
-          animateOnce={true}
-          className="offer__item"
-        >
+        </div>
+        <div className="offer__item">
           <div className="item__pricing item__pricing--medium">
             <h2 className="pricing__title">standard</h2>
           </div>
@@ -311,13 +264,8 @@ const Offer = () => (
             - pomoc techniczna po wdrożeniowa 30 dni
             <br />
           </p>
-        </ScrollAnimation>
-        <ScrollAnimation
-          animateIn="slideInLeft"
-          delay={100}
-          animateOnce={true}
-          className="offer__item"
-        >
+        </div>
+        <div className="offer__item">
           <div className="item__pricing item__pricing--high">
             <h2 className="pricing__title">pro</h2>
           </div>
@@ -350,13 +298,8 @@ const Offer = () => (
             - pomoc techniczna po wdrożeniowa 30 dni
             <br />
           </p>
-        </ScrollAnimation>
-        <ScrollAnimation
-          animateIn="slideInLeft"
-          delay={100}
-          animateOnce={true}
-          className="offer__item"
-        >
+        </div>
+        <div className="offer__item">
           <div className="item__pricing item__pricing--individual">
             <h2 className="pricing__title">individual</h2>
           </div>
@@ -388,16 +331,11 @@ const Offer = () => (
             - pomoc techniczna po wdrożeniowa 30 dni
             <br />
           </p>
-        </ScrollAnimation>
+        </div>
       </div>
 
       <div className="offer__featuresWrapper">
-        <ScrollAnimation
-          animateIn="slideInRight"
-          delay={100}
-          animateOnce={true}
-          className="offer__features"
-        >
+        <div className="offer__features">
           <h2>Dodatki do sklepów internetowych:</h2>
           <div className="features__items">
             <div className="feature__item">
@@ -475,14 +413,9 @@ const Offer = () => (
               <p className="feature__price">100zł</p>
             </div>
           </div>
-        </ScrollAnimation>
+        </div>
 
-        <ScrollAnimation
-          animateIn="slideInRight"
-          delay={100}
-          animateOnce={true}
-          className="offer__features offer__features--padding"
-        >
+        <div className="offer__features offer__features--padding">
           <h2>Dodatki specjalne:</h2>
           <div className="features__items">
             <div className="feature__item">
@@ -517,18 +450,13 @@ const Offer = () => (
           <p style={{ fontSize: '10px', marginTop: '10px', marginLeft: '15px' }}>
             * Dodatki specjalne, są płatne zawsze bez względu na rodzaj wybranego pakietu.
           </p>
-        </ScrollAnimation>
+        </div>
       </div>
     </div>
 
     <div className="offer__section" id="graphics">
       <img src={number03grey} alt="number" className="offer__number" />
-      <ScrollAnimation
-        animateIn="slideInRight"
-        delay={100}
-        animateOnce={true}
-        className="offer__title"
-      >
+      <div className="offer__title">
         <img src={offerItemImg3} alt="graphics" />
         <div className="title__text">
           <h2>Cennik usuług graficznych</h2>
@@ -538,14 +466,9 @@ const Offer = () => (
             Wszystkie ceny w naszym cenniku są cenami netto.
           </p>
         </div>
-      </ScrollAnimation>
+      </div>
 
-      <ScrollAnimation
-        animateIn="slideInLeft"
-        delay={100}
-        animateOnce={true}
-        className="offer__featuresWrapper offer__features--padding"
-      >
+      <div className="offer__featuresWrapper offer__features--padding">
         <div className="offer__features">
           <div className="features__items">
             <div className="feature__item">
@@ -590,17 +513,12 @@ const Offer = () => (
             </div>
           </div>
         </div>
-      </ScrollAnimation>
+      </div>
     </div>
 
     <div className="offer__section  offer__section--bg" id="administration">
       <img src={number04white} alt="number" className="offer__number" />
-      <ScrollAnimation
-        animateIn="slideInRight"
-        delay={100}
-        animateOnce={true}
-        className="offer__title"
-      >
+      <div className="offer__title">
         <img src={offerItemImg4} alt="administration and fix" />
         <div className="title__text">
           <h2>Cennik administracji i naprawa</h2>
@@ -610,14 +528,9 @@ const Offer = () => (
             oferujemy nową, wysoką jakość. Wszystkie ceny w naszym cenniku są cenami netto.
           </p>
         </div>
-      </ScrollAnimation>
+      </div>
 
-      <ScrollAnimation
-        animateIn="slideInLeft"
-        delay={100}
-        animateOnce={true}
-        className="offer__featuresWrapper offer__features--padding"
-      >
+      <div className="offer__featuresWrapper offer__features--padding">
         <div className="offer__features">
           <div className="features__items">
             <div className="feature__item">
@@ -660,7 +573,7 @@ const Offer = () => (
             </div>
           </div>
         </div>
-      </ScrollAnimation>
+      </div>
     </div>
   </section>
 );

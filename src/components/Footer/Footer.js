@@ -3,7 +3,6 @@ import { Link } from 'gatsby';
 import './Footer.scss';
 import facebook from '../../images/facebook-square-brands.png';
 import footerLogo from '../../images/agrzesiak-logo.png';
-import logoBlack from '../../images/amadeo-media-logo-black.png';
 
 const Footer = () => (
   <footer>
@@ -94,7 +93,6 @@ const Footer = () => (
     </div>
     <div className="footer__absolute">
       <p>© {new Date().getFullYear()} Amadeo Media. All rights reserved</p>
-      <img src={logoBlack} alt="logo black" style="display: none" />
     </div>
   </footer>
 );

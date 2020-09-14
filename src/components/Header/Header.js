@@ -34,7 +34,7 @@ const Header = () => (
         <p>Nowa jakość w tworzeniu internetowej treści.</p>
         {/* <h2>{headerText}</h2> */}
         <h1>NOWOCZESNE STRONY I SKLEPY INTERNETOWE</h1>
-        <ButtonLink text="ZOBACZ NASZE PORTFOLIO" href="/portfolio" class="button button--alert" />
+        <ButtonLink text="ZOBACZ PORTFOLIO" href="/portfolio" class="button button--alert" />
       </ScrollAnimation>
       <Link className="scroll-down" to="/#section__offer">
         <div className="scroll-down__container">

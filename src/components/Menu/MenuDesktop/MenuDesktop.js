@@ -46,7 +46,7 @@ const MenuDesktop = () => (
             to="/about-us"
             activeStyle={{ fontFamily: '"Montserrat Bold"', borderBottom: '1px solid #fff' }}
           >
-            O nas
+            O mnie
           </Link>
         </li>
         <li>

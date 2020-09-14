@@ -29,8 +29,8 @@ const ContactHome = () => (
         </h2>
 
         <p>
-          Chciałbyś skorzystać z naszych usług? Masz jakieś pytania? Nie czekaj, napisz maila lub
-          zadzwoń! Konsultacje oraz wyceny są u nas zawsze za darmo.
+          Chciałbyś skorzystać z moich usług? Masz jakieś pytania? Nie czekaj, napisz maila lub
+          zadzwoń! Konsultacje oraz wyceny są u mnie zawsze za darmo.
         </p>
 
         <div className="contact__social">

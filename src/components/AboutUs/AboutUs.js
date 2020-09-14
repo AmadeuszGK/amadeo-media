@@ -31,7 +31,7 @@ const AboutUs = () => (
         <div className="desc__variant">
           <h3>Zaufanie</h3>
           <p>
-            Bliska relacja, otwarty dialog i przejrzysty cennik to nasze credo. Wzajemne zrozumienie
+            Bliska relacja, otwarty dialog i przejrzysty cennik to moje credo. Wzajemne zrozumienie
             i wspólne określenie celów to gwarancja sukcesu. Stale poszukujemy najlepszych
             rozwiązań. Nie boimy się nieszablonowych pomysłów i nowatorskich rozwiązań. Nie
             satysfakcjonuje nas przeciętność, tego samego chcemy dla naszych Klientów.

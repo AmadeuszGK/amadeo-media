@@ -7,16 +7,17 @@ import SectionTop from '../../components/SectionTop/SectionTop';
 
 const topText = (
   <p>
-    Przez lata stworzyliśmy wiele projektów dla klientów z najróżniejszych branż. Poniżej znajdziesz
-    niektóre z nich. Naciśnij na obrazek, aby zobaczyć dany projekt. Czerwone przyciski pozwolą Ci
-    posortować nasz prace w zależności od typu.
+    Przez lata stworzyłem wiele projektów dla klientów z najróżniejszych branż oraz pracując dla
+    firmy Promatic - jednego z liderów branży gamblingowej w Polsce. Poniżej znajdziesz niektóre z
+    nich. Naciśnij na obrazek, aby zobaczyć dany projekt. Czerwone przyciski pozwolą Ci posortować
+    moje prace w zależności od typu.
   </p>
 );
 const bigHeader = (
   <h2>
     Sprawdź
     <br />
-    nasze projekty
+    moje projekty
   </h2>
 );
 const smallHeader = 'PORTFOLIO';

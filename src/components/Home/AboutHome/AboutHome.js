@@ -80,9 +80,9 @@ class AboutHome extends React.Component {
             <h1>Amadeo Media</h1>
 
             <p>
-              Cześć, jesteśmy młodym,
+              Cześć, jestem młodym,
               <br />
-              kreatywnym zespołem programistów,
+              kreatywnym programistą,
               <br />
               Stwórzmy coś razem!
             </p>
@@ -92,7 +92,7 @@ class AboutHome extends React.Component {
             </a>
 
             <div className="typing-box">
-              <p>Dumni ze współpracy z&nbsp;&nbsp;</p>
+              <p>Dumny ze współpracy z&nbsp;&nbsp;</p>
               <div className="word" />
             </div>
           </ScrollAnimation>

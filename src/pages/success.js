@@ -49,9 +49,9 @@ class Success extends React.Component {
             animateOnce={true}
             className="canvas-text canvas-text--success"
           >
-            <p>Dziękujemy za przesłanie wiadomości.</p>
+            <p>Dziękuję za przesłanie wiadomości.</p>
             {/* <h2>{headerText}</h2> */}
-            <h1>Skontaktujemy się z Tobą w ciągiu kilku godzin.</h1>
+            <h1>Skontaktuję się z Tobą w ciągiu kilku godzin.</h1>
             <ButtonLink text="POWRÓT" href="/" class="button button--alert" />
           </ScrollAnimation>
         </div>

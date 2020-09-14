@@ -43,7 +43,7 @@ const Skills = () => (
           technologie
         </h2>
         <p>
-          Nasze projekty tworzone są w oparciu o najnowsze technologie webowe. Stale rozwijamy
+          Moje projekty tworzone są w oparciu o najnowsze technologie webowe. Stale rozwijam
           wachlarz umiejętności poprzez nowe wyzwania oraz kursy.
         </p>
       </div>

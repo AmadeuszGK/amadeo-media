@@ -25,7 +25,7 @@ class Cookies extends Component {
           <img src={CookiesImg} alt="cookies" />
           <p>
             Ta strona używa plików Cookies. Jeśli będziesz kontynuować przeglądanie tej witryny,
-            założymy, że akceptujesz naszą
+            założymy, że akceptujesz
             <Link to="/privacy-policy">
               <nobr> politykę prywatności i cookies.</nobr>
             </Link>

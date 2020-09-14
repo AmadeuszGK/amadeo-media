@@ -1,14 +1,14 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Link } from 'gatsby';
-import amadeuszLogo from '../../../images/agrzesiak2-logo.png';
 import wolnosci14Logo from '../../../images/wolnosci14-logo.png';
 import chiarashopLogo from '../../../images/chiarashop-logo.png';
 import inleiLogo from '../../../images/inlei-logo.png';
 import goodsideLogo from '../../../images/goodside-logo.png';
 import quadrigaLogo from '../../../images/quadriga-logo.png';
+import databoutLogo from '../../../images/databout-logo.png';
 import palkaLogo from '../../../images/palka-logo.png';
-import qrentLogo from '../../../images/qrent-logo.png';
+import promaticLogo from '../../../images/promatic-logo.png';
 import quadrigaBusinessLogo from '../../../images/quadrigaBusiness-logo.png';
 import jmaLogo from '../../../images/jma-logo.png';
 import SectionTop from '../../SectionTop/SectionTop';
@@ -16,9 +16,9 @@ import './ClientsHome.scss';
 
 const topText = (
   <p style={{ color: '#fff' }}>
-    Współpracowaliśmy z firmami z Polski, Niemiec, Angli i Włoch. Dołącz do grona naszych
-    zadowolonych klientów. Aby objerzeć co dla nich przygotowaliśmy, przejdź do podstrony Portfolio,
-    lub kliknij <Link to="/portfolio">tutaj.</Link>{' '}
+    Współpracowałem z firmami z Polski, Niemiec, Angli i Włoch. Dołącz do grona zadowolonych
+    klientów. Aby objerzeć co dla nich przygotowałem, przejdź do podstrony Portfolio, lub kliknij{' '}
+    <Link to="/portfolio">tutaj.</Link>{' '}
   </p>
 );
 const bigHeader = <h2>Zadowoleni klienci</h2>;
@@ -27,64 +27,54 @@ const smallHeader = 'WSPÓŁPRACA';
 const ClientsHome = () => {
   const clientsItems = [
     {
-      logo: amadeuszLogo,
-      alt: 'amadeusz grzesiak',
-      key: 'amadeuszLogo',
-      link: 'https://amadeuszgrzesiak.com',
+      logo: databoutLogo,
+      alt: 'databout logo',
+      key: 'databoutLogo',
     },
     {
       logo: wolnosci14Logo,
       alt: 'wolnosci 14',
       key: 'wolnosci14Logo',
-      link: 'https://wolnosci14.pl',
     },
     {
       logo: chiarashopLogo,
       alt: 'chiarashop',
       key: 'chiarashopLogo',
-      link: 'https://chiarashop.pl',
     },
     {
       logo: inleiLogo,
       alt: 'inlei',
       key: 'inleiLogo',
-      link: 'https://inlei.pl',
     },
     {
       logo: goodsideLogo,
       alt: 'goodside',
       key: 'goodsideLogo',
-      link: 'http://goodside.com.pl',
     },
     {
       logo: quadrigaLogo,
       alt: 'quadriga one',
       key: 'quadrigaLogo',
-      link: 'http://quadriga.one',
     },
     {
       logo: palkaLogo,
       alt: 'palka',
       key: 'palkaLogo',
-      link: 'http://palka-golebie.pl',
     },
     {
-      logo: qrentLogo,
+      logo: promaticLogo,
       alt: 'qrent',
       key: 'qrentLogo',
-      link: 'http://q-rent.eu/',
     },
     {
       logo: quadrigaBusinessLogo,
       alt: 'quadriga business',
       key: 'quadriga business',
-      link: 'http://quadriga-business.de',
     },
     {
       logo: jmaLogo,
       alt: 'jma expert',
       key: 'jmaLogo',
-      link: 'http://jmaexpert.de',
       last: true,
     },
   ];
@@ -108,9 +98,7 @@ const ClientsHome = () => {
           >
             {clientsItems.map(item => (
               <div className="clients__item" id={item.last && 'client__item--last'} key={item.key}>
-                <a href={item.link}>
-                  <img src={item.logo} alt={item.alt} />
-                </a>
+                <img src={item.logo} alt={item.alt} />
               </div>
             ))}
           </ScrollAnimation>

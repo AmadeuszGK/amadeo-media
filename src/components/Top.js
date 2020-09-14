@@ -71,7 +71,7 @@ class Top extends React.Component {
             <h1>strony i sklepy internetowe</h1>
 
             <p>
-              Nasze usługi charakteryzują przejrzyste ceny, które ustalane są na etapie darmowych
+              Moje usługi charakteryzują przejrzyste ceny, które ustalane są na etapie darmowych
               konsultacji.
               <br />
               <br />

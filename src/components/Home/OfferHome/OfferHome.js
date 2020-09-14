@@ -11,7 +11,7 @@ import SectionTop from '../../SectionTop/SectionTop';
 
 const topText = (
   <p>
-    Nasze usugi charakteryzuje nowoczesne podejście do tematu, dokładność oraz przejżystość cenowa.
+    Moje usugi charakteryzuje nowoczesne podejście do tematu, dokładność oraz przejżystość cenowa.
     Naciśnij na interesującą Cię kategorię lub kliknij <Link to="/offer-and-pricing">tutaj</Link>{' '}
     aby przejść do ofetry i cennika.
   </p>
@@ -39,8 +39,9 @@ const OfferHome = () => (
             <img src={offerItem1} alt="websites" />
             <h2>Strony WWW</h2>
             <p>
-              Naszą specjalnością są strony internetowe. Wszystko dostosowane do urządzeń mobilnych.
-              Tworzymy strony statyczne oraz dynamiczne z wykorzystaniem najnowszych technologii.
+              Moją specjalnością są strony internetowe oraz aplikacje webowe. Wszystko dostosowane
+              do urządzeń mobilnych. Przy tworzeniu stron zwracam szczególną uwagę na SEO, czyli
+              pozycjonowanie strony w wyszukiwarkach.
             </p>
           </div>
           <Link to="/offer-and-pricing/#website" className={styles.offer__link}>
@@ -57,7 +58,7 @@ const OfferHome = () => (
             <img src={offerItem2} alt="ecommerce" />
             <h2>Sklepy internetowe</h2>
             <p>
-              Tworzymy sklepy internetowe opartę o najpopularniejsze na świecie narzędzie Woocomerce
+              Tworzę sklepy internetowe oparte o najpopularniejsze na świecie narzędzie Woocomerce
               (Wordpress). Do dyspozycji klienta zostawiamy bardzo intuicyjny system zarządzania
               sklepem.
             </p>
@@ -76,8 +77,9 @@ const OfferHome = () => (
             <img src={offerItem3} alt="graphics" />
             <h2>Grafika</h2>
             <p>
-              Oprócz stron internetowych i sklepów (Ecommerce) zajmujemy się także grafiką. Tworzymy
-              katalogi, wizytówki, loga, banery, reklamy i wiele innych.
+              Oprócz stron internetowych i sklepów (Ecommerce) zajmuję się także grafiką. Tworzę
+              katalogi, wizytówki, loga, banery, reklamy i wiele innych. Wszystko dostosowane do
+              najnowszych trendów.
             </p>
           </div>
           <Link to="/offer-and-pricing/#graphics" className={styles.offer__link}>
@@ -95,8 +97,8 @@ const OfferHome = () => (
             <h2>Naprawa starych stron</h2>
             <p>
               Internet jest pełen zepsutych, zaniedbanych lub przestarzałych stron internetowych.
-              Dobieramy odpowiednie metody do zaistniałej sytuacji: naprawiamy, poprawiamy lub
-              oferujemy nową, wysoką jakość.
+              Dobieram odpowiednie metody do zaistniałej sytuacji: naprawiam, poprawiam lub
+              przebudowuję archaiczne strony.
             </p>
           </div>
           <Link to="/offer-and-pricing/#administration" className={styles.offer__link}>
@@ -113,9 +115,9 @@ const OfferHome = () => (
             <img src={offerItem4} alt="adminiastration" />
             <h2>Administrowanie stron</h2>
             <p>
-              Nasi klienci zawsze mogą na nas liczyć, pomagamy w obsłudze stron i sklepów
-              internetowych, wdrażam podsyłane treści lub wprowadzam modyfikacje. Ponadto dbamy, aby
-              wszystko było zaktualizowane, działało sprawnie oraz tworzymy kopie zapasowe.
+              Moi klienci zawsze mogą na mnie liczyć, pomagam w obsłudze stron i sklepów
+              internetowych, wdrażam podsyłane treści lub wprowadzam modyfikacje. Ponadto dbam, aby
+              wszystko było zaktualizowane, działało sprawnie oraz tworzę kopie zapasowe.
             </p>
           </div>
           <Link to="/offer-and-pricing/#administration" className={styles.offer__link}>

@@ -53,7 +53,7 @@ const ContactForm = () => (
           Administratorem Twoich danych osobowych jest Amadeo Media z siedzibą w Lubaniu. Twoje dane
           osobowe będą przetwarzane w celu obsługi Twojego zapytania w ramach formularza
           kontaktowego, a także w celach statystycznych i analitycznych administratora. Więcej
-          informacji na temat przetwarzania danych osobowych znajduje się w naszej
+          informacji na temat przetwarzania danych osobowych znajduje się w mojej
           <Link to="/privacy-policy">polityce prywatności.</Link>
         </p>
       </div>
