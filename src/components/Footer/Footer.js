@@ -68,6 +68,11 @@ const Footer = () => (
             NIP: 613-158-39-85
           </div>
         </li>
+        <li>
+          <div className="footer-menu-item" to="/">
+            REGON: 385730740
+          </div>
+        </li>
       </ul>
     </div>
     <div className="footerItem footerItem--nopadding">

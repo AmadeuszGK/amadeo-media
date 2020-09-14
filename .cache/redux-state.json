@@ -488,79 +488,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "c3082b23-1532-5cf9-89ec-33fcc0a9a3ab": {
-      "resolve": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/node_modules/gatsby-plugin-google-analytics",
-      "id": "c3082b23-1532-5cf9-89ec-33fcc0a9a3ab",
-      "name": "gatsby-plugin-google-analytics",
-      "version": "2.0.20",
-      "pluginOptions": {
-        "plugins": [],
-        "trackingId": "UA-158204739-1"
-      },
-      "nodeAPIs": [],
-      "browserAPIs": [
-        "onRouteUpdate"
-      ],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
-      "pluginFilepath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/node_modules/gatsby-plugin-google-analytics",
-      "packageJson": {
-        "name": "gatsby-plugin-google-analytics",
-        "description": "Gatsby plugin to add google analytics onto a site",
-        "version": "2.0.20",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "google analytics"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.4"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.0"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "aead1ff5e19ffa3cb6c9f9191cd32ad5",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
       "resolve": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/node_modules/gatsby-transformer-sharp",
       "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
@@ -869,11 +796,98 @@
         "owner": "internal-data-bridge"
       }
     },
+    "989c0ab0-44ec-5f33-b5b1-cfa030ba5377": {
+      "resolve": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/node_modules/gatsby-plugin-google-analytics",
+      "id": "989c0ab0-44ec-5f33-b5b1-cfa030ba5377",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.1.36",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-158204739-1"
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.1.36",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.7.6"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.7.5"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.7.5"
+          },
+          {
+            "name": "@testing-library/react",
+            "version": "^9.3.2"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.2.16"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.2.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.2"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.2"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "fa667506bfe16375703dc04f08083039",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "47ddc7a53c5ffc21131f8a622acfb82d",
+      "version": "81133883918040be09a4794f1a0523b1",
       "pluginOptions": {
         "plugins": []
       },
@@ -905,7 +919,7 @@
           },
           {
             "name": "gatsby-plugin-google-analytics",
-            "version": "^2.0.20"
+            "version": "^2.1.36"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -1001,7 +1015,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "571bec5fc187a29bccfd701834c73f20",
+        "contentDigest": "9aff11d24719b9da902bd67bb8e37eca",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1119,12 +1133,14 @@
       },
       "port": 8000,
       "host": "localhost",
-      "buildTime": "2020-03-03T11:52:21.270Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2020-09-14T16:37:32.735Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b56eece44fd181a79fcb3f8500be5464",
+        "contentDigest": "b64b328300acecc2f469deb2c861d864",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1134,7 +1150,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "c6a25815aceed3aedbad60f5ccded55a",
+        "contentDigest": "e2533ca1c70078fdd80b202fdd57f7b8",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1143,11 +1159,11 @@
       "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 2784,
-      "prettySize": "2.78 kB",
-      "modifiedTime": "2020-03-03T11:51:08.258Z",
-      "accessTime": "2020-03-03T11:51:10.209Z",
-      "changeTime": "2020-03-03T11:51:08.258Z",
+      "size": 2816,
+      "prettySize": "2.82 kB",
+      "modifiedTime": "2020-06-24T10:37:56.206Z",
+      "accessTime": "2020-06-24T10:37:58.077Z",
+      "changeTime": "2020-06-24T10:37:56.206Z",
       "birthTime": "2020-01-30T17:53:23.932Z",
       "root": "/",
       "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src",
@@ -1157,21 +1173,68 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 87,
+      "nlink": 88,
       "uid": 501,
       "gid": 0,
       "rdev": 0,
       "blksize": 4096,
       "ino": 11494968,
       "blocks": 0,
-      "atimeMs": 1583236270208.9248,
-      "mtimeMs": 1583236268258.3503,
-      "ctimeMs": 1583236268258.3503,
+      "atimeMs": 1592995078076.52,
+      "mtimeMs": 1592995076205.9343,
+      "ctimeMs": 1592995076205.9343,
       "birthtimeMs": 1580406803931.516,
-      "atime": "2020-03-03T11:51:10.209Z",
-      "mtime": "2020-03-03T11:51:08.258Z",
-      "ctime": "2020-03-03T11:51:08.258Z",
+      "atime": "2020-06-24T10:37:58.077Z",
+      "mtime": "2020-06-24T10:37:56.206Z",
+      "ctime": "2020-06-24T10:37:56.206Z",
       "birthtime": "2020-01-30T17:53:23.932Z"
+    },
+    "333a677b-a9f5-5f75-91f1-b7ed0630f6e0": {
+      "id": "333a677b-a9f5-5f75-91f1-b7ed0630f6e0",
+      "children": [
+        "4a63f891-9e38-5061-9caf-94cba26212c9"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "37cf2221cce7c36c71cb1ab52ccf4f5c",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/amadeo-media-logo-black.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/amadeo-media-logo-black.png",
+      "relativePath": "amadeo-media-logo-black.png",
+      "extension": "png",
+      "size": 24569,
+      "prettySize": "24.6 kB",
+      "modifiedTime": "2020-06-24T10:37:56.208Z",
+      "accessTime": "2020-06-24T10:40:46.801Z",
+      "changeTime": "2020-06-24T10:37:56.209Z",
+      "birthTime": "2020-06-24T10:37:56.206Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "amadeo-media-logo-black.png",
+      "ext": ".png",
+      "name": "amadeo-media-logo-black",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15760010,
+      "blocks": 48,
+      "atimeMs": 1592995246800.9868,
+      "mtimeMs": 1592995076207.6638,
+      "ctimeMs": 1592995076209.4756,
+      "birthtimeMs": 1592995076205.9248,
+      "atime": "2020-06-24T10:40:46.801Z",
+      "mtime": "2020-06-24T10:37:56.208Z",
+      "ctime": "2020-06-24T10:37:56.209Z",
+      "birthtime": "2020-06-24T10:37:56.206Z"
     },
     "57e745d5-391e-544e-88d9-cdc5c28f65a8": {
       "id": "57e745d5-391e-544e-88d9-cdc5c28f65a8",
@@ -1314,53 +1377,6 @@
       "ctime": "2020-02-05T18:50:59.739Z",
       "birthtime": "2019-05-07T19:59:30.000Z"
     },
-    "8dfb81e3-71ee-5c74-a4f4-588a4d179e29": {
-      "id": "8dfb81e3-71ee-5c74-a4f4-588a4d179e29",
-      "children": [
-        "fc7ff206-327c-5d3f-a7f0-69b36f6a0532"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "76777624074e15e77a59ffb22c28196f",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/angular.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/angular.png",
-      "relativePath": "angular.png",
-      "extension": "png",
-      "size": 2212,
-      "prettySize": "2.21 kB",
-      "modifiedTime": "2020-02-07T07:43:54.000Z",
-      "accessTime": "2020-02-11T14:41:35.112Z",
-      "changeTime": "2020-02-07T08:44:55.366Z",
-      "birthTime": "2020-02-07T07:43:54.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "angular.png",
-      "ext": ".png",
-      "name": "angular",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703206,
-      "blocks": 8,
-      "atimeMs": 1581432095112.0718,
-      "mtimeMs": 1581061434000,
-      "ctimeMs": 1581065095365.7122,
-      "birthtimeMs": 1581061434000,
-      "atime": "2020-02-11T14:41:35.112Z",
-      "mtime": "2020-02-07T07:43:54.000Z",
-      "ctime": "2020-02-07T08:44:55.366Z",
-      "birthtime": "2020-02-07T07:43:54.000Z"
-    },
     "21d64c5e-7914-5cd4-b247-2beeb24222e6": {
       "id": "21d64c5e-7914-5cd4-b247-2beeb24222e6",
       "children": [],
@@ -1379,7 +1395,7 @@
       "size": 340,
       "prettySize": "340 B",
       "modifiedTime": "2020-02-04T18:43:43.441Z",
-      "accessTime": "2020-03-01T11:26:57.115Z",
+      "accessTime": "2020-09-05T12:30:38.783Z",
       "changeTime": "2020-02-04T18:43:43.495Z",
       "birthTime": "2020-01-30T17:53:24.393Z",
       "root": "/",
@@ -1397,11 +1413,11 @@
       "blksize": 4096,
       "ino": 11494985,
       "blocks": 8,
-      "atimeMs": 1583062017114.5588,
+      "atimeMs": 1599309038783.1782,
       "mtimeMs": 1580841823440.9038,
       "ctimeMs": 1580841823495.0732,
       "birthtimeMs": 1580406804392.925,
-      "atime": "2020-03-01T11:26:57.115Z",
+      "atime": "2020-09-05T12:30:38.783Z",
       "mtime": "2020-02-04T18:43:43.441Z",
       "ctime": "2020-02-04T18:43:43.495Z",
       "birthtime": "2020-01-30T17:53:24.393Z"
@@ -1453,52 +1469,55 @@
       "ctime": "2020-02-07T08:44:55.368Z",
       "birthtime": "2020-02-07T07:43:54.000Z"
     },
-    "8c93e0ae-86bd-56de-9270-33f7d7924ceb": {
-      "id": "8c93e0ae-86bd-56de-9270-33f7d7924ceb",
-      "children": [
-        "debbde22-36ad-598e-ac93-911e2ddf0b5e"
-      ],
-      "parent": null,
+    "4a63f891-9e38-5061-9caf-94cba26212c9": {
+      "id": "4a63f891-9e38-5061-9caf-94cba26212c9",
+      "children": [],
+      "parent": "333a677b-a9f5-5f75-91f1-b7ed0630f6e0",
       "internal": {
-        "contentDigest": "a132012cc176da982ee79ff82f1683ff",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/cookies.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/cookies.png",
-      "relativePath": "cookies.png",
-      "extension": "png",
-      "size": 4535,
-      "prettySize": "4.54 kB",
-      "modifiedTime": "2020-03-03T11:53:55.923Z",
-      "accessTime": "2020-03-03T11:53:55.859Z",
-      "changeTime": "2020-03-03T11:53:55.937Z",
-      "birthTime": "2020-03-03T11:50:51.469Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "cookies.png",
-      "ext": ".png",
-      "name": "cookies",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 13035504,
-      "blocks": 16,
-      "atimeMs": 1583236435858.9275,
-      "mtimeMs": 1583236435923.0254,
-      "ctimeMs": 1583236435937.0066,
-      "birthtimeMs": 1583236251468.7432,
-      "atime": "2020-03-03T11:53:55.859Z",
-      "mtime": "2020-03-03T11:53:55.923Z",
-      "ctime": "2020-03-03T11:53:55.937Z",
-      "birthtime": "2020-03-03T11:50:51.469Z"
+        "contentDigest": "37cf2221cce7c36c71cb1ab52ccf4f5c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "801125d4-1cd3-5328-b95a-c2787ed7129e": {
+      "id": "801125d4-1cd3-5328-b95a-c2787ed7129e",
+      "children": [],
+      "parent": "57e745d5-391e-544e-88d9-cdc5c28f65a8",
+      "internal": {
+        "contentDigest": "d8a19179bcbd33c33bb74fb0e1ef694f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "10ea9e31-81bf-50b6-bcdc-b21d032b7c77": {
+      "id": "10ea9e31-81bf-50b6-bcdc-b21d032b7c77",
+      "children": [],
+      "parent": "7aaca8b7-132a-5206-a671-2dee07c7ee75",
+      "internal": {
+        "contentDigest": "4b3de5921eca19961bfc54da779a41c2",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8be4d82b-51b9-5a68-a465-3d07cd578ceb": {
+      "id": "8be4d82b-51b9-5a68-a465-3d07cd578ceb",
+      "children": [],
+      "parent": "29294cbf-6168-59ce-82be-10ce6ca1b4f9",
+      "internal": {
+        "contentDigest": "7e260105f58804ce4d64dba5649d11ab",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "c4f30c12-b1ee-5d7e-a423-39d737a1aba0": {
+      "id": "c4f30c12-b1ee-5d7e-a423-39d737a1aba0",
+      "children": [],
+      "parent": "018bf0b1-60cf-58e9-8ba7-da339cfeb955",
+      "internal": {
+        "contentDigest": "eae919c9dde1a4abc71e8d3d3180c653",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "4c738492-cf1a-55e2-9080-8afa012618b7": {
       "id": "4c738492-cf1a-55e2-9080-8afa012618b7",
@@ -1545,6 +1564,53 @@
       "atime": "2020-02-11T14:41:42.823Z",
       "mtime": "2020-02-07T07:43:54.000Z",
       "ctime": "2020-02-07T08:44:55.378Z",
+      "birthtime": "2020-02-07T07:43:54.000Z"
+    },
+    "8dfb81e3-71ee-5c74-a4f4-588a4d179e29": {
+      "id": "8dfb81e3-71ee-5c74-a4f4-588a4d179e29",
+      "children": [
+        "fc7ff206-327c-5d3f-a7f0-69b36f6a0532"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "76777624074e15e77a59ffb22c28196f",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/angular.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/angular.png",
+      "relativePath": "angular.png",
+      "extension": "png",
+      "size": 2212,
+      "prettySize": "2.21 kB",
+      "modifiedTime": "2020-02-07T07:43:54.000Z",
+      "accessTime": "2020-02-11T14:41:35.112Z",
+      "changeTime": "2020-02-07T08:44:55.366Z",
+      "birthTime": "2020-02-07T07:43:54.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "angular.png",
+      "ext": ".png",
+      "name": "angular",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11703206,
+      "blocks": 8,
+      "atimeMs": 1581432095112.0718,
+      "mtimeMs": 1581061434000,
+      "ctimeMs": 1581065095365.7122,
+      "birthtimeMs": 1581061434000,
+      "atime": "2020-02-11T14:41:35.112Z",
+      "mtime": "2020-02-07T07:43:54.000Z",
+      "ctime": "2020-02-07T08:44:55.366Z",
       "birthtime": "2020-02-07T07:43:54.000Z"
     },
     "002535f6-b118-5b60-b482-993366a0865f": {
@@ -1688,6 +1754,51 @@
       "ctime": "2020-02-07T08:44:55.398Z",
       "birthtime": "2020-02-07T07:43:54.000Z"
     },
+    "9b597934-d2cd-5444-9483-68ebde263dd8": {
+      "id": "9b597934-d2cd-5444-9483-68ebde263dd8",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7f7a243c27a9428ae66d4118c7e04299",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/envelope-regular-white.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/envelope-regular-white.svg",
+      "relativePath": "envelope-regular-white.svg",
+      "extension": "svg",
+      "size": 36693,
+      "prettySize": "36.7 kB",
+      "modifiedTime": "2020-02-04T18:43:51.432Z",
+      "accessTime": "2020-09-05T12:30:38.788Z",
+      "changeTime": "2020-02-04T18:43:51.434Z",
+      "birthTime": "2020-01-30T17:53:24.477Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "envelope-regular-white.svg",
+      "ext": ".svg",
+      "name": "envelope-regular-white",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33248,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11494994,
+      "blocks": 72,
+      "atimeMs": 1599309038788.1682,
+      "mtimeMs": 1580841831432.0315,
+      "ctimeMs": 1580841831434.0176,
+      "birthtimeMs": 1580406804476.664,
+      "atime": "2020-09-05T12:30:38.788Z",
+      "mtime": "2020-02-04T18:43:51.432Z",
+      "ctime": "2020-02-04T18:43:51.434Z",
+      "birthtime": "2020-01-30T17:53:24.477Z"
+    },
     "ced34b14-6e60-504f-8c98-a5d77dabdb1e": {
       "id": "ced34b14-6e60-504f-8c98-a5d77dabdb1e",
       "children": [
@@ -1735,144 +1846,52 @@
       "ctime": "2020-02-07T08:44:55.401Z",
       "birthtime": "2020-02-07T07:43:54.000Z"
     },
-    "87adaeb2-015f-5b22-b606-fd489227e6b2": {
-      "id": "87adaeb2-015f-5b22-b606-fd489227e6b2",
+    "8c93e0ae-86bd-56de-9270-33f7d7924ceb": {
+      "id": "8c93e0ae-86bd-56de-9270-33f7d7924ceb",
       "children": [
-        "a5f9cc13-a404-5fe7-912f-32ae1372ac4c"
+        "debbde22-36ad-598e-ac93-911e2ddf0b5e"
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "894266635abadd450dfb23b471c9a8c7",
+        "contentDigest": "a132012cc176da982ee79ff82f1683ff",
         "type": "File",
         "mediaType": "image/png",
-        "description": "File \"src/images/es6.png\"",
+        "description": "File \"src/images/cookies.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/es6.png",
-      "relativePath": "es6.png",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/cookies.png",
+      "relativePath": "cookies.png",
       "extension": "png",
-      "size": 1727,
-      "prettySize": "1.73 kB",
-      "modifiedTime": "2020-02-07T07:43:54.000Z",
-      "accessTime": "2020-02-11T14:41:49.345Z",
-      "changeTime": "2020-02-07T08:44:55.404Z",
-      "birthTime": "2020-02-07T07:43:54.000Z",
+      "size": 4535,
+      "prettySize": "4.54 kB",
+      "modifiedTime": "2020-03-03T11:53:55.923Z",
+      "accessTime": "2020-03-03T14:08:29.336Z",
+      "changeTime": "2020-03-03T11:53:55.937Z",
+      "birthTime": "2020-03-03T11:50:51.469Z",
       "root": "/",
       "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "es6.png",
+      "base": "cookies.png",
       "ext": ".png",
-      "name": "es6",
+      "name": "cookies",
       "relativeDirectory": "",
       "dev": 16777220,
-      "mode": 33261,
+      "mode": 33188,
       "nlink": 1,
       "uid": 501,
-      "gid": 0,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 11703218,
-      "blocks": 8,
-      "atimeMs": 1581432109344.9248,
-      "mtimeMs": 1581061434000,
-      "ctimeMs": 1581065095404.0188,
-      "birthtimeMs": 1581061434000,
-      "atime": "2020-02-11T14:41:49.345Z",
-      "mtime": "2020-02-07T07:43:54.000Z",
-      "ctime": "2020-02-07T08:44:55.404Z",
-      "birthtime": "2020-02-07T07:43:54.000Z"
-    },
-    "9b597934-d2cd-5444-9483-68ebde263dd8": {
-      "id": "9b597934-d2cd-5444-9483-68ebde263dd8",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "7f7a243c27a9428ae66d4118c7e04299",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/envelope-regular-white.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/envelope-regular-white.svg",
-      "relativePath": "envelope-regular-white.svg",
-      "extension": "svg",
-      "size": 36693,
-      "prettySize": "36.7 kB",
-      "modifiedTime": "2020-02-04T18:43:51.432Z",
-      "accessTime": "2020-03-01T11:26:57.120Z",
-      "changeTime": "2020-02-04T18:43:51.434Z",
-      "birthTime": "2020-01-30T17:53:24.477Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "envelope-regular-white.svg",
-      "ext": ".svg",
-      "name": "envelope-regular-white",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33248,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11494994,
-      "blocks": 72,
-      "atimeMs": 1583062017120.2646,
-      "mtimeMs": 1580841831432.0315,
-      "ctimeMs": 1580841831434.0176,
-      "birthtimeMs": 1580406804476.664,
-      "atime": "2020-03-01T11:26:57.120Z",
-      "mtime": "2020-02-04T18:43:51.432Z",
-      "ctime": "2020-02-04T18:43:51.434Z",
-      "birthtime": "2020-01-30T17:53:24.477Z"
-    },
-    "994573fe-461d-5de4-9afd-3a05edb1202f": {
-      "id": "994573fe-461d-5de4-9afd-3a05edb1202f",
-      "children": [
-        "a5d733e1-d95e-5038-b30e-bd739a37a454"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "2e02bd0ddd1a022e5b7429d3359ceb7b",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/facebook-square-brands-white.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/facebook-square-brands-white.png",
-      "relativePath": "facebook-square-brands-white.png",
-      "extension": "png",
-      "size": 5689,
-      "prettySize": "5.69 kB",
-      "modifiedTime": "2020-02-07T07:45:26.000Z",
-      "accessTime": "2020-02-11T14:42:48.985Z",
-      "changeTime": "2020-02-07T08:45:59.761Z",
-      "birthTime": "2020-02-07T07:45:26.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "facebook-square-brands-white.png",
-      "ext": ".png",
-      "name": "facebook-square-brands-white",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703386,
+      "ino": 13035504,
       "blocks": 16,
-      "atimeMs": 1581432168985.4778,
-      "mtimeMs": 1581061526000,
-      "ctimeMs": 1581065159761.1162,
-      "birthtimeMs": 1581061526000,
-      "atime": "2020-02-11T14:42:48.985Z",
-      "mtime": "2020-02-07T07:45:26.000Z",
-      "ctime": "2020-02-07T08:45:59.761Z",
-      "birthtime": "2020-02-07T07:45:26.000Z"
+      "atimeMs": 1583244509336.4077,
+      "mtimeMs": 1583236435923.0254,
+      "ctimeMs": 1583236435937.0066,
+      "birthtimeMs": 1583236251468.7432,
+      "atime": "2020-03-03T14:08:29.336Z",
+      "mtime": "2020-03-03T11:53:55.923Z",
+      "ctime": "2020-03-03T11:53:55.937Z",
+      "birthtime": "2020-03-03T11:50:51.469Z"
     },
     "fa964bf4-7e4b-5214-b9a3-d994f28b634f": {
       "id": "fa964bf4-7e4b-5214-b9a3-d994f28b634f",
@@ -1892,7 +1911,7 @@
       "size": 10101,
       "prettySize": "10.1 kB",
       "modifiedTime": "2020-02-04T18:43:51.502Z",
-      "accessTime": "2020-03-01T11:26:57.123Z",
+      "accessTime": "2020-09-05T12:30:38.790Z",
       "changeTime": "2020-02-04T18:43:51.504Z",
       "birthTime": "2020-01-30T17:53:24.511Z",
       "root": "/",
@@ -1910,14 +1929,59 @@
       "blksize": 4096,
       "ino": 11494997,
       "blocks": 24,
-      "atimeMs": 1583062017123.2395,
+      "atimeMs": 1599309038789.8687,
       "mtimeMs": 1580841831501.6582,
       "ctimeMs": 1580841831503.5518,
       "birthtimeMs": 1580406804511.343,
-      "atime": "2020-03-01T11:26:57.123Z",
+      "atime": "2020-09-05T12:30:38.790Z",
       "mtime": "2020-02-04T18:43:51.502Z",
       "ctime": "2020-02-04T18:43:51.504Z",
       "birthtime": "2020-01-30T17:53:24.511Z"
+    },
+    "1fa7d8d2-da64-5397-b7a9-e1efaeae1669": {
+      "id": "1fa7d8d2-da64-5397-b7a9-e1efaeae1669",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e8982f06c7e970d834b4bfe9eea3c0ea",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/facebook-square-brands-white.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/facebook-square-brands-white.svg",
+      "relativePath": "facebook-square-brands-white.svg",
+      "extension": "svg",
+      "size": 25485,
+      "prettySize": "25.5 kB",
+      "modifiedTime": "2020-02-04T18:43:51.586Z",
+      "accessTime": "2020-09-05T12:30:38.791Z",
+      "changeTime": "2020-02-04T18:43:51.593Z",
+      "birthTime": "2020-01-30T17:53:24.540Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "facebook-square-brands-white.svg",
+      "ext": ".svg",
+      "name": "facebook-square-brands-white",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33248,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11495000,
+      "blocks": 56,
+      "atimeMs": 1599309038790.848,
+      "mtimeMs": 1580841831586.4138,
+      "ctimeMs": 1580841831592.7625,
+      "birthtimeMs": 1580406804539.841,
+      "atime": "2020-09-05T12:30:38.791Z",
+      "mtime": "2020-02-04T18:43:51.586Z",
+      "ctime": "2020-02-04T18:43:51.593Z",
+      "birthtime": "2020-01-30T17:53:24.540Z"
     },
     "379df7c9-a8e1-5c32-88a5-563980f1d509": {
       "id": "379df7c9-a8e1-5c32-88a5-563980f1d509",
@@ -1966,51 +2030,6 @@
       "ctime": "2020-02-07T08:45:59.764Z",
       "birthtime": "2020-02-07T07:45:26.000Z"
     },
-    "1fa7d8d2-da64-5397-b7a9-e1efaeae1669": {
-      "id": "1fa7d8d2-da64-5397-b7a9-e1efaeae1669",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "e8982f06c7e970d834b4bfe9eea3c0ea",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/facebook-square-brands-white.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/facebook-square-brands-white.svg",
-      "relativePath": "facebook-square-brands-white.svg",
-      "extension": "svg",
-      "size": 25485,
-      "prettySize": "25.5 kB",
-      "modifiedTime": "2020-02-04T18:43:51.586Z",
-      "accessTime": "2020-03-01T11:26:57.126Z",
-      "changeTime": "2020-02-04T18:43:51.593Z",
-      "birthTime": "2020-01-30T17:53:24.540Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "facebook-square-brands-white.svg",
-      "ext": ".svg",
-      "name": "facebook-square-brands-white",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33248,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11495000,
-      "blocks": 56,
-      "atimeMs": 1583062017125.8372,
-      "mtimeMs": 1580841831586.4138,
-      "ctimeMs": 1580841831592.7625,
-      "birthtimeMs": 1580406804539.841,
-      "atime": "2020-03-01T11:26:57.126Z",
-      "mtime": "2020-02-04T18:43:51.586Z",
-      "ctime": "2020-02-04T18:43:51.593Z",
-      "birthtime": "2020-01-30T17:53:24.540Z"
-    },
     "a01a44f2-35cd-5691-a527-22b9998e65a7": {
       "id": "a01a44f2-35cd-5691-a527-22b9998e65a7",
       "children": [],
@@ -2029,7 +2048,7 @@
       "size": 6045,
       "prettySize": "6.04 kB",
       "modifiedTime": "2020-02-04T18:43:51.656Z",
-      "accessTime": "2020-03-01T11:26:57.129Z",
+      "accessTime": "2020-09-05T12:30:38.795Z",
       "changeTime": "2020-02-04T18:43:51.659Z",
       "birthTime": "2020-01-30T17:53:24.548Z",
       "root": "/",
@@ -2047,61 +2066,14 @@
       "blksize": 4096,
       "ino": 11495021,
       "blocks": 16,
-      "atimeMs": 1583062017128.539,
+      "atimeMs": 1599309038794.625,
       "mtimeMs": 1580841831655.6455,
       "ctimeMs": 1580841831658.5322,
       "birthtimeMs": 1580406804547.728,
-      "atime": "2020-03-01T11:26:57.129Z",
+      "atime": "2020-09-05T12:30:38.795Z",
       "mtime": "2020-02-04T18:43:51.656Z",
       "ctime": "2020-02-04T18:43:51.659Z",
       "birthtime": "2020-01-30T17:53:24.548Z"
-    },
-    "9b1d4a57-db0b-5f3f-b13e-556b19186eb9": {
-      "id": "9b1d4a57-db0b-5f3f-b13e-556b19186eb9",
-      "children": [
-        "de0642a6-d88b-5180-9ab8-50f038fcafaa"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "bec19650773ab5a0beadf5f0156750b2",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/firebase.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/firebase.png",
-      "relativePath": "firebase.png",
-      "extension": "png",
-      "size": 3304,
-      "prettySize": "3.3 kB",
-      "modifiedTime": "2020-02-07T07:45:26.000Z",
-      "accessTime": "2020-02-11T14:41:53.995Z",
-      "changeTime": "2020-02-07T08:45:59.770Z",
-      "birthTime": "2020-02-07T07:45:26.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "firebase.png",
-      "ext": ".png",
-      "name": "firebase",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703390,
-      "blocks": 8,
-      "atimeMs": 1581432113995.3247,
-      "mtimeMs": 1581061526000,
-      "ctimeMs": 1581065159769.9136,
-      "birthtimeMs": 1581061526000,
-      "atime": "2020-02-11T14:41:53.995Z",
-      "mtime": "2020-02-07T07:45:26.000Z",
-      "ctime": "2020-02-07T08:45:59.770Z",
-      "birthtime": "2020-02-07T07:45:26.000Z"
     },
     "471ba96b-15e8-55a9-a49e-1970aa390e58": {
       "id": "471ba96b-15e8-55a9-a49e-1970aa390e58",
@@ -2148,6 +2120,241 @@
       "atime": "2020-02-11T14:42:49.931Z",
       "mtime": "2020-02-07T07:45:26.000Z",
       "ctime": "2020-02-07T08:45:59.768Z",
+      "birthtime": "2020-02-07T07:45:26.000Z"
+    },
+    "8776f1c6-2f56-5133-a586-cb43b5435b65": {
+      "id": "8776f1c6-2f56-5133-a586-cb43b5435b65",
+      "children": [
+        "04319881-2eca-55d5-9f7a-313fc748f00f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8c8838aac3e315debe94cec6e89815bb",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/favicon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/favicon.png",
+      "relativePath": "favicon.png",
+      "extension": "png",
+      "size": 22991,
+      "prettySize": "23 kB",
+      "modifiedTime": "2020-02-11T14:27:28.133Z",
+      "accessTime": "2020-02-11T14:43:25.144Z",
+      "changeTime": "2020-02-11T14:27:28.136Z",
+      "birthTime": "2020-02-11T14:27:27.358Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "favicon.png",
+      "ext": ".png",
+      "name": "favicon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11891193,
+      "blocks": 48,
+      "atimeMs": 1581432205144.169,
+      "mtimeMs": 1581431248133.0803,
+      "ctimeMs": 1581431248136.1138,
+      "birthtimeMs": 1581431247358.385,
+      "atime": "2020-02-11T14:43:25.144Z",
+      "mtime": "2020-02-11T14:27:28.133Z",
+      "ctime": "2020-02-11T14:27:28.136Z",
+      "birthtime": "2020-02-11T14:27:27.358Z"
+    },
+    "122763b0-bcdf-59db-b387-341b82f83144": {
+      "id": "122763b0-bcdf-59db-b387-341b82f83144",
+      "children": [
+        "08c242e9-69fb-5242-b546-143b9a3657b4"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8c8838aac3e315debe94cec6e89815bb",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 22991,
+      "prettySize": "23 kB",
+      "modifiedTime": "2020-02-11T14:28:11.339Z",
+      "accessTime": "2020-02-26T17:22:08.036Z",
+      "changeTime": "2020-02-11T14:28:11.347Z",
+      "birthTime": "2020-02-11T14:28:10.608Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11891277,
+      "blocks": 48,
+      "atimeMs": 1582737728035.7744,
+      "mtimeMs": 1581431291338.846,
+      "ctimeMs": 1581431291347.061,
+      "birthtimeMs": 1581431290607.794,
+      "atime": "2020-02-26T17:22:08.036Z",
+      "mtime": "2020-02-11T14:28:11.339Z",
+      "ctime": "2020-02-11T14:28:11.347Z",
+      "birthtime": "2020-02-11T14:28:10.608Z"
+    },
+    "994573fe-461d-5de4-9afd-3a05edb1202f": {
+      "id": "994573fe-461d-5de4-9afd-3a05edb1202f",
+      "children": [
+        "a5d733e1-d95e-5038-b30e-bd739a37a454"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2e02bd0ddd1a022e5b7429d3359ceb7b",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/facebook-square-brands-white.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/facebook-square-brands-white.png",
+      "relativePath": "facebook-square-brands-white.png",
+      "extension": "png",
+      "size": 5689,
+      "prettySize": "5.69 kB",
+      "modifiedTime": "2020-02-07T07:45:26.000Z",
+      "accessTime": "2020-02-11T14:42:48.985Z",
+      "changeTime": "2020-02-07T08:45:59.761Z",
+      "birthTime": "2020-02-07T07:45:26.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "facebook-square-brands-white.png",
+      "ext": ".png",
+      "name": "facebook-square-brands-white",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11703386,
+      "blocks": 16,
+      "atimeMs": 1581432168985.4778,
+      "mtimeMs": 1581061526000,
+      "ctimeMs": 1581065159761.1162,
+      "birthtimeMs": 1581061526000,
+      "atime": "2020-02-11T14:42:48.985Z",
+      "mtime": "2020-02-07T07:45:26.000Z",
+      "ctime": "2020-02-07T08:45:59.761Z",
+      "birthtime": "2020-02-07T07:45:26.000Z"
+    },
+    "87adaeb2-015f-5b22-b606-fd489227e6b2": {
+      "id": "87adaeb2-015f-5b22-b606-fd489227e6b2",
+      "children": [
+        "a5f9cc13-a404-5fe7-912f-32ae1372ac4c"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "894266635abadd450dfb23b471c9a8c7",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/es6.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/es6.png",
+      "relativePath": "es6.png",
+      "extension": "png",
+      "size": 1727,
+      "prettySize": "1.73 kB",
+      "modifiedTime": "2020-02-07T07:43:54.000Z",
+      "accessTime": "2020-02-11T14:41:49.345Z",
+      "changeTime": "2020-02-07T08:44:55.404Z",
+      "birthTime": "2020-02-07T07:43:54.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "es6.png",
+      "ext": ".png",
+      "name": "es6",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11703218,
+      "blocks": 8,
+      "atimeMs": 1581432109344.9248,
+      "mtimeMs": 1581061434000,
+      "ctimeMs": 1581065095404.0188,
+      "birthtimeMs": 1581061434000,
+      "atime": "2020-02-11T14:41:49.345Z",
+      "mtime": "2020-02-07T07:43:54.000Z",
+      "ctime": "2020-02-07T08:44:55.404Z",
+      "birthtime": "2020-02-07T07:43:54.000Z"
+    },
+    "9b1d4a57-db0b-5f3f-b13e-556b19186eb9": {
+      "id": "9b1d4a57-db0b-5f3f-b13e-556b19186eb9",
+      "children": [
+        "de0642a6-d88b-5180-9ab8-50f038fcafaa"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bec19650773ab5a0beadf5f0156750b2",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/firebase.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/firebase.png",
+      "relativePath": "firebase.png",
+      "extension": "png",
+      "size": 3304,
+      "prettySize": "3.3 kB",
+      "modifiedTime": "2020-02-07T07:45:26.000Z",
+      "accessTime": "2020-02-11T14:41:53.995Z",
+      "changeTime": "2020-02-07T08:45:59.770Z",
+      "birthTime": "2020-02-07T07:45:26.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "firebase.png",
+      "ext": ".png",
+      "name": "firebase",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11703390,
+      "blocks": 8,
+      "atimeMs": 1581432113995.3247,
+      "mtimeMs": 1581061526000,
+      "ctimeMs": 1581065159769.9136,
+      "birthtimeMs": 1581061526000,
+      "atime": "2020-02-11T14:41:53.995Z",
+      "mtime": "2020-02-07T07:45:26.000Z",
+      "ctime": "2020-02-07T08:45:59.770Z",
       "birthtime": "2020-02-07T07:45:26.000Z"
     },
     "ba61bf54-f113-5d25-aacd-35ea9a51cdc7": {
@@ -2197,128 +2404,34 @@
       "ctime": "2020-02-07T08:45:59.835Z",
       "birthtime": "2020-02-07T07:45:26.000Z"
     },
-    "122763b0-bcdf-59db-b387-341b82f83144": {
-      "id": "122763b0-bcdf-59db-b387-341b82f83144",
+    "b11b62f3-d3fa-52ab-896f-c8bec21134a1": {
+      "id": "b11b62f3-d3fa-52ab-896f-c8bec21134a1",
       "children": [
-        "08c242e9-69fb-5242-b546-143b9a3657b4"
+        "8769f694-0c0e-594d-a6f2-e3503aaa7c43"
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "8c8838aac3e315debe94cec6e89815bb",
+        "contentDigest": "0463f0603c3a30b742eb27258b240ef9",
         "type": "File",
         "mediaType": "image/png",
-        "description": "File \"src/images/gatsby-icon.png\"",
+        "description": "File \"src/images/inlei-logo.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/gatsby-icon.png",
-      "relativePath": "gatsby-icon.png",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/inlei-logo.png",
+      "relativePath": "inlei-logo.png",
       "extension": "png",
-      "size": 22991,
-      "prettySize": "23 kB",
-      "modifiedTime": "2020-02-11T14:28:11.339Z",
-      "accessTime": "2020-02-26T17:22:08.036Z",
-      "changeTime": "2020-02-11T14:28:11.347Z",
-      "birthTime": "2020-02-11T14:28:10.608Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "gatsby-icon.png",
-      "ext": ".png",
-      "name": "gatsby-icon",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11891277,
-      "blocks": 48,
-      "atimeMs": 1582737728035.7744,
-      "mtimeMs": 1581431291338.846,
-      "ctimeMs": 1581431291347.061,
-      "birthtimeMs": 1581431290607.794,
-      "atime": "2020-02-26T17:22:08.036Z",
-      "mtime": "2020-02-11T14:28:11.339Z",
-      "ctime": "2020-02-11T14:28:11.347Z",
-      "birthtime": "2020-02-11T14:28:10.608Z"
-    },
-    "8776f1c6-2f56-5133-a586-cb43b5435b65": {
-      "id": "8776f1c6-2f56-5133-a586-cb43b5435b65",
-      "children": [
-        "04319881-2eca-55d5-9f7a-313fc748f00f"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "8c8838aac3e315debe94cec6e89815bb",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/favicon.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/favicon.png",
-      "relativePath": "favicon.png",
-      "extension": "png",
-      "size": 22991,
-      "prettySize": "23 kB",
-      "modifiedTime": "2020-02-11T14:27:28.133Z",
-      "accessTime": "2020-02-11T14:43:25.144Z",
-      "changeTime": "2020-02-11T14:27:28.136Z",
-      "birthTime": "2020-02-11T14:27:27.358Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "favicon.png",
-      "ext": ".png",
-      "name": "favicon",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11891193,
-      "blocks": 48,
-      "atimeMs": 1581432205144.169,
-      "mtimeMs": 1581431248133.0803,
-      "ctimeMs": 1581431248136.1138,
-      "birthtimeMs": 1581431247358.385,
-      "atime": "2020-02-11T14:43:25.144Z",
-      "mtime": "2020-02-11T14:27:28.133Z",
-      "ctime": "2020-02-11T14:27:28.136Z",
-      "birthtime": "2020-02-11T14:27:27.358Z"
-    },
-    "3ead5433-71e4-53de-a9e7-49b9937dec76": {
-      "id": "3ead5433-71e4-53de-a9e7-49b9937dec76",
-      "children": [
-        "d6d50ff2-8283-5032-b8a4-db8ffea364c2"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "aace686633b2f6c90b07445ccb3e8b93",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/goodside-logo.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/goodside-logo.png",
-      "relativePath": "goodside-logo.png",
-      "extension": "png",
-      "size": 7811,
-      "prettySize": "7.81 kB",
+      "size": 4936,
+      "prettySize": "4.94 kB",
       "modifiedTime": "2020-02-07T07:45:26.000Z",
-      "accessTime": "2020-02-28T12:18:15.511Z",
-      "changeTime": "2020-02-07T08:45:59.838Z",
+      "accessTime": "2020-02-11T14:42:04.102Z",
+      "changeTime": "2020-02-07T08:45:59.848Z",
       "birthTime": "2020-02-07T07:45:26.000Z",
       "root": "/",
       "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "goodside-logo.png",
+      "base": "inlei-logo.png",
       "ext": ".png",
-      "name": "goodside-logo",
+      "name": "inlei-logo",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33261,
@@ -2327,15 +2440,15 @@
       "gid": 0,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 11703394,
+      "ino": 11703397,
       "blocks": 16,
-      "atimeMs": 1582892295510.6865,
+      "atimeMs": 1581432124102.2004,
       "mtimeMs": 1581061526000,
-      "ctimeMs": 1581065159837.738,
+      "ctimeMs": 1581065159847.6677,
       "birthtimeMs": 1581061526000,
-      "atime": "2020-02-28T12:18:15.511Z",
+      "atime": "2020-02-11T14:42:04.102Z",
       "mtime": "2020-02-07T07:45:26.000Z",
-      "ctime": "2020-02-07T08:45:59.838Z",
+      "ctime": "2020-02-07T08:45:59.848Z",
       "birthtime": "2020-02-07T07:45:26.000Z"
     },
     "1ea310c5-b881-5726-ab96-8ef4a692242d": {
@@ -2384,263 +2497,6 @@
       "mtime": "2020-02-07T07:45:26.000Z",
       "ctime": "2020-02-07T08:45:59.845Z",
       "birthtime": "2020-02-07T07:45:26.000Z"
-    },
-    "b11b62f3-d3fa-52ab-896f-c8bec21134a1": {
-      "id": "b11b62f3-d3fa-52ab-896f-c8bec21134a1",
-      "children": [
-        "8769f694-0c0e-594d-a6f2-e3503aaa7c43"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "0463f0603c3a30b742eb27258b240ef9",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/inlei-logo.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/inlei-logo.png",
-      "relativePath": "inlei-logo.png",
-      "extension": "png",
-      "size": 4936,
-      "prettySize": "4.94 kB",
-      "modifiedTime": "2020-02-07T07:45:26.000Z",
-      "accessTime": "2020-02-11T14:42:04.102Z",
-      "changeTime": "2020-02-07T08:45:59.848Z",
-      "birthTime": "2020-02-07T07:45:26.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "inlei-logo.png",
-      "ext": ".png",
-      "name": "inlei-logo",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703397,
-      "blocks": 16,
-      "atimeMs": 1581432124102.2004,
-      "mtimeMs": 1581061526000,
-      "ctimeMs": 1581065159847.6677,
-      "birthtimeMs": 1581061526000,
-      "atime": "2020-02-11T14:42:04.102Z",
-      "mtime": "2020-02-07T07:45:26.000Z",
-      "ctime": "2020-02-07T08:45:59.848Z",
-      "birthtime": "2020-02-07T07:45:26.000Z"
-    },
-    "801125d4-1cd3-5328-b95a-c2787ed7129e": {
-      "id": "801125d4-1cd3-5328-b95a-c2787ed7129e",
-      "children": [],
-      "parent": "57e745d5-391e-544e-88d9-cdc5c28f65a8",
-      "internal": {
-        "contentDigest": "d8a19179bcbd33c33bb74fb0e1ef694f",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "10ea9e31-81bf-50b6-bcdc-b21d032b7c77": {
-      "id": "10ea9e31-81bf-50b6-bcdc-b21d032b7c77",
-      "children": [],
-      "parent": "7aaca8b7-132a-5206-a671-2dee07c7ee75",
-      "internal": {
-        "contentDigest": "4b3de5921eca19961bfc54da779a41c2",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "8be4d82b-51b9-5a68-a465-3d07cd578ceb": {
-      "id": "8be4d82b-51b9-5a68-a465-3d07cd578ceb",
-      "children": [],
-      "parent": "29294cbf-6168-59ce-82be-10ce6ca1b4f9",
-      "internal": {
-        "contentDigest": "7e260105f58804ce4d64dba5649d11ab",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "fc7ff206-327c-5d3f-a7f0-69b36f6a0532": {
-      "id": "fc7ff206-327c-5d3f-a7f0-69b36f6a0532",
-      "children": [],
-      "parent": "8dfb81e3-71ee-5c74-a4f4-588a4d179e29",
-      "internal": {
-        "contentDigest": "76777624074e15e77a59ffb22c28196f",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "c4f30c12-b1ee-5d7e-a423-39d737a1aba0": {
-      "id": "c4f30c12-b1ee-5d7e-a423-39d737a1aba0",
-      "children": [],
-      "parent": "018bf0b1-60cf-58e9-8ba7-da339cfeb955",
-      "internal": {
-        "contentDigest": "eae919c9dde1a4abc71e8d3d3180c653",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "d9fc15ab-0083-5e56-a423-43ecb8e55c74": {
-      "id": "d9fc15ab-0083-5e56-a423-43ecb8e55c74",
-      "children": [],
-      "parent": "4c738492-cf1a-55e2-9080-8afa012618b7",
-      "internal": {
-        "contentDigest": "7b6573ed85829af674ad0d7ce5a07609",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "3b7ee596-d517-51a2-94b9-45a44269c3e3": {
-      "id": "3b7ee596-d517-51a2-94b9-45a44269c3e3",
-      "children": [],
-      "parent": "002535f6-b118-5b60-b482-993366a0865f",
-      "internal": {
-        "contentDigest": "54870ef1ca87cca9566d58733f9d6031",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "52a5c7a0-bf1d-56cf-ae36-ca12e19644ad": {
-      "id": "52a5c7a0-bf1d-56cf-ae36-ca12e19644ad",
-      "children": [],
-      "parent": "9cd2049a-b6b5-5392-a14f-45b3f74535ed",
-      "internal": {
-        "contentDigest": "aafd5e7f8f304d0c4047e18cf88bc633",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "f05d7f34-c02c-5d87-9361-4ec54d1edb24": {
-      "id": "f05d7f34-c02c-5d87-9361-4ec54d1edb24",
-      "children": [],
-      "parent": "d0860f6d-5227-514d-804b-d9198b7142e7",
-      "internal": {
-        "contentDigest": "7d5cffeef215446b9136fd81937f3662",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "06329856-97d4-51bc-837e-f5e8c18d6e9b": {
-      "id": "06329856-97d4-51bc-837e-f5e8c18d6e9b",
-      "children": [],
-      "parent": "ced34b14-6e60-504f-8c98-a5d77dabdb1e",
-      "internal": {
-        "contentDigest": "c28614c6b923c579fb84200cbdce00b4",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "a5f9cc13-a404-5fe7-912f-32ae1372ac4c": {
-      "id": "a5f9cc13-a404-5fe7-912f-32ae1372ac4c",
-      "children": [],
-      "parent": "87adaeb2-015f-5b22-b606-fd489227e6b2",
-      "internal": {
-        "contentDigest": "894266635abadd450dfb23b471c9a8c7",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "a5d733e1-d95e-5038-b30e-bd739a37a454": {
-      "id": "a5d733e1-d95e-5038-b30e-bd739a37a454",
-      "children": [],
-      "parent": "994573fe-461d-5de4-9afd-3a05edb1202f",
-      "internal": {
-        "contentDigest": "2e02bd0ddd1a022e5b7429d3359ceb7b",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "9ad2a396-de59-5bdc-90bb-e25611ec8235": {
-      "id": "9ad2a396-de59-5bdc-90bb-e25611ec8235",
-      "children": [],
-      "parent": "379df7c9-a8e1-5c32-88a5-563980f1d509",
-      "internal": {
-        "contentDigest": "abb16a9b49bd9050b2dbae5352454097",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "de0642a6-d88b-5180-9ab8-50f038fcafaa": {
-      "id": "de0642a6-d88b-5180-9ab8-50f038fcafaa",
-      "children": [],
-      "parent": "9b1d4a57-db0b-5f3f-b13e-556b19186eb9",
-      "internal": {
-        "contentDigest": "bec19650773ab5a0beadf5f0156750b2",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "4e780044-02d0-52c9-aa07-86dd4d9f67f8": {
-      "id": "4e780044-02d0-52c9-aa07-86dd4d9f67f8",
-      "children": [],
-      "parent": "471ba96b-15e8-55a9-a49e-1970aa390e58",
-      "internal": {
-        "contentDigest": "b3a5d2f0ec24bedbce247985eeacda09",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "880e05b1-f2ab-5e75-a9d1-d55c9b0db36c": {
-      "id": "880e05b1-f2ab-5e75-a9d1-d55c9b0db36c",
-      "children": [],
-      "parent": "ba61bf54-f113-5d25-aacd-35ea9a51cdc7",
-      "internal": {
-        "contentDigest": "728ff5a8e44d74cd0f2359ef0a9ec88a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "08c242e9-69fb-5242-b546-143b9a3657b4": {
-      "id": "08c242e9-69fb-5242-b546-143b9a3657b4",
-      "children": [],
-      "parent": "122763b0-bcdf-59db-b387-341b82f83144",
-      "internal": {
-        "contentDigest": "8c8838aac3e315debe94cec6e89815bb",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "04319881-2eca-55d5-9f7a-313fc748f00f": {
-      "id": "04319881-2eca-55d5-9f7a-313fc748f00f",
-      "children": [],
-      "parent": "8776f1c6-2f56-5133-a586-cb43b5435b65",
-      "internal": {
-        "contentDigest": "8c8838aac3e315debe94cec6e89815bb",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "d6d50ff2-8283-5032-b8a4-db8ffea364c2": {
-      "id": "d6d50ff2-8283-5032-b8a4-db8ffea364c2",
-      "children": [],
-      "parent": "3ead5433-71e4-53de-a9e7-49b9937dec76",
-      "internal": {
-        "contentDigest": "aace686633b2f6c90b07445ccb3e8b93",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "a3026a94-ad64-5e19-9e22-67e5f66606ad": {
-      "id": "a3026a94-ad64-5e19-9e22-67e5f66606ad",
-      "children": [],
-      "parent": "1ea310c5-b881-5726-ab96-8ef4a692242d",
-      "internal": {
-        "contentDigest": "9cb9fec031686324aece735ce5bc94a5",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "8769f694-0c0e-594d-a6f2-e3503aaa7c43": {
-      "id": "8769f694-0c0e-594d-a6f2-e3503aaa7c43",
-      "children": [],
-      "parent": "b11b62f3-d3fa-52ab-896f-c8bec21134a1",
-      "internal": {
-        "contentDigest": "0463f0603c3a30b742eb27258b240ef9",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "548cbf2d-464d-5cd6-bbac-916955ae819a": {
       "id": "548cbf2d-464d-5cd6-bbac-916955ae819a",
@@ -2783,32 +2639,32 @@
       "ctime": "2020-02-07T08:45:59.865Z",
       "birthtime": "2020-02-07T07:45:26.000Z"
     },
-    "eec95c56-7fa4-54fa-b4cd-03243e77a5fe": {
-      "id": "eec95c56-7fa4-54fa-b4cd-03243e77a5fe",
+    "efef4b63-fc6a-5d12-96d1-f2baa46c644a": {
+      "id": "efef4b63-fc6a-5d12-96d1-f2baa46c644a",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "e75317fafc5e835195adf92be513d35b",
+        "contentDigest": "c35cabd0b22b98f98b7de402e56fd57a",
         "type": "File",
         "mediaType": "image/svg+xml",
-        "description": "File \"src/images/instagram-brands (1).svg\"",
+        "description": "File \"src/images/instagram-brands-white.svg\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/instagram-brands (1).svg",
-      "relativePath": "instagram-brands (1).svg",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/instagram-brands-white.svg",
+      "relativePath": "instagram-brands-white.svg",
       "extension": "svg",
-      "size": 1160,
-      "prettySize": "1.16 kB",
-      "modifiedTime": "2020-01-16T14:21:50.000Z",
-      "accessTime": "2020-03-01T11:26:57.110Z",
-      "changeTime": "2020-02-03T18:50:18.534Z",
-      "birthTime": "2020-01-30T17:53:24.773Z",
+      "size": 61477,
+      "prettySize": "61.5 kB",
+      "modifiedTime": "2020-02-04T18:45:12.628Z",
+      "accessTime": "2020-09-05T12:30:38.795Z",
+      "changeTime": "2020-02-04T18:45:12.629Z",
+      "birthTime": "2020-01-30T17:53:24.778Z",
       "root": "/",
       "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "instagram-brands (1).svg",
+      "base": "instagram-brands-white.svg",
       "ext": ".svg",
-      "name": "instagram-brands (1)",
+      "name": "instagram-brands-white",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33248,
@@ -2817,16 +2673,61 @@
       "gid": 0,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 11494981,
-      "blocks": 8,
-      "atimeMs": 1583062017109.9438,
-      "mtimeMs": 1579184510000,
-      "ctimeMs": 1580755818534.006,
-      "birthtimeMs": 1580406804772.677,
-      "atime": "2020-03-01T11:26:57.110Z",
-      "mtime": "2020-01-16T14:21:50.000Z",
-      "ctime": "2020-02-03T18:50:18.534Z",
-      "birthtime": "2020-01-30T17:53:24.773Z"
+      "ino": 11495022,
+      "blocks": 128,
+      "atimeMs": 1599309038794.8354,
+      "mtimeMs": 1580841912627.7156,
+      "ctimeMs": 1580841912629.3364,
+      "birthtimeMs": 1580406804778.4639,
+      "atime": "2020-09-05T12:30:38.795Z",
+      "mtime": "2020-02-04T18:45:12.628Z",
+      "ctime": "2020-02-04T18:45:12.629Z",
+      "birthtime": "2020-01-30T17:53:24.778Z"
+    },
+    "c1a53fcc-a719-584f-8bb8-1182f750e9b4": {
+      "id": "c1a53fcc-a719-584f-8bb8-1182f750e9b4",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6faaf8b5fa37a9f8ea92d5f483224122",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/instagram-brands.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/instagram-brands.svg",
+      "relativePath": "instagram-brands.svg",
+      "extension": "svg",
+      "size": 19590,
+      "prettySize": "19.6 kB",
+      "modifiedTime": "2020-02-04T18:45:12.693Z",
+      "accessTime": "2020-09-05T12:30:38.797Z",
+      "changeTime": "2020-02-04T18:45:12.695Z",
+      "birthTime": "2020-01-30T17:53:24.784Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "instagram-brands.svg",
+      "ext": ".svg",
+      "name": "instagram-brands",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33248,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11495039,
+      "blocks": 40,
+      "atimeMs": 1599309038796.634,
+      "mtimeMs": 1580841912693.4248,
+      "ctimeMs": 1580841912694.9202,
+      "birthtimeMs": 1580406804784.004,
+      "atime": "2020-09-05T12:30:38.797Z",
+      "mtime": "2020-02-04T18:45:12.693Z",
+      "ctime": "2020-02-04T18:45:12.695Z",
+      "birthtime": "2020-01-30T17:53:24.784Z"
     },
     "46fc6355-4c37-5bfa-917e-2ce7204c570a": {
       "id": "46fc6355-4c37-5bfa-917e-2ce7204c570a",
@@ -2875,6 +2776,51 @@
       "ctime": "2020-02-07T08:47:44.791Z",
       "birthtime": "2020-02-07T07:47:22.000Z"
     },
+    "eec95c56-7fa4-54fa-b4cd-03243e77a5fe": {
+      "id": "eec95c56-7fa4-54fa-b4cd-03243e77a5fe",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e75317fafc5e835195adf92be513d35b",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/instagram-brands (1).svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/instagram-brands (1).svg",
+      "relativePath": "instagram-brands (1).svg",
+      "extension": "svg",
+      "size": 1160,
+      "prettySize": "1.16 kB",
+      "modifiedTime": "2020-01-16T14:21:50.000Z",
+      "accessTime": "2020-09-05T12:30:38.779Z",
+      "changeTime": "2020-02-03T18:50:18.534Z",
+      "birthTime": "2020-01-30T17:53:24.773Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "instagram-brands (1).svg",
+      "ext": ".svg",
+      "name": "instagram-brands (1)",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33248,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11494981,
+      "blocks": 8,
+      "atimeMs": 1599309038779.3254,
+      "mtimeMs": 1579184510000,
+      "ctimeMs": 1580755818534.006,
+      "birthtimeMs": 1580406804772.677,
+      "atime": "2020-09-05T12:30:38.779Z",
+      "mtime": "2020-01-16T14:21:50.000Z",
+      "ctime": "2020-02-03T18:50:18.534Z",
+      "birthtime": "2020-01-30T17:53:24.773Z"
+    },
     "ddce1291-193a-5b77-927f-80c7e419fde4": {
       "id": "ddce1291-193a-5b77-927f-80c7e419fde4",
       "children": [
@@ -2922,79 +2868,32 @@
       "ctime": "2020-02-07T08:47:44.837Z",
       "birthtime": "2020-02-07T07:47:22.000Z"
     },
-    "5c64d116-20b7-5f47-bae2-e2845aa67ded": {
-      "id": "5c64d116-20b7-5f47-bae2-e2845aa67ded",
-      "children": [
-        "65f4a570-6715-5e58-af4e-5125795a9ab8"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "4ef320279104ff2524edd80f12c1fa00",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/jma-logo.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/jma-logo.png",
-      "relativePath": "jma-logo.png",
-      "extension": "png",
-      "size": 3458,
-      "prettySize": "3.46 kB",
-      "modifiedTime": "2020-02-07T07:47:22.000Z",
-      "accessTime": "2020-02-11T14:42:07.004Z",
-      "changeTime": "2020-02-07T08:47:44.795Z",
-      "birthTime": "2020-02-07T07:47:22.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "jma-logo.png",
-      "ext": ".png",
-      "name": "jma-logo",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703602,
-      "blocks": 8,
-      "atimeMs": 1581432127004.1646,
-      "mtimeMs": 1581061642000,
-      "ctimeMs": 1581065264794.7,
-      "birthtimeMs": 1581061642000,
-      "atime": "2020-02-11T14:42:07.004Z",
-      "mtime": "2020-02-07T07:47:22.000Z",
-      "ctime": "2020-02-07T08:47:44.795Z",
-      "birthtime": "2020-02-07T07:47:22.000Z"
-    },
-    "efef4b63-fc6a-5d12-96d1-f2baa46c644a": {
-      "id": "efef4b63-fc6a-5d12-96d1-f2baa46c644a",
+    "afc2155d-376e-5a4d-b060-a7de9ad50c91": {
+      "id": "afc2155d-376e-5a4d-b060-a7de9ad50c91",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "c35cabd0b22b98f98b7de402e56fd57a",
+        "contentDigest": "3328153f27f789dc8e11276006ca5b68",
         "type": "File",
         "mediaType": "image/svg+xml",
-        "description": "File \"src/images/instagram-brands-white.svg\"",
+        "description": "File \"src/images/linkedin-brands-white.svg\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/instagram-brands-white.svg",
-      "relativePath": "instagram-brands-white.svg",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/linkedin-brands-white.svg",
+      "relativePath": "linkedin-brands-white.svg",
       "extension": "svg",
-      "size": 61477,
-      "prettySize": "61.5 kB",
-      "modifiedTime": "2020-02-04T18:45:12.628Z",
-      "accessTime": "2020-03-01T11:26:57.129Z",
-      "changeTime": "2020-02-04T18:45:12.629Z",
-      "birthTime": "2020-01-30T17:53:24.778Z",
+      "size": 28513,
+      "prettySize": "28.5 kB",
+      "modifiedTime": "2020-02-04T18:45:36.315Z",
+      "accessTime": "2020-09-05T12:30:38.780Z",
+      "changeTime": "2020-02-04T18:45:36.317Z",
+      "birthTime": "2020-01-30T17:53:24.906Z",
       "root": "/",
       "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "instagram-brands-white.svg",
+      "base": "linkedin-brands-white.svg",
       "ext": ".svg",
-      "name": "instagram-brands-white",
+      "name": "linkedin-brands-white",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33248,
@@ -3003,61 +2902,16 @@
       "gid": 0,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 11495022,
-      "blocks": 128,
-      "atimeMs": 1583062017128.838,
-      "mtimeMs": 1580841912627.7156,
-      "ctimeMs": 1580841912629.3364,
-      "birthtimeMs": 1580406804778.4639,
-      "atime": "2020-03-01T11:26:57.129Z",
-      "mtime": "2020-02-04T18:45:12.628Z",
-      "ctime": "2020-02-04T18:45:12.629Z",
-      "birthtime": "2020-01-30T17:53:24.778Z"
-    },
-    "c1a53fcc-a719-584f-8bb8-1182f750e9b4": {
-      "id": "c1a53fcc-a719-584f-8bb8-1182f750e9b4",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "6faaf8b5fa37a9f8ea92d5f483224122",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/instagram-brands.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/instagram-brands.svg",
-      "relativePath": "instagram-brands.svg",
-      "extension": "svg",
-      "size": 19590,
-      "prettySize": "19.6 kB",
-      "modifiedTime": "2020-02-04T18:45:12.693Z",
-      "accessTime": "2020-03-01T11:26:57.129Z",
-      "changeTime": "2020-02-04T18:45:12.695Z",
-      "birthTime": "2020-01-30T17:53:24.784Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "instagram-brands.svg",
-      "ext": ".svg",
-      "name": "instagram-brands",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33248,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11495039,
-      "blocks": 40,
-      "atimeMs": 1583062017129.3267,
-      "mtimeMs": 1580841912693.4248,
-      "ctimeMs": 1580841912694.9202,
-      "birthtimeMs": 1580406804784.004,
-      "atime": "2020-03-01T11:26:57.129Z",
-      "mtime": "2020-02-04T18:45:12.693Z",
-      "ctime": "2020-02-04T18:45:12.695Z",
-      "birthtime": "2020-01-30T17:53:24.784Z"
+      "ino": 11494980,
+      "blocks": 56,
+      "atimeMs": 1599309038780.2297,
+      "mtimeMs": 1580841936315.431,
+      "ctimeMs": 1580841936316.8455,
+      "birthtimeMs": 1580406804906.346,
+      "atime": "2020-09-05T12:30:38.780Z",
+      "mtime": "2020-02-04T18:45:36.315Z",
+      "ctime": "2020-02-04T18:45:36.317Z",
+      "birthtime": "2020-01-30T17:53:24.906Z"
     },
     "08a83a69-3ed1-59ec-8261-0da91516df6d": {
       "id": "08a83a69-3ed1-59ec-8261-0da91516df6d",
@@ -3153,51 +3007,6 @@
       "ctime": "2020-02-07T08:47:44.845Z",
       "birthtime": "2020-02-07T07:47:22.000Z"
     },
-    "afc2155d-376e-5a4d-b060-a7de9ad50c91": {
-      "id": "afc2155d-376e-5a4d-b060-a7de9ad50c91",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "3328153f27f789dc8e11276006ca5b68",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/linkedin-brands-white.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/linkedin-brands-white.svg",
-      "relativePath": "linkedin-brands-white.svg",
-      "extension": "svg",
-      "size": 28513,
-      "prettySize": "28.5 kB",
-      "modifiedTime": "2020-02-04T18:45:36.315Z",
-      "accessTime": "2020-03-01T11:26:57.110Z",
-      "changeTime": "2020-02-04T18:45:36.317Z",
-      "birthTime": "2020-01-30T17:53:24.906Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "linkedin-brands-white.svg",
-      "ext": ".svg",
-      "name": "linkedin-brands-white",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33248,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11494980,
-      "blocks": 56,
-      "atimeMs": 1583062017110.447,
-      "mtimeMs": 1580841936315.431,
-      "ctimeMs": 1580841936316.8455,
-      "birthtimeMs": 1580406804906.346,
-      "atime": "2020-03-01T11:26:57.110Z",
-      "mtime": "2020-02-04T18:45:36.315Z",
-      "ctime": "2020-02-04T18:45:36.317Z",
-      "birthtime": "2020-01-30T17:53:24.906Z"
-    },
     "230e475d-b9b6-5824-8a7f-62a37dce8ead": {
       "id": "230e475d-b9b6-5824-8a7f-62a37dce8ead",
       "children": [],
@@ -3216,7 +3025,7 @@
       "size": 10175,
       "prettySize": "10.2 kB",
       "modifiedTime": "2020-02-04T18:45:36.382Z",
-      "accessTime": "2020-03-01T11:26:57.127Z",
+      "accessTime": "2020-09-05T12:30:38.792Z",
       "changeTime": "2020-02-04T18:45:36.387Z",
       "birthTime": "2020-01-30T17:53:24.910Z",
       "root": "/",
@@ -3234,59 +3043,61 @@
       "blksize": 4096,
       "ino": 11495004,
       "blocks": 24,
-      "atimeMs": 1583062017126.9458,
+      "atimeMs": 1599309038792.3064,
       "mtimeMs": 1580841936382.4114,
       "ctimeMs": 1580841936386.861,
       "birthtimeMs": 1580406804909.938,
-      "atime": "2020-03-01T11:26:57.127Z",
+      "atime": "2020-09-05T12:30:38.792Z",
       "mtime": "2020-02-04T18:45:36.382Z",
       "ctime": "2020-02-04T18:45:36.387Z",
       "birthtime": "2020-01-30T17:53:24.910Z"
     },
-    "2aae81af-b7f4-55f1-95ef-c18e6b1378c3": {
-      "id": "2aae81af-b7f4-55f1-95ef-c18e6b1378c3",
-      "children": [],
+    "5c64d116-20b7-5f47-bae2-e2845aa67ded": {
+      "id": "5c64d116-20b7-5f47-bae2-e2845aa67ded",
+      "children": [
+        "65f4a570-6715-5e58-af4e-5125795a9ab8"
+      ],
       "parent": null,
       "internal": {
-        "contentDigest": "1e01f0c0dea217ba568ebbcec49c5b6b",
+        "contentDigest": "4ef320279104ff2524edd80f12c1fa00",
         "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/linkedin-in-brands.svg\"",
+        "mediaType": "image/png",
+        "description": "File \"src/images/jma-logo.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/linkedin-in-brands.svg",
-      "relativePath": "linkedin-in-brands.svg",
-      "extension": "svg",
-      "size": 542,
-      "prettySize": "542 B",
-      "modifiedTime": "2020-01-16T14:21:51.000Z",
-      "accessTime": "2020-03-01T11:26:57.130Z",
-      "changeTime": "2020-02-03T18:50:18.627Z",
-      "birthTime": "2020-01-30T17:53:24.911Z",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/jma-logo.png",
+      "relativePath": "jma-logo.png",
+      "extension": "png",
+      "size": 3458,
+      "prettySize": "3.46 kB",
+      "modifiedTime": "2020-02-07T07:47:22.000Z",
+      "accessTime": "2020-02-11T14:42:07.004Z",
+      "changeTime": "2020-02-07T08:47:44.795Z",
+      "birthTime": "2020-02-07T07:47:22.000Z",
       "root": "/",
       "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "linkedin-in-brands.svg",
-      "ext": ".svg",
-      "name": "linkedin-in-brands",
+      "base": "jma-logo.png",
+      "ext": ".png",
+      "name": "jma-logo",
       "relativeDirectory": "",
       "dev": 16777220,
-      "mode": 33248,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
       "gid": 0,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 11495048,
+      "ino": 11703602,
       "blocks": 8,
-      "atimeMs": 1583062017130.159,
-      "mtimeMs": 1579184511000,
-      "ctimeMs": 1580755818627.0417,
-      "birthtimeMs": 1580406804911.343,
-      "atime": "2020-03-01T11:26:57.130Z",
-      "mtime": "2020-01-16T14:21:51.000Z",
-      "ctime": "2020-02-03T18:50:18.627Z",
-      "birthtime": "2020-01-30T17:53:24.911Z"
+      "atimeMs": 1581432127004.1646,
+      "mtimeMs": 1581061642000,
+      "ctimeMs": 1581065264794.7,
+      "birthtimeMs": 1581061642000,
+      "atime": "2020-02-11T14:42:07.004Z",
+      "mtime": "2020-02-07T07:47:22.000Z",
+      "ctime": "2020-02-07T08:47:44.795Z",
+      "birthtime": "2020-02-07T07:47:22.000Z"
     },
     "26c1bbd6-0408-5b0c-a924-15bfea3188b5": {
       "id": "26c1bbd6-0408-5b0c-a924-15bfea3188b5",
@@ -3306,7 +3117,7 @@
       "size": 697,
       "prettySize": "697 B",
       "modifiedTime": "2020-01-16T14:21:51.000Z",
-      "accessTime": "2020-03-01T11:26:57.127Z",
+      "accessTime": "2020-09-05T12:30:38.795Z",
       "changeTime": "2020-02-03T18:50:18.558Z",
       "birthTime": "2020-01-30T17:53:24.913Z",
       "root": "/",
@@ -3324,108 +3135,14 @@
       "blksize": 4096,
       "ino": 11495001,
       "blocks": 8,
-      "atimeMs": 1583062017126.708,
+      "atimeMs": 1599309038794.9963,
       "mtimeMs": 1579184511000,
       "ctimeMs": 1580755818557.8413,
       "birthtimeMs": 1580406804912.781,
-      "atime": "2020-03-01T11:26:57.127Z",
+      "atime": "2020-09-05T12:30:38.795Z",
       "mtime": "2020-01-16T14:21:51.000Z",
       "ctime": "2020-02-03T18:50:18.558Z",
       "birthtime": "2020-01-30T17:53:24.913Z"
-    },
-    "d2ca5131-e31e-5ff9-b994-f85664dc9f6f": {
-      "id": "d2ca5131-e31e-5ff9-b994-f85664dc9f6f",
-      "children": [
-        "7f859e06-81a2-55e8-927a-30ba79f39f1f"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "113fd4eff03537abc86b0523f948b600",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/number-01-grey.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/number-01-grey.png",
-      "relativePath": "number-01-grey.png",
-      "extension": "png",
-      "size": 2097,
-      "prettySize": "2.1 kB",
-      "modifiedTime": "2020-02-07T07:47:22.000Z",
-      "accessTime": "2020-02-11T14:42:18.757Z",
-      "changeTime": "2020-02-07T08:47:44.856Z",
-      "birthTime": "2020-02-07T07:47:22.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "number-01-grey.png",
-      "ext": ".png",
-      "name": "number-01-grey",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703610,
-      "blocks": 8,
-      "atimeMs": 1581432138757.2292,
-      "mtimeMs": 1581061642000,
-      "ctimeMs": 1581065264855.8552,
-      "birthtimeMs": 1581061642000,
-      "atime": "2020-02-11T14:42:18.757Z",
-      "mtime": "2020-02-07T07:47:22.000Z",
-      "ctime": "2020-02-07T08:47:44.856Z",
-      "birthtime": "2020-02-07T07:47:22.000Z"
-    },
-    "91c00f47-1027-5bd4-8a53-886bdeccf66f": {
-      "id": "91c00f47-1027-5bd4-8a53-886bdeccf66f",
-      "children": [
-        "475234f6-6e45-5497-b9d6-10d6970c1e38"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "98cb690505725462a15d8a64cd4febab",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/number-02-white.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/number-02-white.png",
-      "relativePath": "number-02-white.png",
-      "extension": "png",
-      "size": 2840,
-      "prettySize": "2.84 kB",
-      "modifiedTime": "2020-02-07T07:47:24.000Z",
-      "accessTime": "2020-02-11T14:42:20.545Z",
-      "changeTime": "2020-02-07T08:47:44.867Z",
-      "birthTime": "2020-02-07T07:47:24.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "number-02-white.png",
-      "ext": ".png",
-      "name": "number-02-white",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703613,
-      "blocks": 8,
-      "atimeMs": 1581432140544.917,
-      "mtimeMs": 1581061644000,
-      "ctimeMs": 1581065264867.1875,
-      "birthtimeMs": 1581061644000,
-      "atime": "2020-02-11T14:42:20.545Z",
-      "mtime": "2020-02-07T07:47:24.000Z",
-      "ctime": "2020-02-07T08:47:44.867Z",
-      "birthtime": "2020-02-07T07:47:24.000Z"
     },
     "a489423b-6e1c-55e6-b4f1-37f14cc3cee3": {
       "id": "a489423b-6e1c-55e6-b4f1-37f14cc3cee3",
@@ -3472,6 +3189,53 @@
       "atime": "2020-02-11T14:42:14.295Z",
       "mtime": "2020-02-07T07:47:22.000Z",
       "ctime": "2020-02-07T08:47:44.848Z",
+      "birthtime": "2020-02-07T07:47:22.000Z"
+    },
+    "d2ca5131-e31e-5ff9-b994-f85664dc9f6f": {
+      "id": "d2ca5131-e31e-5ff9-b994-f85664dc9f6f",
+      "children": [
+        "7f859e06-81a2-55e8-927a-30ba79f39f1f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "113fd4eff03537abc86b0523f948b600",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/number-01-grey.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/number-01-grey.png",
+      "relativePath": "number-01-grey.png",
+      "extension": "png",
+      "size": 2097,
+      "prettySize": "2.1 kB",
+      "modifiedTime": "2020-02-07T07:47:22.000Z",
+      "accessTime": "2020-02-11T14:42:18.757Z",
+      "changeTime": "2020-02-07T08:47:44.856Z",
+      "birthTime": "2020-02-07T07:47:22.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "number-01-grey.png",
+      "ext": ".png",
+      "name": "number-01-grey",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11703610,
+      "blocks": 8,
+      "atimeMs": 1581432138757.2292,
+      "mtimeMs": 1581061642000,
+      "ctimeMs": 1581065264855.8552,
+      "birthtimeMs": 1581061642000,
+      "atime": "2020-02-11T14:42:18.757Z",
+      "mtime": "2020-02-07T07:47:22.000Z",
+      "ctime": "2020-02-07T08:47:44.856Z",
       "birthtime": "2020-02-07T07:47:22.000Z"
     },
     "5d2c3b8e-320a-51a5-87f6-57306b885c81": {
@@ -3521,81 +3285,34 @@
       "ctime": "2020-02-07T08:47:44.859Z",
       "birthtime": "2020-02-07T07:47:24.000Z"
     },
-    "2c923ff2-5aef-59d4-9919-575014b2b9a6": {
-      "id": "2c923ff2-5aef-59d4-9919-575014b2b9a6",
+    "91c00f47-1027-5bd4-8a53-886bdeccf66f": {
+      "id": "91c00f47-1027-5bd4-8a53-886bdeccf66f",
       "children": [
-        "037fe5c1-2403-599d-ae13-a406ca694eb3"
+        "475234f6-6e45-5497-b9d6-10d6970c1e38"
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "cdfcf2849752111dc2cb00498f56f088",
+        "contentDigest": "98cb690505725462a15d8a64cd4febab",
         "type": "File",
         "mediaType": "image/png",
-        "description": "File \"src/images/number-03-grey.png\"",
+        "description": "File \"src/images/number-02-white.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/number-03-grey.png",
-      "relativePath": "number-03-grey.png",
-      "extension": "png",
-      "size": 2862,
-      "prettySize": "2.86 kB",
-      "modifiedTime": "2020-02-07T07:47:24.000Z",
-      "accessTime": "2020-02-11T14:42:20.928Z",
-      "changeTime": "2020-02-07T08:47:44.873Z",
-      "birthTime": "2020-02-07T07:47:24.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "number-03-grey.png",
-      "ext": ".png",
-      "name": "number-03-grey",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703614,
-      "blocks": 8,
-      "atimeMs": 1581432140927.9966,
-      "mtimeMs": 1581061644000,
-      "ctimeMs": 1581065264873.193,
-      "birthtimeMs": 1581061644000,
-      "atime": "2020-02-11T14:42:20.928Z",
-      "mtime": "2020-02-07T07:47:24.000Z",
-      "ctime": "2020-02-07T08:47:44.873Z",
-      "birthtime": "2020-02-07T07:47:24.000Z"
-    },
-    "ec8e14ac-89e7-5599-a8d4-22263af71482": {
-      "id": "ec8e14ac-89e7-5599-a8d4-22263af71482",
-      "children": [
-        "cb66f70a-0e0d-56a5-9759-9d0b4af12dba"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "81daf12d4b0920d5ff93c1af968fbc0e",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/number-02-grey.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/number-02-grey.png",
-      "relativePath": "number-02-grey.png",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/number-02-white.png",
+      "relativePath": "number-02-white.png",
       "extension": "png",
       "size": 2840,
       "prettySize": "2.84 kB",
       "modifiedTime": "2020-02-07T07:47:24.000Z",
-      "accessTime": "2020-02-11T14:42:20.024Z",
-      "changeTime": "2020-02-07T08:47:44.863Z",
+      "accessTime": "2020-02-11T14:42:20.545Z",
+      "changeTime": "2020-02-07T08:47:44.867Z",
       "birthTime": "2020-02-07T07:47:24.000Z",
       "root": "/",
       "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "number-02-grey.png",
+      "base": "number-02-white.png",
       "ext": ".png",
-      "name": "number-02-grey",
+      "name": "number-02-white",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33261,
@@ -3604,15 +3321,15 @@
       "gid": 0,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 11703612,
+      "ino": 11703613,
       "blocks": 8,
-      "atimeMs": 1581432140023.884,
+      "atimeMs": 1581432140544.917,
       "mtimeMs": 1581061644000,
-      "ctimeMs": 1581065264863.1306,
+      "ctimeMs": 1581065264867.1875,
       "birthtimeMs": 1581061644000,
-      "atime": "2020-02-11T14:42:20.024Z",
+      "atime": "2020-02-11T14:42:20.545Z",
       "mtime": "2020-02-07T07:47:24.000Z",
-      "ctime": "2020-02-07T08:47:44.863Z",
+      "ctime": "2020-02-07T08:47:44.867Z",
       "birthtime": "2020-02-07T07:47:24.000Z"
     },
     "2cfe3657-93f4-5d8f-bb6d-bbbb88ce67a3": {
@@ -3662,52 +3379,97 @@
       "ctime": "2020-02-07T08:47:44.898Z",
       "birthtime": "2020-02-07T07:47:24.000Z"
     },
-    "48128afd-3ce4-500a-a2f4-6ea6adb9f12a": {
-      "id": "48128afd-3ce4-500a-a2f4-6ea6adb9f12a",
+    "2c923ff2-5aef-59d4-9919-575014b2b9a6": {
+      "id": "2c923ff2-5aef-59d4-9919-575014b2b9a6",
       "children": [
-        "09f52436-e371-553f-ad96-ae83d744d919"
+        "037fe5c1-2403-599d-ae13-a406ca694eb3"
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "51f13ddefca37bb2b4354f439a9d5288",
+        "contentDigest": "cdfcf2849752111dc2cb00498f56f088",
         "type": "File",
         "mediaType": "image/png",
-        "description": "File \"src/images/number-04-white.png\"",
+        "description": "File \"src/images/number-03-grey.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/number-04-white.png",
-      "relativePath": "number-04-white.png",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/number-03-grey.png",
+      "relativePath": "number-03-grey.png",
       "extension": "png",
-      "size": 5431,
-      "prettySize": "5.43 kB",
-      "modifiedTime": "2020-02-04T16:15:53.246Z",
-      "accessTime": "2020-02-04T18:43:26.748Z",
-      "changeTime": "2020-02-04T16:19:40.267Z",
-      "birthTime": "2020-02-04T16:15:52.693Z",
+      "size": 2862,
+      "prettySize": "2.86 kB",
+      "modifiedTime": "2020-02-07T07:47:24.000Z",
+      "accessTime": "2020-02-11T14:42:20.928Z",
+      "changeTime": "2020-02-07T08:47:44.873Z",
+      "birthTime": "2020-02-07T07:47:24.000Z",
       "root": "/",
       "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "number-04-white.png",
+      "base": "number-03-grey.png",
       "ext": ".png",
-      "name": "number-04-white",
+      "name": "number-03-grey",
       "relativeDirectory": "",
       "dev": 16777220,
-      "mode": 33188,
+      "mode": 33261,
       "nlink": 1,
       "uid": 501,
-      "gid": 20,
+      "gid": 0,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 11574320,
-      "blocks": 16,
-      "atimeMs": 1580841806747.9922,
-      "mtimeMs": 1580832953246.0706,
-      "ctimeMs": 1580833180267.1108,
-      "birthtimeMs": 1580832952693.0554,
-      "atime": "2020-02-04T18:43:26.748Z",
-      "mtime": "2020-02-04T16:15:53.246Z",
-      "ctime": "2020-02-04T16:19:40.267Z",
-      "birthtime": "2020-02-04T16:15:52.693Z"
+      "ino": 11703614,
+      "blocks": 8,
+      "atimeMs": 1581432140927.9966,
+      "mtimeMs": 1581061644000,
+      "ctimeMs": 1581065264873.193,
+      "birthtimeMs": 1581061644000,
+      "atime": "2020-02-11T14:42:20.928Z",
+      "mtime": "2020-02-07T07:47:24.000Z",
+      "ctime": "2020-02-07T08:47:44.873Z",
+      "birthtime": "2020-02-07T07:47:24.000Z"
+    },
+    "2aae81af-b7f4-55f1-95ef-c18e6b1378c3": {
+      "id": "2aae81af-b7f4-55f1-95ef-c18e6b1378c3",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1e01f0c0dea217ba568ebbcec49c5b6b",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/linkedin-in-brands.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/linkedin-in-brands.svg",
+      "relativePath": "linkedin-in-brands.svg",
+      "extension": "svg",
+      "size": 542,
+      "prettySize": "542 B",
+      "modifiedTime": "2020-01-16T14:21:51.000Z",
+      "accessTime": "2020-09-05T12:30:38.799Z",
+      "changeTime": "2020-02-03T18:50:18.627Z",
+      "birthTime": "2020-01-30T17:53:24.911Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "linkedin-in-brands.svg",
+      "ext": ".svg",
+      "name": "linkedin-in-brands",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33248,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11495048,
+      "blocks": 8,
+      "atimeMs": 1599309038798.7573,
+      "mtimeMs": 1579184511000,
+      "ctimeMs": 1580755818627.0417,
+      "birthtimeMs": 1580406804911.343,
+      "atime": "2020-09-05T12:30:38.799Z",
+      "mtime": "2020-01-16T14:21:51.000Z",
+      "ctime": "2020-02-03T18:50:18.627Z",
+      "birthtime": "2020-01-30T17:53:24.911Z"
     },
     "73897980-0777-5988-87ef-1cc2cb37bc9c": {
       "id": "73897980-0777-5988-87ef-1cc2cb37bc9c",
@@ -3803,6 +3565,53 @@
       "ctime": "2020-02-07T08:51:15.118Z",
       "birthtime": "2020-02-07T07:50:58.000Z"
     },
+    "ec8e14ac-89e7-5599-a8d4-22263af71482": {
+      "id": "ec8e14ac-89e7-5599-a8d4-22263af71482",
+      "children": [
+        "cb66f70a-0e0d-56a5-9759-9d0b4af12dba"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "81daf12d4b0920d5ff93c1af968fbc0e",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/number-02-grey.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/number-02-grey.png",
+      "relativePath": "number-02-grey.png",
+      "extension": "png",
+      "size": 2840,
+      "prettySize": "2.84 kB",
+      "modifiedTime": "2020-02-07T07:47:24.000Z",
+      "accessTime": "2020-02-11T14:42:20.024Z",
+      "changeTime": "2020-02-07T08:47:44.863Z",
+      "birthTime": "2020-02-07T07:47:24.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "number-02-grey.png",
+      "ext": ".png",
+      "name": "number-02-grey",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11703612,
+      "blocks": 8,
+      "atimeMs": 1581432140023.884,
+      "mtimeMs": 1581061644000,
+      "ctimeMs": 1581065264863.1306,
+      "birthtimeMs": 1581061644000,
+      "atime": "2020-02-11T14:42:20.024Z",
+      "mtime": "2020-02-07T07:47:24.000Z",
+      "ctime": "2020-02-07T08:47:44.863Z",
+      "birthtime": "2020-02-07T07:47:24.000Z"
+    },
     "2171c6a8-d999-5393-b1b6-dad48bed0864": {
       "id": "2171c6a8-d999-5393-b1b6-dad48bed0864",
       "children": [
@@ -3895,53 +3704,6 @@
       "atime": "2020-02-11T14:42:26.636Z",
       "mtime": "2020-02-07T07:51:00.000Z",
       "ctime": "2020-02-07T08:51:15.168Z",
-      "birthtime": "2020-02-07T07:51:00.000Z"
-    },
-    "7732a630-67d4-5a8a-a0db-9157853bc597": {
-      "id": "7732a630-67d4-5a8a-a0db-9157853bc597",
-      "children": [
-        "9e8d7b9e-98ef-5a16-b615-8433a45c3325"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "594ac781ec00121213ad0fb861f6c993",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/offer-item-img-3.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/offer-item-img-3.png",
-      "relativePath": "offer-item-img-3.png",
-      "extension": "png",
-      "size": 12455,
-      "prettySize": "12.5 kB",
-      "modifiedTime": "2020-02-07T07:51:00.000Z",
-      "accessTime": "2020-02-11T14:42:26.969Z",
-      "changeTime": "2020-02-07T08:51:15.177Z",
-      "birthTime": "2020-02-07T07:51:00.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "offer-item-img-3.png",
-      "ext": ".png",
-      "name": "offer-item-img-3",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703850,
-      "blocks": 32,
-      "atimeMs": 1581432146969.1282,
-      "mtimeMs": 1581061860000,
-      "ctimeMs": 1581065475177.0872,
-      "birthtimeMs": 1581061860000,
-      "atime": "2020-02-11T14:42:26.969Z",
-      "mtime": "2020-02-07T07:51:00.000Z",
-      "ctime": "2020-02-07T08:51:15.177Z",
       "birthtime": "2020-02-07T07:51:00.000Z"
     },
     "aed7bf03-3016-5a53-9d5e-46bb9149bfea": {
@@ -4038,6 +3800,53 @@
       "ctime": "2020-02-07T08:51:15.184Z",
       "birthtime": "2020-02-07T07:51:00.000Z"
     },
+    "48128afd-3ce4-500a-a2f4-6ea6adb9f12a": {
+      "id": "48128afd-3ce4-500a-a2f4-6ea6adb9f12a",
+      "children": [
+        "09f52436-e371-553f-ad96-ae83d744d919"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "51f13ddefca37bb2b4354f439a9d5288",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/number-04-white.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/number-04-white.png",
+      "relativePath": "number-04-white.png",
+      "extension": "png",
+      "size": 5431,
+      "prettySize": "5.43 kB",
+      "modifiedTime": "2020-02-04T16:15:53.246Z",
+      "accessTime": "2020-02-04T18:43:26.748Z",
+      "changeTime": "2020-02-04T16:19:40.267Z",
+      "birthTime": "2020-02-04T16:15:52.693Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "number-04-white.png",
+      "ext": ".png",
+      "name": "number-04-white",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11574320,
+      "blocks": 16,
+      "atimeMs": 1580841806747.9922,
+      "mtimeMs": 1580832953246.0706,
+      "ctimeMs": 1580833180267.1108,
+      "birthtimeMs": 1580832952693.0554,
+      "atime": "2020-02-04T18:43:26.748Z",
+      "mtime": "2020-02-04T16:15:53.246Z",
+      "ctime": "2020-02-04T16:19:40.267Z",
+      "birthtime": "2020-02-04T16:15:52.693Z"
+    },
     "2313e97d-0d84-56ad-9670-e3bf0904b6e4": {
       "id": "2313e97d-0d84-56ad-9670-e3bf0904b6e4",
       "children": [
@@ -4085,34 +3894,34 @@
       "ctime": "2020-02-07T08:51:15.187Z",
       "birthtime": "2020-02-07T07:51:00.000Z"
     },
-    "dcfaf42f-4cc3-576c-bb90-203ec807a368": {
-      "id": "dcfaf42f-4cc3-576c-bb90-203ec807a368",
+    "7732a630-67d4-5a8a-a0db-9157853bc597": {
+      "id": "7732a630-67d4-5a8a-a0db-9157853bc597",
       "children": [
-        "6cb9c1cf-733b-5b1a-a092-3c2f120c2a1f"
+        "9e8d7b9e-98ef-5a16-b615-8433a45c3325"
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "a0f6c379d8310f1bab4340ced4d6df76",
+        "contentDigest": "594ac781ec00121213ad0fb861f6c993",
         "type": "File",
         "mediaType": "image/png",
-        "description": "File \"src/images/phone-solid-white.png\"",
+        "description": "File \"src/images/offer-item-img-3.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/phone-solid-white.png",
-      "relativePath": "phone-solid-white.png",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/offer-item-img-3.png",
+      "relativePath": "offer-item-img-3.png",
       "extension": "png",
-      "size": 1717,
-      "prettySize": "1.72 kB",
+      "size": 12455,
+      "prettySize": "12.5 kB",
       "modifiedTime": "2020-02-07T07:51:00.000Z",
-      "accessTime": "2020-02-11T14:42:30.897Z",
-      "changeTime": "2020-02-07T08:51:15.201Z",
+      "accessTime": "2020-02-11T14:42:26.969Z",
+      "changeTime": "2020-02-07T08:51:15.177Z",
       "birthTime": "2020-02-07T07:51:00.000Z",
       "root": "/",
       "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "phone-solid-white.png",
+      "base": "offer-item-img-3.png",
       "ext": ".png",
-      "name": "phone-solid-white",
+      "name": "offer-item-img-3",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33261,
@@ -4121,15 +3930,15 @@
       "gid": 0,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 11703856,
-      "blocks": 8,
-      "atimeMs": 1581432150896.8708,
+      "ino": 11703850,
+      "blocks": 32,
+      "atimeMs": 1581432146969.1282,
       "mtimeMs": 1581061860000,
-      "ctimeMs": 1581065475200.5454,
+      "ctimeMs": 1581065475177.0872,
       "birthtimeMs": 1581061860000,
-      "atime": "2020-02-11T14:42:30.897Z",
+      "atime": "2020-02-11T14:42:26.969Z",
       "mtime": "2020-02-07T07:51:00.000Z",
-      "ctime": "2020-02-07T08:51:15.201Z",
+      "ctime": "2020-02-07T08:51:15.177Z",
       "birthtime": "2020-02-07T07:51:00.000Z"
     },
     "37b970f7-76a6-5455-b67c-feb42de63a2a": {
@@ -4179,32 +3988,32 @@
       "ctime": "2020-02-07T08:51:15.197Z",
       "birthtime": "2020-02-07T07:51:00.000Z"
     },
-    "cfe115ae-8063-53ec-b199-db56c5f496ac": {
-      "id": "cfe115ae-8063-53ec-b199-db56c5f496ac",
+    "2117a689-c452-5f55-95cc-c54d430e1e1e": {
+      "id": "2117a689-c452-5f55-95cc-c54d430e1e1e",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "27a0ef22d224b81d64b36e25b39ed723",
+        "contentDigest": "438e7aa478a4dc099fc2e7e7b321b62f",
         "type": "File",
         "mediaType": "image/svg+xml",
-        "description": "File \"src/images/phone-solid-white.svg\"",
+        "description": "File \"src/images/phone-solid.svg\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/phone-solid-white.svg",
-      "relativePath": "phone-solid-white.svg",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/phone-solid.svg",
+      "relativePath": "phone-solid.svg",
       "extension": "svg",
-      "size": 49369,
-      "prettySize": "49.4 kB",
-      "modifiedTime": "2020-02-04T18:47:56.438Z",
-      "accessTime": "2020-03-01T11:26:57.127Z",
-      "changeTime": "2020-02-04T18:47:56.439Z",
-      "birthTime": "2020-01-30T17:53:25.245Z",
+      "size": 12199,
+      "prettySize": "12.2 kB",
+      "modifiedTime": "2020-02-04T18:47:56.516Z",
+      "accessTime": "2020-09-05T12:30:38.786Z",
+      "changeTime": "2020-02-04T18:47:56.518Z",
+      "birthTime": "2020-01-30T17:53:25.249Z",
       "root": "/",
       "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "phone-solid-white.svg",
+      "base": "phone-solid.svg",
       "ext": ".svg",
-      "name": "phone-solid-white",
+      "name": "phone-solid",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33248,
@@ -4213,16 +4022,63 @@
       "gid": 0,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 11495007,
-      "blocks": 104,
-      "atimeMs": 1583062017127.2058,
-      "mtimeMs": 1580842076437.5046,
-      "ctimeMs": 1580842076439.2134,
-      "birthtimeMs": 1580406805245.051,
-      "atime": "2020-03-01T11:26:57.127Z",
-      "mtime": "2020-02-04T18:47:56.438Z",
-      "ctime": "2020-02-04T18:47:56.439Z",
-      "birthtime": "2020-01-30T17:53:25.245Z"
+      "ino": 11494989,
+      "blocks": 24,
+      "atimeMs": 1599309038785.6897,
+      "mtimeMs": 1580842076516.346,
+      "ctimeMs": 1580842076518.0674,
+      "birthtimeMs": 1580406805248.607,
+      "atime": "2020-09-05T12:30:38.786Z",
+      "mtime": "2020-02-04T18:47:56.516Z",
+      "ctime": "2020-02-04T18:47:56.518Z",
+      "birthtime": "2020-01-30T17:53:25.249Z"
+    },
+    "dcfaf42f-4cc3-576c-bb90-203ec807a368": {
+      "id": "dcfaf42f-4cc3-576c-bb90-203ec807a368",
+      "children": [
+        "6cb9c1cf-733b-5b1a-a092-3c2f120c2a1f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a0f6c379d8310f1bab4340ced4d6df76",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/phone-solid-white.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/phone-solid-white.png",
+      "relativePath": "phone-solid-white.png",
+      "extension": "png",
+      "size": 1717,
+      "prettySize": "1.72 kB",
+      "modifiedTime": "2020-02-07T07:51:00.000Z",
+      "accessTime": "2020-02-11T14:42:30.897Z",
+      "changeTime": "2020-02-07T08:51:15.201Z",
+      "birthTime": "2020-02-07T07:51:00.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "phone-solid-white.png",
+      "ext": ".png",
+      "name": "phone-solid-white",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11703856,
+      "blocks": 8,
+      "atimeMs": 1581432150896.8708,
+      "mtimeMs": 1581061860000,
+      "ctimeMs": 1581065475200.5454,
+      "birthtimeMs": 1581061860000,
+      "atime": "2020-02-11T14:42:30.897Z",
+      "mtime": "2020-02-07T07:51:00.000Z",
+      "ctime": "2020-02-07T08:51:15.201Z",
+      "birthtime": "2020-02-07T07:51:00.000Z"
     },
     "7b4aac11-e5dd-55c5-ae6e-b7455bc8716d": {
       "id": "7b4aac11-e5dd-55c5-ae6e-b7455bc8716d",
@@ -4365,98 +4221,6 @@
       "ctime": "2020-02-07T08:51:15.213Z",
       "birthtime": "2020-02-07T07:51:00.000Z"
     },
-    "2117a689-c452-5f55-95cc-c54d430e1e1e": {
-      "id": "2117a689-c452-5f55-95cc-c54d430e1e1e",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "438e7aa478a4dc099fc2e7e7b321b62f",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/phone-solid.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/phone-solid.svg",
-      "relativePath": "phone-solid.svg",
-      "extension": "svg",
-      "size": 12199,
-      "prettySize": "12.2 kB",
-      "modifiedTime": "2020-02-04T18:47:56.516Z",
-      "accessTime": "2020-03-01T11:26:57.125Z",
-      "changeTime": "2020-02-04T18:47:56.518Z",
-      "birthTime": "2020-01-30T17:53:25.249Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "phone-solid.svg",
-      "ext": ".svg",
-      "name": "phone-solid",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33248,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11494989,
-      "blocks": 24,
-      "atimeMs": 1583062017125.145,
-      "mtimeMs": 1580842076516.346,
-      "ctimeMs": 1580842076518.0674,
-      "birthtimeMs": 1580406805248.607,
-      "atime": "2020-03-01T11:26:57.125Z",
-      "mtime": "2020-02-04T18:47:56.516Z",
-      "ctime": "2020-02-04T18:47:56.518Z",
-      "birthtime": "2020-01-30T17:53:25.249Z"
-    },
-    "b792f8fd-c714-5164-a1dc-598b6a3593af": {
-      "id": "b792f8fd-c714-5164-a1dc-598b6a3593af",
-      "children": [
-        "e49b0950-4888-5a5a-9ac6-9b89312a7f6b"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "aac33cdfb3ca908d85e862fe29cc2978",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/quadriga-logo.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/quadriga-logo.png",
-      "relativePath": "quadriga-logo.png",
-      "extension": "png",
-      "size": 11496,
-      "prettySize": "11.5 kB",
-      "modifiedTime": "2020-02-07T07:51:42.000Z",
-      "accessTime": "2020-02-11T14:42:38.951Z",
-      "changeTime": "2020-02-07T08:51:55.177Z",
-      "birthTime": "2020-02-07T07:51:42.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "quadriga-logo.png",
-      "ext": ".png",
-      "name": "quadriga-logo",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703981,
-      "blocks": 24,
-      "atimeMs": 1581432158950.9592,
-      "mtimeMs": 1581061902000,
-      "ctimeMs": 1581065515176.8025,
-      "birthtimeMs": 1581061902000,
-      "atime": "2020-02-11T14:42:38.951Z",
-      "mtime": "2020-02-07T07:51:42.000Z",
-      "ctime": "2020-02-07T08:51:55.177Z",
-      "birthtime": "2020-02-07T07:51:42.000Z"
-    },
     "50fc2f49-75b9-51cd-8cc7-7bce48bcba32": {
       "id": "50fc2f49-75b9-51cd-8cc7-7bce48bcba32",
       "children": [
@@ -4502,6 +4266,145 @@
       "atime": "2020-02-28T12:18:22.925Z",
       "mtime": "2020-02-07T07:51:42.000Z",
       "ctime": "2020-02-07T08:51:55.183Z",
+      "birthtime": "2020-02-07T07:51:42.000Z"
+    },
+    "a2dbca6e-1d8c-5fc4-ac25-be0789f494a4": {
+      "id": "a2dbca6e-1d8c-5fc4-ac25-be0789f494a4",
+      "children": [
+        "65a40ae3-b9d2-504f-a02a-b7832210fb4f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bbf60821ffb193b7b496ada6efd06cdf",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/sass.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/sass.png",
+      "relativePath": "sass.png",
+      "extension": "png",
+      "size": 7741,
+      "prettySize": "7.74 kB",
+      "modifiedTime": "2020-02-07T07:51:42.000Z",
+      "accessTime": "2020-02-28T12:18:19.394Z",
+      "changeTime": "2020-02-07T08:51:55.188Z",
+      "birthTime": "2020-02-07T07:51:42.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "sass.png",
+      "ext": ".png",
+      "name": "sass",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11703985,
+      "blocks": 16,
+      "atimeMs": 1582892299393.5203,
+      "mtimeMs": 1581061902000,
+      "ctimeMs": 1581065515187.7854,
+      "birthtimeMs": 1581061902000,
+      "atime": "2020-02-28T12:18:19.394Z",
+      "mtime": "2020-02-07T07:51:42.000Z",
+      "ctime": "2020-02-07T08:51:55.188Z",
+      "birthtime": "2020-02-07T07:51:42.000Z"
+    },
+    "cfe115ae-8063-53ec-b199-db56c5f496ac": {
+      "id": "cfe115ae-8063-53ec-b199-db56c5f496ac",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "27a0ef22d224b81d64b36e25b39ed723",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/phone-solid-white.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/phone-solid-white.svg",
+      "relativePath": "phone-solid-white.svg",
+      "extension": "svg",
+      "size": 49369,
+      "prettySize": "49.4 kB",
+      "modifiedTime": "2020-02-04T18:47:56.438Z",
+      "accessTime": "2020-09-05T12:30:38.793Z",
+      "changeTime": "2020-02-04T18:47:56.439Z",
+      "birthTime": "2020-01-30T17:53:25.245Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "phone-solid-white.svg",
+      "ext": ".svg",
+      "name": "phone-solid-white",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33248,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11495007,
+      "blocks": 104,
+      "atimeMs": 1599309038793.2483,
+      "mtimeMs": 1580842076437.5046,
+      "ctimeMs": 1580842076439.2134,
+      "birthtimeMs": 1580406805245.051,
+      "atime": "2020-09-05T12:30:38.793Z",
+      "mtime": "2020-02-04T18:47:56.438Z",
+      "ctime": "2020-02-04T18:47:56.439Z",
+      "birthtime": "2020-01-30T17:53:25.245Z"
+    },
+    "e0ca2a66-e750-5319-b268-cf5e90ca4055": {
+      "id": "e0ca2a66-e750-5319-b268-cf5e90ca4055",
+      "children": [
+        "a8f88c81-e46d-5846-98cb-fc028fef494b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "89318c8197f8db7aef825d6678c5300a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/woocomerce.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/woocomerce.png",
+      "relativePath": "woocomerce.png",
+      "extension": "png",
+      "size": 6065,
+      "prettySize": "6.07 kB",
+      "modifiedTime": "2020-02-07T07:51:42.000Z",
+      "accessTime": "2020-02-11T14:42:41.288Z",
+      "changeTime": "2020-02-07T08:51:55.195Z",
+      "birthTime": "2020-02-07T07:51:42.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "woocomerce.png",
+      "ext": ".png",
+      "name": "woocomerce",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11703987,
+      "blocks": 16,
+      "atimeMs": 1581432161287.6633,
+      "mtimeMs": 1581061902000,
+      "ctimeMs": 1581065515194.7705,
+      "birthtimeMs": 1581061902000,
+      "atime": "2020-02-11T14:42:41.288Z",
+      "mtime": "2020-02-07T07:51:42.000Z",
+      "ctime": "2020-02-07T08:51:55.195Z",
       "birthtime": "2020-02-07T07:51:42.000Z"
     },
     "5d182ad7-af15-5fe2-8d5f-21731708026b": {
@@ -4598,100 +4501,6 @@
       "ctime": "2020-02-07T08:51:55.190Z",
       "birthtime": "2020-02-07T07:51:42.000Z"
     },
-    "a2dbca6e-1d8c-5fc4-ac25-be0789f494a4": {
-      "id": "a2dbca6e-1d8c-5fc4-ac25-be0789f494a4",
-      "children": [
-        "65a40ae3-b9d2-504f-a02a-b7832210fb4f"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "bbf60821ffb193b7b496ada6efd06cdf",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/sass.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/sass.png",
-      "relativePath": "sass.png",
-      "extension": "png",
-      "size": 7741,
-      "prettySize": "7.74 kB",
-      "modifiedTime": "2020-02-07T07:51:42.000Z",
-      "accessTime": "2020-02-28T12:18:19.394Z",
-      "changeTime": "2020-02-07T08:51:55.188Z",
-      "birthTime": "2020-02-07T07:51:42.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "sass.png",
-      "ext": ".png",
-      "name": "sass",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703985,
-      "blocks": 16,
-      "atimeMs": 1582892299393.5203,
-      "mtimeMs": 1581061902000,
-      "ctimeMs": 1581065515187.7854,
-      "birthtimeMs": 1581061902000,
-      "atime": "2020-02-28T12:18:19.394Z",
-      "mtime": "2020-02-07T07:51:42.000Z",
-      "ctime": "2020-02-07T08:51:55.188Z",
-      "birthtime": "2020-02-07T07:51:42.000Z"
-    },
-    "e0ca2a66-e750-5319-b268-cf5e90ca4055": {
-      "id": "e0ca2a66-e750-5319-b268-cf5e90ca4055",
-      "children": [
-        "a8f88c81-e46d-5846-98cb-fc028fef494b"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "89318c8197f8db7aef825d6678c5300a",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/woocomerce.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/woocomerce.png",
-      "relativePath": "woocomerce.png",
-      "extension": "png",
-      "size": 6065,
-      "prettySize": "6.07 kB",
-      "modifiedTime": "2020-02-07T07:51:42.000Z",
-      "accessTime": "2020-02-11T14:42:41.288Z",
-      "changeTime": "2020-02-07T08:51:55.195Z",
-      "birthTime": "2020-02-07T07:51:42.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "woocomerce.png",
-      "ext": ".png",
-      "name": "woocomerce",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703987,
-      "blocks": 16,
-      "atimeMs": 1581432161287.6633,
-      "mtimeMs": 1581061902000,
-      "ctimeMs": 1581065515194.7705,
-      "birthtimeMs": 1581061902000,
-      "atime": "2020-02-11T14:42:41.288Z",
-      "mtime": "2020-02-07T07:51:42.000Z",
-      "ctime": "2020-02-07T08:51:55.195Z",
-      "birthtime": "2020-02-07T07:51:42.000Z"
-    },
     "2e1322f3-259d-5644-95e0-0d28bdc6faa9": {
       "id": "2e1322f3-259d-5644-95e0-0d28bdc6faa9",
       "children": [
@@ -4739,52 +4548,175 @@
       "ctime": "2020-02-07T08:51:55.203Z",
       "birthtime": "2020-02-07T07:51:42.000Z"
     },
-    "a780599f-593c-5af0-8e69-de6bd1b947e4": {
-      "id": "a780599f-593c-5af0-8e69-de6bd1b947e4",
-      "children": [
-        "e05d7d46-8476-51b8-a746-7d5ee5f8ca77"
-      ],
-      "parent": null,
+    "d9fc15ab-0083-5e56-a423-43ecb8e55c74": {
+      "id": "d9fc15ab-0083-5e56-a423-43ecb8e55c74",
+      "children": [],
+      "parent": "4c738492-cf1a-55e2-9080-8afa012618b7",
       "internal": {
-        "contentDigest": "6698fdff62eb23e2889706f8683788f1",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/amadeusz-banner-2.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/amadeusz-banner-2.jpg",
-      "relativePath": "amadeusz-banner-2.jpg",
-      "extension": "jpg",
-      "size": 96356,
-      "prettySize": "96.4 kB",
-      "modifiedTime": "2020-02-11T14:02:12.826Z",
-      "accessTime": "2020-02-11T14:41:34.595Z",
-      "changeTime": "2020-02-11T14:02:12.827Z",
-      "birthTime": "2020-02-11T14:02:11.577Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "amadeusz-banner-2.jpg",
-      "ext": ".jpg",
-      "name": "amadeusz-banner-2",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11889185,
-      "blocks": 272,
-      "atimeMs": 1581432094594.9443,
-      "mtimeMs": 1581429732825.5708,
-      "ctimeMs": 1581429732826.944,
-      "birthtimeMs": 1581429731577.066,
-      "atime": "2020-02-11T14:41:34.595Z",
-      "mtime": "2020-02-11T14:02:12.826Z",
-      "ctime": "2020-02-11T14:02:12.827Z",
-      "birthtime": "2020-02-11T14:02:11.577Z"
+        "contentDigest": "7b6573ed85829af674ad0d7ce5a07609",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "fc7ff206-327c-5d3f-a7f0-69b36f6a0532": {
+      "id": "fc7ff206-327c-5d3f-a7f0-69b36f6a0532",
+      "children": [],
+      "parent": "8dfb81e3-71ee-5c74-a4f4-588a4d179e29",
+      "internal": {
+        "contentDigest": "76777624074e15e77a59ffb22c28196f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "3b7ee596-d517-51a2-94b9-45a44269c3e3": {
+      "id": "3b7ee596-d517-51a2-94b9-45a44269c3e3",
+      "children": [],
+      "parent": "002535f6-b118-5b60-b482-993366a0865f",
+      "internal": {
+        "contentDigest": "54870ef1ca87cca9566d58733f9d6031",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "52a5c7a0-bf1d-56cf-ae36-ca12e19644ad": {
+      "id": "52a5c7a0-bf1d-56cf-ae36-ca12e19644ad",
+      "children": [],
+      "parent": "9cd2049a-b6b5-5392-a14f-45b3f74535ed",
+      "internal": {
+        "contentDigest": "aafd5e7f8f304d0c4047e18cf88bc633",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "f05d7f34-c02c-5d87-9361-4ec54d1edb24": {
+      "id": "f05d7f34-c02c-5d87-9361-4ec54d1edb24",
+      "children": [],
+      "parent": "d0860f6d-5227-514d-804b-d9198b7142e7",
+      "internal": {
+        "contentDigest": "7d5cffeef215446b9136fd81937f3662",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "06329856-97d4-51bc-837e-f5e8c18d6e9b": {
+      "id": "06329856-97d4-51bc-837e-f5e8c18d6e9b",
+      "children": [],
+      "parent": "ced34b14-6e60-504f-8c98-a5d77dabdb1e",
+      "internal": {
+        "contentDigest": "c28614c6b923c579fb84200cbdce00b4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "debbde22-36ad-598e-ac93-911e2ddf0b5e": {
+      "id": "debbde22-36ad-598e-ac93-911e2ddf0b5e",
+      "children": [],
+      "parent": "8c93e0ae-86bd-56de-9270-33f7d7924ceb",
+      "internal": {
+        "contentDigest": "a132012cc176da982ee79ff82f1683ff",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9ad2a396-de59-5bdc-90bb-e25611ec8235": {
+      "id": "9ad2a396-de59-5bdc-90bb-e25611ec8235",
+      "children": [],
+      "parent": "379df7c9-a8e1-5c32-88a5-563980f1d509",
+      "internal": {
+        "contentDigest": "abb16a9b49bd9050b2dbae5352454097",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4e780044-02d0-52c9-aa07-86dd4d9f67f8": {
+      "id": "4e780044-02d0-52c9-aa07-86dd4d9f67f8",
+      "children": [],
+      "parent": "471ba96b-15e8-55a9-a49e-1970aa390e58",
+      "internal": {
+        "contentDigest": "b3a5d2f0ec24bedbce247985eeacda09",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "04319881-2eca-55d5-9f7a-313fc748f00f": {
+      "id": "04319881-2eca-55d5-9f7a-313fc748f00f",
+      "children": [],
+      "parent": "8776f1c6-2f56-5133-a586-cb43b5435b65",
+      "internal": {
+        "contentDigest": "8c8838aac3e315debe94cec6e89815bb",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "08c242e9-69fb-5242-b546-143b9a3657b4": {
+      "id": "08c242e9-69fb-5242-b546-143b9a3657b4",
+      "children": [],
+      "parent": "122763b0-bcdf-59db-b387-341b82f83144",
+      "internal": {
+        "contentDigest": "8c8838aac3e315debe94cec6e89815bb",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "a5d733e1-d95e-5038-b30e-bd739a37a454": {
+      "id": "a5d733e1-d95e-5038-b30e-bd739a37a454",
+      "children": [],
+      "parent": "994573fe-461d-5de4-9afd-3a05edb1202f",
+      "internal": {
+        "contentDigest": "2e02bd0ddd1a022e5b7429d3359ceb7b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "a5f9cc13-a404-5fe7-912f-32ae1372ac4c": {
+      "id": "a5f9cc13-a404-5fe7-912f-32ae1372ac4c",
+      "children": [],
+      "parent": "87adaeb2-015f-5b22-b606-fd489227e6b2",
+      "internal": {
+        "contentDigest": "894266635abadd450dfb23b471c9a8c7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "de0642a6-d88b-5180-9ab8-50f038fcafaa": {
+      "id": "de0642a6-d88b-5180-9ab8-50f038fcafaa",
+      "children": [],
+      "parent": "9b1d4a57-db0b-5f3f-b13e-556b19186eb9",
+      "internal": {
+        "contentDigest": "bec19650773ab5a0beadf5f0156750b2",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "880e05b1-f2ab-5e75-a9d1-d55c9b0db36c": {
+      "id": "880e05b1-f2ab-5e75-a9d1-d55c9b0db36c",
+      "children": [],
+      "parent": "ba61bf54-f113-5d25-aacd-35ea9a51cdc7",
+      "internal": {
+        "contentDigest": "728ff5a8e44d74cd0f2359ef0a9ec88a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8769f694-0c0e-594d-a6f2-e3503aaa7c43": {
+      "id": "8769f694-0c0e-594d-a6f2-e3503aaa7c43",
+      "children": [],
+      "parent": "b11b62f3-d3fa-52ab-896f-c8bec21134a1",
+      "internal": {
+        "contentDigest": "0463f0603c3a30b742eb27258b240ef9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "a3026a94-ad64-5e19-9e22-67e5f66606ad": {
+      "id": "a3026a94-ad64-5e19-9e22-67e5f66606ad",
+      "children": [],
+      "parent": "1ea310c5-b881-5726-ab96-8ef4a692242d",
+      "internal": {
+        "contentDigest": "9cb9fec031686324aece735ce5bc94a5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "9c78c028-9db8-514c-a024-397529a40fd2": {
       "id": "9c78c028-9db8-514c-a024-397529a40fd2",
@@ -4836,16 +4768,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "65f4a570-6715-5e58-af4e-5125795a9ab8": {
-      "id": "65f4a570-6715-5e58-af4e-5125795a9ab8",
-      "children": [],
-      "parent": "5c64d116-20b7-5f47-bae2-e2845aa67ded",
-      "internal": {
-        "contentDigest": "4ef320279104ff2524edd80f12c1fa00",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "75590de3-cb0f-5063-8c3e-a8175c3fe5b4": {
       "id": "75590de3-cb0f-5063-8c3e-a8175c3fe5b4",
       "children": [],
@@ -4866,22 +4788,12 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "7f859e06-81a2-55e8-927a-30ba79f39f1f": {
-      "id": "7f859e06-81a2-55e8-927a-30ba79f39f1f",
+    "65f4a570-6715-5e58-af4e-5125795a9ab8": {
+      "id": "65f4a570-6715-5e58-af4e-5125795a9ab8",
       "children": [],
-      "parent": "d2ca5131-e31e-5ff9-b994-f85664dc9f6f",
+      "parent": "5c64d116-20b7-5f47-bae2-e2845aa67ded",
       "internal": {
-        "contentDigest": "113fd4eff03537abc86b0523f948b600",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "475234f6-6e45-5497-b9d6-10d6970c1e38": {
-      "id": "475234f6-6e45-5497-b9d6-10d6970c1e38",
-      "children": [],
-      "parent": "91c00f47-1027-5bd4-8a53-886bdeccf66f",
-      "internal": {
-        "contentDigest": "98cb690505725462a15d8a64cd4febab",
+        "contentDigest": "4ef320279104ff2524edd80f12c1fa00",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -4896,6 +4808,16 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "7f859e06-81a2-55e8-927a-30ba79f39f1f": {
+      "id": "7f859e06-81a2-55e8-927a-30ba79f39f1f",
+      "children": [],
+      "parent": "d2ca5131-e31e-5ff9-b994-f85664dc9f6f",
+      "internal": {
+        "contentDigest": "113fd4eff03537abc86b0523f948b600",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "5fc45ff3-4f0d-59bd-80d0-a5f1b0138d58": {
       "id": "5fc45ff3-4f0d-59bd-80d0-a5f1b0138d58",
       "children": [],
@@ -4906,22 +4828,12 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "037fe5c1-2403-599d-ae13-a406ca694eb3": {
-      "id": "037fe5c1-2403-599d-ae13-a406ca694eb3",
+    "475234f6-6e45-5497-b9d6-10d6970c1e38": {
+      "id": "475234f6-6e45-5497-b9d6-10d6970c1e38",
       "children": [],
-      "parent": "2c923ff2-5aef-59d4-9919-575014b2b9a6",
+      "parent": "91c00f47-1027-5bd4-8a53-886bdeccf66f",
       "internal": {
-        "contentDigest": "cdfcf2849752111dc2cb00498f56f088",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "cb66f70a-0e0d-56a5-9759-9d0b4af12dba": {
-      "id": "cb66f70a-0e0d-56a5-9759-9d0b4af12dba",
-      "children": [],
-      "parent": "ec8e14ac-89e7-5599-a8d4-22263af71482",
-      "internal": {
-        "contentDigest": "81daf12d4b0920d5ff93c1af968fbc0e",
+        "contentDigest": "98cb690505725462a15d8a64cd4febab",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -4936,12 +4848,12 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "09f52436-e371-553f-ad96-ae83d744d919": {
-      "id": "09f52436-e371-553f-ad96-ae83d744d919",
+    "037fe5c1-2403-599d-ae13-a406ca694eb3": {
+      "id": "037fe5c1-2403-599d-ae13-a406ca694eb3",
       "children": [],
-      "parent": "48128afd-3ce4-500a-a2f4-6ea6adb9f12a",
+      "parent": "2c923ff2-5aef-59d4-9919-575014b2b9a6",
       "internal": {
-        "contentDigest": "51f13ddefca37bb2b4354f439a9d5288",
+        "contentDigest": "cdfcf2849752111dc2cb00498f56f088",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -4966,6 +4878,16 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "cb66f70a-0e0d-56a5-9759-9d0b4af12dba": {
+      "id": "cb66f70a-0e0d-56a5-9759-9d0b4af12dba",
+      "children": [],
+      "parent": "ec8e14ac-89e7-5599-a8d4-22263af71482",
+      "internal": {
+        "contentDigest": "81daf12d4b0920d5ff93c1af968fbc0e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "c560f256-bdcb-5229-8f15-129a3b8df755": {
       "id": "c560f256-bdcb-5229-8f15-129a3b8df755",
       "children": [],
@@ -4982,16 +4904,6 @@
       "parent": "f28dd682-301a-5125-ad69-c997c43913b0",
       "internal": {
         "contentDigest": "7f9a6ff777a5eaa4c9c82f1191f25872",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "9e8d7b9e-98ef-5a16-b615-8433a45c3325": {
-      "id": "9e8d7b9e-98ef-5a16-b615-8433a45c3325",
-      "children": [],
-      "parent": "7732a630-67d4-5a8a-a0db-9157853bc597",
-      "internal": {
-        "contentDigest": "594ac781ec00121213ad0fb861f6c993",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -5016,6 +4928,16 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "09f52436-e371-553f-ad96-ae83d744d919": {
+      "id": "09f52436-e371-553f-ad96-ae83d744d919",
+      "children": [],
+      "parent": "48128afd-3ce4-500a-a2f4-6ea6adb9f12a",
+      "internal": {
+        "contentDigest": "51f13ddefca37bb2b4354f439a9d5288",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "715da214-0563-584c-a282-a10d1bb5adeb": {
       "id": "715da214-0563-584c-a282-a10d1bb5adeb",
       "children": [],
@@ -5026,12 +4948,12 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "6cb9c1cf-733b-5b1a-a092-3c2f120c2a1f": {
-      "id": "6cb9c1cf-733b-5b1a-a092-3c2f120c2a1f",
+    "9e8d7b9e-98ef-5a16-b615-8433a45c3325": {
+      "id": "9e8d7b9e-98ef-5a16-b615-8433a45c3325",
       "children": [],
-      "parent": "dcfaf42f-4cc3-576c-bb90-203ec807a368",
+      "parent": "7732a630-67d4-5a8a-a0db-9157853bc597",
       "internal": {
-        "contentDigest": "a0f6c379d8310f1bab4340ced4d6df76",
+        "contentDigest": "594ac781ec00121213ad0fb861f6c993",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -5042,6 +4964,16 @@
       "parent": "37b970f7-76a6-5455-b67c-feb42de63a2a",
       "internal": {
         "contentDigest": "838e599fb54f590147fd28295337577c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "6cb9c1cf-733b-5b1a-a092-3c2f120c2a1f": {
+      "id": "6cb9c1cf-733b-5b1a-a092-3c2f120c2a1f",
+      "children": [],
+      "parent": "dcfaf42f-4cc3-576c-bb90-203ec807a368",
+      "internal": {
+        "contentDigest": "a0f6c379d8310f1bab4340ced4d6df76",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -5076,42 +5008,12 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "e49b0950-4888-5a5a-9ac6-9b89312a7f6b": {
-      "id": "e49b0950-4888-5a5a-9ac6-9b89312a7f6b",
-      "children": [],
-      "parent": "b792f8fd-c714-5164-a1dc-598b6a3593af",
-      "internal": {
-        "contentDigest": "aac33cdfb3ca908d85e862fe29cc2978",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "ee195861-2faa-5e78-8d68-74399499c9c1": {
       "id": "ee195861-2faa-5e78-8d68-74399499c9c1",
       "children": [],
       "parent": "50fc2f49-75b9-51cd-8cc7-7bce48bcba32",
       "internal": {
         "contentDigest": "21ce517ffe519156285e8c708428a9e2",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "0b1a1b9b-110b-5a04-a7cd-1b9a2aa2a011": {
-      "id": "0b1a1b9b-110b-5a04-a7cd-1b9a2aa2a011",
-      "children": [],
-      "parent": "5d182ad7-af15-5fe2-8d5f-21731708026b",
-      "internal": {
-        "contentDigest": "8ce7e0c653bf881a1d3853f43dbc44ee",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "5f4e686e-ec91-5938-8f81-5313b383d089": {
-      "id": "5f4e686e-ec91-5938-8f81-5313b383d089",
-      "children": [],
-      "parent": "eaeafd66-29fa-510b-b59d-4a597eb833c8",
-      "internal": {
-        "contentDigest": "e2d56b2db9b6d337b6dcf235af343c53",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -5136,12 +5038,193 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "0b1a1b9b-110b-5a04-a7cd-1b9a2aa2a011": {
+      "id": "0b1a1b9b-110b-5a04-a7cd-1b9a2aa2a011",
+      "children": [],
+      "parent": "5d182ad7-af15-5fe2-8d5f-21731708026b",
+      "internal": {
+        "contentDigest": "8ce7e0c653bf881a1d3853f43dbc44ee",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5f4e686e-ec91-5938-8f81-5313b383d089": {
+      "id": "5f4e686e-ec91-5938-8f81-5313b383d089",
+      "children": [],
+      "parent": "eaeafd66-29fa-510b-b59d-4a597eb833c8",
+      "internal": {
+        "contentDigest": "e2d56b2db9b6d337b6dcf235af343c53",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "83062a50-0032-5934-a596-9abacba51bd0": {
       "id": "83062a50-0032-5934-a596-9abacba51bd0",
       "children": [],
       "parent": "2e1322f3-259d-5644-95e0-0d28bdc6faa9",
       "internal": {
         "contentDigest": "ecd2cf4f14aa630a306c1255d8da70c1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "b792f8fd-c714-5164-a1dc-598b6a3593af": {
+      "id": "b792f8fd-c714-5164-a1dc-598b6a3593af",
+      "children": [
+        "e49b0950-4888-5a5a-9ac6-9b89312a7f6b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "aac33cdfb3ca908d85e862fe29cc2978",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/quadriga-logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/quadriga-logo.png",
+      "relativePath": "quadriga-logo.png",
+      "extension": "png",
+      "size": 11496,
+      "prettySize": "11.5 kB",
+      "modifiedTime": "2020-02-07T07:51:42.000Z",
+      "accessTime": "2020-02-11T14:42:38.951Z",
+      "changeTime": "2020-02-07T08:51:55.177Z",
+      "birthTime": "2020-02-07T07:51:42.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "quadriga-logo.png",
+      "ext": ".png",
+      "name": "quadriga-logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11703981,
+      "blocks": 24,
+      "atimeMs": 1581432158950.9592,
+      "mtimeMs": 1581061902000,
+      "ctimeMs": 1581065515176.8025,
+      "birthtimeMs": 1581061902000,
+      "atime": "2020-02-11T14:42:38.951Z",
+      "mtime": "2020-02-07T07:51:42.000Z",
+      "ctime": "2020-02-07T08:51:55.177Z",
+      "birthtime": "2020-02-07T07:51:42.000Z"
+    },
+    "3ead5433-71e4-53de-a9e7-49b9937dec76": {
+      "id": "3ead5433-71e4-53de-a9e7-49b9937dec76",
+      "children": [
+        "d6d50ff2-8283-5032-b8a4-db8ffea364c2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "aace686633b2f6c90b07445ccb3e8b93",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/goodside-logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/goodside-logo.png",
+      "relativePath": "goodside-logo.png",
+      "extension": "png",
+      "size": 7811,
+      "prettySize": "7.81 kB",
+      "modifiedTime": "2020-02-07T07:45:26.000Z",
+      "accessTime": "2020-02-28T12:18:15.511Z",
+      "changeTime": "2020-02-07T08:45:59.838Z",
+      "birthTime": "2020-02-07T07:45:26.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "goodside-logo.png",
+      "ext": ".png",
+      "name": "goodside-logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11703394,
+      "blocks": 16,
+      "atimeMs": 1582892295510.6865,
+      "mtimeMs": 1581061526000,
+      "ctimeMs": 1581065159837.738,
+      "birthtimeMs": 1581061526000,
+      "atime": "2020-02-28T12:18:15.511Z",
+      "mtime": "2020-02-07T07:45:26.000Z",
+      "ctime": "2020-02-07T08:45:59.838Z",
+      "birthtime": "2020-02-07T07:45:26.000Z"
+    },
+    "a780599f-593c-5af0-8e69-de6bd1b947e4": {
+      "id": "a780599f-593c-5af0-8e69-de6bd1b947e4",
+      "children": [
+        "e05d7d46-8476-51b8-a746-7d5ee5f8ca77"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6698fdff62eb23e2889706f8683788f1",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/amadeusz-banner-2.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/amadeusz-banner-2.jpg",
+      "relativePath": "amadeusz-banner-2.jpg",
+      "extension": "jpg",
+      "size": 96356,
+      "prettySize": "96.4 kB",
+      "modifiedTime": "2020-02-11T14:02:12.826Z",
+      "accessTime": "2020-02-11T14:41:34.595Z",
+      "changeTime": "2020-02-11T14:02:12.827Z",
+      "birthTime": "2020-02-11T14:02:11.577Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "amadeusz-banner-2.jpg",
+      "ext": ".jpg",
+      "name": "amadeusz-banner-2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11889185,
+      "blocks": 272,
+      "atimeMs": 1581432094594.9443,
+      "mtimeMs": 1581429732825.5708,
+      "ctimeMs": 1581429732826.944,
+      "birthtimeMs": 1581429731577.066,
+      "atime": "2020-02-11T14:41:34.595Z",
+      "mtime": "2020-02-11T14:02:12.826Z",
+      "ctime": "2020-02-11T14:02:12.827Z",
+      "birthtime": "2020-02-11T14:02:11.577Z"
+    },
+    "e49b0950-4888-5a5a-9ac6-9b89312a7f6b": {
+      "id": "e49b0950-4888-5a5a-9ac6-9b89312a7f6b",
+      "children": [],
+      "parent": "b792f8fd-c714-5164-a1dc-598b6a3593af",
+      "internal": {
+        "contentDigest": "aac33cdfb3ca908d85e862fe29cc2978",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d6d50ff2-8283-5032-b8a4-db8ffea364c2": {
+      "id": "d6d50ff2-8283-5032-b8a4-db8ffea364c2",
+      "children": [],
+      "parent": "3ead5433-71e4-53de-a9e7-49b9937dec76",
+      "internal": {
+        "contentDigest": "aace686633b2f6c90b07445ccb3e8b93",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -5203,16 +5286,6 @@
       "ctime": "2020-02-11T14:02:52.642Z",
       "birthtime": "2020-02-11T14:02:51.454Z"
     },
-    "fc7d204e-3cab-5d16-852a-037479343d8d": {
-      "id": "fc7d204e-3cab-5d16-852a-037479343d8d",
-      "children": [],
-      "parent": "2089d1c1-3d82-5694-bedd-be4e3c2a0cda",
-      "internal": {
-        "contentDigest": "55924bced61d6e731116847188ea413d",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "8ab27211-f46d-5ef6-9a69-35fbc5585eb7": {
       "id": "8ab27211-f46d-5ef6-9a69-35fbc5585eb7",
       "children": [
@@ -5259,6 +5332,26 @@
       "mtime": "2020-02-07T07:51:00.000Z",
       "ctime": "2020-02-07T08:51:15.194Z",
       "birthtime": "2020-02-07T07:51:00.000Z"
+    },
+    "fc7d204e-3cab-5d16-852a-037479343d8d": {
+      "id": "fc7d204e-3cab-5d16-852a-037479343d8d",
+      "children": [],
+      "parent": "2089d1c1-3d82-5694-bedd-be4e3c2a0cda",
+      "internal": {
+        "contentDigest": "55924bced61d6e731116847188ea413d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "0974443c-0e74-5886-a110-670fc7307b92": {
+      "id": "0974443c-0e74-5886-a110-670fc7307b92",
+      "children": [],
+      "parent": "8ab27211-f46d-5ef6-9a69-35fbc5585eb7",
+      "internal": {
+        "contentDigest": "0bbc4c7aa5d8eb0d4200d14ff6a58fc0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "cf96c466-1932-5d7b-8acc-d4d6aa8dfd07": {
       "id": "cf96c466-1932-5d7b-8acc-d4d6aa8dfd07",
@@ -5307,25 +5400,52 @@
       "ctime": "2020-02-07T08:44:55.376Z",
       "birthtime": "2020-02-07T07:43:54.000Z"
     },
-    "0974443c-0e74-5886-a110-670fc7307b92": {
-      "id": "0974443c-0e74-5886-a110-670fc7307b92",
-      "children": [],
-      "parent": "8ab27211-f46d-5ef6-9a69-35fbc5585eb7",
+    "072ffdaf-5e89-531a-b033-dd324a2c16b6": {
+      "id": "072ffdaf-5e89-531a-b033-dd324a2c16b6",
+      "children": [
+        "589ae0b7-b27e-5d7c-9f16-24b6f7d7690c"
+      ],
+      "parent": null,
       "internal": {
-        "contentDigest": "0bbc4c7aa5d8eb0d4200d14ff6a58fc0",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "67a5563b-10b5-5815-9725-7d328e0a7f6b": {
-      "id": "67a5563b-10b5-5815-9725-7d328e0a7f6b",
-      "children": [],
-      "parent": "cf96c466-1932-5d7b-8acc-d4d6aa8dfd07",
-      "internal": {
-        "contentDigest": "79dc03c657975ff692cd91f434aa13c3",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
+        "contentDigest": "6cfcdb3d29659c645f4687de9dd50eae",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/goodside-ss.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/goodside-ss.png",
+      "relativePath": "goodside-ss.png",
+      "extension": "png",
+      "size": 197615,
+      "prettySize": "198 kB",
+      "modifiedTime": "2020-02-07T07:45:26.000Z",
+      "accessTime": "2020-02-11T14:42:02.400Z",
+      "changeTime": "2020-02-07T08:45:59.842Z",
+      "birthTime": "2020-02-07T07:45:26.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "goodside-ss.png",
+      "ext": ".png",
+      "name": "goodside-ss",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11703395,
+      "blocks": 392,
+      "atimeMs": 1581432122400.0928,
+      "mtimeMs": 1581061526000,
+      "ctimeMs": 1581065159841.8896,
+      "birthtimeMs": 1581061526000,
+      "atime": "2020-02-11T14:42:02.400Z",
+      "mtime": "2020-02-07T07:45:26.000Z",
+      "ctime": "2020-02-07T08:45:59.842Z",
+      "birthtime": "2020-02-07T07:45:26.000Z"
     },
     "9b3f7580-fec8-58af-8931-26781e029ba0": {
       "id": "9b3f7580-fec8-58af-8931-26781e029ba0",
@@ -5374,59 +5494,12 @@
       "ctime": "2020-02-07T08:45:59.852Z",
       "birthtime": "2020-02-07T07:45:26.000Z"
     },
-    "072ffdaf-5e89-531a-b033-dd324a2c16b6": {
-      "id": "072ffdaf-5e89-531a-b033-dd324a2c16b6",
-      "children": [
-        "589ae0b7-b27e-5d7c-9f16-24b6f7d7690c"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "6cfcdb3d29659c645f4687de9dd50eae",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/goodside-ss.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/goodside-ss.png",
-      "relativePath": "goodside-ss.png",
-      "extension": "png",
-      "size": 197615,
-      "prettySize": "198 kB",
-      "modifiedTime": "2020-02-07T07:45:26.000Z",
-      "accessTime": "2020-02-11T14:42:02.400Z",
-      "changeTime": "2020-02-07T08:45:59.842Z",
-      "birthTime": "2020-02-07T07:45:26.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "goodside-ss.png",
-      "ext": ".png",
-      "name": "goodside-ss",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703395,
-      "blocks": 392,
-      "atimeMs": 1581432122400.0928,
-      "mtimeMs": 1581061526000,
-      "ctimeMs": 1581065159841.8896,
-      "birthtimeMs": 1581061526000,
-      "atime": "2020-02-11T14:42:02.400Z",
-      "mtime": "2020-02-07T07:45:26.000Z",
-      "ctime": "2020-02-07T08:45:59.842Z",
-      "birthtime": "2020-02-07T07:45:26.000Z"
-    },
-    "4e550d48-8629-547c-bb76-dca7267e900d": {
-      "id": "4e550d48-8629-547c-bb76-dca7267e900d",
+    "67a5563b-10b5-5815-9725-7d328e0a7f6b": {
+      "id": "67a5563b-10b5-5815-9725-7d328e0a7f6b",
       "children": [],
-      "parent": "9b3f7580-fec8-58af-8931-26781e029ba0",
+      "parent": "cf96c466-1932-5d7b-8acc-d4d6aa8dfd07",
       "internal": {
-        "contentDigest": "caf4fd7a1e598c6cf9dc5492dac5b9fb",
+        "contentDigest": "79dc03c657975ff692cd91f434aa13c3",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -5441,116 +5514,12 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "5020f313-a902-566b-84e6-e4a7ddd4abf5": {
-      "id": "5020f313-a902-566b-84e6-e4a7ddd4abf5",
-      "children": [
-        "50c9ef53-9e1a-5e8c-92a6-1885e2d33dd9"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "18970824389b48873ff0a8d405bde8f6",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/offer-item-3.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/offer-item-3.png",
-      "relativePath": "offer-item-3.png",
-      "extension": "png",
-      "size": 296728,
-      "prettySize": "297 kB",
-      "modifiedTime": "2020-02-07T07:51:00.000Z",
-      "accessTime": "2020-02-11T14:42:26.229Z",
-      "changeTime": "2020-02-07T08:51:15.157Z",
-      "birthTime": "2020-02-07T07:51:00.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "offer-item-3.png",
-      "ext": ".png",
-      "name": "offer-item-3",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703847,
-      "blocks": 584,
-      "atimeMs": 1581432146228.7346,
-      "mtimeMs": 1581061860000,
-      "ctimeMs": 1581065475157.4126,
-      "birthtimeMs": 1581061860000,
-      "atime": "2020-02-11T14:42:26.229Z",
-      "mtime": "2020-02-07T07:51:00.000Z",
-      "ctime": "2020-02-07T08:51:15.157Z",
-      "birthtime": "2020-02-07T07:51:00.000Z"
-    },
-    "c8dca701-ef49-5c53-ba31-c6970b3b380d": {
-      "id": "c8dca701-ef49-5c53-ba31-c6970b3b380d",
-      "children": [
-        "9afa1c81-c9cd-5784-8462-583f157034d5"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "6a21a2a624167cec1d451ae4d27e94d5",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/quadriga-one-ss.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/quadriga-one-ss.png",
-      "relativePath": "quadriga-one-ss.png",
-      "extension": "png",
-      "size": 293872,
-      "prettySize": "294 kB",
-      "modifiedTime": "2020-02-07T07:51:42.000Z",
-      "accessTime": "2020-02-11T14:42:39.325Z",
-      "changeTime": "2020-02-07T08:51:55.180Z",
-      "birthTime": "2020-02-07T07:51:42.000Z",
-      "root": "/",
-      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "quadriga-one-ss.png",
-      "ext": ".png",
-      "name": "quadriga-one-ss",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 0,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 11703982,
-      "blocks": 576,
-      "atimeMs": 1581432159324.7698,
-      "mtimeMs": 1581061902000,
-      "ctimeMs": 1581065515179.5825,
-      "birthtimeMs": 1581061902000,
-      "atime": "2020-02-11T14:42:39.325Z",
-      "mtime": "2020-02-07T07:51:42.000Z",
-      "ctime": "2020-02-07T08:51:55.180Z",
-      "birthtime": "2020-02-07T07:51:42.000Z"
-    },
-    "50c9ef53-9e1a-5e8c-92a6-1885e2d33dd9": {
-      "id": "50c9ef53-9e1a-5e8c-92a6-1885e2d33dd9",
+    "4e550d48-8629-547c-bb76-dca7267e900d": {
+      "id": "4e550d48-8629-547c-bb76-dca7267e900d",
       "children": [],
-      "parent": "5020f313-a902-566b-84e6-e4a7ddd4abf5",
+      "parent": "9b3f7580-fec8-58af-8931-26781e029ba0",
       "internal": {
-        "contentDigest": "18970824389b48873ff0a8d405bde8f6",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "9afa1c81-c9cd-5784-8462-583f157034d5": {
-      "id": "9afa1c81-c9cd-5784-8462-583f157034d5",
-      "children": [],
-      "parent": "c8dca701-ef49-5c53-ba31-c6970b3b380d",
-      "internal": {
-        "contentDigest": "6a21a2a624167cec1d451ae4d27e94d5",
+        "contentDigest": "caf4fd7a1e598c6cf9dc5492dac5b9fb",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -5612,34 +5581,34 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "128be88c-e1c4-5320-b82e-b36d405c00ce": {
-      "id": "128be88c-e1c4-5320-b82e-b36d405c00ce",
+    "c8dca701-ef49-5c53-ba31-c6970b3b380d": {
+      "id": "c8dca701-ef49-5c53-ba31-c6970b3b380d",
       "children": [
-        "a4d28202-6b24-5943-b9d2-823d10a2273c"
+        "9afa1c81-c9cd-5784-8462-583f157034d5"
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "d7c5a76ea8ab5206dd6e00b17d16357d",
+        "contentDigest": "6a21a2a624167cec1d451ae4d27e94d5",
         "type": "File",
         "mediaType": "image/png",
-        "description": "File \"src/images/offer-item-2.png\"",
+        "description": "File \"src/images/quadriga-one-ss.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/offer-item-2.png",
-      "relativePath": "offer-item-2.png",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/quadriga-one-ss.png",
+      "relativePath": "quadriga-one-ss.png",
       "extension": "png",
-      "size": 347085,
-      "prettySize": "347 kB",
-      "modifiedTime": "2020-02-07T07:51:00.000Z",
-      "accessTime": "2020-02-11T14:42:26.039Z",
-      "changeTime": "2020-02-07T08:51:15.149Z",
-      "birthTime": "2020-02-07T07:51:00.000Z",
+      "size": 293872,
+      "prettySize": "294 kB",
+      "modifiedTime": "2020-02-07T07:51:42.000Z",
+      "accessTime": "2020-02-11T14:42:39.325Z",
+      "changeTime": "2020-02-07T08:51:55.180Z",
+      "birthTime": "2020-02-07T07:51:42.000Z",
       "root": "/",
       "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
-      "base": "offer-item-2.png",
+      "base": "quadriga-one-ss.png",
       "ext": ".png",
-      "name": "offer-item-2",
+      "name": "quadriga-one-ss",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33261,
@@ -5648,23 +5617,80 @@
       "gid": 0,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 11703846,
-      "blocks": 680,
-      "atimeMs": 1581432146039.153,
+      "ino": 11703982,
+      "blocks": 576,
+      "atimeMs": 1581432159324.7698,
+      "mtimeMs": 1581061902000,
+      "ctimeMs": 1581065515179.5825,
+      "birthtimeMs": 1581061902000,
+      "atime": "2020-02-11T14:42:39.325Z",
+      "mtime": "2020-02-07T07:51:42.000Z",
+      "ctime": "2020-02-07T08:51:55.180Z",
+      "birthtime": "2020-02-07T07:51:42.000Z"
+    },
+    "5020f313-a902-566b-84e6-e4a7ddd4abf5": {
+      "id": "5020f313-a902-566b-84e6-e4a7ddd4abf5",
+      "children": [
+        "50c9ef53-9e1a-5e8c-92a6-1885e2d33dd9"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "18970824389b48873ff0a8d405bde8f6",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/offer-item-3.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/offer-item-3.png",
+      "relativePath": "offer-item-3.png",
+      "extension": "png",
+      "size": 296728,
+      "prettySize": "297 kB",
+      "modifiedTime": "2020-02-07T07:51:00.000Z",
+      "accessTime": "2020-02-11T14:42:26.229Z",
+      "changeTime": "2020-02-07T08:51:15.157Z",
+      "birthTime": "2020-02-07T07:51:00.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "offer-item-3.png",
+      "ext": ".png",
+      "name": "offer-item-3",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11703847,
+      "blocks": 584,
+      "atimeMs": 1581432146228.7346,
       "mtimeMs": 1581061860000,
-      "ctimeMs": 1581065475149.403,
+      "ctimeMs": 1581065475157.4126,
       "birthtimeMs": 1581061860000,
-      "atime": "2020-02-11T14:42:26.039Z",
+      "atime": "2020-02-11T14:42:26.229Z",
       "mtime": "2020-02-07T07:51:00.000Z",
-      "ctime": "2020-02-07T08:51:15.149Z",
+      "ctime": "2020-02-07T08:51:15.157Z",
       "birthtime": "2020-02-07T07:51:00.000Z"
     },
-    "a4d28202-6b24-5943-b9d2-823d10a2273c": {
-      "id": "a4d28202-6b24-5943-b9d2-823d10a2273c",
+    "9afa1c81-c9cd-5784-8462-583f157034d5": {
+      "id": "9afa1c81-c9cd-5784-8462-583f157034d5",
       "children": [],
-      "parent": "128be88c-e1c4-5320-b82e-b36d405c00ce",
+      "parent": "c8dca701-ef49-5c53-ba31-c6970b3b380d",
       "internal": {
-        "contentDigest": "d7c5a76ea8ab5206dd6e00b17d16357d",
+        "contentDigest": "6a21a2a624167cec1d451ae4d27e94d5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "50c9ef53-9e1a-5e8c-92a6-1885e2d33dd9": {
+      "id": "50c9ef53-9e1a-5e8c-92a6-1885e2d33dd9",
+      "children": [],
+      "parent": "5020f313-a902-566b-84e6-e4a7ddd4abf5",
+      "internal": {
+        "contentDigest": "18970824389b48873ff0a8d405bde8f6",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -5722,6 +5748,63 @@
       "parent": "8accff5c-ab6b-5501-a07e-ad241e033461",
       "internal": {
         "contentDigest": "cc1ab5a5fc378f826380278df7cc69c9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "128be88c-e1c4-5320-b82e-b36d405c00ce": {
+      "id": "128be88c-e1c4-5320-b82e-b36d405c00ce",
+      "children": [
+        "a4d28202-6b24-5943-b9d2-823d10a2273c"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d7c5a76ea8ab5206dd6e00b17d16357d",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/offer-item-2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images/offer-item-2.png",
+      "relativePath": "offer-item-2.png",
+      "extension": "png",
+      "size": 347085,
+      "prettySize": "347 kB",
+      "modifiedTime": "2020-02-07T07:51:00.000Z",
+      "accessTime": "2020-02-11T14:42:26.039Z",
+      "changeTime": "2020-02-07T08:51:15.149Z",
+      "birthTime": "2020-02-07T07:51:00.000Z",
+      "root": "/",
+      "dir": "/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/src/images",
+      "base": "offer-item-2.png",
+      "ext": ".png",
+      "name": "offer-item-2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11703846,
+      "blocks": 680,
+      "atimeMs": 1581432146039.153,
+      "mtimeMs": 1581061860000,
+      "ctimeMs": 1581065475149.403,
+      "birthtimeMs": 1581061860000,
+      "atime": "2020-02-11T14:42:26.039Z",
+      "mtime": "2020-02-07T07:51:00.000Z",
+      "ctime": "2020-02-07T08:51:15.149Z",
+      "birthtime": "2020-02-07T07:51:00.000Z"
+    },
+    "a4d28202-6b24-5943-b9d2-823d10a2273c": {
+      "id": "a4d28202-6b24-5943-b9d2-823d10a2273c",
+      "children": [],
+      "parent": "128be88c-e1c4-5320-b82e-b36d405c00ce",
+      "internal": {
+        "contentDigest": "d7c5a76ea8ab5206dd6e00b17d16357d",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -5992,21 +6075,11 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
-    },
-    "debbde22-36ad-598e-ac93-911e2ddf0b5e": {
-      "id": "debbde22-36ad-598e-ac93-911e2ddf0b5e",
-      "children": [],
-      "parent": "8c93e0ae-86bd-56de-9270-33f7d7924ceb",
-      "internal": {
-        "contentDigest": "a132012cc176da982ee79ff82f1683ff",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "1e3376a5afc8957e9090ba93fac3ebc7"
+    "PLUGINS_HASH": "53b4cb9cc294a33e67f774f021c7f77e"
   },
   "componentDataDependencies": {
     "nodes": {
