@@ -58,7 +58,7 @@
 .offer__items {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     margin-top: 80px;
     flex-wrap: wrap;
@@ -96,6 +96,16 @@
         text-transform: uppercase;
         line-height: 20px;
         padding: 25px 25px;
+        padding-bottom: 35px;
+    }
+
+    a {
+        margin-bottom: 25px;
+    }
+
+    .button--alert:hover {
+        transform: translateX(0px);
+        background-color: #ff3535;
     }
 }
 
@@ -166,12 +176,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding: 25px 0px;
     margin-bottom: 25px;
+    background: linear-gradient(45deg, #f321d6, #5121f3);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
 
 .pricing__value {
-    font-size: 50px;
+    font-size: 40px;
+    color: #fff;
 }
 
 .item__pricing--low {
@@ -208,7 +223,27 @@
 
 .pricing__title {
     color: #fff;
+    font-size: 13px;
     text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+.button--alert {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    width: 180px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    text-decoration: none;
+    background-color: #ff6800;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 // Extra small devices (portrait phones, less than 576px)

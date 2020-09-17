@@ -7,7 +7,7 @@ import number01grey from '../../images/number-01-grey.png';
 import number03grey from '../../images/number-03-grey.png';
 import number02white from '../../images/number-02-white.png';
 import number04white from '../../images/number-04-white.png';
-
+import ButtonLink from '../Button/ButtonLink';
 import './Offer.scss';
 
 const Offer = () => (
@@ -17,7 +17,7 @@ const Offer = () => (
       <div className="offer__title">
         <img src={offerItemImg1} alt="websites" />
         <div className="title__text">
-          <h2>Cennik Stron Internetowych</h2>
+          <h2>Cennik stron internetowych</h2>
           <p>
             Moją specjalnością są strony internetowe oraz aplikacje webowe. Poniżej znajdują się
             cztery pakiety obrazujące przekrój cen stron infernetowych. Są to ceny przybliżone i
@@ -29,14 +29,14 @@ const Offer = () => (
       </div>
       <div className="offer__items">
         <div className="offer__item">
-          <div className="item__pricing item__pricing--low">
+          <div className="item__pricing">
             <h2 className="pricing__title">start</h2>
+            <h2 className="pricing__value">899 zł</h2>
           </div>
-          <h2 className="pricing__value pricing__value--low">899 zł</h2>
           <p>
             <b>- Do 2 podstron</b>
             <br />
-            <b>- 3 dodatki do wyboru</b>
+            <b>- 3 DODATKI W CENIE</b>
             <br />
             - unikalny projekt graficzny
             <br />
@@ -49,16 +49,17 @@ const Offer = () => (
             - możliwość samodzielnej edycji (CMS)
             <br />
           </p>
+          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
         </div>
         <div className="offer__item">
-          <div className="item__pricing item__pricing--medium">
+          <div className="item__pricing">
             <h2 className="pricing__title">standard</h2>
+            <h2 className="pricing__value">1499 zł</h2>
           </div>
-          <h2 className="pricing__value pricing__value--medium">1499 zł</h2>
           <p>
             <b>- Do 5 podstron</b>
             <br />
-            <b>- 4 dodatków do wyboru</b>
+            <b>- 4 DODATKÓW W CENIE</b>
             <br />
             - unikalny projekt graficzny
             <br />
@@ -71,16 +72,17 @@ const Offer = () => (
             - możliwość samodzielnej edycji (CMS)
             <br />
           </p>
+          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
         </div>
         <div className="offer__item">
-          <div className="item__pricing item__pricing--high">
+          <div className="item__pricing">
             <h2 className="pricing__title">Pro</h2>
+            <h2 className="pricing__value">1999 zł</h2>
           </div>
-          <h2 className="pricing__value pricing__value--high">1999 zł</h2>
           <p>
             <b>- do 10 podstron</b>
             <br />
-            <b>- 6 dodatki do wyboru</b>
+            <b>- 6 DODATKÓW W CENIE</b>
             <br />
             <b>- dodatkowy język</b>
             <br />- unikalny projekt graficzny
@@ -94,12 +96,13 @@ const Offer = () => (
             - możliwość samodzielnej edycji (CMS)
             <br />
           </p>
+          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
         </div>
         <div className="offer__item">
-          <div className="item__pricing item__pricing--individual">
+          <div className="item__pricing">
             <h2 className="pricing__title">individual</h2>
+            <h2 className="pricing__value">???</h2>
           </div>
-          {/* <h2 className="pricing__value pricing__value--individual">??? zł</h2> */}
           <p>
             <b>- nielimitowana ilość podstron</b>
             <br />
@@ -118,6 +121,7 @@ const Offer = () => (
             - możliwość samodzielnej edycji (CMS)
             <br />
           </p>
+          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
         </div>
       </div>
 
@@ -190,7 +194,7 @@ const Offer = () => (
         <img src={offerItemImg2} alt="e-commerce" />
         <div className="title__text">
           <h2>
-            Cennik Sklepów Internetowych <nobr>(E-commerce)</nobr>
+            Cennik sklepów internetowych <nobr>(e-commerce)</nobr>
           </h2>
           <p>
             Tworzymy sklepy internetowe opartę o najpopularniejsze na świecie narzędzie Woocomerce
@@ -202,14 +206,14 @@ const Offer = () => (
       </div>
       <div className="offer__items">
         <div className="offer__item">
-          <div className="item__pricing item__pricing--low">
+          <div className="item__pricing">
             <h2 className="pricing__title">start</h2>
+            <h2 className="pricing__value">1999 zł</h2>
           </div>
-          <h2 className="pricing__value pricing__value--low">1999 zł</h2>
           <p>
             <b>- Do 3 podstron</b>
             <br />
-            <b>- 3 dodatki do wyboru</b>
+            <b>- 3 DODATKI W CENIE</b>
             <br />
             <b>- do 2 rodzajów płatności</b>
             <br />
@@ -232,16 +236,17 @@ const Offer = () => (
             - pomoc techniczna po wdrożeniowa 30 dni
             <br />
           </p>
+          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
         </div>
         <div className="offer__item">
-          <div className="item__pricing item__pricing--medium">
+          <div className="item__pricing">
             <h2 className="pricing__title">standard</h2>
+            <h2 className="pricing__value">2799 zł</h2>
           </div>
-          <h2 className="pricing__value pricing__value--medium">2799 zł</h2>
           <p>
             <b>- Do 5 podstron</b>
             <br />
-            <b>- 4 dodatki do wyboru</b>
+            <b>- 4 DODATKI W CENIE</b>
             <br />
             <b>- do 3 rodzajów płatności</b>
             <br />
@@ -264,16 +269,17 @@ const Offer = () => (
             - pomoc techniczna po wdrożeniowa 30 dni
             <br />
           </p>
+          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
         </div>
         <div className="offer__item">
-          <div className="item__pricing item__pricing--high">
+          <div className="item__pricing">
             <h2 className="pricing__title">pro</h2>
+            <h2 className="pricing__value">3899 zł</h2>
           </div>
-          <h2 className="pricing__value pricing__value--high">3899 zł</h2>
           <p>
             <b>- Do 10 podstron</b>
             <br />
-            <b>- 6 dodatki do wyboru</b>
+            <b>- 6 DODATKÓW W CENIE</b>
             <br />
             <b>- do 5 rodzajów płatności</b>
             <br />
@@ -298,10 +304,13 @@ const Offer = () => (
             - pomoc techniczna po wdrożeniowa 30 dni
             <br />
           </p>
+          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
         </div>
+
         <div className="offer__item">
-          <div className="item__pricing item__pricing--individual">
+          <div className="item__pricing">
             <h2 className="pricing__title">individual</h2>
+            <h2 className="pricing__value">???</h2>
           </div>
           <p>
             <b>- nielimitowana ilość podstron</b>
@@ -331,6 +340,7 @@ const Offer = () => (
             - pomoc techniczna po wdrożeniowa 30 dni
             <br />
           </p>
+          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
         </div>
       </div>
 
