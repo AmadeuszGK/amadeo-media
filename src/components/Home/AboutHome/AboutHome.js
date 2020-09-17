@@ -9,7 +9,7 @@ class AboutHome extends React.Component {
           <div className="about__text">
             <div className="about__header">
               <div className="flat-line" />
-              <p className="flat-line__text">O NAS</p>
+              <p className="flat-line__text">O MNIE</p>
             </div>
 
             <h1>Amadeo Media</h1>

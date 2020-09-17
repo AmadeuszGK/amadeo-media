@@ -12,13 +12,7 @@ const topText = (
     moje prace w zależności od typu.
   </p>
 );
-const bigHeader = (
-  <h2>
-    Sprawdź
-    <br />
-    moje projekty
-  </h2>
-);
+const bigHeader = <h2>Sprawdź moje projekty</h2>;
 const smallHeader = 'PORTFOLIO';
 
 export default class PortfolioWrapper extends Component {

@@ -26,7 +26,8 @@
     position: relative;
 
     p {
-        font-family: "Montserrat Light";
+        font-family: "Montserrat";
+        font-weight: 300;
         font-size: 14px;
         line-height: 20px;
         max-width: 80%;
@@ -35,8 +36,8 @@
     }
 
     a {
-        font-family: "Montserrat Regular";
-        font-weight: 600;
+        font-family: "Montserrat";
+        font-weight: 400;
         font-size: 13px;
         text-align: center;
         color: #fff;
@@ -57,8 +58,9 @@
     }
 
     h1 {
-        font-family: "Montserrat Light";
+        font-family: "Montserrat";
         padding-bottom: 70px;
+        font-weight: 300;
     }
 
     h1,
@@ -83,7 +85,8 @@
     margin-bottom: 70px;
 
     p {
-        font-family: "Montserrat Light";
+        font-family: "Montserrat";
+        font-weight: 300;
         font-size: 13px;
         letter-spacing: 1px;
         margin: 0;
@@ -127,14 +130,14 @@
 }
 
 .words {
-    font-family: "Montserrat Bold";
+    font-family: "Montserrat";
     color: #4a4a4a;
     height: 44px;
 }
 
 .flat-line__text {
-    font-family: "Montserrat Regular";
-    font-weight: 600;
+    font-family: "Montserrat";
+    font-weight: 400;
     font-size: 13px !important;
     letter-spacing: 1px;
     margin: 0 !important;

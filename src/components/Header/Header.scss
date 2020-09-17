@@ -44,21 +44,6 @@ header {
   }
 }
 
-@font-face {
-  font-family: 'Montserrat Bold';
-  src: url('../../../static/Montserrat-Bold.woff2');
-}
-
-@font-face {
-  font-family: 'Montserrat Regular';
-  src: url('../../../static/Montserrat-Regular.woff2');
-}
-
-@font-face {
-  font-family: 'Montserrat Light';
-  src: url('../../../static/Montserrat-Light.woff2');
-}
-
 .canvas-text {
   position: absolute;
   top: 200px;
@@ -73,7 +58,7 @@ header {
   z-index: 3;
 
   p {
-    font-family: 'Montserrat Bold';
+    font-family: 'Montserrat';
     font-size: 65px;
     text-align: left;
     line-height: 1;
@@ -94,8 +79,8 @@ header {
   h2 {
     color: #ff6800;
     margin-bottom: 30px;
-    font-family: 'Montserrat Regular';
-    font-weight: 600;
+    font-family: 'Montserrat';
+    font-weight: 400;
     font-size: 19px;
     text-shadow: 2px 2px 5px #0f0023;
     letter-spacing: 1.5px;
@@ -104,7 +89,7 @@ header {
 
   h1 {
     margin-bottom: 50px;
-    font-family: 'Montserrat Light';
+    font-family: 'Montserrat';
     font-size: 33px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(83, 0, 192, 0.521);
@@ -122,7 +107,7 @@ header {
   left: 0;
   width: 100%;
   margin-bottom: 0;
-  font-family: 'Montserrat Regular';
+  font-family: 'Montserrat';
   font-weight: 400;
   font-size: 17px;
   color: #fff;
@@ -157,6 +142,7 @@ header {
 }
 
 @keyframes bounce {
+
   from,
   20%,
   53%,
@@ -199,12 +185,12 @@ header {
 }
 
 .button--alert {
-  font-family: 'Montserrat Regular';
-  font-weight: 600;
+  font-family: 'Montserrat';
+  font-weight: 400;
   font-size: 13px;
   text-align: center;
   color: #fff;
-  width: 250px;
+  width: 180px;
   padding-top: 15px;
   padding-bottom: 15px;
   margin: 0;
@@ -282,7 +268,12 @@ header {
   .header__bg--bottom {
     width: 100%;
     align-items: flex-end;
-    padding-bottom: 100px;
+    top: auto;
+    bottom: -80px;
+
+    img {
+      width: 80%;
+    }
   }
 
   .canvas__container,
@@ -313,6 +304,14 @@ header {
     justify-content: center;
     align-items: center;
     background-image: url('../../images/amadeusz-banner-2.jpg');
+  }
+
+  header {
+    height: 500px;
+  }
+
+  .scroll-down {
+    display: none;
   }
 }
 
@@ -352,7 +351,14 @@ header {
   }
 
   .header__bg--bottom {
-    display: none;
+    width: 100%;
+    align-items: flex-end;
+    top: auto;
+    bottom: -140px;
+
+    img {
+      width: 350px;
+    }
   }
 
   .canvas__container,
@@ -383,6 +389,10 @@ header {
     justify-content: center;
     align-items: center;
     background-image: url('../../images/amadeusz-banner-2.jpg');
+  }
+
+  .scroll-down {
+    display: none;
   }
 }
 

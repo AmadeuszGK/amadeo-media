@@ -14,9 +14,9 @@ const MenuDesktop = () => (
             className="menu-dekstop__item"
             to="/"
             activeStyle={{
-              fontFamily: '"Montserrat Bold"',
+              fontFamily: '"Montserrat"',
               borderBottom: '1px solid #fff',
-              borderBottom: '1px solid #fff',
+              fontWeight: '600',
             }}
           >
             Strona główna
@@ -26,7 +26,11 @@ const MenuDesktop = () => (
           <Link
             className="menu-dekstop__item"
             to="/offer-and-pricing"
-            activeStyle={{ fontFamily: '"Montserrat Bold"', borderBottom: '1px solid #fff' }}
+            activeStyle={{
+              fontFamily: '"Montserrat"',
+              borderBottom: '1px solid #fff',
+              fontWeight: '600',
+            }}
           >
             Oferta i cennik
           </Link>
@@ -35,7 +39,11 @@ const MenuDesktop = () => (
           <Link
             className="menu-dekstop__item"
             to="/portfolio"
-            activeStyle={{ fontFamily: '"Montserrat Bold"', borderBottom: '1px solid #fff' }}
+            activeStyle={{
+              fontFamily: '"Montserrat"',
+              borderBottom: '1px solid #fff',
+              fontWeight: '600',
+            }}
           >
             Portfolio
           </Link>
@@ -44,7 +52,11 @@ const MenuDesktop = () => (
           <Link
             className="menu-dekstop__item"
             to="/about-us"
-            activeStyle={{ fontFamily: '"Montserrat Bold"', borderBottom: '1px solid #fff' }}
+            activeStyle={{
+              fontFamily: '"Montserrat"',
+              borderBottom: '1px solid #fff',
+              fontWeight: '600',
+            }}
           >
             O mnie
           </Link>
@@ -53,7 +65,11 @@ const MenuDesktop = () => (
           <Link
             className="menu-dekstop__item"
             to="/contact"
-            activeStyle={{ fontFamily: '"Montserrat Bold"', borderBottom: '1px solid #fff' }}
+            activeStyle={{
+              fontFamily: '"Montserrat"',
+              borderBottom: '1px solid #fff',
+              fontWeight: '600',
+            }}
           >
             Kontakt
           </Link>

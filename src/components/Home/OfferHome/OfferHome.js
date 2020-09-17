@@ -20,7 +20,7 @@ const bigHeader = (
     Nowoczesność <br /> i użytkowość
   </h2>
 );
-const smallHeader = 'CO ROBIMY?';
+const smallHeader = 'CZYM SIĘ ZAJMUJĘ?';
 
 const OfferHome = () => (
   <section className={styles.section__offer} id="section__offer">

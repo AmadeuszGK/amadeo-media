@@ -35,7 +35,7 @@
     }
 
     h2 {
-        font-family: "Montserrat Bold";
+        font-family: "Montserrat";
         font-weight: 800;
         font-size: 22px;
         line-height: 1.25;
@@ -47,7 +47,7 @@
     p {
         color: #4a4a4a;
         font-size: 14px;
-        font-family: "Montserrat Regular";
+        font-family: "Montserrat";
         line-height: 20px;
         font-weight: 400;
         margin: 0;
@@ -62,7 +62,7 @@
 .offer__link {
     color: #FF6800;
     font-size: 14px;
-    font-family: "Montserrat Regular";
+    font-family: "Montserrat";
     margin: 15px 0px;
     width: 100px;
 }
@@ -76,6 +76,7 @@
 @media (max-width: 575.98px) {
     .section__offer {
         padding: 60px 15px 50px 15px;
+        margin-top: 80px;
     }
 
     .offer__items {
@@ -103,6 +104,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
     .section__offer {
         padding: 60px 15px 50px 15px;
+        margin-top: 80px;
     }
 
     .offer__items {

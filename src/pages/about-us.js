@@ -25,7 +25,7 @@ class AboutUsView extends React.Component {
       <div className={this.state.showMenu ? 'website-content--show-menu' : 'website-content'}>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>O nas - Amadeo Media</title>
+          <title>O mnie - Amadeo Media</title>
           <meta
             name="keywords"
             content="strony internetowe,sklepy internetowe,front end developer,wrocław,lubań,e-commerce,grafika,tanio, tanie, grafik"
@@ -51,7 +51,7 @@ class AboutUsView extends React.Component {
           <div className="header-small">
             <MenuDesktop />
           </div>
-          <h1 className="h1">O NAS</h1>
+          <h1 className="h1">O MNIE</h1>
           <AboutUs />
           <Footer />
         </div>

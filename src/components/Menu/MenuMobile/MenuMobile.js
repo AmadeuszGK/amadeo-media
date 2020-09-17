@@ -24,7 +24,7 @@ const MenuMobile = props => (
           className="side-menu__button"
           to="/"
           onClick={props.passedFunction}
-          activeStyle={{ fontFamily: 'Montserrat Bold' }}
+          activeStyle={{ fontFamily: 'Montserrat' }}
         >
           Strona główna
         </Link>
@@ -34,7 +34,7 @@ const MenuMobile = props => (
           className="side-menu__button"
           to="/offer-and-pricing"
           onClick={props.passedFunction}
-          activeStyle={{ fontFamily: 'Montserrat Bold' }}
+          activeStyle={{ fontFamily: 'Montserrat' }}
         >
           Oferta i cennik
         </Link>
@@ -44,7 +44,7 @@ const MenuMobile = props => (
           className="side-menu__button"
           to="/portfolio"
           onClick={props.passedFunction}
-          activeStyle={{ fontFamily: 'Montserrat Bold' }}
+          activeStyle={{ fontFamily: 'Montserrat' }}
         >
           Portfolio
         </Link>
@@ -54,7 +54,7 @@ const MenuMobile = props => (
           className="side-menu__button"
           to="/about-us"
           onClick={props.passedFunction}
-          activeStyle={{ fontFamily: 'Montserrat Bold' }}
+          activeStyle={{ fontFamily: 'Montserrat' }}
         >
           O mnie
         </Link>
@@ -64,7 +64,7 @@ const MenuMobile = props => (
           className="side-menu__button"
           to="/contact"
           onClick={props.passedFunction}
-          activeStyle={{ fontFamily: 'Montserrat Bold' }}
+          activeStyle={{ fontFamily: 'Montserrat' }}
         >
           Kontakt
         </Link>
@@ -74,7 +74,7 @@ const MenuMobile = props => (
           className="side-menu__button side-menu__language"
           to="/#section__contact"
           onClick={props.passedFunction}
-          activeStyle={{ fontFamily: 'Montserrat Bold' }}
+          activeStyle={{ fontFamily: 'Montserrat' }}
           style={{ display: 'flex', justifyContent: 'center' }}
         >
           <p className="language__item language__item--pl language--active">PL</p>
