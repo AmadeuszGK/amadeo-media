@@ -49,7 +49,7 @@ const Offer = () => (
             - możliwość samodzielnej edycji (CMS)
             <br />
           </p>
-          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
+          <ButtonLink href="/contact" class="button--alert" text="ZAMÓW" />
         </div>
         <div className="offer__item">
           <div className="item__pricing">
@@ -72,7 +72,7 @@ const Offer = () => (
             - możliwość samodzielnej edycji (CMS)
             <br />
           </p>
-          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
+          <ButtonLink href="/contact" class="button--alert" text="ZAMÓW" />
         </div>
         <div className="offer__item">
           <div className="item__pricing">
@@ -96,7 +96,7 @@ const Offer = () => (
             - możliwość samodzielnej edycji (CMS)
             <br />
           </p>
-          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
+          <ButtonLink href="/contact" class="button--alert" text="ZAMÓW" />
         </div>
         <div className="offer__item">
           <div className="item__pricing">
@@ -121,7 +121,7 @@ const Offer = () => (
             - możliwość samodzielnej edycji (CMS)
             <br />
           </p>
-          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
+          <ButtonLink href="/contact" class="button--alert" text="ZAMÓW" />
         </div>
       </div>
 
@@ -236,7 +236,7 @@ const Offer = () => (
             - pomoc techniczna po wdrożeniowa 30 dni
             <br />
           </p>
-          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
+          <ButtonLink href="/contact" class="button--alert" text="ZAMÓW" />
         </div>
         <div className="offer__item">
           <div className="item__pricing">
@@ -269,7 +269,7 @@ const Offer = () => (
             - pomoc techniczna po wdrożeniowa 30 dni
             <br />
           </p>
-          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
+          <ButtonLink href="/contact" class="button--alert" text="ZAMÓW" />
         </div>
         <div className="offer__item">
           <div className="item__pricing">
@@ -304,7 +304,7 @@ const Offer = () => (
             - pomoc techniczna po wdrożeniowa 30 dni
             <br />
           </p>
-          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
+          <ButtonLink href="/contact" class="button--alert" text="ZAMÓW" />
         </div>
 
         <div className="offer__item">
@@ -340,7 +340,7 @@ const Offer = () => (
             - pomoc techniczna po wdrożeniowa 30 dni
             <br />
           </p>
-          <ButtonLink href="/contact" class="button--alert" text="Zamów" />
+          <ButtonLink href="/contact" class="button--alert" text="ZAMÓW" />
         </div>
       </div>
 
