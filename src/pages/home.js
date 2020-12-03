@@ -12,6 +12,7 @@ import logo from '../images/agrzesiak-logo.png';
 import 'animate.css/animate.min.css';
 import Helmet from 'react-helmet';
 import { Link } from 'gatsby';
+import { withTrans } from '../components/i18n/withTrans';
 
 if (typeof window !== 'undefined') {
   require('smooth-scroll')('a[href*="#"]');
@@ -79,4 +80,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home;
+export default withTrans(Home);

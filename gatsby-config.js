@@ -17,6 +17,15 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        availableLngs: ['en', 'de', 'pl'],
+        fallbackLng: 'pl',
+        siteUrl: 'https://www.amadeomedia.com/',
+        component: `${__dirname}/src/components/pages/home.js`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
