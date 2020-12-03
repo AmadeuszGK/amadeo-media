@@ -16,7 +16,7 @@ let portfolioArr = [
   },
   {
     name: 'Databout',
-    link: 'https://databout.pl',
+    link: 'https://databout.com',
     type: 'website',
     img: databoutImg,
   },
