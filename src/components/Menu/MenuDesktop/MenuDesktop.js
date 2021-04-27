@@ -25,7 +25,7 @@ const MenuDesktop = () => (
         <li>
           <Link
             className="menu-dekstop__item"
-            to="/offer-and-pricing"
+            to="/#section__offer"
             activeStyle={{
               fontFamily: '"Montserrat"',
               borderBottom: '1px solid #fff',

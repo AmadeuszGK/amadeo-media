@@ -20,7 +20,7 @@ const Footer = () => (
           </Link>
         </li>
         <li>
-          <Link className="footer-menu-item" to="/offer-and-pricing">
+          <Link className="footer-menu-item" to="/#section__offer">
             Oferta i cennik
           </Link>
         </li>

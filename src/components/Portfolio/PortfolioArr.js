@@ -1,4 +1,3 @@
-import jmaExpertImg from '../../images/jmaexpert-ss.png';
 import chiaraShopImg from '../../images/chiara-shop-ss.png';
 import inleiImg from '../../images/inlei-ss.png';
 import promaticOnlineImg from '../../images/promatic-online-ss.jpg';
@@ -37,12 +36,6 @@ let portfolioArr = [
     link: 'http://wolnosci14.pl',
     type: 'website',
     img: wolnosci14Img,
-  },
-  {
-    name: 'JMA Expert',
-    link: 'http://jmaexpert.de',
-    type: 'website',
-    img: jmaExpertImg,
   },
   {
     name: 'Inlei',

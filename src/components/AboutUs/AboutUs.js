@@ -19,8 +19,8 @@ const AboutUs = () => (
           roku pierwsze doświadczenie zdobywałem u jednego z liderów branży gamblingowej w Polsce -
           firmie Promatic. Pracowałem wtedy przy platformie do prezentacji gier, stronach
           reklamujących produkt oraz grach online, których twarzami były osoby takie jak Mariusz
-          Pudzianowski, czy Zenek Martyniuk. Dziś spełniam się jako lider zespołu front-endowego
-          tworząc narzędzie do analiz terenu - Databout Tools.
+          Pudzianowski, czy Zenek Martyniuk. Dziś spełniam się jako front-end developer tworząc
+          narzędzie do analiz terenu - Databout Tools.
         </p>
         <div className="desc__variant">
           <h3>Zaufanie</h3>

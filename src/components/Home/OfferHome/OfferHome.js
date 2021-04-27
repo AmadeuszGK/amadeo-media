@@ -10,9 +10,8 @@ import SectionTop from '../../SectionTop/SectionTop';
 
 const topText = (
   <p>
-    Moje usugi charakteryzuje nowoczesne podejście do tematu, dokładność oraz przejżystość cenowa.
-    Naciśnij na interesującą Cię kategorię lub kliknij <Link to="/offer-and-pricing">tutaj</Link>{' '}
-    aby przejść do ofetry i cennika.
+    Moje usługi charakteryzuje nowoczesne podejście do tematu oraz dokładność. Naciśnij{' '}
+    <Link to="/offer-and-pricing">tutaj</Link>, aby zobaczyć moje portfolio.
   </p>
 );
 const bigHeader = (
@@ -38,9 +37,9 @@ const OfferHome = () => (
               pozycjonowanie strony w wyszukiwarkach.
             </p>
           </div>
-          <Link to="/offer-and-pricing/#website" className={styles.offer__link}>
+          {/* <Link to="/offer-and-pricing/#website" className={styles.offer__link}>
             Czytaj dalej...
-          </Link>
+          </Link> */}
         </div>
         <div className={styles.offer__item}>
           <div to="/offer-and-pricing">
@@ -52,9 +51,9 @@ const OfferHome = () => (
               sklepem.
             </p>
           </div>
-          <Link to="/offer-and-pricing/#store" className={styles.offer__link}>
+          {/* <Link to="/offer-and-pricing/#store" className={styles.offer__link}>
             Czytaj dalej...
-          </Link>
+          </Link> */}
         </div>
         <div className={styles.offer__item}>
           <div to="/offer-and-pricing">
@@ -66,9 +65,9 @@ const OfferHome = () => (
               najnowszych trendów.
             </p>
           </div>
-          <Link to="/offer-and-pricing/#graphics" className={styles.offer__link}>
+          {/* <Link to="/offer-and-pricing/#graphics" className={styles.offer__link}>
             Czytaj dalej...
-          </Link>
+          </Link> */}
         </div>
         <div className={styles.offer__item}>
           <div to="/offer-and-pricing">
@@ -80,9 +79,9 @@ const OfferHome = () => (
               przebudowuję archaiczne strony.
             </p>
           </div>
-          <Link to="/offer-and-pricing/#administration" className={styles.offer__link}>
+          {/* <Link to="/offer-and-pricing/#administration" className={styles.offer__link}>
             Czytaj dalej...
-          </Link>
+          </Link> */}
         </div>
         <div className={styles.offer__item}>
           <div to="/offer-and-pricing">
@@ -94,9 +93,9 @@ const OfferHome = () => (
               wszystko było zaktualizowane, działało sprawnie oraz tworzę kopie zapasowe.
             </p>
           </div>
-          <Link to="/offer-and-pricing/#administration" className={styles.offer__link}>
+          {/* <Link to="/offer-and-pricing/#administration" className={styles.offer__link}>
             Czytaj dalej...
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

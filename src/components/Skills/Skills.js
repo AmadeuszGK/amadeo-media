@@ -4,12 +4,12 @@ import './Skills.scss';
 import javascript from '../../images/javascript.png';
 import html5 from '../../images/html5.png';
 import css3 from '../../images/css3.png';
-import angular from '../../images/angular.png';
+import styledcomponents from '../../images/styled-components.png';
 import reactjs from '../../images/reactjs.png';
-import firebase from '../../images/firebase.png';
+import graphql from '../../images/graphql.png';
 import sass from '../../images/sass.png';
-import es6 from '../../images/es6.png';
-import bootstrap from '../../images/bootstrap.png';
+import gatsbyjs from '../../images/gatsbyjs.svg';
+import typescript from '../../images/typescript.png';
 import wordpress from '../../images/wordpress.png';
 import photoshop from '../../images/photoshop.png';
 import figma from '../../images/figma.png';
@@ -46,28 +46,28 @@ const Skills = () => (
             <p className="skill-text">css 3</p>
           </div>
           <div className="skill-container">
-            <img className="skill-image" src={angular} alt="angular" />
-            <p className="skill-text">angular 2</p>
+            <img className="skill-image" src={styledcomponents} alt="styled components" />
+            <p className="skill-text">styled components</p>
           </div>
           <div className="skill-container">
             <img className="skill-image" src={reactjs} alt="react" />
             <p className="skill-text">react js</p>
           </div>
           <div className="skill-container">
-            <img className="skill-image" src={firebase} alt="firebase" />
-            <p className="skill-text">firebase</p>
+            <img className="skill-image" src={typescript} alt="typescript" />
+            <p className="skill-text">typescript</p>
+          </div>
+          <div className="skill-container">
+            <img className="skill-image" src={graphql} alt="graphql" />
+            <p className="skill-text">graphql</p>
           </div>
           <div className="skill-container">
             <img className="skill-image" src={sass} alt="sass" />
             <p className="skill-text">sass</p>
           </div>
           <div className="skill-container">
-            <img className="skill-image" src={es6} alt="es6" />
-            <p className="skill-text">es6</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={bootstrap} alt="bootstrap" />
-            <p className="skill-text">bootstrap</p>
+            <img className="skill-image" src={gatsbyjs} alt="gatsbyjs" />
+            <p className="skill-text">gatsby js</p>
           </div>
           <div className="skill-container">
             <img className="skill-image" src={wordpress} alt="wordpress" />

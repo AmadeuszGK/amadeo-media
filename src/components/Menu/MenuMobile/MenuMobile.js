@@ -32,7 +32,7 @@ const MenuMobile = props => (
       <li>
         <Link
           className="side-menu__button"
-          to="/offer-and-pricing"
+          to="/#section__offer"
           onClick={props.passedFunction}
           activeStyle={{ fontFamily: 'Montserrat' }}
         >
