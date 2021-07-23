@@ -66,6 +66,11 @@
     }
 }
 
+.about-big-title {
+    margin-bottom: 40px;
+    padding: 0!important;
+}
+
 .desc__variant {
     margin-top: 50px;
 
@@ -147,6 +152,24 @@
 
 .about-item--bg {
     background-color: #F8F8F8;
+}
+
+.top__header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+    color: rgb(19, 19, 19);
+    text-transform: uppercase;
+
+    h2 {
+        font-family: "Montserrat";
+        font-weight: 500;
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 // Extra small devices (portrait phones, less than 576px)

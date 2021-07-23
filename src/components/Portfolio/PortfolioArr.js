@@ -5,6 +5,8 @@ import goodsideImg from '../../images/goodside-ss.jpg';
 import wolnosci14Img from '../../images/wolnosci14-ss.jpg';
 import discoKingImg from '../../images/disco-king-ss.jpg';
 import databoutImg from '../../images/databout-ss.jpg';
+import equilibriumImg from '../../images/equilibrium-ss.jpg';
+import mkprestigeImg from '../../images/mkprestige-ss.jpg';
 
 let portfolioArr = [
   {
@@ -12,7 +14,19 @@ let portfolioArr = [
     link: 'https://chiarashop.pl',
     type: 'shop',
     img: chiaraShopImg,
+  },  
+  {
+    name: 'MK Prestige - Miłosz Kuriata',
+    link: 'https://mk-prestige.pl/',
+    type: 'website',
+    img: mkprestigeImg,
   },
+  {
+    name: 'Equilibrium Premium Cannabiotics',
+    link: 'https://www.equilibrium-canna.biz/',
+    type: 'shop',
+    img: equilibriumImg,
+  },  
   {
     name: 'Databout',
     link: 'https://databout.com',

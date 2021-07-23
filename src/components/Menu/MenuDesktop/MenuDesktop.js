@@ -32,7 +32,7 @@ const MenuDesktop = () => (
               fontWeight: '600',
             }}
           >
-            Oferta i cennik
+            Oferta
           </Link>
         </li>
         <li>

@@ -21,7 +21,7 @@ const Footer = () => (
         </li>
         <li>
           <Link className="footer-menu-item" to="/#section__offer">
-            Oferta i cennik
+            Oferta
           </Link>
         </li>
         <li>

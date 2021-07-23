@@ -9,10 +9,11 @@ const AboutUs = () => (
   <>
     <div className="about-item--nobg">
       <div className="top-text about-item__desc about-item__desc--left">
-        <div className="SectionTop-module--top__header--295vo">
+        <div className="top__header">
           <div className="flat-line" />
           <h2>Kilka słów o mnie</h2>
         </div>
+        <h2 className="about-big-title">O mnie</h2>
         <p className="about-item__about">
           Nazywam się Amadeusz Grzesiak, jestem front-end developerem związanym obecnie z wrocławską
           firmą consultingową Databout. Po skończonych studiach na Politechnice Wrocławskiej w 2017

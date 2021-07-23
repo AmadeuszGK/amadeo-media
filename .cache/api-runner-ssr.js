@@ -1,15 +1,15 @@
 var plugins = [{
-      plugin: require('/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('C:/Users/ADMIN/Documents/GitHub/amadeo-media/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      plugin: require('C:/Users/ADMIN/Documents/GitHub/amadeo-media/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["Montserrat:300,400,500,700","source sans pro:300,400,500,700"],"display":"swap"},
     },{
-      plugin: require('/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
+      plugin: require('C:/Users/ADMIN/Documents/GitHub/amadeo-media/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"8c8838aac3e315debe94cec6e89815bb"},
     },{
-      plugin: require('/Users/Shared/Previously Relocated Items/Security/Projekty/amadeuszgrzesiak/strona/amadeo-media/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-158204739-1"},
+      plugin: require('C:/Users/ADMIN/Documents/GitHub/amadeo-media/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-158204739-1","head":false,"anonymize":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

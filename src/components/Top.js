@@ -8,7 +8,7 @@ class Top extends React.Component {
           <div className="top-text">
             <div className="top-header">
               <div className="flat-line" />
-              <p className="flat-line__text">OFERTA I CENNIK</p>
+              <p className="flat-line__text">OFERTA</p>
             </div>
 
             <div className="words" />

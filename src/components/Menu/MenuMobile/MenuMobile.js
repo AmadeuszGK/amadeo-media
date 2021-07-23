@@ -36,7 +36,7 @@ const MenuMobile = props => (
           onClick={props.passedFunction}
           activeStyle={{ fontFamily: 'Montserrat' }}
         >
-          Oferta i cennik
+          Oferta
         </Link>
       </li>
       <li>
