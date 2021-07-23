@@ -6,7 +6,7 @@ import inleiLogo from '../../../images/inlei-logo.png';
 import goodsideLogo from '../../../images/goodside-logo.png';
 import quadrigaLogo from '../../../images/quadriga-logo.png';
 import databoutLogo from '../../../images/databout-logo.png';
-import palkaLogo from '../../../images/palka-logo.png';
+import mkprestigeLogo from '../../../images/mkprestige-logo.svg';
 import promaticLogo from '../../../images/promatic-logo.png';
 import quadrigaBusinessLogo from '../../../images/quadrigaBusiness-logo.png';
 import jmaLogo from '../../../images/jma-logo.png';
@@ -56,9 +56,9 @@ const ClientsHome = () => {
       key: 'quadrigaLogo',
     },
     {
-      logo: palkaLogo,
-      alt: 'palka',
-      key: 'palkaLogo',
+      logo: mkprestigeLogo,
+      alt: 'mk prestige',
+      key: 'mk prestie',
     },
     {
       logo: promaticLogo,

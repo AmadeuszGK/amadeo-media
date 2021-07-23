@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './OfferHome.module.scss';
 import offerItem1 from '../../../images/offer-item-img-1.png';
 import offerItem2 from '../../../images/offer-item-img-2.png';
 import offerItem3 from '../../../images/offer-item-img-3.png';
@@ -7,6 +6,7 @@ import offerItem4 from '../../../images/offer-item-img-4.png';
 import offerItem5 from '../../../images/offer-item-img-5.png';
 import { Link } from 'gatsby';
 import SectionTop from '../../SectionTop/SectionTop';
+import "./OfferHome.scss";
 
 const topText = (
   <p>
@@ -22,12 +22,12 @@ const bigHeader = (
 const smallHeader = 'CZYM SIĘ ZAJMUJĘ?';
 
 const OfferHome = () => (
-  <section className={styles.section__offer} id="section__offer">
-    <div className={styles.offer__grid}>
+  <section className="section__offer" id="section__offer">
+    <div className="offer__grid">
       <SectionTop smallHeader={smallHeader} bigHeader={bigHeader} paragraph={topText} />
 
-      <div className={styles.offer__items}>
-        <div className={styles.offer__item}>
+      <div className="offer__items">
+        <div className="offer__item">
           <div to="/offer-and-pricing">
             <img src={offerItem1} alt="websites" />
             <h2>Strony WWW</h2>
@@ -37,11 +37,11 @@ const OfferHome = () => (
               pozycjonowanie strony w wyszukiwarkach.
             </p>
           </div>
-          {/* <Link to="/offer-and-pricing/#website" className={styles.offer__link}>
+          {/* <Link to="/offer-and-pricing/#website" className="offer__link}>
             Czytaj dalej...
           </Link> */}
         </div>
-        <div className={styles.offer__item}>
+        <div className="offer__item">
           <div to="/offer-and-pricing">
             <img src={offerItem2} alt="ecommerce" />
             <h2>Sklepy internetowe</h2>
@@ -51,11 +51,11 @@ const OfferHome = () => (
               sklepem.
             </p>
           </div>
-          {/* <Link to="/offer-and-pricing/#store" className={styles.offer__link}>
+          {/* <Link to="/offer-and-pricing/#store" className="offer__link}>
             Czytaj dalej...
           </Link> */}
         </div>
-        <div className={styles.offer__item}>
+        <div className="offer__item">
           <div to="/offer-and-pricing">
             <img src={offerItem3} alt="graphics" />
             <h2>Grafika</h2>
@@ -65,11 +65,11 @@ const OfferHome = () => (
               najnowszych trendów.
             </p>
           </div>
-          {/* <Link to="/offer-and-pricing/#graphics" className={styles.offer__link}>
+          {/* <Link to="/offer-and-pricing/#graphics" className="offer__link}>
             Czytaj dalej...
           </Link> */}
         </div>
-        <div className={styles.offer__item}>
+        <div className="offer__item">
           <div to="/offer-and-pricing">
             <img src={offerItem5} alt="update" />
             <h2>Naprawa starych stron</h2>
@@ -79,11 +79,11 @@ const OfferHome = () => (
               przebudowuję archaiczne strony.
             </p>
           </div>
-          {/* <Link to="/offer-and-pricing/#administration" className={styles.offer__link}>
+          {/* <Link to="/offer-and-pricing/#administration" className="offer__link}>
             Czytaj dalej...
           </Link> */}
         </div>
-        <div className={styles.offer__item}>
+        <div className="offer__item">
           <div to="/offer-and-pricing">
             <img src={offerItem4} alt="adminiastration" />
             <h2>Administrowanie stron</h2>
@@ -93,7 +93,7 @@ const OfferHome = () => (
               wszystko było zaktualizowane, działało sprawnie oraz tworzę kopie zapasowe.
             </p>
           </div>
-          {/* <Link to="/offer-and-pricing/#administration" className={styles.offer__link}>
+          {/* <Link to="/offer-and-pricing/#administration" className="offer__link}>
             Czytaj dalej...
           </Link> */}
         </div>

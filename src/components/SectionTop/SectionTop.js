@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './SectionTop.module.scss';
+import './SectionTop.scss';
 
 export const SectionTop = ({ smallHeader, bigHeader, paragraph, colorWhite }) => {
   return (
-    <div className={styles.top__about} style={{ color: colorWhite && '#fff' }}>
-      <div className={styles.top__header}>
+    <div className="top__about" style={{ color: colorWhite && '#fff' }}>
+      <div className="top__header">
         <div className="flat-line" />
         <h2 style={{ color: colorWhite && '#fff' }}>{smallHeader}</h2>
       </div>
