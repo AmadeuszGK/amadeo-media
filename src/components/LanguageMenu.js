@@ -1,32 +1,32 @@
-import React, { useState } from "react"
-import { useTranslation } from "react-i18next"
+import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
-const LanguageMenu = (props) => {
-  const { t, i18n } = useTranslation()
-  
+const LanguageMenu = props => {
+  const { t, i18n } = useTranslation();
+
   const [values, setValues] = useState({
-    language: 'pl'
+    language: 'pl',
   });
 
   function handleChange(event) {
-    i18n.changeLanguage(event.target.value)
+    i18n.changeLanguage(event.target.value);
 
-    setValues(values === "pl" ? "en" : "pl");
+    setValues(values === 'pl' ? 'en' : 'pl');
   }
 
-  return(
+  return (
     <select
       value={values.language}
-      onChange={(e) => handleChange(e)}
-      disableUnderline
-      inputProps={{
-        name: 'language'
+      onChange={e => handleChange(e)}
+      disableunderline="true"
+      inputprops={{
+        name: 'language',
       }}
     >
       <option value={'pl'}>PL</option>
       <option value={'en'}>EN</option>
     </select>
-  )
-}
+  );
+};
 
-export default LanguageMenu
+export default LanguageMenu;

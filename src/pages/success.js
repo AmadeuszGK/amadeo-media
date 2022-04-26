@@ -1,6 +1,5 @@
 import React from 'react';
 import ButtonLink from '../components/Button/ButtonLink';
-import '../components/Header/Header.scss';
 import Menu from '../components/Menu/Menu';
 import Helmet from 'react-helmet';
 

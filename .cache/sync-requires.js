@@ -10,7 +10,6 @@ exports.components = {
   "component---src-pages-contact-js": preferDefault(require("D:\\Projekty\\amadeo-media\\src\\pages\\contact.js")),
   "component---src-pages-home-js": preferDefault(require("D:\\Projekty\\amadeo-media\\src\\pages\\home.js")),
   "component---src-pages-index-js": preferDefault(require("D:\\Projekty\\amadeo-media\\src\\pages\\index.js")),
-  "component---src-pages-portfolio-js": preferDefault(require("D:\\Projekty\\amadeo-media\\src\\pages\\portfolio.js")),
   "component---src-pages-privacy-policy-js": preferDefault(require("D:\\Projekty\\amadeo-media\\src\\pages\\privacy-policy.js")),
   "component---src-pages-success-js": preferDefault(require("D:\\Projekty\\amadeo-media\\src\\pages\\success.js"))
 }

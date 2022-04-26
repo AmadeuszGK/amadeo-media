@@ -16,8 +16,6 @@ body {
   box-sizing: inherit;
 }
 
-@import './menu.scss';
-
 .website-content {
   display: flex;
   justify-content: center;
@@ -124,7 +122,6 @@ h2 {
 .bold {
   font-family: 'Montserrat';
   font-weight: 800;
-
 }
 
 .policy__section {
