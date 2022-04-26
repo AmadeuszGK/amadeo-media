@@ -1,18 +1,22 @@
 var plugins = [{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('C:/Users/ADMIN/Documents/GitHub/amadeo-media/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('D:/Projekty/amadeo-media/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      name: 'gatsby-plugin-layout',
+      plugin: require('D:/Projekty/amadeo-media/node_modules/gatsby-plugin-layout/gatsby-ssr'),
+      options: {"plugins":[],"component":"D:\\Projekty\\amadeo-media/src/components/layout.js"},
+    },{
       name: 'gatsby-plugin-google-fonts',
-      plugin: require('C:/Users/ADMIN/Documents/GitHub/amadeo-media/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      plugin: require('D:/Projekty/amadeo-media/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["Montserrat:300,400,500,700","source sans pro:300,400,500,700"],"display":"swap"},
     },{
       name: 'gatsby-plugin-manifest',
-      plugin: require('C:/Users/ADMIN/Documents/GitHub/amadeo-media/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('D:/Projekty/amadeo-media/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"8c8838aac3e315debe94cec6e89815bb"},
     },{
       name: 'gatsby-plugin-google-analytics',
-      plugin: require('C:/Users/ADMIN/Documents/GitHub/amadeo-media/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('D:/Projekty/amadeo-media/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-158204739-1","head":false,"anonymize":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0},
     }]
 /* global plugins */

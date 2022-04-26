@@ -1,7 +1,7 @@
 import React from 'react';
 import ButtonLink from '../components/Button/ButtonLink';
 import '../components/Header/Header.scss';
-import MenuDesktop from '../components/Menu/MenuDesktop/MenuDesktop';
+import Menu from '../components/Menu/Menu';
 import Helmet from 'react-helmet';
 
 class Success extends React.Component {
@@ -25,7 +25,7 @@ class Success extends React.Component {
   render() {
     return (
       <div style={{ height: 100 + 'vh' }}>
-        <MenuDesktop />
+        <Menu />
         <Helmet>
           <meta charSet="utf-8" />
           <title>E-mail - Amadeo Media</title>

@@ -14,31 +14,6 @@
     transition: opacity 0.2s ease-in-out !important;
 }
 
-.suqare-logo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 70px;
-    height: 70px;
-    background: #131313;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 5;
-    cursor: pointer;
-    transition: opacity 0.2s ease-in-out !important;
-
-    img {
-        max-width: 50px;
-    }
-}
-
-.suqare-logo:hover,
-.menu-button:hover {
-    opacity: 0.8;
-}
-
-
 .side-menu {
     position: fixed;
     background: #131313;
@@ -95,11 +70,6 @@
         display: none;
     }
 
-    .main-content,
-    .suqare-logo {
-        transition: transform 0.6s ease-in-out;
-    }
-
     .side-menu {
         transition: transform 0.6s ease-in-out;
     }
@@ -110,12 +80,6 @@
 
     .main-content-button {
         display: block;
-    }
-
-    .main-content,
-    .suqare-logo {
-        transition: 0.6s ease-in-out;
-        transform: translateX(-300px)
     }
 
     .side-menu {
@@ -451,15 +415,6 @@
         width: 50px;
     }
 
-    .suqare-logo {
-        z-index: 15;
-        width: 50px;
-        height: 50px;
-    }
-
-    .suqare-logo img {
-        max-width: 35px;
-    }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -526,19 +481,8 @@
         z-index: 14;
     }
 
-    .suqare-logo,
-    .menu-button {
-        z-index: 15;
-        width: 50px;
-        height: 50px;
-    }
-
     .menu-button {
         left: -50px;
-    }
-
-    .suqare-logo img {
-        max-width: 35px;
     }
 
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import MenuDesktop from '../components/Menu/MenuDesktop/MenuDesktop';
-import MenuMobile from '../components/Menu/MenuMobile/MenuMobile';
+import Menu from '../components/Menu/Menu';
 import Footer from '../components/Footer/Footer';
 import PortfolioWrapper from '../components/Portfolio/PortfolioWrapper';
 import logo from '../images/agrzesiak-logo.png';
@@ -43,19 +42,12 @@ class Portfolio extends React.Component {
           />
           <html lang="pl-PL" />
         </Helmet>
-        <div className="suqare-logo">
-          <Link to="/">
-            <img src={logo} alt="amadeo media" />
-          </Link>
-        </div>
-
-        <MenuMobile passedFunction={this.toglleMenu} showMenu={this.state.showMenu} />
 
         <div className="main-content">
           <div className="main-content-button" onClick={this.toglleMenu.bind(this)} />
 
           <div className="header-small">
-            <MenuDesktop />
+            <Menu />
           </div>
 
           <main>

@@ -1,17 +1,17 @@
 import React from 'react';
 // import Loader from 'react-loader-spinner'
 import Header from '../components/Header/Header';
+import Menu from '../components/Menu/Menu';
 import ClientsHome from '../components/Home/ClientsHome/ClientsHome';
 import ContactHome from '../components/Home/ContactHome/ContactHome';
 import Cookies from '../components/Cookies/Cookies';
 import Footer from '../components/Footer/Footer';
-import MenuMobile from '../components/Menu/MenuMobile/MenuMobile';
 import OfferHome from '../components/Home/OfferHome/OfferHome';
+import Layout from '../components/layout.js';
 import '../styles/main.scss';
-import logo from '../images/agrzesiak-logo.png';
+import '../styles/style.css';
 import 'animate.css/animate.min.css';
 import Helmet from 'react-helmet';
-import { Link } from 'gatsby';
 
 if (typeof window !== 'undefined') {
   require('smooth-scroll')('a[href*="#"]');
@@ -53,24 +53,15 @@ class Home extends React.Component {
           />
           <html lang="pl-PL" />
         </Helmet>
-        <MenuMobile passedFunction={this.toglleMenu} showMenu={this.state.showMenu} />
-
         <div className="main-content">
           <div className="main-content-button" onClick={this.toglleMenu.bind(this)} />
-
+          <Menu />
           <Header />
-
           <main>
-            <div className="suqare-logo">
-              <Link to="/">
-                <img src={logo} alt="amadeo media" />
-              </Link>
-            </div>
             <OfferHome />
             <ClientsHome />
             <ContactHome />
           </main>
-
           <Footer />
           {this.state.cookies ? null : <Cookies />}
         </div>
