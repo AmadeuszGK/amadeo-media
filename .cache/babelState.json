@@ -13,6 +13,11 @@
           }
         },
         {
+          "name": "@prefresh/babel-plugin",
+          "stage": "develop",
+          "options": {}
+        },
+        {
           "name": "D:\\Projekty\\amadeo-media\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
           "options": {}
         },

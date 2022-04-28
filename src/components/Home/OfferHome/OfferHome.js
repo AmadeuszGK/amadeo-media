@@ -1,16 +1,17 @@
 import React from 'react';
-import triangle from '../../../images/triangle.png';
-import square1 from '../../../images/square1.png';
-import offerItem1 from '../../../images/offer-item-img-1.png';
-import offerItem2 from '../../../images/offer-item-img-2.png';
-import offerItem3 from '../../../images/offer-item-img-3.png';
-import offerItem4 from '../../../images/offer-item-img-4.png';
-import offerItem5 from '../../../images/offer-item-img-5.png';
+import { StaticImage } from 'gatsby-plugin-image';
 // import { Link } from 'gatsby';
 
 const OfferHome = () => (
   <section className="services section" id="oferta">
-    <img src={triangle} className="shape triangle" alt="triangle shape" />
+    <StaticImage
+      src="../../../images/triangle.png"
+      alt="triangle shape"
+      width={95}
+      placeholder="blurred"
+      layout="constrained"
+      className="shape triangle"
+    />
     <div className="container">
       <div className="services-info">
         <h3 className="sub-heading">Nowoczesność i użytkowość</h3>
@@ -44,7 +45,13 @@ const OfferHome = () => (
         <div className="srv-card">
           <div className="card-desc">
             <h2>Strony WWW</h2>
-            <img src={offerItem1} className="" width={200} alt="websites" />
+            <StaticImage
+              src="../../../images/offer-item-img-1.png"
+              width={150}
+              layout="fixed"
+              placeholder="blurred"
+              alt="websites"
+            />
             <p className="text">
               Moją specjalnością są strony internetowe oraz aplikacje webowe. Wszystko dostosowane do urządzeń mobilnych. Przy
               tworzeniu stron zwracam szczególną uwagę na SEO, czyli pozycjonowanie strony w wyszukiwarkach.
@@ -57,7 +64,13 @@ const OfferHome = () => (
         <div className="srv-card">
           <div className="card-desc">
             <h2>Sklepy internetowe</h2>
-            <img src={offerItem2} className="" width={200} alt="e-commerce" />
+            <StaticImage
+              src="../../../images/offer-item-img-2.png"
+              width={150}
+              layout="fixed"
+              placeholder="blurred"
+              alt="e-commerce"
+            />
             <p className="text">
               Tworzę sklepy internetowe oparte o najpopularniejsze na świecie narzędzie Woocomerce (Wordpress). Do dyspozycji
               klienta zostawiamy bardzo intuicyjny system zarządzania sklepem.
@@ -70,7 +83,13 @@ const OfferHome = () => (
         <div className="srv-card">
           <div className="card-desc">
             <h2>Grafika</h2>
-            <img src={offerItem3} className="" width={200} alt="graphic design" />
+            <StaticImage
+              src="../../../images/offer-item-img-3.png"
+              width={150}
+              layout="fixed"
+              placeholder="blurred"
+              alt="graphic design"
+            />
             <p className="text">
               Oprócz stron internetowych i sklepów (Ecommerce) zajmuję się także grafiką. Tworzę katalogi, wizytówki, loga,
               banery, reklamy i wiele innych. Wszystko dostosowane do najnowszych trendów.
@@ -83,7 +102,13 @@ const OfferHome = () => (
         <div className="srv-card">
           <div className="card-desc">
             <h2>Administrowanie stron</h2>
-            <img src={offerItem5} className="" width={200} alt="website administration" />
+            <StaticImage
+              src="../../../images/offer-item-img-5.png"
+              width={150}
+              layout="fixed"
+              placeholder="blurred"
+              alt="website administration"
+            />
             <p className="text">
               Moi klienci zawsze mogą na mnie liczyć, pomagam w obsłudze stron i sklepów internetowych, wdrażam podsyłane treści
               lub wprowadzam modyfikacje. Ponadto dbam, aby wszystko było zaktualizowane, działało sprawnie oraz tworzę kopie
@@ -97,7 +122,7 @@ const OfferHome = () => (
         <div className="srv-card">
           <div className="card-desc">
             <h2>Pozycjonowanie SEO</h2>
-            <img src={offerItem4} className="" width={200} alt="seo" />
+            <StaticImage src="../../../images/offer-item-img-4.png" width={150} layout="fixed" placeholder="blurred" alt="seo" />
             <p className="text">
               Moi klienci zawsze mogą na mnie liczyć, pomagam w obsłudze stron i sklepów internetowych, wdrażam podsyłane treści
               lub wprowadzam modyfikacje. Ponadto dbam, aby wszystko było zaktualizowane, działało sprawnie oraz tworzę kopie
@@ -108,7 +133,14 @@ const OfferHome = () => (
             Więcej
           </a>*/}
         </div>
-        <img src={square1} alt="square shape" className="shape square" />
+        <StaticImage
+          src="../../../images/square1.png"
+          alt="square shape"
+          width={70}
+          placeholder="blurred"
+          layout="constrained"
+          className="shape square"
+        />
       </div>
     </div>
   </section>

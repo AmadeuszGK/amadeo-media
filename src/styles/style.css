@@ -525,12 +525,12 @@ body.open .hamburger .bar:last-child {
 
 .showcase-imagee {
   position: relative;
-  width: 100%;
-  min-height: calc(100% + 120px);
-  background-image: url('../images/amadeusz-grzesiak.jpg');
+  width: 550px;
+  height: 720px;
+  /* background-image: url('../images/amadeusz-grzesiak.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain; */
   margin-top: -120px;
   border-radius: 0 0 80px 80px;
 }
@@ -671,6 +671,13 @@ body.open .hamburger .bar:last-child {
 }
 
 .about .triangle {
+  position: absolute;
+  left: 90%;
+  top: 27%;
+  transform: translate(-50%, -50%);
+}
+
+.about-page .triangle {
   position: absolute;
   left: 90%;
   top: 27%;
@@ -840,11 +847,6 @@ body.open .hamburger .bar:last-child {
   justify-content: space-between;
   min-height: 280px;
   transition: 0.3s background-color;
-}
-
-.srv-card img {
-  max-width: 150px;
-  margin: 2rem 0 0.7rem 0;
 }
 
 .srv-card h3 {
@@ -1190,10 +1192,6 @@ body.open .hamburger .bar:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.clients__item img {
-  max-width: 90px;
 }
 
 .section-background .circle {
@@ -1961,10 +1959,6 @@ footer .social-media {
   .section-background {
     padding: 1.8rem 1.7rem;
     display: flex;
-  }
-
-  .clients__item img {
-    max-width: 75px;
   }
 
   .section-background .clients__item {

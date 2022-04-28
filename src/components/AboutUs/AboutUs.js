@@ -1,10 +1,7 @@
 import React from 'react';
-import './AboutUs.scss';
 import { Link } from 'gatsby';
-import circle1 from '../../images/circle1.png';
-import square1 from '../../images/square1.png';
-import dots from '../../images/dots.png';
 import Skills from '../Skills/Skills';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const AboutUs = () => (
   <>
@@ -50,7 +47,14 @@ const AboutUs = () => (
       </div>
     </div> */}
     <section className="showcase-area" id="home">
-      <img src={square1} className="shape square" alt="shape square" />
+      <StaticImage
+        src="../../images/square1.png"
+        alt="square shape"
+        width={70}
+        placeholder="blurred"
+        layout="constrained"
+        className="shape square"
+      />
       <div className="container">
         <div className="showcase-info">
           <h3 className="sub-heading">Front-end Developer</h3>
@@ -66,13 +70,42 @@ const AboutUs = () => (
           </div>
         </div>
         <div className="showcase-imagee">
-          <img src={circle1} className="shape circle" alt="shape circle" />
-          <img src={dots} className="shape dots" alt="dots" />
+          <StaticImage
+            src="../../images/circle1.png"
+            alt="circle shape"
+            width={190}
+            placeholder="blurred"
+            layout="constrained"
+            className="shape circle"
+          />
+          <StaticImage
+            src="../../images/amadeusz-grzesiak.jpg"
+            alt="circle shape"
+            width={550}
+            placeholder="blurred"
+            layout="constrained"
+            imgStyle={{ borderBottomLeftRadius: '80px', borderBottomRightRadius: '80px' }}
+          />
+          <StaticImage
+            src="../../images/dots.png"
+            alt="dots shape"
+            width={112}
+            placeholder="blurred"
+            layout="constrained"
+            className="shape dots"
+          />
         </div>
       </div>
     </section>
-    <section className="section" id="o-mnie">
-      <img src="./assets/triangle.png" className="shape triangle" alt="" />
+    <section className="section about-page" id="o-mnie">
+      <StaticImage
+        src="../../images/triangle.png"
+        alt="triangle shape"
+        width={95}
+        placeholder="blurred"
+        layout="constrained"
+        className="shape triangle"
+      />
       <div className="container">
         <div className="about-me">
           <h3 className="sub-heading">Moja historia</h3>
@@ -109,8 +142,22 @@ const AboutUs = () => (
           </div>
           <div className="skills-wrap"></div>
           <Skills />
-          <img src={dots} className="shape dots" />
-          <img src={square1} className="shape square" alt="square shape" />
+          <StaticImage
+            src="../../images/dots.png"
+            alt="dots shape"
+            width={112}
+            placeholder="blurred"
+            layout="constrained"
+            className="shape dots"
+          />
+          <StaticImage
+            src="../../images/square1.png"
+            alt="square shape"
+            width={70}
+            placeholder="blurred"
+            layout="constrained"
+            className="shape square"
+          />
         </div>
       </div>
     </section>

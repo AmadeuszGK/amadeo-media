@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 const LanguageMenu = () => {
   const { t, i18n } = useTranslation();
-  const [currentLang, setCurrentLang] = useState();
+  const [currentLang, setCurrentLang] = useState('pl');
 
   useEffect(() => {
     localStorage.getItem('Language') && setCurrentLang(localStorage.getItem('Language') === 'en' ? 'en' : 'pl');

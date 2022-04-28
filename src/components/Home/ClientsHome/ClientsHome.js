@@ -1,56 +1,7 @@
 import React from 'react';
-import wolnosci14Logo from '../../../images/wolnosci14-logo.png';
-import chiarashopLogo from '../../../images/chiarashop-logo.png';
-import inleiLogo from '../../../images/inlei-logo.png';
-import goodsideLogo from '../../../images/goodside-logo.png';
-import quadrigaLogo from '../../../images/quadriga-logo.png';
-import databoutLogo from '../../../images/databout-logo.png';
-import mkprestigeLogo from '../../../images/mkprestige-logo.svg';
-import promaticLogo from '../../../images/promatic-logo.png';
-import secretpleasureLogo from '../../../images/secretpleasure-logo.svg';
-import square1 from '../../../images/square1.png';
-import circle2 from '../../../images/circle2.png';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const ClientsHome = () => {
-  const clientsItems = [
-    {
-      logo: databoutLogo,
-      name: 'databout logo',
-    },
-    {
-      logo: wolnosci14Logo,
-      name: 'wolnosci 14',
-    },
-    {
-      logo: chiarashopLogo,
-      name: 'chiarashop',
-    },
-    {
-      logo: inleiLogo,
-      name: 'inlei',
-    },
-    {
-      logo: goodsideLogo,
-      name: 'goodside',
-    },
-    {
-      logo: quadrigaLogo,
-      name: 'quadriga one',
-    },
-    {
-      logo: mkprestigeLogo,
-      name: 'mk prestige',
-    },
-    {
-      logo: promaticLogo,
-      name: 'qrent',
-    },
-    {
-      logo: secretpleasureLogo,
-      name: 'secret pleasure',
-    },
-  ];
-
   return (
     <section className="testimonials section">
       <div className="container">
@@ -59,13 +10,97 @@ const ClientsHome = () => {
             <h3 className="sub-heading">Współpraca</h3>
             <h2 className="heading">Zadowoleni klienci</h2>
           </div>
-          <img src={circle2} alt="circle shape" className="circle" />
-          <img src={square1} alt="square shape" className="square" />
-          {clientsItems.map(item => (
-            <div className="clients__item" id={item.last && 'client__item--last'} key={item.name}>
-              <img src={item.logo} alt={item.name} />
-            </div>
-          ))}
+          <StaticImage
+            src="../../../images/circle2.png"
+            alt="circle shape"
+            width={170}
+            placeholder="blurred"
+            layout="constrained"
+            className="circle"
+          />
+          <StaticImage
+            src="../../../images/square1.png"
+            alt="square shape"
+            width={70}
+            placeholder="blurred"
+            layout="constrained"
+            className="square"
+          />
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/databout-logo.png"
+              alt="databout logo"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/wolnosci14-logo.png"
+              alt="wolnosci 14"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/chiarashop-logo.png"
+              alt="chiarashop"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+          <div className="clients__item">
+            <StaticImage src="../../../images/inlei-logo.png" alt="inlei" width={80} placeholder="blurred" layout="constrained" />
+          </div>
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/goodside-logo.png"
+              alt="goodside"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/quadriga-logo.png"
+              alt="quadriga"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/mkprestige-logo.svg"
+              alt="mkprestige"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/promatic-logo.png"
+              alt="promatic"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/secretpleasure-logo.svg"
+              alt="secret pleasure"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
         </div>
         <div className="swiper">
           <div className="swiper-wrapper">

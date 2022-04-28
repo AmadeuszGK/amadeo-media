@@ -1,9 +1,17 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const AboutHome = () => (
   <section className="about section" id="o-mnie">
-    <img src="./assets/triangle.png" className="shape triangle" alt="" />
+    <StaticImage
+      src="../../images/triangle.png"
+      alt="triangle shape"
+      width={95}
+      placeholder="blurred"
+      layout="constrained"
+      className="shape triangle"
+    />
     <div className="container">
       <div className="about-grid">
         <div className="about-card">

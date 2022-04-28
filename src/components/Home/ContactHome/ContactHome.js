@@ -1,13 +1,26 @@
 import React from 'react';
 import ContactForm from '../../ContactForm/ContactForm';
-import square2 from '../../../images/square2.png';
-import triangle from '../../../images/triangle.png';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const ContactHome = () => (
   <section className="contact section" id="kontakt">
-    <img src={triangle} className="shape triangle" alt="triangle shape" />
+    <StaticImage
+      src="../../images/triangle.png"
+      alt="triangle shape"
+      width={95}
+      placeholder="blurred"
+      layout="constrained"
+      className="shape triangle"
+    />
     <div className="container">
-      <img src={square2} className="shape square" alt="square shape" />
+      <StaticImage
+        src="../../../images/square2.png"
+        alt="square shape"
+        width={70}
+        placeholder="blurred"
+        layout="constrained"
+        className="shape square"
+      />
       <div className="contact-info">
         <h3 className="sub-heading">Kontakt</h3>
         <h2 className="heading">Nawiążmy współpracę</h2>
