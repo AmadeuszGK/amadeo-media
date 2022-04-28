@@ -1,25 +1,25 @@
 import i18next from 'i18next';
 
 i18next.init({
-    fallbackLng: 'pl',
-    resources: {
-        pl: {
-            translations: require('../locales/pl/translations.json')
-        },
-        en: {
-            translations: require('../locales/en/translations.json')
-        }
+  fallbackLng: 'pl',
+  resources: {
+    pl: {
+      translations: require('../locales/pl/translations.json'),
     },
-    ns: ['translations'],
-    defaultNS: 'translations',
-    returnObjects: true,
-    debug: process.env.NODE_ENV === 'development',
-    interpolation: {
-        escapeValue: false, // not needed for react!!
+    en: {
+      translations: require('../locales/en/translations.json'),
     },
-    react: {
-        wait: true,
-    },
+  },
+  ns: ['translations'],
+  defaultNS: 'translations',
+  returnObjects: true,
+  debug: process.env.NODE_ENV === 'development',
+  interpolation: {
+    escapeValue: false, // not needed for react!!
+  },
+  react: {
+    useSuspense: true,
+  },
 });
 
 i18next.languages = ['pl', 'en'];

@@ -77,7 +77,7 @@ const AboutHome = () => (
               <path d="M356.28,376.31l15.59-15.59l60.68,60.68l-15.59,15.59L356.28,376.31z"></path>
             </g>
           </svg>
-          <h3>Wycena</h3>
+          <span>Wycena</span>
         </div>
         <div className="about-card">
           <svg className="icon" xmlns="http://www.w3.org/2000/svg" id="_x31__x2C_5" x="0px" y="0px" viewBox="0 0 512 512">
@@ -153,7 +153,7 @@ const AboutHome = () => (
             ></path>
             <path className="st2" d="M27.63,414.02H498v22.05H27.63V414.02z"></path>
           </svg>
-          <h3>Projekt graficzny</h3>
+          <span>Projekt graficzny</span>
         </div>
         <div className="about-card">
           <svg className="icon" xmlns="http://www.w3.org/2000/svg" id="_x31__x2C_5" x="0px" y="0px" viewBox="0 0 512 512">
@@ -253,7 +253,7 @@ const AboutHome = () => (
               ></path>
             </g>
           </svg>
-          <h3>Testowanie</h3>
+          <span>Testowanie</span>
         </div>
         <div className="about-card">
           <svg className="icon" xmlns="http://www.w3.org/2000/svg" id="_x31__x2C_5" x="0px" y="0px" viewBox="0 0 512 512">
@@ -351,15 +351,12 @@ const AboutHome = () => (
               ></path>
             </g>
           </svg>
-          <h3>Programowanie</h3>
+          <span>Programowanie</span>
         </div>
       </div>
       <div className="about-info">
-        <h3 className="sub-heading">O mnie</h3>
-        <h1 className="heading">
-          Postaw na
-          <br /> doświadczenie
-        </h1>
+        <h3 className="sub-heading">Postaw na doświadczenie</h3>
+        <h2 className="heading">O mnie</h2>
         <p className="text">
           Nazywam się Amadeusz Grzesiak, jestem front-end developerem związanym obecnie jednyą z największych firm w polskiej
           branży IT - Sii. Po skończonych studiach na Politechnice Wrocławskiej w 2017 roku pierwsze doświadczenie zdobywałem u

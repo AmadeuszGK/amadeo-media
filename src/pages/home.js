@@ -6,7 +6,6 @@ import AboutHome from '../components/Home/AboutHome/AboutHome';
 
 import OfferHome from '../components/Home/OfferHome/OfferHome';
 import { PortfolioWrapper } from '../components/Portfolio/PortfolioWrapper';
-import '../styles/main.scss';
 import '../styles/style.css';
 import 'animate.css/animate.min.css';
 import Helmet from 'react-helmet';

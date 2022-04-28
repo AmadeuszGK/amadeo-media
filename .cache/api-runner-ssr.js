@@ -18,6 +18,14 @@ var plugins = [{
       name: 'gatsby-plugin-google-analytics',
       plugin: require('D:/Projekty/amadeo-media/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-158204739-1","head":false,"anonymize":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0},
+    },{
+      name: 'gatsby-plugin-image',
+      plugin: require('D:/Projekty/amadeo-media/node_modules/gatsby-plugin-image/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      name: 'gatsby-plugin-sitemap',
+      plugin: require('D:/Projekty/amadeo-media/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      options: {"plugins":[],"output":"/sitemap","createLinkInHead":true,"entryLimit":45000,"query":"{ site { siteMetadata { siteUrl } } allSitePage { nodes { path } } }","excludes":[]},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:

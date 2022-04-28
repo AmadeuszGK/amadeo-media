@@ -12,8 +12,8 @@ export const PortfolioWrapper = () => {
       <div className="container">
         <div className="portfolio-header">
           <div className="portfolio-title">
-            <h3 className="sub-heading">Portfolio</h3>
-            <h1 className="heading">Ostatnie projkekty</h1>
+            <h3 className="sub-heading">Ostatnie projkekty</h3>
+            <h2 className="heading">Portfolio</h2>
           </div>
           <PortfolioNav filter={filter} setFilter={setFilter} />
         </div>

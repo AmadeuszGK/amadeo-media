@@ -1,9 +1,5 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Footer from '../components/Footer/Footer';
-import '../styles/main.scss';
-import Menu from '../components/Menu/Menu';
-import { Link } from 'gatsby';
 
 class PrivacyPolicy extends React.Component {
   constructor() {
@@ -25,7 +21,7 @@ class PrivacyPolicy extends React.Component {
 
   render() {
     return (
-      <div className={this.state.showMenu ? 'website-content--show-menu' : 'website-content'}>
+      <>
         <Helmet>
           <meta charSet="utf-8" />
           <title>Polityka prywatności - Amadeo Media</title>
@@ -41,27 +37,19 @@ class PrivacyPolicy extends React.Component {
           />
           <html lang="pl-PL" />
         </Helmet>
-
-        <div className="main-content">
-          <div className="main-content-button" onClick={this.toglleMenu.bind(this)} />
-
-          <div className="header-small">
-            <Menu />
-          </div>
-          <main>
+        <section className="privacy section" id="home">
+          <div className="container">
+            <h1 className="heading">
+              Polityka
+              <br />
+              Prywatności
+            </h1>
             <div className="policy__section">
-              <div className="SectionTop-module--top__header--295vo">
-                <div className="flat-line" />
-                <h2>POLITYKA PRYWATNOŚCI</h2>
-              </div>
-              <h1 className="h1">POLITYKA PRYWATNOŚCI</h1>
-
               <h2>1. Informacje ogólne</h2>
               <p className="policy__text">
                 1. Niniejsza polityka dotyczy Serwisu www, funkcjonującego pod adresem url: www.amadeomedia.com
                 <br />
-                2. Operatorem serwisu oraz Administratorem danych osobowych jest: Amadeo Media Amadeusz Grzsiak pl. Śląski 5/1
-                59-800 Lubań
+                2. Operatorem serwisu oraz Administratorem danych osobowych jest: Amadeo Media Amadeusz Grzsiak 59-800 Lubań
                 <br />
                 3. Adres kontaktowy poczty elektronicznej operatora: grzesiak.amadeusz@gmail.com
                 <br />
@@ -254,11 +242,9 @@ class PrivacyPolicy extends React.Component {
                 <br />
               </p>
             </div>
-          </main>
-
-          <Footer />
-        </div>
-      </div>
+          </div>
+        </section>
+      </>
     );
   }
 }

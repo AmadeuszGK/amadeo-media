@@ -75,8 +75,8 @@ const AboutUs = () => (
       <img src="./assets/triangle.png" className="shape triangle" alt="" />
       <div className="container">
         <div className="about-me">
-          <h3 className="sub-heading">Doświadczenie</h3>
-          <h1 className="heading">Moja historia</h1>
+          <h3 className="sub-heading">Moja historia</h3>
+          <h2 className="heading">Doświadczenie</h2>
           <p className="text">
             Nazywam się Amadeusz Grzesiak, jestem front-end developerem związanym obecnie z wrocławską firmą consultingową
             Databout. Po skończonych studiach na Politechnice Wrocławskiej w 2017 roku pierwsze doświadczenie zdobywałem u jednego
@@ -94,23 +94,23 @@ const AboutUs = () => (
         </div>
       </div>
     </section>
-    <section class="skills section">
-      <div class="container">
-        <div class="skills-box">
-          <div class="box-heading">
-            <h3 class="sub-heading">Umiejętności</h3>
-            <h2 class="heading">Najnowsze technologie</h2>
-            <div class="box-desc">
-              <p class="text">
+    <section className="skills section">
+      <div className="container">
+        <div className="skills-box">
+          <div className="box-heading">
+            <h3 className="sub-heading">Umiejętności</h3>
+            <h2 className="heading">Najnowsze technologie</h2>
+            <div className="box-desc">
+              <p className="text">
                 Moje projekty tworzone są w oparciu o najnowsze technologie webowe. Stale rozwijam wachlarz umiejętności poprzez
                 nowe wyzwania oraz kursy.
               </p>
             </div>
           </div>
-          <div class="skills-wrap"></div>
+          <div className="skills-wrap"></div>
           <Skills />
-          <img src={dots} class="shape dots" />
-          <img src={square1} class="shape square" />
+          <img src={dots} className="shape dots" />
+          <img src={square1} className="shape square" alt="square shape" />
         </div>
       </div>
     </section>

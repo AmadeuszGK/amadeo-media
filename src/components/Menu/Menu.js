@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'gatsby';
 import LanguageMenu from '../LanguageMenu';
+import UilMoon from '@iconscout/react-unicons/icons/uil-moon';
+import UilSun from '@iconscout/react-unicons/icons/uil-sun';
 
 const Menu = () => {
   const [headerClassName, setHeaderClassName] = useState(null);
@@ -79,7 +81,9 @@ const Menu = () => {
               </Link>
             </li>
           </ul>
-          <i className={`uil ${isDark ? 'uil-sun' : 'uil-moon'} toggle-btn`} onClick={() => changeTheme()}></i>
+          <div className="toggle-btn" onClick={() => changeTheme()}>
+            {isDark ? <UilSun size={17} /> : <UilMoon size={17} />}
+          </div>
           <LanguageMenu />
         </div>
         <div className="hamburger" onClick={toggleHamburgerMenu}>

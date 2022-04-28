@@ -55,8 +55,12 @@ const ClientsHome = () => {
     <section className="testimonials section">
       <div className="container">
         <div className="section-background">
-          <img src={circle2} alt="circle" className="circle" />
-          <img src={square1} alt="square" className="square" />
+          <div className="testimonials-title">
+            <h3 className="sub-heading">Współpraca</h3>
+            <h2 className="heading">Zadowoleni klienci</h2>
+          </div>
+          <img src={circle2} alt="circle shape" className="circle" />
+          <img src={square1} alt="square shape" className="square" />
           {clientsItems.map(item => (
             <div className="clients__item" id={item.last && 'client__item--last'} key={item.name}>
               <img src={item.logo} alt={item.name} />

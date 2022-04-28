@@ -9,7 +9,7 @@ if (typeof window !== 'undefined') {
   require('smooth-scroll')('a[href*="#"]');
 }
 
-const Header = () => (
+const Header = ({ data }) => (
   <section className="showcase-area" id="home">
     <img src={square1} className="shape square" alt="shape square" />
     <div className="container">

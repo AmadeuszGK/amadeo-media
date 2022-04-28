@@ -825,6 +825,236 @@ exports.shallowCompare = shallowCompare;
 
 /***/ }),
 
+/***/ "./node_modules/@iconscout/react-unicons/icons/uil-envelope-alt.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/@iconscout/react-unicons/icons/uil-envelope-alt.js ***!
+  \*************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+const UilEnvelopeAlt = (props) => {
+  const { color, size, ...otherProps } = props
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement('svg', {
+    xmlns: 'http://www.w3.org/2000/svg',
+    width: size,
+    height: size,
+    viewBox: '0 0 24 24',
+    fill: color,
+    ...otherProps
+  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement('path', {
+    d: 'M19,4H5A3,3,0,0,0,2,7V17a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V7A3,3,0,0,0,19,4ZM5,6H19a1,1,0,0,1,1,1l-8,4.88L4,7A1,1,0,0,1,5,6ZM20,17a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V9.28l7.48,4.57a1,1,0,0,0,1,0L20,9.28Z'
+  }));
+};
+
+UilEnvelopeAlt.propTypes = {
+  color: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),
+  size: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().number)]),
+};
+
+UilEnvelopeAlt.defaultProps = {
+  color: 'currentColor',
+  size: '24',
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (UilEnvelopeAlt);
+
+/***/ }),
+
+/***/ "./node_modules/@iconscout/react-unicons/icons/uil-linkedin.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/@iconscout/react-unicons/icons/uil-linkedin.js ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+const UilLinkedin = (props) => {
+  const { color, size, ...otherProps } = props
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement('svg', {
+    xmlns: 'http://www.w3.org/2000/svg',
+    width: size,
+    height: size,
+    viewBox: '0 0 24 24',
+    fill: color,
+    ...otherProps
+  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement('path', {
+    d: 'M20.47,2H3.53A1.45,1.45,0,0,0,2.06,3.43V20.57A1.45,1.45,0,0,0,3.53,22H20.47a1.45,1.45,0,0,0,1.47-1.43V3.43A1.45,1.45,0,0,0,20.47,2ZM8.09,18.74h-3v-9h3ZM6.59,8.48h0a1.56,1.56,0,1,1,0-3.12,1.57,1.57,0,1,1,0,3.12ZM18.91,18.74h-3V13.91c0-1.21-.43-2-1.52-2A1.65,1.65,0,0,0,12.85,13a2,2,0,0,0-.1.73v5h-3s0-8.18,0-9h3V11A3,3,0,0,1,15.46,9.5c2,0,3.45,1.29,3.45,4.06Z'
+  }));
+};
+
+UilLinkedin.propTypes = {
+  color: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),
+  size: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().number)]),
+};
+
+UilLinkedin.defaultProps = {
+  color: 'currentColor',
+  size: '24',
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (UilLinkedin);
+
+/***/ }),
+
+/***/ "./node_modules/@iconscout/react-unicons/icons/uil-moon.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@iconscout/react-unicons/icons/uil-moon.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+const UilMoon = (props) => {
+  const { color, size, ...otherProps } = props
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement('svg', {
+    xmlns: 'http://www.w3.org/2000/svg',
+    width: size,
+    height: size,
+    viewBox: '0 0 24 24',
+    fill: color,
+    ...otherProps
+  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement('path', {
+    d: 'M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z'
+  }));
+};
+
+UilMoon.propTypes = {
+  color: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),
+  size: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().number)]),
+};
+
+UilMoon.defaultProps = {
+  color: 'currentColor',
+  size: '24',
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (UilMoon);
+
+/***/ }),
+
+/***/ "./node_modules/@iconscout/react-unicons/icons/uil-phone-alt.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@iconscout/react-unicons/icons/uil-phone-alt.js ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+const UilPhoneAlt = (props) => {
+  const { color, size, ...otherProps } = props
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement('svg', {
+    xmlns: 'http://www.w3.org/2000/svg',
+    width: size,
+    height: size,
+    viewBox: '0 0 24 24',
+    fill: color,
+    ...otherProps
+  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement('path', {
+    d: 'M19.44,13c-.22,0-.45-.07-.67-.12a9.44,9.44,0,0,1-1.31-.39,2,2,0,0,0-2.48,1l-.22.45a12.18,12.18,0,0,1-2.66-2,12.18,12.18,0,0,1-2-2.66L10.52,9a2,2,0,0,0,1-2.48,10.33,10.33,0,0,1-.39-1.31c-.05-.22-.09-.45-.12-.68a3,3,0,0,0-3-2.49h-3a3,3,0,0,0-3,3.41A19,19,0,0,0,18.53,21.91l.38,0a3,3,0,0,0,2-.76,3,3,0,0,0,1-2.25v-3A3,3,0,0,0,19.44,13Zm.5,6a1,1,0,0,1-.34.75,1.06,1.06,0,0,1-.82.25A17,17,0,0,1,4.07,5.22a1.09,1.09,0,0,1,.25-.82,1,1,0,0,1,.75-.34h3a1,1,0,0,1,1,.79q.06.41.15.81a11.12,11.12,0,0,0,.46,1.55l-1.4.65a1,1,0,0,0-.49,1.33,14.49,14.49,0,0,0,7,7,1,1,0,0,0,.76,0,1,1,0,0,0,.57-.52l.62-1.4a13.69,13.69,0,0,0,1.58.46q.4.09.81.15a1,1,0,0,1,.79,1Z'
+  }));
+};
+
+UilPhoneAlt.propTypes = {
+  color: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),
+  size: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().number)]),
+};
+
+UilPhoneAlt.defaultProps = {
+  color: 'currentColor',
+  size: '24',
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (UilPhoneAlt);
+
+/***/ }),
+
+/***/ "./node_modules/@iconscout/react-unicons/icons/uil-sun.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@iconscout/react-unicons/icons/uil-sun.js ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+const UilSun = (props) => {
+  const { color, size, ...otherProps } = props
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement('svg', {
+    xmlns: 'http://www.w3.org/2000/svg',
+    width: size,
+    height: size,
+    viewBox: '0 0 24 24',
+    fill: color,
+    ...otherProps
+  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement('path', {
+    d: 'M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z'
+  }));
+};
+
+UilSun.propTypes = {
+  color: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),
+  size: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().number)]),
+};
+
+UilSun.defaultProps = {
+  color: 'currentColor',
+  size: '24',
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (UilSun);
+
+/***/ }),
+
 /***/ "./node_modules/balanced-match/index.js":
 /*!**********************************************!*\
   !*** ./node_modules/balanced-match/index.js ***!
@@ -1797,6 +2027,47 @@ function useScrollRestoration(identifier) {
 
 /***/ }),
 
+/***/ "./src/components/Cookies/Cookies.tsx":
+/*!********************************************!*\
+  !*** ./src/components/Cookies/Cookies.tsx ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _images_cookies_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../images/cookies.png */ "./src/images/cookies.png");
+
+
+
+const Cookies = ({
+  hideCookies
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "cookies"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "cookies__text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _images_cookies_png__WEBPACK_IMPORTED_MODULE_1__.default,
+    alt: "cookies"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "text"
+  }, "Ta strona u\u017Cywa plik\xF3w Cookies. Je\u015Bli b\u0119dziesz kontynuowa\u0107 przegl\u0105danie tej witryny, za\u0142o\u017Cymy, \u017Ce akceptujesz", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "/polityka-prywatnosci"
+  }, " polityk\u0119 prywatno\u015Bci i cookies."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "btn",
+    onClick: () => hideCookies()
+  }, "TAK, AKCEPTUJ\u0118"));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Cookies);
+
+/***/ }),
+
 /***/ "./.cache/api-runner-ssr.js":
 /*!**********************************!*\
   !*** ./.cache/api-runner-ssr.js ***!
@@ -1860,6 +2131,23 @@ var plugins = [{
     "respectDNT": false,
     "exclude": [],
     "pageTransitionDelay": 0
+  }
+}, {
+  name: 'gatsby-plugin-image',
+  plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-image/gatsby-ssr */ "./node_modules/gatsby-plugin-image/gatsby-ssr.js"),
+  options: {
+    "plugins": []
+  }
+}, {
+  name: 'gatsby-plugin-sitemap',
+  plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-sitemap/gatsby-ssr */ "./node_modules/gatsby-plugin-sitemap/gatsby-ssr.js"),
+  options: {
+    "plugins": [],
+    "output": "/sitemap",
+    "createLinkInHead": true,
+    "entryLimit": 45000,
+    "query": "{ site { siteMetadata { siteUrl } } allSitePage { nodes { path } } }",
+    "excludes": []
   }
 }];
 /* global plugins */
@@ -3445,6 +3733,1483 @@ exports.onRenderBody = function (_ref, options) {
 
 /***/ }),
 
+/***/ "./node_modules/gatsby-plugin-image/gatsby-ssr.js":
+/*!********************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/gatsby-ssr.js ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+var React = __webpack_require__(/*! react */ "react");
+
+var commonTags = __webpack_require__(/*! common-tags */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/index.js");
+
+function _interopNamespace(e) {
+  if (e && e.__esModule) return e;
+  var n = Object.create(null);
+
+  if (e) {
+    Object.keys(e).forEach(function (k) {
+      if (k !== 'default') {
+        var d = Object.getOwnPropertyDescriptor(e, k);
+        Object.defineProperty(n, k, d.get ? d : {
+          enumerable: true,
+          get: function () {
+            return e[k];
+          }
+        });
+      }
+    });
+  }
+
+  n["default"] = e;
+  return n;
+}
+
+var React__namespace = /*#__PURE__*/_interopNamespace(React);
+
+var generateHtml = function generateHtml(str) {
+  return {
+    __html: commonTags.oneLine(str)
+  };
+};
+
+function onRenderBody(_ref) {
+  var setHeadComponents = _ref.setHeadComponents;
+  setHeadComponents([React__namespace.createElement("style", {
+    key: "gatsby-image-style",
+    dangerouslySetInnerHTML: generateHtml(".gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}")
+  }), React__namespace.createElement("noscript", {
+    key: "gatsby-image-style-noscript",
+    dangerouslySetInnerHTML: generateHtml("<style>" + ".gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}" + "</style>")
+  }), React__namespace.createElement("script", {
+    key: "gatsby-image-style-script",
+    type: "module",
+    dangerouslySetInnerHTML: generateHtml("const e=\"undefined\"!=typeof HTMLImageElement&&\"loading\"in HTMLImageElement.prototype;e&&document.body.addEventListener(\"load\",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector(\"[data-placeholder-image]\"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition=\"opacity 500ms linear\")}))}),!0);")
+  })]);
+}
+
+exports.onRenderBody = onRenderBody;
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/TemplateTag.js":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/TemplateTag.js ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var _createClass = function () {
+  function defineProperties(target, props) {
+    for (var i = 0; i < props.length; i++) {
+      var descriptor = props[i];
+      descriptor.enumerable = descriptor.enumerable || false;
+      descriptor.configurable = true;
+      if ("value" in descriptor) descriptor.writable = true;
+      Object.defineProperty(target, descriptor.key, descriptor);
+    }
+  }
+
+  return function (Constructor, protoProps, staticProps) {
+    if (protoProps) defineProperties(Constructor.prototype, protoProps);
+    if (staticProps) defineProperties(Constructor, staticProps);
+    return Constructor;
+  };
+}();
+
+var _templateObject = _taggedTemplateLiteral(['', ''], ['', '']);
+
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, {
+    raw: {
+      value: Object.freeze(raw)
+    }
+  }));
+}
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+/**
+ * @class TemplateTag
+ * @classdesc Consumes a pipeline of composable transformer plugins and produces a template tag.
+ */
+
+
+var TemplateTag = function () {
+  /**
+   * constructs a template tag
+   * @constructs TemplateTag
+   * @param  {...Object} [...transformers] - an array or arguments list of transformers
+   * @return {Function}                    - a template tag
+   */
+  function TemplateTag() {
+    var _this = this;
+
+    for (var _len = arguments.length, transformers = Array(_len), _key = 0; _key < _len; _key++) {
+      transformers[_key] = arguments[_key];
+    }
+
+    _classCallCheck(this, TemplateTag);
+
+    this.tag = function (strings) {
+      for (var _len2 = arguments.length, expressions = Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
+        expressions[_key2 - 1] = arguments[_key2];
+      }
+
+      if (typeof strings === 'function') {
+        // if the first argument passed is a function, assume it is a template tag and return
+        // an intermediary tag that processes the template using the aforementioned tag, passing the
+        // result to our tag
+        return _this.interimTag.bind(_this, strings);
+      }
+
+      if (typeof strings === 'string') {
+        // if the first argument passed is a string, just transform it
+        return _this.transformEndResult(strings);
+      } // else, return a transformed end result of processing the template with our tag
+
+
+      strings = strings.map(_this.transformString.bind(_this));
+      return _this.transformEndResult(strings.reduce(_this.processSubstitutions.bind(_this, expressions)));
+    }; // if first argument is an array, extrude it as a list of transformers
+
+
+    if (transformers.length > 0 && Array.isArray(transformers[0])) {
+      transformers = transformers[0];
+    } // if any transformers are functions, this means they are not initiated - automatically initiate them
+
+
+    this.transformers = transformers.map(function (transformer) {
+      return typeof transformer === 'function' ? transformer() : transformer;
+    }); // return an ES2015 template tag
+
+    return this.tag;
+  }
+  /**
+   * Applies all transformers to a template literal tagged with this method.
+   * If a function is passed as the first argument, assumes the function is a template tag
+   * and applies it to the template, returning a template tag.
+   * @param  {(Function|String|Array<String>)} strings        - Either a template tag or an array containing template strings separated by identifier
+   * @param  {...*}                            ...expressions - Optional list of substitution values.
+   * @return {(String|Function)}                              - Either an intermediary tag function or the results of processing the template.
+   */
+
+
+  _createClass(TemplateTag, [{
+    key: 'interimTag',
+
+    /**
+     * An intermediary template tag that receives a template tag and passes the result of calling the template with the received
+     * template tag to our own template tag.
+     * @param  {Function}        nextTag          - the received template tag
+     * @param  {Array<String>}   template         - the template to process
+     * @param  {...*}            ...substitutions - `substitutions` is an array of all substitutions in the template
+     * @return {*}                                - the final processed value
+     */
+    value: function interimTag(previousTag, template) {
+      for (var _len3 = arguments.length, substitutions = Array(_len3 > 2 ? _len3 - 2 : 0), _key3 = 2; _key3 < _len3; _key3++) {
+        substitutions[_key3 - 2] = arguments[_key3];
+      }
+
+      return this.tag(_templateObject, previousTag.apply(undefined, [template].concat(substitutions)));
+    }
+    /**
+     * Performs bulk processing on the tagged template, transforming each substitution and then
+     * concatenating the resulting values into a string.
+     * @param  {Array<*>} substitutions - an array of all remaining substitutions present in this template
+     * @param  {String}   resultSoFar   - this iteration's result string so far
+     * @param  {String}   remainingPart - the template chunk after the current substitution
+     * @return {String}                 - the result of joining this iteration's processed substitution with the result
+     */
+
+  }, {
+    key: 'processSubstitutions',
+    value: function processSubstitutions(substitutions, resultSoFar, remainingPart) {
+      var substitution = this.transformSubstitution(substitutions.shift(), resultSoFar);
+      return ''.concat(resultSoFar, substitution, remainingPart);
+    }
+    /**
+     * Iterate through each transformer, applying the transformer's `onString` method to the template
+     * strings before all substitutions are processed.
+     * @param {String}  str - The input string
+     * @return {String}     - The final results of processing each transformer
+     */
+
+  }, {
+    key: 'transformString',
+    value: function transformString(str) {
+      var cb = function cb(res, transform) {
+        return transform.onString ? transform.onString(res) : res;
+      };
+
+      return this.transformers.reduce(cb, str);
+    }
+    /**
+     * When a substitution is encountered, iterates through each transformer and applies the transformer's
+     * `onSubstitution` method to the substitution.
+     * @param  {*}      substitution - The current substitution
+     * @param  {String} resultSoFar  - The result up to and excluding this substitution.
+     * @return {*}                   - The final result of applying all substitution transformations.
+     */
+
+  }, {
+    key: 'transformSubstitution',
+    value: function transformSubstitution(substitution, resultSoFar) {
+      var cb = function cb(res, transform) {
+        return transform.onSubstitution ? transform.onSubstitution(res, resultSoFar) : res;
+      };
+
+      return this.transformers.reduce(cb, substitution);
+    }
+    /**
+     * Iterates through each transformer, applying the transformer's `onEndResult` method to the
+     * template literal after all substitutions have finished processing.
+     * @param  {String} endResult - The processed template, just before it is returned from the tag
+     * @return {String}           - The final results of processing each transformer
+     */
+
+  }, {
+    key: 'transformEndResult',
+    value: function transformEndResult(endResult) {
+      var cb = function cb(res, transform) {
+        return transform.onEndResult ? transform.onEndResult(res) : res;
+      };
+
+      return this.transformers.reduce(cb, endResult);
+    }
+  }]);
+
+  return TemplateTag;
+}();
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TemplateTag);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/TemplateTag.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/codeBlock/index.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/codeBlock/index.js ***!
+  \*****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _html__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../html */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/html/index.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaListsAnd/commaListsAnd.js":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaListsAnd/commaListsAnd.js ***!
+  \*****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stripIndentTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndentTransformer/index.js");
+/* harmony import */ var _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../inlineArrayTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+
+
+
+
+var commaListsAnd = new _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default((0,_inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_2__.default)({
+  separator: ',',
+  conjunction: 'and'
+}), _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__.default, _trimResultTransformer__WEBPACK_IMPORTED_MODULE_3__.default);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (commaListsAnd);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaListsAnd/index.js":
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaListsAnd/index.js ***!
+  \*********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _commaListsAnd__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _commaListsAnd__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./commaListsAnd */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaListsAnd/commaListsAnd.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaListsOr/commaListsOr.js":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaListsOr/commaListsOr.js ***!
+  \***************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stripIndentTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndentTransformer/index.js");
+/* harmony import */ var _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../inlineArrayTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+
+
+
+
+var commaListsOr = new _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default((0,_inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_2__.default)({
+  separator: ',',
+  conjunction: 'or'
+}), _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__.default, _trimResultTransformer__WEBPACK_IMPORTED_MODULE_3__.default);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (commaListsOr);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaListsOr/index.js":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaListsOr/index.js ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _commaListsOr__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _commaListsOr__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./commaListsOr */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaListsOr/commaListsOr.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaLists/commaLists.js":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaLists/commaLists.js ***!
+  \***********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stripIndentTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndentTransformer/index.js");
+/* harmony import */ var _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../inlineArrayTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+
+
+
+
+var commaLists = new _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default((0,_inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_2__.default)({
+  separator: ','
+}), _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__.default, _trimResultTransformer__WEBPACK_IMPORTED_MODULE_3__.default);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (commaLists);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaLists/index.js":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaLists/index.js ***!
+  \******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _commaLists__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _commaLists__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./commaLists */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaLists/commaLists.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/html/html.js":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/html/html.js ***!
+  \***********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stripIndentTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndentTransformer/index.js");
+/* harmony import */ var _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../inlineArrayTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+/* harmony import */ var _splitStringTransformer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../splitStringTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/splitStringTransformer/index.js");
+/* harmony import */ var _removeNonPrintingValuesTransformer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../removeNonPrintingValuesTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/removeNonPrintingValuesTransformer/index.js");
+
+
+
+
+
+
+var html = new _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default((0,_splitStringTransformer__WEBPACK_IMPORTED_MODULE_4__.default)('\n'), _removeNonPrintingValuesTransformer__WEBPACK_IMPORTED_MODULE_5__.default, _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_2__.default, _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__.default, _trimResultTransformer__WEBPACK_IMPORTED_MODULE_3__.default);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (html);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/html/index.js":
+/*!************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/html/index.js ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _html__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./html */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/html/html.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/index.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/index.js ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "TemplateTag": () => (/* reexport safe */ _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default),
+/* harmony export */   "trimResultTransformer": () => (/* reexport safe */ _trimResultTransformer__WEBPACK_IMPORTED_MODULE_1__.default),
+/* harmony export */   "stripIndentTransformer": () => (/* reexport safe */ _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_2__.default),
+/* harmony export */   "replaceResultTransformer": () => (/* reexport safe */ _replaceResultTransformer__WEBPACK_IMPORTED_MODULE_3__.default),
+/* harmony export */   "replaceSubstitutionTransformer": () => (/* reexport safe */ _replaceSubstitutionTransformer__WEBPACK_IMPORTED_MODULE_4__.default),
+/* harmony export */   "replaceStringTransformer": () => (/* reexport safe */ _replaceStringTransformer__WEBPACK_IMPORTED_MODULE_5__.default),
+/* harmony export */   "inlineArrayTransformer": () => (/* reexport safe */ _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_6__.default),
+/* harmony export */   "splitStringTransformer": () => (/* reexport safe */ _splitStringTransformer__WEBPACK_IMPORTED_MODULE_7__.default),
+/* harmony export */   "removeNonPrintingValuesTransformer": () => (/* reexport safe */ _removeNonPrintingValuesTransformer__WEBPACK_IMPORTED_MODULE_8__.default),
+/* harmony export */   "commaLists": () => (/* reexport safe */ _commaLists__WEBPACK_IMPORTED_MODULE_9__.default),
+/* harmony export */   "commaListsAnd": () => (/* reexport safe */ _commaListsAnd__WEBPACK_IMPORTED_MODULE_10__.default),
+/* harmony export */   "commaListsOr": () => (/* reexport safe */ _commaListsOr__WEBPACK_IMPORTED_MODULE_11__.default),
+/* harmony export */   "html": () => (/* reexport safe */ _html__WEBPACK_IMPORTED_MODULE_12__.default),
+/* harmony export */   "codeBlock": () => (/* reexport safe */ _codeBlock__WEBPACK_IMPORTED_MODULE_13__.default),
+/* harmony export */   "source": () => (/* reexport safe */ _source__WEBPACK_IMPORTED_MODULE_14__.default),
+/* harmony export */   "safeHtml": () => (/* reexport safe */ _safeHtml__WEBPACK_IMPORTED_MODULE_15__.default),
+/* harmony export */   "oneLine": () => (/* reexport safe */ _oneLine__WEBPACK_IMPORTED_MODULE_16__.default),
+/* harmony export */   "oneLineTrim": () => (/* reexport safe */ _oneLineTrim__WEBPACK_IMPORTED_MODULE_17__.default),
+/* harmony export */   "oneLineCommaLists": () => (/* reexport safe */ _oneLineCommaLists__WEBPACK_IMPORTED_MODULE_18__.default),
+/* harmony export */   "oneLineCommaListsOr": () => (/* reexport safe */ _oneLineCommaListsOr__WEBPACK_IMPORTED_MODULE_19__.default),
+/* harmony export */   "oneLineCommaListsAnd": () => (/* reexport safe */ _oneLineCommaListsAnd__WEBPACK_IMPORTED_MODULE_20__.default),
+/* harmony export */   "inlineLists": () => (/* reexport safe */ _inlineLists__WEBPACK_IMPORTED_MODULE_21__.default),
+/* harmony export */   "oneLineInlineLists": () => (/* reexport safe */ _oneLineInlineLists__WEBPACK_IMPORTED_MODULE_22__.default),
+/* harmony export */   "stripIndent": () => (/* reexport safe */ _stripIndent__WEBPACK_IMPORTED_MODULE_23__.default),
+/* harmony export */   "stripIndents": () => (/* reexport safe */ _stripIndents__WEBPACK_IMPORTED_MODULE_24__.default)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+/* harmony import */ var _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./stripIndentTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndentTransformer/index.js");
+/* harmony import */ var _replaceResultTransformer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./replaceResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceResultTransformer/index.js");
+/* harmony import */ var _replaceSubstitutionTransformer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./replaceSubstitutionTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceSubstitutionTransformer/index.js");
+/* harmony import */ var _replaceStringTransformer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./replaceStringTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceStringTransformer/index.js");
+/* harmony import */ var _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./inlineArrayTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/index.js");
+/* harmony import */ var _splitStringTransformer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./splitStringTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/splitStringTransformer/index.js");
+/* harmony import */ var _removeNonPrintingValuesTransformer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./removeNonPrintingValuesTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/removeNonPrintingValuesTransformer/index.js");
+/* harmony import */ var _commaLists__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./commaLists */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaLists/index.js");
+/* harmony import */ var _commaListsAnd__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./commaListsAnd */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaListsAnd/index.js");
+/* harmony import */ var _commaListsOr__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./commaListsOr */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/commaListsOr/index.js");
+/* harmony import */ var _html__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./html */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/html/index.js");
+/* harmony import */ var _codeBlock__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./codeBlock */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/codeBlock/index.js");
+/* harmony import */ var _source__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./source */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/source/index.js");
+/* harmony import */ var _safeHtml__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./safeHtml */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/safeHtml/index.js");
+/* harmony import */ var _oneLine__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./oneLine */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLine/index.js");
+/* harmony import */ var _oneLineTrim__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./oneLineTrim */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineTrim/index.js");
+/* harmony import */ var _oneLineCommaLists__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./oneLineCommaLists */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaLists/index.js");
+/* harmony import */ var _oneLineCommaListsOr__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./oneLineCommaListsOr */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaListsOr/index.js");
+/* harmony import */ var _oneLineCommaListsAnd__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./oneLineCommaListsAnd */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaListsAnd/index.js");
+/* harmony import */ var _inlineLists__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./inlineLists */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineLists/index.js");
+/* harmony import */ var _oneLineInlineLists__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./oneLineInlineLists */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineInlineLists/index.js");
+/* harmony import */ var _stripIndent__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./stripIndent */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndent/index.js");
+/* harmony import */ var _stripIndents__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./stripIndents */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndents/index.js");
+// core
+
+ // transformers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // tags
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/index.js":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/index.js ***!
+  \******************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./inlineArrayTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/inlineArrayTransformer.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/inlineArrayTransformer.js":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/inlineArrayTransformer.js ***!
+  \***********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var defaults = {
+  separator: '',
+  conjunction: '',
+  serial: false
+};
+/**
+ * Converts an array substitution to a string containing a list
+ * @param  {String} [opts.separator = ''] - the character that separates each item
+ * @param  {String} [opts.conjunction = '']  - replace the last separator with this
+ * @param  {Boolean} [opts.serial = false] - include the separator before the conjunction? (Oxford comma use-case)
+ *
+ * @return {Object}                     - a TemplateTag transformer
+ */
+
+var inlineArrayTransformer = function inlineArrayTransformer() {
+  var opts = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : defaults;
+  return {
+    onSubstitution: function onSubstitution(substitution, resultSoFar) {
+      // only operate on arrays
+      if (Array.isArray(substitution)) {
+        var arrayLength = substitution.length;
+        var separator = opts.separator;
+        var conjunction = opts.conjunction;
+        var serial = opts.serial; // join each item in the array into a string where each item is separated by separator
+        // be sure to maintain indentation
+
+        var indent = resultSoFar.match(/(\n?[^\S\n]+)$/);
+
+        if (indent) {
+          substitution = substitution.join(separator + indent[1]);
+        } else {
+          substitution = substitution.join(separator + ' ');
+        } // if conjunction is set, replace the last separator with conjunction, but only if there is more than one substitution
+
+
+        if (conjunction && arrayLength > 1) {
+          var separatorIndex = substitution.lastIndexOf(separator);
+          substitution = substitution.slice(0, separatorIndex) + (serial ? separator : '') + ' ' + conjunction + substitution.slice(separatorIndex + 1);
+        }
+      }
+
+      return substitution;
+    }
+  };
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (inlineArrayTransformer);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineLists/index.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineLists/index.js ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _inlineLists__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _inlineLists__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./inlineLists */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineLists/inlineLists.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineLists/inlineLists.js":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineLists/inlineLists.js ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stripIndentTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndentTransformer/index.js");
+/* harmony import */ var _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../inlineArrayTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+
+
+
+
+var inlineLists = new _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default(_inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_2__.default, _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__.default, _trimResultTransformer__WEBPACK_IMPORTED_MODULE_3__.default);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (inlineLists);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaListsAnd/index.js":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaListsAnd/index.js ***!
+  \****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _oneLineCommaListsAnd__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _oneLineCommaListsAnd__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./oneLineCommaListsAnd */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaListsAnd/oneLineCommaListsAnd.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaListsAnd/oneLineCommaListsAnd.js":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaListsAnd/oneLineCommaListsAnd.js ***!
+  \*******************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../inlineArrayTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+/* harmony import */ var _replaceResultTransformer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../replaceResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceResultTransformer/index.js");
+
+
+
+
+var oneLineCommaListsAnd = new _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default((0,_inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_1__.default)({
+  separator: ',',
+  conjunction: 'and'
+}), (0,_replaceResultTransformer__WEBPACK_IMPORTED_MODULE_3__.default)(/(?:\s+)/g, ' '), _trimResultTransformer__WEBPACK_IMPORTED_MODULE_2__.default);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (oneLineCommaListsAnd);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaListsOr/index.js":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaListsOr/index.js ***!
+  \***************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _oneLineCommaListsOr__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _oneLineCommaListsOr__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./oneLineCommaListsOr */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaListsOr/oneLineCommaListsOr.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaListsOr/oneLineCommaListsOr.js":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaListsOr/oneLineCommaListsOr.js ***!
+  \*****************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../inlineArrayTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+/* harmony import */ var _replaceResultTransformer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../replaceResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceResultTransformer/index.js");
+
+
+
+
+var oneLineCommaListsOr = new _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default((0,_inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_1__.default)({
+  separator: ',',
+  conjunction: 'or'
+}), (0,_replaceResultTransformer__WEBPACK_IMPORTED_MODULE_3__.default)(/(?:\s+)/g, ' '), _trimResultTransformer__WEBPACK_IMPORTED_MODULE_2__.default);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (oneLineCommaListsOr);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaLists/index.js":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaLists/index.js ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _oneLineCommaLists__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _oneLineCommaLists__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./oneLineCommaLists */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaLists/oneLineCommaLists.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaLists/oneLineCommaLists.js":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineCommaLists/oneLineCommaLists.js ***!
+  \*************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../inlineArrayTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+/* harmony import */ var _replaceResultTransformer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../replaceResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceResultTransformer/index.js");
+
+
+
+
+var oneLineCommaLists = new _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default((0,_inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_1__.default)({
+  separator: ','
+}), (0,_replaceResultTransformer__WEBPACK_IMPORTED_MODULE_3__.default)(/(?:\s+)/g, ' '), _trimResultTransformer__WEBPACK_IMPORTED_MODULE_2__.default);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (oneLineCommaLists);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineInlineLists/index.js":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineInlineLists/index.js ***!
+  \**************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _oneLineInlineLists__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _oneLineInlineLists__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./oneLineInlineLists */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineInlineLists/oneLineInlineLists.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineInlineLists/oneLineInlineLists.js":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineInlineLists/oneLineInlineLists.js ***!
+  \***************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../inlineArrayTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+/* harmony import */ var _replaceResultTransformer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../replaceResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceResultTransformer/index.js");
+
+
+
+
+var oneLineInlineLists = new _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default(_inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_1__.default, (0,_replaceResultTransformer__WEBPACK_IMPORTED_MODULE_3__.default)(/(?:\s+)/g, ' '), _trimResultTransformer__WEBPACK_IMPORTED_MODULE_2__.default);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (oneLineInlineLists);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineTrim/index.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineTrim/index.js ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _oneLineTrim__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _oneLineTrim__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./oneLineTrim */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineTrim/oneLineTrim.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineTrim/oneLineTrim.js":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLineTrim/oneLineTrim.js ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+/* harmony import */ var _replaceResultTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../replaceResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceResultTransformer/index.js");
+
+
+
+var oneLineTrim = new _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default((0,_replaceResultTransformer__WEBPACK_IMPORTED_MODULE_2__.default)(/(?:\n\s*)/g, ''), _trimResultTransformer__WEBPACK_IMPORTED_MODULE_1__.default);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (oneLineTrim);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLine/index.js":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLine/index.js ***!
+  \***************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _oneLine__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _oneLine__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./oneLine */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLine/oneLine.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLine/oneLine.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/oneLine/oneLine.js ***!
+  \*****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+/* harmony import */ var _replaceResultTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../replaceResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceResultTransformer/index.js");
+
+
+
+var oneLine = new _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default((0,_replaceResultTransformer__WEBPACK_IMPORTED_MODULE_2__.default)(/(?:\n(?:\s*))+/g, ' '), _trimResultTransformer__WEBPACK_IMPORTED_MODULE_1__.default);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (oneLine);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/removeNonPrintingValuesTransformer/index.js":
+/*!******************************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/removeNonPrintingValuesTransformer/index.js ***!
+  \******************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _removeNonPrintingValuesTransformer__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _removeNonPrintingValuesTransformer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./removeNonPrintingValuesTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/removeNonPrintingValuesTransformer/removeNonPrintingValuesTransformer.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/removeNonPrintingValuesTransformer/removeNonPrintingValuesTransformer.js":
+/*!***********************************************************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/removeNonPrintingValuesTransformer/removeNonPrintingValuesTransformer.js ***!
+  \***********************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var isValidValue = function isValidValue(x) {
+  return x != null && !Number.isNaN(x) && typeof x !== 'boolean';
+};
+
+var removeNonPrintingValuesTransformer = function removeNonPrintingValuesTransformer() {
+  return {
+    onSubstitution: function onSubstitution(substitution) {
+      if (Array.isArray(substitution)) {
+        return substitution.filter(isValidValue);
+      }
+
+      if (isValidValue(substitution)) {
+        return substitution;
+      }
+
+      return '';
+    }
+  };
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (removeNonPrintingValuesTransformer);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceResultTransformer/index.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceResultTransformer/index.js ***!
+  \********************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _replaceResultTransformer__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _replaceResultTransformer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./replaceResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceResultTransformer/replaceResultTransformer.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceResultTransformer/replaceResultTransformer.js":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceResultTransformer/replaceResultTransformer.js ***!
+  \***************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/**
+ * Replaces tabs, newlines and spaces with the chosen value when they occur in sequences
+ * @param  {(String|RegExp)} replaceWhat - the value or pattern that should be replaced
+ * @param  {*}               replaceWith - the replacement value
+ * @return {Object}                      - a TemplateTag transformer
+ */
+var replaceResultTransformer = function replaceResultTransformer(replaceWhat, replaceWith) {
+  return {
+    onEndResult: function onEndResult(endResult) {
+      if (replaceWhat == null || replaceWith == null) {
+        throw new Error('replaceResultTransformer requires at least 2 arguments.');
+      }
+
+      return endResult.replace(replaceWhat, replaceWith);
+    }
+  };
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (replaceResultTransformer);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceStringTransformer/index.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceStringTransformer/index.js ***!
+  \********************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _replaceStringTransformer__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _replaceStringTransformer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./replaceStringTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceStringTransformer/replaceStringTransformer.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceStringTransformer/replaceStringTransformer.js":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceStringTransformer/replaceStringTransformer.js ***!
+  \***************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var replaceStringTransformer = function replaceStringTransformer(replaceWhat, replaceWith) {
+  return {
+    onString: function onString(str) {
+      if (replaceWhat == null || replaceWith == null) {
+        throw new Error('replaceStringTransformer requires at least 2 arguments.');
+      }
+
+      return str.replace(replaceWhat, replaceWith);
+    }
+  };
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (replaceStringTransformer);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceSubstitutionTransformer/index.js":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceSubstitutionTransformer/index.js ***!
+  \**************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _replaceSubstitutionTransformer__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _replaceSubstitutionTransformer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./replaceSubstitutionTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceSubstitutionTransformer/replaceSubstitutionTransformer.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceSubstitutionTransformer/replaceSubstitutionTransformer.js":
+/*!***************************************************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceSubstitutionTransformer/replaceSubstitutionTransformer.js ***!
+  \***************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var replaceSubstitutionTransformer = function replaceSubstitutionTransformer(replaceWhat, replaceWith) {
+  return {
+    onSubstitution: function onSubstitution(substitution, resultSoFar) {
+      if (replaceWhat == null || replaceWith == null) {
+        throw new Error('replaceSubstitutionTransformer requires at least 2 arguments.');
+      } // Do not touch if null or undefined
+
+
+      if (substitution == null) {
+        return substitution;
+      } else {
+        return substitution.toString().replace(replaceWhat, replaceWith);
+      }
+    }
+  };
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (replaceSubstitutionTransformer);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/safeHtml/index.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/safeHtml/index.js ***!
+  \****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _safeHtml__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _safeHtml__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./safeHtml */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/safeHtml/safeHtml.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/safeHtml/safeHtml.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/safeHtml/safeHtml.js ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stripIndentTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndentTransformer/index.js");
+/* harmony import */ var _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../inlineArrayTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/inlineArrayTransformer/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+/* harmony import */ var _splitStringTransformer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../splitStringTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/splitStringTransformer/index.js");
+/* harmony import */ var _replaceSubstitutionTransformer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../replaceSubstitutionTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/replaceSubstitutionTransformer/index.js");
+
+
+
+
+
+
+var safeHtml = new _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default((0,_splitStringTransformer__WEBPACK_IMPORTED_MODULE_4__.default)('\n'), _inlineArrayTransformer__WEBPACK_IMPORTED_MODULE_2__.default, _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__.default, _trimResultTransformer__WEBPACK_IMPORTED_MODULE_3__.default, (0,_replaceSubstitutionTransformer__WEBPACK_IMPORTED_MODULE_5__.default)(/&/g, '&amp;'), (0,_replaceSubstitutionTransformer__WEBPACK_IMPORTED_MODULE_5__.default)(/</g, '&lt;'), (0,_replaceSubstitutionTransformer__WEBPACK_IMPORTED_MODULE_5__.default)(/>/g, '&gt;'), (0,_replaceSubstitutionTransformer__WEBPACK_IMPORTED_MODULE_5__.default)(/"/g, '&quot;'), (0,_replaceSubstitutionTransformer__WEBPACK_IMPORTED_MODULE_5__.default)(/'/g, '&#x27;'), (0,_replaceSubstitutionTransformer__WEBPACK_IMPORTED_MODULE_5__.default)(/`/g, '&#x60;'));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (safeHtml);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/source/index.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/source/index.js ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _html__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../html */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/html/index.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/splitStringTransformer/index.js":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/splitStringTransformer/index.js ***!
+  \******************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _splitStringTransformer__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _splitStringTransformer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./splitStringTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/splitStringTransformer/splitStringTransformer.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/splitStringTransformer/splitStringTransformer.js":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/splitStringTransformer/splitStringTransformer.js ***!
+  \***********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var splitStringTransformer = function splitStringTransformer(splitBy) {
+  return {
+    onSubstitution: function onSubstitution(substitution, resultSoFar) {
+      if (splitBy != null && typeof splitBy === 'string') {
+        if (typeof substitution === 'string' && substitution.includes(splitBy)) {
+          substitution = substitution.split(splitBy);
+        }
+      } else {
+        throw new Error('You need to specify a string character to split by.');
+      }
+
+      return substitution;
+    }
+  };
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (splitStringTransformer);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndentTransformer/index.js":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndentTransformer/index.js ***!
+  \******************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./stripIndentTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndentTransformer/stripIndentTransformer.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndentTransformer/stripIndentTransformer.js":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndentTransformer/stripIndentTransformer.js ***!
+  \***********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+function _toConsumableArray(arr) {
+  if (Array.isArray(arr)) {
+    for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) {
+      arr2[i] = arr[i];
+    }
+
+    return arr2;
+  } else {
+    return Array.from(arr);
+  }
+}
+/**
+ * strips indentation from a template literal
+ * @param  {String} type = 'initial' - whether to remove all indentation or just leading indentation. can be 'all' or 'initial'
+ * @return {Object}                  - a TemplateTag transformer
+ */
+
+
+var stripIndentTransformer = function stripIndentTransformer() {
+  var type = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'initial';
+  return {
+    onEndResult: function onEndResult(endResult) {
+      if (type === 'initial') {
+        // remove the shortest leading indentation from each line
+        var match = endResult.match(/^[^\S\n]*(?=\S)/gm);
+        var indent = match && Math.min.apply(Math, _toConsumableArray(match.map(function (el) {
+          return el.length;
+        })));
+
+        if (indent) {
+          var regexp = new RegExp('^.{' + indent + '}', 'gm');
+          return endResult.replace(regexp, '');
+        }
+
+        return endResult;
+      }
+
+      if (type === 'all') {
+        // remove all indentation from each line
+        return endResult.replace(/^[^\S\n]+/gm, '');
+      }
+
+      throw new Error('Unknown type: ' + type);
+    }
+  };
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (stripIndentTransformer);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndent/index.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndent/index.js ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _stripIndent__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _stripIndent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./stripIndent */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndent/stripIndent.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndent/stripIndent.js":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndent/stripIndent.js ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stripIndentTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndentTransformer/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+
+
+
+var stripIndent = new _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default(_stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__.default, _trimResultTransformer__WEBPACK_IMPORTED_MODULE_2__.default);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (stripIndent);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndents/index.js":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndents/index.js ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _stripIndents__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _stripIndents__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./stripIndents */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndents/stripIndents.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndents/stripIndents.js":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndents/stripIndents.js ***!
+  \***************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TemplateTag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../TemplateTag */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/TemplateTag/index.js");
+/* harmony import */ var _stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stripIndentTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/stripIndentTransformer/index.js");
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js");
+
+
+
+var stripIndents = new _TemplateTag__WEBPACK_IMPORTED_MODULE_0__.default((0,_stripIndentTransformer__WEBPACK_IMPORTED_MODULE_1__.default)('all'), _trimResultTransformer__WEBPACK_IMPORTED_MODULE_2__.default);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (stripIndents);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/index.js ***!
+  \*****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _trimResultTransformer__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _trimResultTransformer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./trimResultTransformer */ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/trimResultTransformer.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/trimResultTransformer.js":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-image/node_modules/common-tags/es/trimResultTransformer/trimResultTransformer.js ***!
+  \*********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/**
+ * TemplateTag transformer that trims whitespace on the end result of a tagged template
+ * @param  {String} side = '' - The side of the string to trim. Can be 'start' or 'end' (alternatively 'left' or 'right')
+ * @return {Object}           - a TemplateTag transformer
+ */
+var trimResultTransformer = function trimResultTransformer() {
+  var side = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  return {
+    onEndResult: function onEndResult(endResult) {
+      if (side === '') {
+        return endResult.trim();
+      }
+
+      side = side.toLowerCase();
+
+      if (side === 'start' || side === 'left') {
+        return endResult.replace(/^\s*/, '');
+      }
+
+      if (side === 'end' || side === 'right') {
+        return endResult.replace(/\s*$/, '');
+      }
+
+      throw new Error('Side not supported: ' + side);
+    }
+  };
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (trimResultTransformer);
+
+/***/ }),
+
 /***/ "./node_modules/gatsby-plugin-layout/gatsby-ssr.js":
 /*!*********************************************************!*\
   !*** ./node_modules/gatsby-plugin-layout/gatsby-ssr.js ***!
@@ -3768,65 +5533,90 @@ exports.onRenderBody = onRenderBody;
 
 /***/ }),
 
-/***/ "./src/components/Cookies/Cookies.js":
-/*!*******************************************!*\
-  !*** ./src/components/Cookies/Cookies.js ***!
-  \*******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/gatsby-plugin-sitemap/gatsby-ssr.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/gatsby-plugin-sitemap/gatsby-ssr.js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Cookies_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Cookies.scss */ "./src/components/Cookies/Cookies.scss");
-/* harmony import */ var _Cookies_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Cookies_scss__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _images_cookies_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../images/cookies.png */ "./src/images/cookies.png");
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 
 
+var React = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
 
+var _gatsby = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 
+var _path = __webpack_require__(/*! path */ "path");
 
-class Cookies extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
-  constructor(...args) {
-    super(...args);
-    this.state = {
-      showCookies: true
-    };
-
-    this.setCookies = () => {
-      localStorage.setItem('Cookies', 'true');
-      this.setState({
-        showCookies: false
-      });
-    };
-  }
-
-  render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      className: "cookies",
-      style: {
-        display: this.state.showCookies ? 'flex' : 'none'
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      className: "cookies__text"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-      src: _images_cookies_png__WEBPACK_IMPORTED_MODULE_2__.default,
-      alt: "cookies"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Ta strona u\u017Cywa plik\xF3w Cookies. Je\u015Bli b\u0119dziesz kontynuowa\u0107 przegl\u0105danie tej witryny, za\u0142o\u017Cymy, \u017Ce akceptujesz", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__.Link, {
-      to: "/privacy-policy"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nobr", null, " polityk\u0119 prywatno\u015Bci i cookies.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-      className: "button cookies__button",
-      onClick: this.setCookies
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nobr", null, "TAK, AKCEPTUJ\u0118")));
-  }
-
+function _getRequireWildcardCache(nodeInterop) {
+  if (typeof WeakMap !== "function") return null;
+  var cacheBabelInterop = new WeakMap();
+  var cacheNodeInterop = new WeakMap();
+  return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) {
+    return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
+  })(nodeInterop);
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Cookies);
+function _interopRequireWildcard(obj, nodeInterop) {
+  if (!nodeInterop && obj && obj.__esModule) {
+    return obj;
+  }
+
+  if (obj === null || typeof obj !== "object" && typeof obj !== "function") {
+    return {
+      default: obj
+    };
+  }
+
+  var cache = _getRequireWildcardCache(nodeInterop);
+
+  if (cache && cache.has(obj)) {
+    return cache.get(obj);
+  }
+
+  var newObj = {};
+  var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+
+  for (var key in obj) {
+    if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+      var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+
+      if (desc && (desc.get || desc.set)) {
+        Object.defineProperty(newObj, key, desc);
+      } else {
+        newObj[key] = obj[key];
+      }
+    }
+  }
+
+  newObj.default = obj;
+
+  if (cache) {
+    cache.set(obj, newObj);
+  }
+
+  return newObj;
+} // TODO: Remove for v3 - Fix janky path/asset prefixing
+
+
+var withPrefix = _gatsby.withAssetPrefix || _gatsby.withPrefix;
+
+exports.onRenderBody = function (_ref, pluginOptions) {
+  var setHeadComponents = _ref.setHeadComponents;
+  var output = pluginOptions.output,
+      createLinkInHead = pluginOptions.createLinkInHead;
+
+  if (!createLinkInHead) {
+    return;
+  }
+
+  setHeadComponents([/*#__PURE__*/React.createElement("link", {
+    key: "gatsby-plugin-sitemap",
+    rel: "sitemap",
+    type: "application/xml",
+    href: withPrefix(_path.posix.join(output, "/sitemap-index.xml"))
+  })]);
+};
 
 /***/ }),
 
@@ -3844,6 +5634,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _iconscout_react_unicons_icons_uil_phone_alt__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @iconscout/react-unicons/icons/uil-phone-alt */ "./node_modules/@iconscout/react-unicons/icons/uil-phone-alt.js");
+/* harmony import */ var _iconscout_react_unicons_icons_uil_envelope_alt__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @iconscout/react-unicons/icons/uil-envelope-alt */ "./node_modules/@iconscout/react-unicons/icons/uil-envelope-alt.js");
+/* harmony import */ var _iconscout_react_unicons_icons_uil_linkedin__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @iconscout/react-unicons/icons/uil-linkedin */ "./node_modules/@iconscout/react-unicons/icons/uil-linkedin.js");
+
+
+
 
 
 
@@ -3858,19 +5654,22 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().c
   className: "social-media"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "mailto:grzesiak.amadeusz@gmail.com",
-  className: "social-link"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-  className: "uil uil-envelope-alt"
+  className: "social-link",
+  "aria-label": "email"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_iconscout_react_unicons_icons_uil_envelope_alt__WEBPACK_IMPORTED_MODULE_2__.default, {
+  size: "16"
 }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "tel:+48796536228",
-  className: "social-link"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-  className: "uil uil-phone-alt"
+  className: "social-link",
+  "aria-label": "phone"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_iconscout_react_unicons_icons_uil_phone_alt__WEBPACK_IMPORTED_MODULE_3__.default, {
+  size: "16"
 }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "https://www.linkedin.com/in/amadeusz-grzesiak-78ab61160",
-  className: "social-link"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-  className: "uil uil-linkedin-alt"
+  className: "social-link",
+  "aria-label": "linkedin"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_iconscout_react_unicons_icons_uil_linkedin__WEBPACK_IMPORTED_MODULE_4__.default, {
+  size: "16"
 }))))));
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
@@ -3939,6 +5738,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 /* harmony import */ var _LanguageMenu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../LanguageMenu */ "./src/components/LanguageMenu.js");
+/* harmony import */ var _iconscout_react_unicons_icons_uil_moon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @iconscout/react-unicons/icons/uil-moon */ "./node_modules/@iconscout/react-unicons/icons/uil-moon.js");
+/* harmony import */ var _iconscout_react_unicons_icons_uil_sun__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @iconscout/react-unicons/icons/uil-sun */ "./node_modules/@iconscout/react-unicons/icons/uil-sun.js");
+
+
 
 
 
@@ -4025,10 +5828,14 @@ const Menu = () => {
     to: "/#kontakt",
     activeClassName: "active",
     onClick: closeHamburgerMenu
-  }, "Kontakt"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-    className: `uil ${isDark ? 'uil-sun' : 'uil-moon'} toggle-btn`,
+  }, "Kontakt"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "toggle-btn",
     onClick: () => changeTheme()
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_LanguageMenu__WEBPACK_IMPORTED_MODULE_2__.default, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, isDark ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_iconscout_react_unicons_icons_uil_sun__WEBPACK_IMPORTED_MODULE_3__.default, {
+    size: 17
+  }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_iconscout_react_unicons_icons_uil_moon__WEBPACK_IMPORTED_MODULE_4__.default, {
+    size: 17
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_LanguageMenu__WEBPACK_IMPORTED_MODULE_2__.default, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "hamburger",
     onClick: toggleHamburgerMenu
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -4058,7 +5865,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _i18n_withTrans__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../i18n/withTrans */ "./src/i18n/withTrans.js");
 /* harmony import */ var _Menu_Menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Menu/Menu */ "./src/components/Menu/Menu.js");
 /* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer/Footer */ "./src/components/Footer/Footer.js");
-/* harmony import */ var _components_Cookies_Cookies__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Cookies/Cookies */ "./src/components/Cookies/Cookies.js");
+/* harmony import */ var _components_Cookies_Cookies__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Cookies/Cookies */ "./src/components/Cookies/Cookies.tsx");
 
 
 
@@ -4070,19 +5877,31 @@ const Layout = ({
   t
 }) => {
   const {
-    0: cookies,
-    1: setCookies
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true);
+    0: showCookies,
+    1: setShowCookies
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    setCookies({
-      cookies: localStorage.getItem('Cookies')
-    });
+    setShowCookies(localStorage.getItem('Cookies') === 'accepted' ? false : true);
   }, []);
+
+  const hideCookies = () => {
+    setShowCookies(false);
+    localStorage.setItem('Cookies', 'accepted');
+  };
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "layout"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Menu_Menu__WEBPACK_IMPORTED_MODULE_2__.default, null), children, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "test"
-  }, t(`site.footer`)), cookies ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Cookies_Cookies__WEBPACK_IMPORTED_MODULE_4__.default, null));
+  }, t(`site.footer`)), showCookies && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Cookies_Cookies__WEBPACK_IMPORTED_MODULE_4__.default, {
+    hideCookies: hideCookies
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("link", {
+    as: "style",
+    rel: "stylesheet preload prefetch",
+    href: "https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;500;600;700;800&display=swap",
+    type: "text/css",
+    crossOrigin: "anonymous"
+  }));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,_i18n_withTrans__WEBPACK_IMPORTED_MODULE_1__.withTrans)(Layout));
@@ -4121,7 +5940,7 @@ i18next__WEBPACK_IMPORTED_MODULE_0__.default.init({
 
   },
   react: {
-    wait: true
+    useSuspense: true
   }
 });
 i18next__WEBPACK_IMPORTED_MODULE_0__.default.languages = ['pl', 'en'];
@@ -12978,16 +14797,6 @@ function mitt(all                 ) {
 
 /***/ }),
 
-/***/ "./src/components/Cookies/Cookies.scss":
-/*!*********************************************!*\
-  !*** ./src/components/Cookies/Cookies.scss ***!
-  \*********************************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
 /***/ "./node_modules/object-assign/index.js":
 /*!*********************************************!*\
   !*** ./node_modules/object-assign/index.js ***!
@@ -15799,7 +17608,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABWCAYAAABcvcGNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE+mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0ZURhdGU9IjIwMjAtMDMtMDNUMTI6NTA6NTErMDE6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDIwLTAzLTAzVDEyOjUzOjU1KzAxOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIwLTAzLTAzVDEyOjUzOjU1KzAxOjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjQ0MWIyMWQ4LWFjYmQtNGZmZS04MzAyLWEyY2EwMTY3NDBiZCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0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");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABWCAYAAABcvcGNAAAG7GlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS41LjAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICAgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIgogICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iCiAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iCiAgICB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIKICAgIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiCiAgICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyIKICAgZGM6Zm9ybWF0PSJpbWFnZS9wbmciCiAgIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiCiAgIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIKICAgdGlmZjpJbWFnZUxlbmd0aD0iODYiCiAgIHRpZmY6SW1hZ2VXaWR0aD0iODIiCiAgIHRpZmY6UmVzb2x1dGlvblVuaXQ9IjIiCiAgIHRpZmY6WFJlc29sdXRpb249IjcyLjAiCiAgIHRpZmY6WVJlc29sdXRpb249IjcyLjAiCiAgIHhtcDpDcmVhdGVEYXRlPSIyMDIwLTAzLTAzVDEyOjUwOjUxKzAxOjAwIgogICB4bXA6TWV0YWRhdGFEYXRlPSIyMDIyLTA0LTI4VDEwOjA1OjU0KzAyOjAwIgogICB4bXA6TW9kaWZ5RGF0ZT0iMjAyMi0wNC0yOFQxMDowNTo1NCswMjowMCIKICAgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0NDFiMjFkOC1hY2JkLTRmZmUtODMwMi1hMmNhMDE2NzQwYmQiCiAgIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDQxYjIxZDgtYWNiZC00ZmZlLTgzMDItYTJjYTAxNjc0MGJkIgogICB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6NDQxYjIxZDgtYWNiZC00ZmZlLTgzMDItYTJjYTAxNjc0MGJkIgogICBleGlmOlBpeGVsWERpbWVuc2lvbj0iODIiCiAgIGV4aWY6UGl4ZWxZRGltZW5zaW9uPSI4NiIKICAgZXhpZjpDb2xvclNwYWNlPSIxIj4KICAgPHhtcE1NOkhpc3Rvcnk+CiAgICA8cmRmOlNlcT4KICAgICA8cmRmOmxpCiAgICAgIHhtcE1NOmFjdGlvbj0ic2F2ZWQiCiAgICAgIHhtcE1NOmNoYW5nZWQ9Ii8iCiAgICAgIHhtcE1NOmluc3RhbmNlSUQ9InhtcC5paWQ6NDQxYjIxZDgtYWNiZC00ZmZlLTgzMDItYTJjYTAxNjc0MGJkIgogICAgICB4bXBNTTpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoTWFjaW50b3NoKSIKICAgICAgeG1wTU06d2hlbj0iMjAyMC0wMy0wM1QxMjo1Mzo1NSswMTowMCIvPgogICAgIDxyZGY6bGkKICAgICAgc3RFdnQ6YWN0aW9uPSJwcm9kdWNlZCIKICAgICAgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWZmaW5pdHkgUGhvdG8gMS44LjAiCiAgICAgIHN0RXZ0OndoZW49IjIwMjItMDQtMjhUMTA6MDU6NTQrMDI6MDAiLz4KICAgIDwvcmRmOlNlcT4KICAgPC94bXBNTTpIaXN0b3J5PgogIDwvcmRmOkRlc2NyaXB0aW9uPgogPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KPD94cGFj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");
 
 /***/ }),
 

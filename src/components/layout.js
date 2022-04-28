@@ -23,6 +23,13 @@ const Layout = ({ children, t }) => {
       <Footer />
       <div className="test">{t(`site.footer`)}</div>
       {showCookies && <Cookies hideCookies={hideCookies} />}
+      <link
+        as="style"
+        rel="stylesheet preload prefetch"
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        type="text/css"
+        crossOrigin="anonymous"
+      />
     </div>
   );
 };
