@@ -15,76 +15,56 @@ import photoshop from '../../images/photoshop.png';
 import figma from '../../images/figma.png';
 
 const Skills = () => (
-  <section className="section-skills" id="section-skills">
-    <div className="skills-box">
-      <div className="skills-top-square" />
-      <div className="skills-bottom-square" />
-      <div className="skills-desc">
-        <h2>
-          Najnowsze
-          <br />
-          technologie
-        </h2>
-        <p>
-          Moje projekty tworzone są w oparciu o najnowsze technologie webowe. Stale rozwijam
-          wachlarz umiejętności poprzez nowe wyzwania oraz kursy.
-        </p>
-      </div>
-
-      <div className="skills">
-        <div className="all-skills">
-          <div className="skill-container">
-            <img className="skill-image" src={javascript} alt="javascript" />
-            <p className="skill-text">javascript</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={html5} alt="html" />
-            <p className="skill-text">html 5</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={css3} alt="css" />
-            <p className="skill-text">css 3</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={styledcomponents} alt="styled components" />
-            <p className="skill-text">styled components</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={reactjs} alt="react" />
-            <p className="skill-text">react js</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={typescript} alt="typescript" />
-            <p className="skill-text">typescript</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={graphql} alt="graphql" />
-            <p className="skill-text">graphql</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={sass} alt="sass" />
-            <p className="skill-text">sass</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={gatsbyjs} alt="gatsbyjs" />
-            <p className="skill-text">gatsby js</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={wordpress} alt="wordpress" />
-            <p className="skill-text">wordpress</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={photoshop} alt="photoshop" />
-            <p className="skill-text">photoshop</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={figma} alt="figma" />
-            <p className="skill-text">figma</p>
-          </div>
-        </div>
-      </div>
+  <div className="all-skills">
+    <div className="skill-container">
+      <img className="skill-image" src={javascript} alt="javascript" />
+      {/* <p className="skill-text">javascript</p> */}
     </div>
-  </section>
+    <div className="skill-container">
+      <img className="skill-image" src={html5} alt="html" />
+      {/* <p className="skill-text">html 5</p> */}
+    </div>
+    <div className="skill-container">
+      <img className="skill-image" src={css3} alt="css" />
+      {/* <p className="skill-text">css 3</p> */}
+    </div>
+    <div className="skill-container">
+      <img className="skill-image" src={styledcomponents} alt="styled components" />
+      {/* <p className="skill-text">styled components</p> */}
+    </div>
+    <div className="skill-container">
+      <img className="skill-image" src={reactjs} alt="react" />
+      {/* <p className="skill-text">react js</p> */}
+    </div>
+    <div className="skill-container">
+      <img className="skill-image" src={typescript} alt="typescript" />
+      {/* <p className="skill-text">typescript</p> */}
+    </div>
+    <div className="skill-container">
+      <img className="skill-image" src={graphql} alt="graphql" />
+      {/* <p className="skill-text">graphql</p> */}
+    </div>
+    <div className="skill-container">
+      <img className="skill-image" src={sass} alt="sass" />
+      {/* <p className="skill-text">sass</p> */}
+    </div>
+    <div className="skill-container">
+      <img className="skill-image" src={gatsbyjs} alt="gatsbyjs" />
+      {/* <p className="skill-text">gatsby js</p> */}
+    </div>
+    <div className="skill-container">
+      <img className="skill-image" src={wordpress} alt="wordpress" />
+      {/* <p className="skill-text">wordpress</p> */}
+    </div>
+    <div className="skill-container">
+      <img className="skill-image" src={photoshop} alt="photoshop" />
+      {/* <p className="skill-text">photoshop</p> */}
+    </div>
+    <div className="skill-container">
+      <img className="skill-image" src={figma} alt="figma" />
+      {/* <p className="skill-text">figma</p> */}
+    </div>
+  </div>
 );
 
 export default Skills;

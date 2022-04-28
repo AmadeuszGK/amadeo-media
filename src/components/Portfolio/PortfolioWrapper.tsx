@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PortfolioList from './PortfolioList/PortfolioList';
 import PortfolioNav from './PortfolioNav/PortfolioNav';
 
-export type portfolioItemTypes = "default" | "website" | "store";
+export type portfolioItemTypes = 'default' | 'website' | 'store';
 
 export const PortfolioWrapper = () => {
   const [filter, setFilter] = useState<portfolioItemTypes>('default');

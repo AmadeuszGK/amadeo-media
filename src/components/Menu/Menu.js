@@ -4,6 +4,7 @@ import LanguageMenu from '../LanguageMenu';
 
 const Menu = () => {
   const [headerClassName, setHeaderClassName] = useState(null);
+  const [isDark, setIsDark] = useState(false);
 
   const stickNavbar = () => {
     setHeaderClassName(window.pageYOffset > 0 ? 'scrolled' : null);
@@ -27,6 +28,23 @@ const Menu = () => {
     document.body.classList.toggle('stopScrolling');
   };
 
+  useEffect(() => {
+    localStorage.getItem('dark') && setIsDark(localStorage.getItem('dark') === '1' ? true : false);
+    localStorage.getItem('dark') === '1' ? document.body.classList.add('dark') : document.body.classList.remove('dark');
+  }, []);
+
+  const changeTheme = () => {
+    if (!isDark) {
+      document.body.classList.add('dark');
+      localStorage.setItem('dark', '1');
+      setIsDark(true);
+    } else if (isDark) {
+      document.body.classList.remove('dark');
+      localStorage.setItem('dark', '0');
+      setIsDark(false);
+    }
+  };
+
   return (
     <header className={headerClassName}>
       <nav className="container">
@@ -41,30 +59,28 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <Link className="nav-link" to="/#section__offer" activeClassName="active" onClick={closeHamburgerMenu}>
-                Oferta
-              </Link>
-            </li>
-            <li>
-              <Link className="nav-link" to="/portfolio" activeClassName="active" onClick={closeHamburgerMenu}>
-                Portfolio
-              </Link>
-            </li>
-            <li>
-              <Link className="nav-link" to="/about-us" activeClassName="active" onClick={closeHamburgerMenu}>
+              <Link className="nav-link" to="/o-mnie" activeClassName="active" onClick={closeHamburgerMenu}>
                 O mnie
               </Link>
             </li>
             <li>
-              <Link className="nav-link" to="/contact" activeClassName="active" onClick={closeHamburgerMenu}>
+              <Link className="nav-link" to="/#oferta" activeClassName="active" onClick={closeHamburgerMenu}>
+                Oferta
+              </Link>
+            </li>
+            <li>
+              <Link className="nav-link" to="/#portfolio" activeClassName="active" onClick={closeHamburgerMenu}>
+                Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link className="nav-link" to="/#kontakt" activeClassName="active" onClick={closeHamburgerMenu}>
                 Kontakt
               </Link>
             </li>
           </ul>
-          <i className="uil uil-moon toggle-btn"></i>
-          <i className="uil uil-moon toggle-btn">
-            <LanguageMenu />
-          </i>
+          <i className={`uil ${isDark ? 'uil-sun' : 'uil-moon'} toggle-btn`} onClick={() => changeTheme()}></i>
+          <LanguageMenu />
         </div>
         <div className="hamburger" onClick={toggleHamburgerMenu}>
           <div className="bar"></div>

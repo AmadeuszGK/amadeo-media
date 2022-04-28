@@ -18,12 +18,12 @@ const Header = () => (
         <h1 className="heading">Nowoczesne strony i sklepy internetowe</h1>
         <p className="text">Nowa jakość w tworzeniu internetowej treści. Zróbmy coś razem!</p>
         <div className="cta">
-          <Link className="btn" to="/portfolio" activeClassName="active">
+          <Link className="btn" to="/#portfolio" activeClassName="active">
             Portfolio
           </Link>
-          <a href="mailto:markusraik@mail.com" className="btn secondary-btn">
+          <Link to="/#kontakt" className="btn secondary-btn">
             Skontaktuj się ze mną
-          </a>
+          </Link>
         </div>
       </div>
       <div className="showcase-image">

@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header/Header';
 import ClientsHome from '../components/Home/ClientsHome/ClientsHome';
 import ContactHome from '../components/Home/ContactHome/ContactHome';
+import AboutHome from '../components/Home/AboutHome/AboutHome';
 
 import OfferHome from '../components/Home/OfferHome/OfferHome';
 import { PortfolioWrapper } from '../components/Portfolio/PortfolioWrapper';
@@ -33,6 +34,7 @@ const Home = () => {
         <html lang="pl-PL" />
       </Helmet>
       <Header />
+      <AboutHome />
       <OfferHome />
       <PortfolioWrapper />
       <ClientsHome />

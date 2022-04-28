@@ -4,12 +4,11 @@ import { portfolioItemTypes } from '../PortfolioWrapper';
 type PortfolioNavProps = {
   filter: portfolioItemTypes;
   setFilter: (filter: portfolioItemTypes) => void;
-}
+};
 
-export const PortfolioNav:React.FC<PortfolioNavProps> = ({ filter, setFilter }) => {
+export const PortfolioNav: React.FC<PortfolioNavProps> = ({ filter, setFilter }) => {
   return (
     <div className="filter-btns">
-      {console.log('filter', filter)}
       <button
         className={filter === 'default' ? 'filter-btn mixitup-control-active' : 'filter-btn'}
         onClick={() => setFilter('default')}
