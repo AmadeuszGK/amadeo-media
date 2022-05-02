@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Amadeo Media - Strony internetowe, sklepy E-commerce, grafika`,
-    url: `https://amadeomedia.com`,
+    siteUrl: `https://amadeomedia.com`,
     description: `Zajmujemy się tworzeniem stron internetowych, sklepów (e-commerce), grafiką i nie tylko, sprawdź co mamy w ofercie! Stwórzmy coś razem.`,
     author: `Amadeusz Grzesiak`,
     lang: `PL-pl`,
@@ -9,6 +9,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: `${__dirname}/src/components/layout.js`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -26,8 +32,6 @@ module.exports = {
         display: 'swap',
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -44,6 +48,26 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-158204739-1',
+      },
+    },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-preact`,
+    `gatsby-transformer-sharp`, // Needed for dynamic images
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.amadeomedia.com',
+        sitemap: 'https://www.amadeomedia.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
       },
     },
   ],

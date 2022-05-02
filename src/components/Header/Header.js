@@ -1,36 +1,63 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import arrowsWhite from '../../images/arrows-white.svg';
-import MenuDesktop from '../Menu/MenuDesktop/MenuDesktop';
-import './Header.scss';
-import ButtonLink from '../Button/ButtonLink';
-import headerImg from '../../images/amadeusz-pic-1.png';
+import { StaticImage } from 'gatsby-plugin-image';
+import { withTrans } from '../../i18n/withTrans';
 
 if (typeof window !== 'undefined') {
   require('smooth-scroll')('a[href*="#"]');
 }
 
-const Header = () => (
-  <header>
-    <MenuDesktop />
-
-    <div className="canvas__container">
-      <div className="header__bg--bottom">
-        <img src={headerImg} alt="header img" />
-      </div>
-      <div className="canvas-text">
-        <p>Nowa jakość w tworzeniu internetowej treści.</p>
-        {/* <h2>{headerText}</h2> */}
-        <h1>NOWOCZESNE STRONY I SKLEPY INTERNETOWE</h1>
-        <ButtonLink text="PORTFOLIO" href="/portfolio" class="button button--alert" />
-      </div>
-      <Link className="scroll-down" to="/#section__offer">
-        <div className="scroll-down__container">
-          <img src={arrowsWhite} alt="arrow" />
+const Header = ({ t }) => (
+  <section className="showcase-area" id="home">
+    <StaticImage
+      src="../../images/square1.png"
+      alt="square shape"
+      width={70}
+      placeholder="blurred"
+      layout="constrained"
+      className="shape square"
+    />
+    <div className="container">
+      <div className="showcase-info">
+        <h3 className="sub-heading">Amadeusz Grzesiak</h3>
+        <h1 className="heading">{t(`header.bigTitle`)}</h1>
+        <p className="text">{t(`header.text`)}</p>
+        <div className="cta">
+          <Link className="btn" to="/#portfolio" activeClassName="active">
+            {t(`header.portfolio`)}
+          </Link>
+          <Link to="/#kontakt" className="btn secondary-btn">
+            {t(`header.contactMe`)}
+          </Link>
         </div>
-      </Link>
+      </div>
+      <div className="showcase-image">
+        <StaticImage
+          src="../../images/amadeusz-pic-1.png"
+          alt="laptop"
+          placeholder="blurred"
+          layout="fullWidth"
+          className="person"
+        />
+        <StaticImage
+          src="../../images/circle1.png"
+          alt="circle shape"
+          width={190}
+          placeholder="blurred"
+          layout="constrained"
+          className="shape circle"
+        />
+        <StaticImage
+          src="../../images/dots.png"
+          alt="dots shape"
+          width={112}
+          placeholder="blurred"
+          layout="constrained"
+          className="shape dots"
+        />
+      </div>
     </div>
-  </header>
+  </section>
 );
 
-export default Header;
+export default withTrans(Header);

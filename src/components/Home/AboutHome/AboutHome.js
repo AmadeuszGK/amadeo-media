@@ -1,45 +1,77 @@
 import React from 'react';
-import './AboutHome.scss';
+import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
+import { withTrans } from '../../../i18n/withTrans';
 
-class AboutHome extends React.Component {
-  render() {
-    return (
-      <section className="section__about" id="section__about">
-        <div className="about">
-          <div className="about__text">
-            <div className="about__header">
-              <div className="flat-line" />
-              <p className="flat-line__text">O MNIE</p>
-            </div>
-
-            <h1>Amadeo Media</h1>
-
-            <p>
-              Cześć, jestem młodym,
-              <br />
-              kreatywnym programistą,
-              <br />
-              Stwórzmy coś razem!
-            </p>
-
-            <a href="/oferta" rel="noopener noreferrer">
-              OFERTA
-            </a>
-
-            <div className="typing-box">
-              <p>Dumny ze współpracy z&nbsp;&nbsp;</p>
-              <div className="word" />
-            </div>
-          </div>
-
-          <div className="about__images">
-            <div className="about__image" />
-            <div className="about__box" />
-          </div>
+const AboutHome = ({ t }) => (
+  <section className="about section" id="o-mnie">
+    <StaticImage
+      src="../../../images/triangle.png"
+      alt="triangle shape"
+      width={95}
+      placeholder="blurred"
+      layout="constrained"
+      className="shape triangle"
+    />
+    <div className="container">
+      <div className="about-grid">
+        <div className="about-card">
+          <StaticImage
+            src="../../../images/icon-about1.jpg"
+            alt="Pricing"
+            width={60}
+            placeholder="blurred"
+            layout="constrained"
+            className="icon"
+          />
+          <span>{t(`aboutHome.imageTitle1`)}</span>
         </div>
-      </section>
-    );
-  }
-}
+        <div className="about-card">
+          <StaticImage
+            src="../../../images/icon-about2.jpg"
+            alt="Graphic design"
+            width={60}
+            placeholder="blurred"
+            layout="constrained"
+            className="icon"
+          />
+          <span>{t(`aboutHome.imageTitle2`)}</span>
+        </div>
+        <div className="about-card">
+          <StaticImage
+            src="../../../images/icon-about4.jpg"
+            alt="Testing"
+            width={60}
+            placeholder="blurred"
+            layout="constrained"
+            className="icon"
+          />
+          <span>{t(`aboutHome.imageTitle4`)}</span>
+        </div>
+        <div className="about-card">
+          <StaticImage
+            src="../../../images/icon-about3.jpg"
+            alt="Programming"
+            width={60}
+            placeholder="blurred"
+            layout="constrained"
+            className="icon"
+          />
+          <span>{t(`aboutHome.imageTitle3`)}</span>
+        </div>
+      </div>
+      <div className="about-info">
+        <h3 className="sub-heading">{t(`aboutHome.smallTitle`)}</h3>
+        <h2 className="heading">{t(`aboutHome.bigTitle`)}</h2>
+        <p className="text">{t(`aboutHome.text`)}</p>
+        <div className="cta">
+          <Link to="/o-mnie" className="btn">
+            {t(`aboutHome.more`)}
+          </Link>
+        </div>
+      </div>
+    </div>
+  </section>
+);
 
-export default AboutHome;
+export default withTrans(AboutHome);

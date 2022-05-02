@@ -1,59 +1,38 @@
 import React from 'react';
-import './ContactForm.scss';
-import ButtonSend from '../Button/Button';
 import { Link } from 'gatsby';
+import { withTrans } from '../../i18n/withTrans';
 
-const ContactForm = () => (
-  <div className="contact__formWrapper">
-    <form
-      action="/success"
-      className="contact__form"
-      name="contact"
-      method="POST"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-    >
-      <p>
-        Skontaktuj się z <b className="bold">Amadeo Media</b>
+const ContactForm = ({ t }) => (
+  <form
+    action="/success"
+    className="contact-form"
+    name="contact"
+    method="POST"
+    data-netlify="true"
+    data-netlify-honeypot="bot-field"
+  >
+    <h3>
+      {t(`contact.formTitle`)}
+      <b className="bold">Amadeo Media</b>
+    </h3>
+    <input type="hidden" name="form-name" value="contact" />
+    <p hidden>
+      <label>
+        Don’t fill this out: <input name="bot-field" />
+      </label>
+    </p>
+    <input name="name" type="text" className="form-input" placeholder={t(`contact.formName`)} />
+    <input name="telefon" type="text" className="form-input" placeholder={t(`contact.formTelephone`)} />
+    <input type="email" name="email" className="form-input" placeholder="E-mail" />
+    <textarea className="form-input" placeholder={t(`contact.formMessage`)} type="text" name="message" />
+    <div className="checbox--wrapper">
+      <p className="privacy-policy">
+        {t(`contact.formText`)}
+        <Link to="/polityka-prywatnosci"> {t(`contact.formPrivacy`)}</Link>
       </p>
-      <input type="hidden" name="form-name" value="contact" />
-      <p hidden>
-        <label>
-          Don’t fill this out: <input name="bot-field" />
-        </label>
-      </p>
-      <input name="name" type="text" className="form__input form__input--name" placeholder="Imię" />
-      <input
-        name="telefon"
-        type="text"
-        className="form__input form__input--mobile"
-        placeholder="Telefon"
-      />
-      <input
-        type="email"
-        name="email"
-        className="form__input form__input--email"
-        placeholder="E-mail"
-      />
-      <textarea
-        className="form__input form__input--message"
-        placeholder="Wiadomość..."
-        type="text"
-        name="message"
-      />
-      <div className="checbox--wrapper">
-        {/* <input className="checkbox" type="checkbox" /> */}
-        <p className="privacy-policy">
-          Administratorem Twoich danych osobowych jest Amadeo Media z siedzibą w Lubaniu. Twoje dane
-          osobowe będą przetwarzane w celu obsługi Twojego zapytania w ramach formularza
-          kontaktowego, a także w celach statystycznych i analitycznych administratora. Więcej
-          informacji na temat przetwarzania danych osobowych znajduje się w mojej
-          <Link to="/privacy-policy">polityce prywatności.</Link>
-        </p>
-      </div>
-      <ButtonSend type="submit" class="button--alert button--send" text="WYŚLIJ" />
-    </form>
-  </div>
+    </div>
+    <input type="submit" value={t(`contact.formButton`)} className="btn send-btn"></input>
+  </form>
 );
 
-export default ContactForm;
+export default withTrans(ContactForm);

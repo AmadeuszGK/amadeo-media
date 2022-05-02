@@ -1,90 +1,130 @@
 import React from 'react';
 import './Skills.scss';
-
-import javascript from '../../images/javascript.png';
-import html5 from '../../images/html5.png';
-import css3 from '../../images/css3.png';
-import styledcomponents from '../../images/styled-components.png';
-import reactjs from '../../images/reactjs.png';
-import graphql from '../../images/graphql.png';
-import sass from '../../images/sass.png';
-import gatsbyjs from '../../images/gatsbyjs.svg';
-import typescript from '../../images/typescript.png';
-import wordpress from '../../images/wordpress.png';
-import photoshop from '../../images/photoshop.png';
-import figma from '../../images/figma.png';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const Skills = () => (
-  <section className="section-skills" id="section-skills">
-    <div className="skills-box">
-      <div className="skills-top-square" />
-      <div className="skills-bottom-square" />
-      <div className="skills-desc">
-        <h2>
-          Najnowsze
-          <br />
-          technologie
-        </h2>
-        <p>
-          Moje projekty tworzone są w oparciu o najnowsze technologie webowe. Stale rozwijam
-          wachlarz umiejętności poprzez nowe wyzwania oraz kursy.
-        </p>
-      </div>
-
-      <div className="skills">
-        <div className="all-skills">
-          <div className="skill-container">
-            <img className="skill-image" src={javascript} alt="javascript" />
-            <p className="skill-text">javascript</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={html5} alt="html" />
-            <p className="skill-text">html 5</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={css3} alt="css" />
-            <p className="skill-text">css 3</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={styledcomponents} alt="styled components" />
-            <p className="skill-text">styled components</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={reactjs} alt="react" />
-            <p className="skill-text">react js</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={typescript} alt="typescript" />
-            <p className="skill-text">typescript</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={graphql} alt="graphql" />
-            <p className="skill-text">graphql</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={sass} alt="sass" />
-            <p className="skill-text">sass</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={gatsbyjs} alt="gatsbyjs" />
-            <p className="skill-text">gatsby js</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={wordpress} alt="wordpress" />
-            <p className="skill-text">wordpress</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={photoshop} alt="photoshop" />
-            <p className="skill-text">photoshop</p>
-          </div>
-          <div className="skill-container">
-            <img className="skill-image" src={figma} alt="figma" />
-            <p className="skill-text">figma</p>
-          </div>
-        </div>
-      </div>
+  <div className="all-skills">
+    <div className="skill-container">
+      <StaticImage
+        src="../../images/javascript.png"
+        alt="javascript"
+        width={60}
+        placeholder="blurred"
+        layout="constrained"
+        className="skill-image"
+      />
     </div>
-  </section>
+    <div className="skill-container">
+      <StaticImage
+        src="../../images/html5.png"
+        alt="html"
+        width={60}
+        placeholder="blurred"
+        layout="constrained"
+        className="skill-image"
+      />
+    </div>
+    <div className="skill-container">
+      <StaticImage
+        src="../../images/css3.png"
+        alt="css"
+        width={60}
+        placeholder="blurred"
+        layout="constrained"
+        className="skill-image"
+      />
+    </div>
+    <div className="skill-container">
+      <StaticImage
+        src="../../images/styled-components.png"
+        alt="styled components"
+        width={60}
+        placeholder="blurred"
+        layout="constrained"
+        className="skill-image"
+      />
+    </div>
+    <div className="skill-container">
+      <StaticImage
+        src="../../images/reactjs.png"
+        alt="react js"
+        width={60}
+        placeholder="blurred"
+        layout="constrained"
+        className="skill-image"
+      />
+    </div>
+    <div className="skill-container">
+      <StaticImage
+        src="../../images/typescript.png"
+        alt="typescript"
+        width={60}
+        placeholder="blurred"
+        layout="constrained"
+        className="skill-image"
+      />
+    </div>
+    <div className="skill-container">
+      <StaticImage
+        src="../../images/graphql.png"
+        alt="graphql"
+        width={60}
+        placeholder="blurred"
+        layout="constrained"
+        className="skill-image"
+      />
+    </div>
+    <div className="skill-container">
+      <StaticImage
+        src="../../images/sass.png"
+        alt="sass"
+        width={60}
+        placeholder="blurred"
+        layout="constrained"
+        className="skill-image"
+      />
+    </div>
+    <div className="skill-container">
+      <StaticImage
+        src="../../images/gatsbyjs.png"
+        alt="gatsby js"
+        width={60}
+        placeholder="blurred"
+        layout="constrained"
+        className="skill-image"
+      />
+    </div>
+    <div className="skill-container">
+      <StaticImage
+        src="../../images/wordpress.png"
+        alt="wordpress"
+        width={60}
+        placeholder="blurred"
+        layout="constrained"
+        className="skill-image"
+      />
+    </div>
+    <div className="skill-container">
+      <StaticImage
+        src="../../images/photoshop.png"
+        alt="photoshop"
+        width={60}
+        placeholder="blurred"
+        layout="constrained"
+        className="skill-image"
+      />
+    </div>
+    <div className="skill-container">
+      <StaticImage
+        src="../../images/figma.png"
+        alt="figma"
+        width={60}
+        placeholder="blurred"
+        layout="constrained"
+        className="skill-image"
+      />
+    </div>
+  </div>
 );
 
 export default Skills;

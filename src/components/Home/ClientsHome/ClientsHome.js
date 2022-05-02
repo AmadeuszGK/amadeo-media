@@ -1,100 +1,117 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import wolnosci14Logo from '../../../images/wolnosci14-logo.png';
-import chiarashopLogo from '../../../images/chiarashop-logo.png';
-import inleiLogo from '../../../images/inlei-logo.png';
-import goodsideLogo from '../../../images/goodside-logo.png';
-import quadrigaLogo from '../../../images/quadriga-logo.png';
-import databoutLogo from '../../../images/databout-logo.png';
-import mkprestigeLogo from '../../../images/mkprestige-logo.svg';
-import promaticLogo from '../../../images/promatic-logo.png';
-import quadrigaBusinessLogo from '../../../images/quadrigaBusiness-logo.png';
-import jmaLogo from '../../../images/jma-logo.png';
-import SectionTop from '../../SectionTop/SectionTop';
-import './ClientsHome.scss';
+import { StaticImage } from 'gatsby-plugin-image';
+import { withTrans } from '../../../i18n/withTrans';
 
-const topText = (
-  <p style={{ color: '#fff' }}>
-    Współpracowałem z firmami z Polski, Niemiec, Angli i Włoch. Dołącz do grona zadowolonych
-    klientów. Aby objerzeć co dla nich przygotowałem, przejdź do podstrony Portfolio, lub kliknij{' '}
-    <Link to="/portfolio">tutaj.</Link>{' '}
-  </p>
-);
-const bigHeader = <h2>Zadowoleni klienci</h2>;
-const smallHeader = 'WSPÓŁPRACA';
-
-const ClientsHome = () => {
-  const clientsItems = [
-    {
-      logo: databoutLogo,
-      alt: 'databout logo',
-      key: 'databoutLogo',
-    },
-    {
-      logo: wolnosci14Logo,
-      alt: 'wolnosci 14',
-      key: 'wolnosci14Logo',
-    },
-    {
-      logo: chiarashopLogo,
-      alt: 'chiarashop',
-      key: 'chiarashopLogo',
-    },
-    {
-      logo: inleiLogo,
-      alt: 'inlei',
-      key: 'inleiLogo',
-    },
-    {
-      logo: goodsideLogo,
-      alt: 'goodside',
-      key: 'goodsideLogo',
-    },
-    {
-      logo: quadrigaLogo,
-      alt: 'quadriga one',
-      key: 'quadrigaLogo',
-    },
-    {
-      logo: mkprestigeLogo,
-      alt: 'mk prestige',
-      key: 'mk prestie',
-    },
-    {
-      logo: promaticLogo,
-      alt: 'qrent',
-      key: 'qrentLogo',
-    },
-    {
-      logo: quadrigaBusinessLogo,
-      alt: 'quadriga business',
-      key: 'quadriga business',
-    },
-    {
-      logo: jmaLogo,
-      alt: 'jma expert',
-      key: 'jmaLogo',
-      last: true,
-    },
-  ];
-
+const ClientsHome = ({ t }) => {
   return (
-    <section className="section__clients" id="section__clients">
-      <div className="clients__container">
-        <div className="clients__wrapper">
-          <SectionTop
-            smallHeader={smallHeader}
-            bigHeader={bigHeader}
-            paragraph={topText}
-            colorWhite
+    <section className="testimonials section">
+      <div className="container">
+        <div className="section-background">
+          <div className="testimonials-title">
+            <h3 className="sub-heading">{t(`clients.smallTitle`)}</h3>
+            <h2 className="heading">{t(`clients.bigTitle`)}</h2>
+          </div>
+          <StaticImage
+            src="../../../images/circle2.png"
+            alt="circle shape"
+            width={170}
+            placeholder="blurred"
+            layout="constrained"
+            className="circle"
           />
-
-          <div className="clients__items">
-            {clientsItems.map(item => (
-              <div className="clients__item" id={item.last && 'client__item--last'} key={item.key}>
-                <img src={item.logo} alt={item.alt} />
+          <StaticImage
+            src="../../../images/square1.png"
+            alt="square shape"
+            width={70}
+            placeholder="blurred"
+            layout="constrained"
+            className="square"
+          />
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/databout-logo.png"
+              alt="databout logo"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/wolnosci14-logo.png"
+              alt="wolnosci 14"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/chiarashop-logo.png"
+              alt="chiarashop"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+          <div className="clients__item">
+            <StaticImage src="../../../images/inlei-logo.png" alt="inlei" width={80} placeholder="blurred" layout="constrained" />
+          </div>
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/goodside-logo.png"
+              alt="goodside"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/quadriga-logo.png"
+              alt="quadriga"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/mkprestige-logo.svg"
+              alt="mkprestige"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/promatic-logo.png"
+              alt="promatic"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+          <div className="clients__item">
+            <StaticImage
+              src="../../../images/secretpleasure-logo.svg"
+              alt="secret pleasure"
+              width={80}
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </div>
+        </div>
+        <div className="swiper">
+          <div className="swiper-wrapper">
+            <div className="swiper-slide">
+              <div className="testimonials-title">
+                <h3 className="sub-heading">{t(`clients.smallTitle`)}</h3>
+                <h2 className="heading">{t(`clients.bigTitle`)}</h2>
               </div>
-            ))}
+              <p className="text">{t(`clients.text`)}</p>
+            </div>
           </div>
         </div>
       </div>
@@ -102,4 +119,4 @@ const ClientsHome = () => {
   );
 };
 
-export default ClientsHome;
+export default withTrans(ClientsHome);

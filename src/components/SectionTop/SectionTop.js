@@ -1,5 +1,4 @@
 import React from 'react';
-import './SectionTop.scss';
 
 export const SectionTop = ({ smallHeader, bigHeader, paragraph, colorWhite }) => {
   return (
