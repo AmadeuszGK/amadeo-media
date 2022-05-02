@@ -3,8 +3,9 @@ import { Link } from 'gatsby';
 import LanguageMenu from '../LanguageMenu';
 import UilMoon from '@iconscout/react-unicons/icons/uil-moon';
 import UilSun from '@iconscout/react-unicons/icons/uil-sun';
+import { withTrans } from '../../i18n/withTrans';
 
-const Menu = () => {
+const Menu = ({ t }) => {
   const [headerClassName, setHeaderClassName] = useState(null);
   const [isDark, setIsDark] = useState(false);
 
@@ -57,27 +58,27 @@ const Menu = () => {
           <ul>
             <li>
               <Link className="nav-link" to="/" activeClassName="active" onClick={closeHamburgerMenu}>
-                Strona główna
+                {t(`menu.home`)}
               </Link>
             </li>
             <li>
               <Link className="nav-link" to="/o-mnie" activeClassName="active" onClick={closeHamburgerMenu}>
-                O mnie
+                {t(`menu.about`)}
               </Link>
             </li>
             <li>
               <Link className="nav-link" to="/#oferta" activeClassName="active" onClick={closeHamburgerMenu}>
-                Oferta
+                {t(`menu.offer`)}
               </Link>
             </li>
             <li>
               <Link className="nav-link" to="/#portfolio" activeClassName="active" onClick={closeHamburgerMenu}>
-                Portfolio
+                {t(`menu.portfolio`)}
               </Link>
             </li>
             <li>
               <Link className="nav-link" to="/#kontakt" activeClassName="active" onClick={closeHamburgerMenu}>
-                Kontakt
+                {t(`menu.contact`)}
               </Link>
             </li>
           </ul>
@@ -95,4 +96,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default withTrans(Menu);

@@ -1,14 +1,15 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import { withTrans } from '../../../i18n/withTrans';
 
-const ClientsHome = () => {
+const ClientsHome = ({ t }) => {
   return (
     <section className="testimonials section">
       <div className="container">
         <div className="section-background">
           <div className="testimonials-title">
-            <h3 className="sub-heading">Współpraca</h3>
-            <h2 className="heading">Zadowoleni klienci</h2>
+            <h3 className="sub-heading">{t(`clients.smallTitle`)}</h3>
+            <h2 className="heading">{t(`clients.bigTitle`)}</h2>
           </div>
           <StaticImage
             src="../../../images/circle2.png"
@@ -106,13 +107,10 @@ const ClientsHome = () => {
           <div className="swiper-wrapper">
             <div className="swiper-slide">
               <div className="testimonials-title">
-                <h3 className="sub-heading">Współpraca</h3>
-                <h2 className="heading">Zadowoleni klienci</h2>
+                <h3 className="sub-heading">{t(`clients.smallTitle`)}</h3>
+                <h2 className="heading">{t(`clients.bigTitle`)}</h2>
               </div>
-              <p className="text">
-                Współpracowałem z firmami z Polski, Niemiec, Angli i Włoch. Dołącz do grona zadowolonych klientów. Aby objerzeć co
-                dla nich przygotowałem, przejdź do podstrony Portfolio, lub kliknij tutaj.
-              </p>
+              <p className="text">{t(`clients.text`)}</p>
             </div>
           </div>
         </div>
@@ -121,4 +119,4 @@ const ClientsHome = () => {
   );
 };
 
-export default ClientsHome;
+export default withTrans(ClientsHome);

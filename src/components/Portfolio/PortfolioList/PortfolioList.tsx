@@ -1,6 +1,7 @@
 import React from 'react';
 import { portfolioItemTypes } from '../PortfolioWrapper';
 import { StaticImage } from 'gatsby-plugin-image';
+import UilLink from '@iconscout/react-unicons/icons/uil-link';
 
 type PortfolioListProps = {
   filter: portfolioItemTypes;
@@ -24,7 +25,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -43,7 +44,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -62,7 +63,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -81,7 +82,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -100,7 +101,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -119,7 +120,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -138,7 +139,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -157,7 +158,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -176,7 +177,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -200,7 +201,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -219,7 +220,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -238,7 +239,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -257,7 +258,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -276,7 +277,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -300,7 +301,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -319,7 +320,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -338,7 +339,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>
@@ -357,7 +358,7 @@ const PortfolioList: React.FC<PortfolioListProps> = ({ filter }) => {
               />
               <div className="prt-overlay">
                 <div className="prt-icon">
-                  <i className="uil uil-link"></i>
+                  <UilLink size="16" />
                 </div>
               </div>
             </div>

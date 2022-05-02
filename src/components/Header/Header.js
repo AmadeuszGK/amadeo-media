@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
+import { withTrans } from '../../i18n/withTrans';
 
 if (typeof window !== 'undefined') {
   require('smooth-scroll')('a[href*="#"]');
 }
 
-const Header = ({ data }) => (
+const Header = ({ t }) => (
   <section className="showcase-area" id="home">
     <StaticImage
       src="../../images/square1.png"
@@ -19,21 +20,20 @@ const Header = ({ data }) => (
     <div className="container">
       <div className="showcase-info">
         <h3 className="sub-heading">Amadeusz Grzesiak</h3>
-        <h1 className="heading">Nowoczesne strony i sklepy internetowe</h1>
-        <p className="text">Nowa jakość w tworzeniu internetowej treści. Zróbmy coś razem!</p>
+        <h1 className="heading">{t(`header.bigTitle`)}</h1>
+        <p className="text">{t(`header.text`)}</p>
         <div className="cta">
           <Link className="btn" to="/#portfolio" activeClassName="active">
-            Portfolio
+            {t(`header.portfolio`)}
           </Link>
           <Link to="/#kontakt" className="btn secondary-btn">
-            Skontaktuj się ze mną
+            {t(`header.contactMe`)}
           </Link>
         </div>
       </div>
       <div className="showcase-image">
         <StaticImage
           src="../../images/amadeusz-pic-1.png"
-          width={522}
           alt="laptop"
           placeholder="blurred"
           layout="fullWidth"
@@ -60,4 +60,4 @@ const Header = ({ data }) => (
   </section>
 );
 
-export default Header;
+export default withTrans(Header);

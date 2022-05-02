@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import PortfolioList from './PortfolioList/PortfolioList';
 import PortfolioNav from './PortfolioNav/PortfolioNav';
-
+import { withTrans } from '../../i18n/withTrans';
 export type portfolioItemTypes = 'default' | 'website' | 'store';
 
-export const PortfolioWrapper = () => {
+const PortfolioWrapper = ({ t }) => {
   const [filter, setFilter] = useState<portfolioItemTypes>('default');
 
   return (
@@ -12,8 +12,8 @@ export const PortfolioWrapper = () => {
       <div className="container">
         <div className="portfolio-header">
           <div className="portfolio-title">
-            <h3 className="sub-heading">Ostatnie projkekty</h3>
-            <h2 className="heading">Portfolio</h2>
+            <h3 className="sub-heading">{t(`portfolio.smallTitle`)}</h3>
+            <h2 className="heading">{t(`portfolio.bigTitle`)}</h2>
           </div>
           <PortfolioNav filter={filter} setFilter={setFilter} />
         </div>
@@ -24,3 +24,5 @@ export const PortfolioWrapper = () => {
     </section>
   );
 };
+
+export default withTrans(PortfolioWrapper);

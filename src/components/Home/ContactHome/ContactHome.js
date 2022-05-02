@@ -1,11 +1,12 @@
 import React from 'react';
 import ContactForm from '../../ContactForm/ContactForm';
 import { StaticImage } from 'gatsby-plugin-image';
+import { withTrans } from '../../../i18n/withTrans';
 
-const ContactHome = () => (
+const ContactHome = ({ t }) => (
   <section className="contact section" id="kontakt">
     <StaticImage
-      src="../../images/triangle.png"
+      src="../../../images/triangle.png"
       alt="triangle shape"
       width={95}
       placeholder="blurred"
@@ -22,12 +23,9 @@ const ContactHome = () => (
         className="shape square"
       />
       <div className="contact-info">
-        <h3 className="sub-heading">Kontakt</h3>
-        <h2 className="heading">Nawiążmy współpracę</h2>
-        <p className="text">
-          Chciałbyś skorzystać z moich usług? Masz jakieś pytania? Nie czekaj, napisz maila lub zadzwoń! Konsultacje oraz wyceny
-          są u mnie zawsze za darmo.
-        </p>
+        <h3 className="sub-heading">{t(`contact.smallTitle`)}</h3>
+        <h2 className="heading">{t(`contact.bigTitle`)}</h2>
+        <p className="text">{t(`contact.text`)}</p>
         <div className="contact-links">
           <a href="mailto:grzesiak.amadeusz@gmail.com" className="mail">
             E-mail: grzesiak.amadeusz@gmail.com
@@ -45,4 +43,4 @@ const ContactHome = () => (
   </section>
 );
 
-export default ContactHome;
+export default withTrans(ContactHome);

@@ -1,34 +1,36 @@
 import React from 'react';
 import { portfolioItemTypes } from '../PortfolioWrapper';
+import { withTrans } from '../../../i18n/withTrans';
 
 type PortfolioNavProps = {
   filter: portfolioItemTypes;
   setFilter: (filter: portfolioItemTypes) => void;
+  t: any;
 };
 
-export const PortfolioNav: React.FC<PortfolioNavProps> = ({ filter, setFilter }) => {
+const PortfolioNav: React.FC<PortfolioNavProps> = ({ filter, setFilter, t }) => {
   return (
     <div className="filter-btns">
       <button
         className={filter === 'default' ? 'filter-btn mixitup-control-active' : 'filter-btn'}
         onClick={() => setFilter('default')}
       >
-        WSZYSTKO
+        {t(`portfolio.all`)}
       </button>
       <button
         className={filter === 'website' ? 'filter-btn mixitup-control-active' : 'filter-btn'}
         onClick={() => setFilter('website')}
       >
-        STRONY WWW
+        {t(`portfolio.websites`)}
       </button>
       <button
         className={filter === 'store' ? 'filter-btn mixitup-control-active' : 'filter-btn'}
         onClick={() => setFilter('store')}
       >
-        SKLEPY
+        {t(`portfolio.onlineStores`)}
       </button>
     </div>
   );
 };
 
-export default PortfolioNav;
+export default withTrans(PortfolioNav);

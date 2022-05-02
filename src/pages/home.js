@@ -3,9 +3,8 @@ import Header from '../components/Header/Header';
 import ClientsHome from '../components/Home/ClientsHome/ClientsHome';
 import ContactHome from '../components/Home/ContactHome/ContactHome';
 import AboutHome from '../components/Home/AboutHome/AboutHome';
-
 import OfferHome from '../components/Home/OfferHome/OfferHome';
-import { PortfolioWrapper } from '../components/Portfolio/PortfolioWrapper';
+import PortfolioWrapper from '../components/Portfolio/PortfolioWrapper';
 import '../styles/style.css';
 import 'animate.css/animate.min.css';
 import Helmet from 'react-helmet';

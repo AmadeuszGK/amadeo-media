@@ -2,50 +2,10 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Skills from '../Skills/Skills';
 import { StaticImage } from 'gatsby-plugin-image';
+import { withTrans } from '../../i18n/withTrans';
 
-const AboutUs = () => (
+const AboutUs = ({ t }) => (
   <>
-    {/* <div className="about-item--nobg">
-      <div className="top-text about-item__desc about-item__desc--left">
-        <div className="top__header">
-          <div className="flat-line" />
-          <h2>Kilka słów o mnie</h2>
-        </div>
-        <h2 className="about-big-title">O mnie</h2>
-        <p className="about-item__about">
-          Nazywam się Amadeusz Grzesiak, jestem front-end developerem związanym obecnie z wrocławską
-          firmą consultingową Databout. Po skończonych studiach na Politechnice Wrocławskiej w 2017
-          roku pierwsze doświadczenie zdobywałem u jednego z liderów branży gamblingowej w Polsce -
-          firmie Promatic. Pracowałem wtedy przy platformie do prezentacji gier, stronach
-          reklamujących produkt oraz grach online, których twarzami były osoby takie jak Mariusz
-          Pudzianowski, czy Zenek Martyniuk. Dziś spełniam się jako front-end developer tworząc
-          narzędzie do analiz terenu - Databout Tools.
-        </p>
-        <div className="desc__variant">
-          <h3>Zaufanie</h3>
-          <p>
-            Bliska relacja, otwarty dialog i przejrzysty cennik to moje credo. Wzajemne zrozumienie
-            i wspólne określenie celów to gwarancja sukcesu. Stale poszukuję najlepszych rozwiązań i
-            nie boję się nieszablonowych pomysłów. Nie satysfakcjonuje mnie przeciętność, tego
-            samego chcę dla moich Klientów.
-          </p>
-        </div>
-        <div className="about-item__portfolio-container">
-          <div className="about-item__portfolio">
-            <div className="what__specification__btn__icon p-event-none">
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-              <span className="p-event-none" />
-            </div>
-            <Link to="/portfolio">Zobacz projekty jakie wykonłem</Link>
-          </div>
-        </div>
-      </div>
-      <div className="top-text about-item__image">
-        <img src={offerItem2} alt="amadeo" />
-      </div>
-    </div> */}
     <section className="showcase-area" id="home">
       <StaticImage
         src="../../images/square1.png"
@@ -59,13 +19,13 @@ const AboutUs = () => (
         <div className="showcase-info">
           <h3 className="sub-heading">Front-end Developer</h3>
           <h1 className="heading">Amadeusz Grzesiak</h1>
-          <p className="text">Nowa jakość w tworzeniu internetowej treści. Zróbmy coś razem!</p>
+          <p className="text">{t(`aboutMe.text1`)}</p>
           <div className="cta">
             <Link className="btn" to="/#oferta" activeClassName="active">
-              Oferta
+              {t(`aboutMe.button1`)}
             </Link>
-            <Link href="/#kontakt" className="btn secondary-btn">
-              Skontaktuj się ze mną
+            <Link to="/#kontakt" className="btn secondary-btn">
+              {t(`aboutMe.button2`)}
             </Link>
           </div>
         </div>
@@ -108,22 +68,10 @@ const AboutUs = () => (
       />
       <div className="container">
         <div className="about-me">
-          <h3 className="sub-heading">Moja historia</h3>
-          <h2 className="heading">Doświadczenie</h2>
-          <p className="text">
-            Nazywam się Amadeusz Grzesiak, jestem front-end developerem związanym obecnie z wrocławską firmą consultingową
-            Databout. Po skończonych studiach na Politechnice Wrocławskiej w 2017 roku pierwsze doświadczenie zdobywałem u jednego
-            z liderów branży gamblingowej w Polsce - firmie Promatic. Pracowałem wtedy przy platformie do prezentacji gier,
-            stronach reklamujących produkt oraz grach online, których twarzami były osoby takie jak Mariusz Pudzianowski, czy
-            Zenek Martyniuk. Dziś spełniam się jako front-end developer tworząc narzędzie do analiz terenu - Databout Tools.
-          </p>
-          <p className="text">
-            Nazywam się Amadeusz Grzesiak, jestem front-end developerem związanym obecnie z wrocławską firmą consultingową
-            Databout. Po skończonych studiach na Politechnice Wrocławskiej w 2017 roku pierwsze doświadczenie zdobywałem u jednego
-            z liderów branży gamblingowej w Polsce - firmie Promatic. Pracowałem wtedy przy platformie do prezentacji gier,
-            stronach reklamujących produkt oraz grach online, których twarzami były osoby takie jak Mariusz Pudzianowski, czy
-            Zenek Martyniuk. Dziś spełniam się jako front-end developer tworząc narzędzie do analiz terenu - Databout Tools.
-          </p>
+          <h3 className="sub-heading">{t(`aboutMe.smallTitle2`)}</h3>
+          <h2 className="heading">{t(`aboutMe.bigTitle2`)}</h2>
+          <p className="text">{t(`aboutMe.text2`)}</p>
+          <p className="text">{t(`aboutMe.text3`)}</p>
         </div>
       </div>
     </section>
@@ -131,13 +79,10 @@ const AboutUs = () => (
       <div className="container">
         <div className="skills-box">
           <div className="box-heading">
-            <h3 className="sub-heading">Umiejętności</h3>
-            <h2 className="heading">Najnowsze technologie</h2>
+            <h3 className="sub-heading">{t(`aboutMe.smallTitle3`)}</h3>
+            <h2 className="heading">{t(`aboutMe.bigTitle3`)}</h2>
             <div className="box-desc">
-              <p className="text">
-                Moje projekty tworzone są w oparciu o najnowsze technologie webowe. Stale rozwijam wachlarz umiejętności poprzez
-                nowe wyzwania oraz kursy.
-              </p>
+              <p className="text">{t(`aboutMe.text4`)}</p>
             </div>
           </div>
           <div className="skills-wrap"></div>
@@ -164,4 +109,4 @@ const AboutUs = () => (
   </>
 );
 
-export default AboutUs;
+export default withTrans(AboutUs);

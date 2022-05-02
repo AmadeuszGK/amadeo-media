@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { withTrans } from '../i18n/withTrans';
 import Menu from './Menu/Menu';
 import Footer from '../components/Footer/Footer';
 import Cookies from '../components/Cookies/Cookies';
 
-const Layout = ({ children, t }) => {
+const Layout = ({ children }) => {
   const [showCookies, setShowCookies] = useState(false);
 
   useEffect(() => {
@@ -21,7 +20,6 @@ const Layout = ({ children, t }) => {
       <Menu />
       {children}
       <Footer />
-      <div className="test">{t(`site.footer`)}</div>
       {showCookies && <Cookies hideCookies={hideCookies} />}
       <link
         as="style"
@@ -34,4 +32,4 @@ const Layout = ({ children, t }) => {
   );
 };
 
-export default withTrans(Layout);
+export default Layout;
