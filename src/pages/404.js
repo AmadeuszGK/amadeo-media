@@ -21,6 +21,7 @@ const NotFoundPage = () => (
     </Helmet>
     <div class="full-page" bis_skin_checked="1">
       <h2 class="heading">Błąd 404</h2>
+      <p className="text">Ta strona nie istnieje.</p>
       <div class="cta" bis_skin_checked="1">
         <Link className="btn" to="/">
           Powrót

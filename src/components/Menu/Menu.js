@@ -9,6 +9,11 @@ const Menu = ({ t }) => {
   const [headerClassName, setHeaderClassName] = useState(null);
   const [isDark, setIsDark] = useState(false);
 
+  // const isBrowser = () => typeof window !== 'undefined';
+  // if (!isBrowser) {
+  //   return;
+  // }
+
   const stickNavbar = () => {
     setHeaderClassName(window.pageYOffset > 0 ? 'scrolled' : null);
   };
