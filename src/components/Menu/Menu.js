@@ -14,44 +14,44 @@ const Menu = ({ t }) => {
   //   return;
   // }
 
-  const stickNavbar = () => {
-    setHeaderClassName(window.pageYOffset > 0 ? 'scrolled' : null);
-  };
+  // const stickNavbar = () => {
+  //   setHeaderClassName(window.pageYOffset > 0 ? 'scrolled' : null);
+  // };
 
-  useEffect(() => {
-    window.addEventListener('scroll', stickNavbar);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', stickNavbar);
 
-    return () => {
-      window.removeEventListener('scroll', stickNavbar);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', stickNavbar);
+  //   };
+  // }, []);
 
-  const closeHamburgerMenu = () => {
-    document.body.classList.remove('open');
-    document.body.classList.remove('stopScrolling');
-  };
+  // const closeHamburgerMenu = () => {
+  //   document.body.classList.remove('open');
+  //   document.body.classList.remove('stopScrolling');
+  // };
 
-  const toggleHamburgerMenu = () => {
-    document.body.classList.toggle('open');
-    document.body.classList.toggle('stopScrolling');
-  };
+  // const toggleHamburgerMenu = () => {
+  //   document.body.classList.toggle('open');
+  //   document.body.classList.toggle('stopScrolling');
+  // };
 
-  useEffect(() => {
-    localStorage.getItem('dark') && setIsDark(localStorage.getItem('dark') === '1' ? true : false);
-    localStorage.getItem('dark') === '1' ? document.body.classList.add('dark') : document.body.classList.remove('dark');
-  }, []);
+  // useEffect(() => {
+  //   localStorage.getItem('dark') && setIsDark(localStorage.getItem('dark') === '1' ? true : false);
+  //   localStorage.getItem('dark') === '1' ? document.body.classList.add('dark') : document.body.classList.remove('dark');
+  // }, []);
 
-  const changeTheme = () => {
-    if (!isDark) {
-      document.body.classList.add('dark');
-      localStorage.setItem('dark', '1');
-      setIsDark(true);
-    } else if (isDark) {
-      document.body.classList.remove('dark');
-      localStorage.setItem('dark', '0');
-      setIsDark(false);
-    }
-  };
+  // const changeTheme = () => {
+  //   if (!isDark) {
+  //     document.body.classList.add('dark');
+  //     localStorage.setItem('dark', '1');
+  //     setIsDark(true);
+  //   } else if (isDark) {
+  //     document.body.classList.remove('dark');
+  //     localStorage.setItem('dark', '0');
+  //     setIsDark(false);
+  //   }
+  // };
 
   return (
     <header className={headerClassName}>
